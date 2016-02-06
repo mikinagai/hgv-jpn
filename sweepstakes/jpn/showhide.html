@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery Show Hide Using Select Box</title>
+<style type="text/css">
+    .box{
+        padding: 20px;
+        display: none;
+        margin-top: 20px;
+        border: 1px solid #000;
+    }
+</style>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("select").change(function(){
+        $(this).find("option:selected").each(function(){
+            if($(this).attr("value")=="HHV"){
+                $(".box").not(".red").hide();
+                $(".form-group-inv").show();
+            }
+            else if($(this).attr("value")=="DFS 1"){
+                $(".box").not(".green").hide();
+                $(".form-group-inv").show();
+            }
+            else if($(this).attr("value")=="DFS 2"){
+                $(".box").not(".blue").hide();
+                $(".form-group-inv").show();
+            }
+            else if($(this).attr("value")=="Royal Hawaiian"){
+                $(".box").not(".blue").hide();
+                $(".form-group-inv").show();
+            }
+            else if($(this).attr("value")=="WEB"){
+                $(".box").not(".blue").hide();
+                $(".form-group-inv").show();
+            }
+            else{
+                $(".form-group-inv").hide();
+            }
+        });
+    }).change();
+});
+</script>
+</head>
+<body>
+<div class="col-md-6">
+    <div>
+        <select id="00N90000007qyGn" name="00N90000007qyGn" class="form-control" tabindex="1">
+        <option value="">受付デスク</option>
+        <option value="HHV">HHV</option>
+        <option value="DFS 1">DFS 1</option>
+        <option value="DFS 2">DFS 2</option>
+        <option value="Royal Hawaiian">Royal Hawaiian</option>
+        <option value="WEB">Website</option>
+        </select>
+    </div>
+    </div>    
+    <div class="form-group-inv">
+            <input type="submit" name="Submit" value="応募する" class="submit btn btn-primary btn-lg" id="singlebutton">
+     </div>
+</body>
+</html>                                		

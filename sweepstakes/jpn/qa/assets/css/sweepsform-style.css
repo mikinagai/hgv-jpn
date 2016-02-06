@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/* HGV Japanese Sweeps */
+
+/* Brand fonts */
+@font-face {
+    font-family: 'Today';
+    src: url('/fonts/todaysanshef-light-webfont.eot');
+    src: url('/fonts/todaysanshef-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/todaysanshef-light-webfont.woff') format('woff'),
+         url('/fonts/todaysanshef-light-webfont.ttf') format('truetype'),
+         url('/fonts/todaysanshef-light-webfont.svg#todaysanshef-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Noto Sans CJK';
+    src: url('/fonts/NotoSansCJKjp-Thin.otf') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+/* End today font */
+
+
+body { 
+	background: #fff; 
+	margin: 0; 
+	color: #5a5a5a;
+	font-family: "Noto Sans CJK", Ariel, Helvetica, sans-serif;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+
+.left { text-align: left;}
+.right { text-align: right;}
+.centered { text-align: center;}
+
+.mt { margin-top: 10px;}
+.mb { margin-bottom: 10px;}
+.mtb { margin-top: 10px; margin-bottom: 10px;}
+.mtb2 { margin-top: 100px; margin-bottom: 100px;}
+.ptb { padding-top: 80px; padding-bottom: 80px;}
+
+.clear {
+	clear: both;
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	width:100%;
+}
+::-moz-selection  {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+::selection {
+	color: #fff;
+	text-shadow:none;
+	background:#2B2E31;
+}
+
+.red {
+	color: red;
+}
+.orange {
+	color: #ff9900;
+}
+.blue {
+	color:#003067;
+}
+.lightgrey{
+	color:#999;
+}
+
+/* ----------- MAIN IMG/HEADLINE SECTION ----------- */
+
+#intro {
+	no-repeat center top;
+	/*padding: 5px 0 0 20px;*/
+	background-attachment: relative;
+	
+	min-height: 500px;
+	width: 100%;
+	color: #FFF;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+		
+#intro h1 {
+	color: #FFF;
+	text-shadow: 2px 2px #000;
+}
+#intro p{
+	margin-left:10px;
+}
+		
+#intro .logo {
+	top: 20px;
+	right: 70px;
+	position:absolute; 
+}
+.header-banner {
+	background: rgba(0, 48, 103, 0.5); /* RGBa with 0.5 opacity */
+}
+.bg-resort{ background: url(../img/main-img.jpg); background-position: center center;}
+.bg-babygirl{ background: url(../img/main-img-02.jpg); background-position: top center;}
+.bg-family{ background: url(../img/main-img-03.jpg); background-position: top center;}
+
+.intro-text{ text-align:center; font-size:20px;}
+.intro-test-p{ text-align: left; font-size:16px;}
+
+/* ----------- PRIZES SECTION ----------- */
+
+#prizes {
+	padding-bottom: 20px;
+	background: #FFF;
+}	
+		
+#prizes .prizes-header {
+	padding: 1px;
+	margin-bottom: 30px;
+	width: 100%;
+	background: rgb(0,48,103);
+	/*background: rgba(243,226,199,1);
+	background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(51%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
+	background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+	background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+	background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+	background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );*/
+}
+
+#prizes h2 {
+	font-weight: normal;
+	font-size: 22px;
+	color: #FFF;
+	/*text-shadow: 2px 2px #960;*/
+}
+
+#prizes h3 {
+	font-weight: bold;
+	font-size: 18px;
+}
+		
+#prizes p {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+}
+		
+.circle-text {
+    width: 80% \9;
+	padding-bottom: 10px;
+}
+		
+.circle-text:after {
+ 	content: "";
+	display: block;
+	width: 100%;
+	height:0;
+	padding-bottom: 10%;
+	background: none ; /*#003067, #ffcb08*/
+	/*-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	border-radius: 50%; */
+}
+		
+.circle-text div {
+	float: left;
+	width: 100%;
+	/*padding-top: 50%;*/
+	font-size:1.1375em;
+	line-height: 1.2em;
+	/*margin-top: -0.5em;*/
+	margin:10px 0px;
+	text-align: center;
+	color: #003067;
+	font-weight: bold;
+}
+
+.circle-text img {
+	width:100%;
+}
+.prize-text{
+	/*width:100%;*/
+	float:left;
+}
+
+		
+/* ----------- Form Styling----------- */
+
+#sweepsform {
+	background-color: #FFF;
+}
+
+#sweepsform .control-label {
+	margin-right: 5px;
+	font-size: 18px;
+}
+
+#sweepsform hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+#sweepsform .formintro {
+	color: #999;
+}
+
+#sweepsform .help-block	{
+		font-size: 10px;
+}
+
+.vertical-spacer-left {
+	border-left: 1px solid #666;
+	height: 100%;
+}
+
+.vertical-spacer-right {
+	border-right: 1px solid #666;
+	height: 100%;
+}
+
+.survey {
+	width: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #b7ddf2;
+	background: #ebf4fb;
+	padding: 20px 80px;
+	margin-bottom: 30px;
+}
+
+.survey h1 {
+	width: auto;
+	color: #09F;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 1px solid #b7ddf2;
+	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+.survey-label {
+		color: #09F;
+}
+
+.survey-question {
+	text-align: right;
+}
+
+/** Social Button CSS **/
+.social-section{
+	padding:30px;
+	text-align:center;}
+
+.share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 4em;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    outline: none;
+    text-align: center;
+}
+
+.share-btn:hover {
+  color: #eeeeee;
+}
+
+.share-btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+  color: #e2e2e2;
+  outline: none;
+}
+
+.share-btn.twitter     { background: #55acee; }
+.share-btn.google-plus { background: #dd4b39; }
+.share-btn.facebook    { background: #3B5998; }
+.share-btn.linkedin    { background: #4875B4; }
+.share-btn.email       { background: #444444; }
+
+.error{ color:red; text-align:center;}
+
+@media (max-width: 1024px) {
+.survey-question {
+    text-align: center;
+}
+
+.survey-answer {
+	text-align: center;
+}
+
+.vertical-spacer-left {
+    border-left: 1px solid #FFF; 
+}
+
+
+.vertical-spacer-right {
+    border-right: 1px solid #FFF; 
+}
+}
+
+
+/* --------- End of Form Styling --------- */
+
+#footer {
+	background-color:#FFF;
+}

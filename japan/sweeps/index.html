@@ -1,0 +1,666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="content-language" content="ja" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>アンケートに答えて リゾート旅行を当てよう</title>
+<link href="assets/css/sweepsform-style.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<!-- Icons -->
+<link rel="shortcut icon" href="assets/img/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/img/apple-touch-icon-57-precomposed.png">
+</head>
+
+<body>
+<!-- Intro -->
+<div id="intro" class="bg-resort">
+  <div class="header-banner">
+      <div class="logo hidden-xs"><img src="assets/img/logo.png" width="215" height="73"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-md left">
+            <h1>アンケートに答えて<br>
+              リゾート旅行を当てよう！</h1>
+          </div>
+        </div>
+        <!--/row--> 
+      </div>
+      <!--/container--> 
+  </div>
+</div>
+<!-- /Intro --> 
+
+<!-- Prizes -->
+<div id="prizes">
+  <div class="prizes-header centered">
+    <h2>応募フォーム</h2>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2 col-xs-4">
+        <div class="circle-text">
+          <div>リゾート賞<br>
+            4組8名様</div>
+        </div>
+      </div>
+      <!--/col-->
+      
+      <div class="col-md-2 col-xs-8">
+        <div class="prize-text">
+          <h3 class="blue">ハワイまたは<br>
+            グアム旅行<br>
+            4泊</h3>
+          <p>ビジネスクラス 航空券付き<br>
+            <small>(宿泊：ヒルトン 系列ホテル)</small></p>
+        </div>
+      </div>
+      <!--/col--> 
+      
+      <!-- clearfix-->
+      <div class="clearfix visible-xs-block visible-sm-block"></div>
+      <div class="col-md-2 col-xs-4">
+        <div class="circle-text">
+          <div>オキナワ賞<br />
+            4組8名様 </div>
+        </div>
+      </div>
+      <!--/col-->
+      
+      <div class="col-md-2 col-xs-8">
+        <div class="prize-text">
+          <h3 class="blue">沖縄旅行<br>
+            2泊</h3>
+          <p>航空券付き<br />
+            <small>(宿泊:ヒルトン系1Jホテル)</small></p>
+        </div>
+      </div>
+      <!--/col--> 
+      
+      <!-- clearfix-->
+      <div class="clearfix visible-xs-block visible-sm-block"></div>
+      <div class="col-md-2 col-xs-4">
+        <div class="circle-text">
+          <div>ヒルトン賞<br>
+            4組8名様</div>
+        </div>
+      </div>
+      <!--/col-->
+      
+      <div class="col-md-2 col-xs-8">
+        <div class="prize-text">
+          <h3 class="blue">国内<br>
+            ヒルトン系列<br>
+            ホテル2泊</h3>
+          <p>宿泊のみ</p>
+        </div>
+      </div>
+      <!--/col--> 
+    </div>
+    <!--/row--> 
+  </div>
+  <!--/container--> 
+</div>
+<!-- /Prizes --> 
+
+<!-- Sweeps Form -->
+<div id="sweepsform">
+  <div class="container">
+    <form class="form" id="sweepsform" method="post" action="">
+      <input type="hidden" name="redirect" value="http://www.hiltongrandvacations.com/japan/sweeps/confirm.html">
+      <!-- Survey Questions -->
+      <div class="survey">
+        <h1>旅行アンケート</h1>
+        <p class="small text-center">すべてのフィールドが必要です。</p>
+        
+        <!-- HGV Awareness -->
+        <div class="row mb">
+          <div class="col-md-6 survey-question">
+            <div class="form-group">
+              <label class="control-label survey-label" for="OverseasTravel">ヒルトン・グランド・バケーションズをご存知ですか？</label>
+            </div>
+          </div>
+          <!--col-->
+          
+          <div class="col-md-6 survey-answer">
+            <div class="form-group">
+              <label class="radio-inline" for="HiltonTimeshareAwareness-0">
+                <input type="radio" name="HiltonTimeshareAwareness" id="HiltonTimeshareAwareness-0" value="はい (Yes)" required title="すべてのフィールドが必要です。">
+                はい </label>
+              <label class="radio-inline" for="HiltonTimeshareAwareness-1">
+                <input type="radio" name="HiltonTimeshareAwareness" id="HiltonTimeshareAwareness-1" value="いいえ (No)" required title="すべてのフィールドが必要です。">
+                いいえ </label>
+              <label class="radio-inline" for="HiltonTimeshareAwareness-2">
+                <input type="radio" name="HiltonTimeshareAwareness" id="HiltonTimeshareAwareness-2" value="聞いたことはある (Have heard of)" required title="すべてのフィールドが必要です。">
+                聞いたことはある </label><br/>
+                <label class="radio-inline" for="HiltonTimeshareAwareness-3">
+                <input type="radio" name="HiltonTimeshareAwareness" id="HiltonTimeshareAwareness-3" value="販売説明会に出席したが購入しなかった (TNB)" required title="すべてのフィールドが必要です。">
+                販売説明会に出席したが購入しなかった </label>
+              <label class="radio-inline" for="HiltonTimeshareAwareness-4">
+                <input type="radio" name="HiltonTimeshareAwareness" id="HiltonTimeshareAwareness-4" value="オーナー様 (Owners)" required title="すべてのフィールドが必要です。">
+                オーナー様 </label>
+            </div>
+          </div>
+          <!--col--> 
+        </div>
+        
+        <!-- Overseas Travel -->
+        <div class="row mb">
+          <div class="col-md-6 survey-question">
+            <div class="form-group">
+              <label class="control-label survey-label" for="OverseasTravel">これまでに海外旅行は何回されましたか？</label>
+            </div>
+          </div>
+          <!--col-->
+          
+          <div class="col-md-6 survey-answer">
+            <div class="form-group">
+              <label class="radio-inline" for="OverseasTravel-0">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-0" value="0回 (Never)" required title="すべてのフィールドが必要です。">
+                0回 </label>
+              <label class="radio-inline" for="OverseasTravel-1">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-1" value="1〜4回(1-4 time)" required title="すべてのフィールドが必要です。">
+                1〜4回 </label>
+              <label class="radio-inline" for="OverseasTravel-2">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-2" value="5回以上(more than 5 times)" required title="すべてのフィールドが必要です。">
+                5回以上</label>
+              <label class="radio-inline" for="OverseasTravel-3">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-3" value="10回以上(more than 10 times)" required title="すべてのフィールドが必要です。">
+                10回以上</label>
+              <label class="radio-inline" for="OverseasTravel-4">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-4" value="30回以上(more than 30 times)" required title="すべてのフィールドが必要です。">
+                20回以上</label>
+
+            </div>
+          </div>
+          <!--col--> 
+        </div>
+        <!--row--> 
+        
+        <!-- History of Last trip -->
+        <div class="row mb">
+          <div class="col-md-6 survey-question">
+            <div class="form-group">
+              <label class="control-label survey-label" for="OverseasTravel">最後に海外旅行されたのはいつですか？</label>
+            </div>
+          </div>
+          
+          
+          <div class="col-md-6 survey-answer">
+            <div class="form-group">
+              <label class="radio-inline" for="OverseasTravel-0">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-0" value="1年以内 (Never)" required title="すべてのフィールドが必要です。">
+                1年以内 </label>
+              <label class="radio-inline" for="OverseasTravel-1">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-1" value="1〜3年以内(1 time)" required title="すべてのフィールドが必要です。">
+                1〜3年以内 </label>
+              <label class="radio-inline" for="OverseasTravel-2">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-2" value="3〜6年以内(2 times)" required title="すべてのフィールドが必要です。">
+                3〜6年以内 </label><br />
+              <label class="radio-inline" for="OverseasTravel-3">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-3" value="6〜10年以内 (3 times)" required title="すべてのフィールドが必要です。">
+                6〜10年以内 </label>
+              <label class="radio-inline" for="OverseasTravel-4">
+                <input type="radio" name="OverseasTravel" id="OverseasTravel-4" value="10年以上前(4 times)" required title="すべてのフィールドが必要です。">
+                10年以上前 </label>
+            </div>
+          </div>
+          
+        </div> 
+        <!-- /row --> 
+        
+        <!-- Travel to Hawaii -->
+        <div class="row mb">
+          <div class="col-md-6 survey-question">
+            <div class="form-group">
+              <label class="control-label survey-label" for="HawaiiTravel">ハワイへの渡航回数を教えてください。</label>
+            </div>
+          </div>
+          <!--/col-->
+          
+          <div class="col-md-6 survey-answer">
+            <div class="form-group">
+              <label class="radio-inline" for="HawaiiTravel-0">
+                <input type="radio" name="HawaiiTravel" id="HawaiiTravel-0" value="0回 (Never)" required title="すべてのフィールドが必要です。">
+                0回 </label>
+              <label class="radio-inline" for="HawaiiTravel-1">
+                <input type="radio" name="HawaiiTravel" id="HawaiiTravel-1" value="1回 (1 time)" required title="すべてのフィールドが必要です。">
+                1回 </label>
+              <label class="radio-inline" for="HawaiiTravel-2">
+                <input type="radio" name="HawaiiTravel" id="HawaiiTravel-2" value="2回 (2 times)" required title="すべてのフィールドが必要です。">
+                2回 </label>
+              <label class="radio-inline" for="HawaiiTravel-3">
+                <input type="radio" name="HawaiiTravel" id="HawaiiTravel-3" value="3回 (3 times)" required title="すべてのフィールドが必要です。">
+                3回 </label>
+              <label class="radio-inline" for="HawaiiTravel-4">
+                <input type="radio" name="HawaiiTravel" id="HawaiiTravel-4" value="4回 (4 times)" required title="すべてのフィールドが必要です。">
+                4回 </label>
+              <label class="radio-inline" for="HawaiiTravel-5">
+                <input type="radio" name="HawaiiTravel" id="HawaiiTravel-5" value="5回以上 (5 or more times)" required title="すべてのフィールドが必要です。">
+                5回以上 </label>
+            </div>
+          </div>
+          <!--/col--> 
+        </div>
+        <!--/row--> 
+        
+        <!-- Travel With -->
+        <div class="row mb">
+          <div class="col-md-6 survey-question">
+            <div class="form-group">
+              <label class="control-label survey-label" for="TravelWith">主に、旅行は誰と一緒に行きますか？</label>
+            </div>
+          </div>
+          <div class="col-md-6 survey-answer">
+            <div class="form-group">
+              <label class="checkbox-inline" for="Travel-With-Spouse">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Spouse" value="配偶者 (Spouse)" required title="すべてのフィールドが必要です。">
+                配偶者 </label>
+              <label class="checkbox-inline" for="TravelWith-Kids">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Kids" value="子供 (Children)" required title="すべてのフィールドが必要です。">
+                子供 </label>
+              <label class="checkbox-inline" for="TravelWith-ExtFam">
+                <input type="checkbox" name="TravelWith" id="TravelWith-ExtFam" value="家族（祖父母等も含む）(Extended Family)" required title="すべてのフィールドが必要です。">
+                家族（祖父母等も含む） </label>
+              <label class="checkbox-inline" for="TravelWith-Friends">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Friends" value="友人 (Friends)" required title="すべてのフィールドが必要です。">
+                友人 </label>
+            </div>
+          </div>
+          <!--/col--> 
+        </div>
+        <!--/row-->
+        
+        <!-- Honeymoon only 
+        <div class="row mb">
+          <div class="col-md-6 survey-question">
+            <div class="form-group">
+              <label class="control-label survey-label" for="TravelWith">ハワイ旅行はハネムーンのみですか？</label>
+            </div>
+          </div>
+          <div class="col-md-6 survey-answer">
+            <div class="form-group">
+              <label class="checkbox-inline" for="Travel-With-Spouse">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Spouse" value="はい (Spouse)" required title="すべてのフィールドが必要です。">
+                はい </label>
+              <label class="checkbox-inline" for="TravelWith-Kids">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Kids" value="いいえ (Children)" required title="すべてのフィールドが必要です。">
+                いいえ </label>
+              
+            </div>
+          </div>
+          
+        </div>
+        /row--> 
+        
+        <!-- Future Honeymoon -->
+        <div class="row mb">
+          <div class="col-md-6 survey-question">
+            <div class="form-group">
+              <label class="control-label survey-label" for="TravelWith">結婚したらハネムーンでハワイに行きたいですか？</label>
+            </div>
+          </div>
+          <div class="col-md-6 survey-answer">
+            <div class="form-group">
+              <label class="checkbox-inline" for="Travel-With-Spouse">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Spouse" value="はい (Yes)" required title="すべてのフィールドが必要です。">
+                はい </label>
+              <label class="checkbox-inline" for="TravelWith-Kids">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Kids" value="いいえ (CNo)" required title="すべてのフィールドが必要です。">
+                いいえ </label>
+              <label class="checkbox-inline" for="TravelWith-Kids">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Kids" value="いいえ (Married)" required title="すべてのフィールドが必要です。">
+                既婚 </label>
+            </div>
+          </div>
+          <!--/col--> 
+        </div>
+        <!--/row-->
+        
+        <!-- Retirement and Homeonwer -->
+        <div class="row mb">
+          <div class="col-md-6 survey-question">
+            <div class="form-group">
+              <label class="control-label survey-label" for="TravelWith">定年されていて、ご自宅は持ち家ですか？</label>
+            </div>
+          </div>
+          <div class="col-md-6 survey-answer">
+            <div class="form-group">
+              <label class="checkbox-inline" for="Travel-With-Spouse">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Spouse" value="はい (Yes)" required title="すべてのフィールドが必要です。">
+                はい </label>
+              <label class="checkbox-inline" for="TravelWith-Kids">
+                <input type="checkbox" name="TravelWith" id="TravelWith-Kids" value="いいえ (CNo)" required title="すべてのフィールドが必要です。">
+                いいえ </label>
+            </div>
+          </div>
+          <!--/col--> 
+        </div>
+        <!--/row-->
+         
+      </div>
+      <!--/Survey--> 
+      
+      <!-- Personal Info -->
+      <div class="row">
+        <div class="col-md-12">
+          <label class="control-label">フリガナ お名前</label>
+        </div>
+        <!--/col--> 
+      </div>
+      <!--/row-->
+      
+      <div class="row"> 
+        <!-- Surname-->
+        <div class="col-md-3">
+          <div class="form-group">
+            <label class="sr-only control-label" for="Surname">姓 (Surname)</label>
+            <input name="Surname" type="text" required title="すべてのフィールドが必要です。" class="form-control input-md" id="Surname" placeholder="姓">
+          </div>
+        </div>
+        <!--/col--> 
+        
+        <!-- Given Name-->
+        <div class="col-md-4">
+          <div class="form-group">
+            <label class="sr-only control-label" for="GivenName">名 (Given Name)</label>
+            <input name="GivenName" type="text" required title="すべてのフィールドが必要です。" class="form-control input-md" id="GivenName" placeholder="名">
+          </div>
+        </div>
+        <!--/col--> 
+        
+        <!-- Gender -->
+        <div class="col-md-2 vertical-spacer-left vertical-spacer-right">
+          <div class="form-group">
+            <label class="sr-only control-label" for="Gender"></label>
+            <label class="radio-inline" for="Gender-M">
+              <input type="radio" name="Gender" id="Gender-M" value="男性 (Male)" class="required" required title="すべてのフィールドが必要です。">
+              男性 </label>
+            <label class="radio-inline" for="Gender-F">
+              <input type="radio" name="Gender" id="Gender-F" value="女性 (Female)" class="required" required title="すべてのフィールドが必要です。">
+              女性 </label>
+          </div>
+        </div>
+        <!--/col--> 
+        
+        <!-- Marital Status -->
+        <div class="col-md-3">
+          <div class="form-group">
+            <label class="control-label" for="Spouse">配偶者</label>
+            <label class="radio-inline" for="Spouse-Y">
+              <input type="radio" name="Spouse" id="Spouse-Y" value="あり (Yes)" required title="すべてのフィールドが必要です。">
+              あり </label>
+            <label class="radio-inline" for="Spouse-N">
+              <input type="radio" name="Spouse" id="Spouse-N" value="なし (None)" required title="すべてのフィールドが必要です。">
+              なし </label>
+          </div>
+        </div>
+        <!--/col--> 
+      </div>
+      <!--/row-->
+      <hr />
+      <div class="row">
+        <div class="col-md-12">
+          <p class="small red">※日本国内 在住の方に 限ります</p>
+        </div>
+        <!--/col--> 
+      </div>
+      <!--/row-->
+      
+      <div class="row"> 
+        <!-- Postal Code-->
+        <div class="col-md-2">
+          <div class="form-group">
+            <label class="control-label" for="PostalCode">郵便番号</label>
+            <div class="input-group"> <span class="input-group-addon">〒</span>
+              <input id="PostalCode" name="PostalCode" class="form-control" placeholder="_ _ _ - _ _ _ _" type="text" required title="すべてのフィールドが必要です。" aria-describedby="helpBlock">
+            </div>
+            <span id="helpBlock" class="help-block">半角数字で入力してください。</span> </div>
+        </div>
+        <!--col--> 
+        
+        <!-- Prefecture -->
+        <div class="col-md-2 vertical-spacer-left">
+          <div class="form-group">
+            <label class="control-label" for="Prefecture">都道府県</label>
+            <select id="Prefecture" name="Prefecture" class="form-control" required title="すべてのフィールドが必要です。">
+              <option value="" selected disabled>選んでください</option>
+              <option value="青森県 (Aomori Prefecture)">青森県</option>
+              <option value="岩手県 (Iwate Prefecture)">岩手県</option>
+              <option value="宮城県 (Miyagi Prefecture)">宮城県</option>
+              <option value="秋田県 (Akita Prefecture)">秋田県</option>
+              <option value="山形県 (Yamagata Prefecture)">山形県</option>
+              <option value="福島県 (Fukushima Prefecture)">福島県</option>
+              <option value="茨城県 (Ibaraki Prefecture)">茨城県</option>
+              <option value="栃木県 (Tochigi Prefecture)">栃木県</option>
+              <option value="群馬県 (Gunma Prefecture)">群馬県</option>
+              <option value="埼玉県 (Saitama Prefecture)">埼玉県</option>
+              <option value="千葉県 (Chiba Prefecture)">千葉県</option>
+              <option value="東京都 (Tokyo Metropolitan Area)">東京都</option>
+              <option value="神奈川県 (Kanagawa Prefecture)">神奈川県</option>
+              <option value="新潟県 (Niigata Prefecture)">新潟県</option>
+              <option value="富山県 (Toyama Prefecture)">富山県</option>
+              <option value="石川県 (Ishikawa Prefecture)">石川県</option>
+              <option value="福井県 (Fukui Prefecture)">福井県</option>
+              <option value="山梨県 (Yamanashi Prefecture)">山梨県</option>
+              <option value="長野県 (Nagano Prefecture)">長野県</option>
+              <option value="岐阜県 (Gifu Prefecture)">岐阜県</option>
+              <option value="静岡県 (Shizuoka Prefecture)">静岡県</option>
+              <option value="愛知県 (Aichi Prefecture)">愛知県</option>
+              <option value="三重県 (Mie Prefecture)">三重県</option>
+              <option value="滋賀県 (Shiga Prefecture)">滋賀県</option>
+              <option value="京都府 (Kyoto Prefecture)">京都府</option>
+              <option value="大阪府 (Osaka Prefecture)">大阪府</option>
+              <option value="兵庫県 (Hyogo Prefecture)">兵庫県</option>
+              <option value="奈良県 (Nara Prefecture)">奈良県</option>
+              <option value="和歌山県 (Wakayama Prefecture)">和歌山県</option>
+              <option value="鳥取県 (Tottori Prefecture)">鳥取県</option>
+              <option value="島根県 (Shimane Prefecture)">島根県</option>
+              <option value="岡山県 (Okayama Prefecture)">岡山県</option>
+              <option value="広島県 (Hiroshima Prefecture)">広島県</option>
+              <option value="山口県 (Yamaguchi Prefecture)">山口県</option>
+              <option value="徳島県 (Tokushima Prefecture)">徳島県</option>
+              <option value="香川県 (Kagawa Prefecture)">香川県</option>
+              <option value="愛媛県 (Ehime Prefecture)">愛媛県</option>
+              <option value="高知県 (Kochi Prefecture)">高知県</option>
+              <option value="福岡県 (Fukuoka Prefecture)">福岡県</option>
+              <option value="佐賀県 (Saga Prefecture)">佐賀県</option>
+              <option value="長崎県 (Nagasaki Prefecture)">長崎県</option>
+              <option value="熊本県 (Kumamoto Prefecture)">熊本県</option>
+              <option value="大分県 (Oita Prefecture)">大分県</option>
+              <option value="宮崎県 (Miyazaki Prefecture)">宮崎県</option>
+              <option value="鹿児島県 (Kagoshima Prefecture)">鹿児島県</option>
+              <option value="沖縄県 (Okinawa Prefecture)">沖縄県</option>
+            </select>
+          </div>
+        </div>
+        <!--col--> 
+        
+        <!-- City/County-->
+        <div class="col-md-2 vertical-spacer-left">
+          <div class="form-group">
+            <label class="control-label" for="CityCounty">市区郡</label>
+            <input id="CityCounty" name="CityCounty" type="text" class="form-control input-md" required title="すべてのフィールドが必要です。">
+          </div>
+        </div>
+        <!--col--> 
+        
+        <!-- Town/Village-->
+        <div class="col-md-6 vertical-spacer-left">
+          <div class="form-group">
+            <label class="control-label" for="TownVillage">町村名・番地</label>
+            <input id="TownVillage" name="TownVillage" type="text" class="form-control input-md" required title="すべてのフィールドが必要です。">
+          </div>
+        </div>
+        <!--col--> 
+      </div>
+      <!--row-->
+      <hr />
+      <div class="row"> 
+        <!-- Home Phone -->
+        <div class="col-md-4">
+          <div class="form-group">
+            <label class="control-label">お電話番号</label>
+            <label class="sr-only control-label" for="PhoneHome">こ自宅</label>
+            <input id="PhoneHome" name="PhoneHome" class="form-control input-med" placeholder="こ自宅" type="text" required title="すべてのフィールドが必要です。">
+          </div>
+          
+          <!-- Mobile Phone -->
+          <div class="form-group">
+            <label class="sr-only control-label" for="PhoneMobile">携 帯</label>
+            <input id="PhoneMobile" name="PhoneMobile" class="form-control input-med" placeholder="携 帯" type="text" required title="すべてのフィールドが必要です。" aria-describedby="helpBlock">
+            <span id="helpBlock" class="help-block">半角数字で入力してください。</span> </div>
+        </div>
+        <!--/col-->
+        
+        <div class="col-md-4 vertical-spacer-left vertical-spacer-right"> 
+          <!-- Email Address-->
+          <div class="form-group">
+            <label class="control-label" for="Email">メールアドレス</label>
+            <input id="Email" name="Email" type="text" class="form-control input-md" required title="すべてのフィールドが必要です。">
+          </div>
+          <p class="form-control-static">※ヒルトン・グランド・バケーションズのタイムシェア・リソート情報のメール配信を希望しますか。</p>
+          
+          <!-- Opt-In-->
+          <div class="form-group">
+            <label class="sr-only control-label" for="OptIn">More Info</label>
+            <label class="radio-inline" for="OptIn-Y">
+              <input type="radio" name="MoreInfo" id="OptIn-Y" value="希望する (Yes)" required title="すべてのフィールドが必要です。">
+              希望する </label>
+            <label class="radio-inline" for="OptIn-N">
+              <input type="radio" name="MoreInfo" id="OptIn-N" value="希望しない  (No)" required title="すべてのフィールドが必要です。">
+              希望しない </label>
+          </div>
+        </div>
+        <!--col-->
+        
+        <div class="col-md-4"> 
+          <!-- Profession -->
+          <div class="form-group">
+            <label class="control-label" for="Profession">ご職業</label>
+            <select id="Profession" name="Profession" class="form-control" required title="すべてのフィールドが必要です。">
+              <option value="" selected disabled>選んでください</option>
+              <option value="会社員 (Employee)">会社員</option>
+              <option value="会社役員 (Company Executive)">会社役員</option>
+              <option value="公務員 (Civil Service)">公務員</option>
+              <option value="自営業 (Self-Employed)">自営業</option>
+              <option value="主婦 (Housewife)">主婦</option>
+              <option value="リタイア (Retired)">リタイア</option>
+              <option value="学生 (Student)">学生</option>
+              <option value="パート社員 (Part-Time Worker)">パート社員</option>
+              <option value="派遣社員 (Temporary Staff)">派遣社員</option>
+              <option value="医師 (Doctor)">医師</option>
+              <option value="看護師 (Nurse)">看護師</option>
+              <option value="団体職員 (Organization Staff)">団体職員</option>
+              <option value="教員 (Teaching Staff)">教員</option>
+              <option value="その他 (Other)">その他</option>
+            </select>
+          </div>
+          
+          <!-- Income -->
+          <div class="form-group">
+            <label class="control-label" for="HHI">世帯年収</label>
+            <select id="HHI" name="HHI" class="form-control" required title="すべてのフィールドが必要です。">
+              <option value="" selected disabled>選んでください</option>
+              <option value="Under  7,490,000JPY">未満749万円</option>
+              <option value="7,5000-9,990,000JPY">750万円～999万円</option>
+              <option value"10,000,000-10,999,000JPY">千万円～1099万円</option>
+              <option value"Over  20,000,000JPY">2,000万円以上</option>
+            </select>
+          </div>
+        </div>
+        <!--col--> 
+        
+      </div>
+      <!--row-->
+      <hr />
+      <div class="row"> 
+        
+        <!-- Age -->
+        <div class="col-md-2 vertical-spacer-right">
+          <div class="form-group">
+            <label class="control-label" for="Age">ご年齢 </label>
+            <select id="Age" name="Age" class="form-control" required title="すべてのフィールドが必要です。">
+              <option value="" selected disabled>選んでください</option>
+              <option value="20-25歳">20-25歳</option>
+              <option value="26-30歳">26-30歳</option>
+              <option value="31-35歳">31-35歳</option>
+              <option value="36-40歳">36-40歳</option>
+              <option value="41-45歳">41-45歳</option>
+              <option value="46-50歳">46-50歳</option>
+              <option value="51-55歳">51-55歳</option>
+              <option value="56-60歳">56-60歳</option>
+              <option value="61-65歳">61-65歳</option>
+              <option value="66-70歳">66-70歳</option>
+              <option value="71歳以上">71歳以上</option>
+            </select>
+          </div>
+        </div>
+        <!--col--> 
+        
+        <!-- Homeowner -->
+        <div class="col-md-4">
+          <div class="form-group">
+            <label class="control-label" for="Homeowner">ご自宅は持ち家ですか？</label>
+            <br />
+            <label class="radio-inline" for="Homeowner-Y">
+              <input type="radio" name="Homeowner" id="Homeowner-Y" value="はい (Yes)" required title="すべてのフィールドが必要です。">
+              はい </label>
+            <label class="radio-inline" for="Homeowner-N">
+              <input type="radio" name="Homeowner" id="Homeowner-N" value="いいえ (No)" required title="すべてのフィールドが必要です。">
+              いいえ </label>
+          </div>
+        </div>
+        <!--col--> 
+        <!-- Personal Info --> 
+        
+        <!-- Button -->
+        <div class="col-md-6 right">
+          <div class="form-group">
+            <label class="sr-only control-label" for="singlebutton">Submit Button</label>
+            <button id="singlebutton" name="singlebutton" class="btn btn-primary btn-lg">応募する</button>
+          </div>
+        </div>
+        <!--col--> 
+      </div>
+      <!--row-->
+    </form>
+  </div>
+  <!--/container--> 
+</div>
+<!-- /Sweeps Form --> 
+
+<!-- Footer -->
+<div id="footer" class="ptb">
+  <div class="container">
+    <p class="red">※こ応募はお1人様1回限りです。※全ての項目にこ記入ください。</p>
+    <p>懸賞公式ルールは<a href="https://www.hgvc.co.jp/doc/2015SuperDreamSweepRules-JPtranslation.pdf" target="_blank">こちら</a>をお読みください。</p>
+    <p>※このページはお客様の個人情報を保護するために SSL による暗号化通信を採用しております。</p>
+    <p>※このプロモーションは、ヒルトン・グランド・バケーション・クラブがタイムシェア販売の一環として主催するものです。</p>
+    <p>ご提供いただきましたお客様の個人情報は、個人情報保護法を遵守する管理下において当社のタイムシェア、ハワイのバケーションなどに関する資料や最新情報、説明会のご案内等を電話・郵送でご提供するために使用させていただきます。<br />
+      当社の個人情報管理方針は、<a href="http://www.hgvc.co.jp/privacypolicy/">www.hgvc.co.jp/privacypolicy/</a>にてご確認いいただけます。</p>
+    <p><small><strong>個人情報に関するお問い合せ窓口：ヒルトン・グランド・バケーション・クラブ</strong><br />
+      <strong>Tel : 03-6866-4850</strong><br />
+      おかけ間違いのないようご注意ください。<br />
+      <strong>Email : <a href="mailto:privacyjapan@hgvc.com">privacyjapan@hgvc.com</a></strong></small></p>
+  </div>
+</div>
+<!-- /Footer --> 
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script src="../assets/js/bootstrap.js"></script> 
+<script src="../assets/js/dropdown-enhancement.js"></script> 
+<script src="../assets/js/retina-1.1.0.js"></script> 
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
+<script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>

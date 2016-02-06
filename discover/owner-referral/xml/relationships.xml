@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationships>
+    
+  <relationship>
+    <id>F</id>
+    <desc>Friend</desc>
+  </relationship>
+  <relationship>
+    <id>P</id>
+    <desc>Parent</desc>
+  </relationship>
+  <relationship>
+    <id>B</id>
+    <desc>Brother</desc>
+  </relationship>
+  <relationship>
+    <id>S</id>
+    <desc>Sister</desc>
+  </relationship>
+  <relationship>
+    <id>R</id>
+    <desc>Relative</desc>
+  </relationship>
+  <relationship>
+    <id>C</id>
+    <desc>Co-Worker</desc>
+  </relationship>
+  <relationship>
+    <id>N</id>
+    <desc>Neighbor</desc>
+  </relationship>
+  <relationship>
+    <id>O</id>
+    <desc>Other</desc>
+  </relationship>
+    
+</relationships>

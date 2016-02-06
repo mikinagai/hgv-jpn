@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<states>
+    
+  <state>
+    <abbv>UNK</abbv>
+    <name>Outside US / Canada</name>
+  </state>
+  <state>
+    <abbv>AL</abbv>
+    <name>Alabama</name>
+  </state>
+  <state>
+    <abbv>AK</abbv>
+    <name>Alaska</name>
+  </state>
+  <state>
+    <abbv>AB</abbv>
+    <name>Alberta</name>
+  </state>
+  <state>
+    <abbv>AS</abbv>
+    <name>American Samoa</name>
+  </state>
+  <state>
+    <abbv>AZ</abbv>
+    <name>Arizona</name>
+  </state>
+  <state>
+    <abbv>AR</abbv>
+    <name>Arkansas</name>
+  </state>
+  <state>
+    <abbv>AA</abbv>
+    <name>Armed Forces Americas</name>
+  </state>
+  <state>
+    <abbv>AE</abbv>
+    <name>Armed Forces Europe</name>
+  </state>
+  <state>
+    <abbv>AP</abbv>
+    <name>Armed Forces Pacific</name>
+  </state>
+  <state>
+    <abbv>BC</abbv>
+    <name>British Columbia</name>
+  </state>
+  <state>
+    <abbv>CA</abbv>
+    <name>California</name>
+  </state>
+  <state>
+    <abbv>CO</abbv>
+    <name>Colorado</name>
+  </state>
+  <state>
+    <abbv>CT</abbv>
+    <name>Connecticut</name>
+  </state>
+  <state>
+    <abbv>DE</abbv>
+    <name>Delaware</name>
+  </state>
+  <state>
+    <abbv>DC</abbv>
+    <name>District of Columbia</name>
+  </state>
+  <state>
+    <abbv>FL</abbv>
+    <name>Florida</name>
+  </state>
+  <state>
+    <abbv>GA</abbv>
+    <name>Georgia</name>
+  </state>
+  <state>
+    <abbv>GU</abbv>
+    <name>Guam</name>
+  </state>
+  <state>
+    <abbv>HI</abbv>
+    <name>Hawaii</name>
+  </state>
+  <state>
+    <abbv>ID</abbv>
+    <name>Idaho</name>
+  </state>
+  <state>
+    <abbv>IL</abbv>
+    <name>Illnois</name>
+  </state>
+  <state>
+    <abbv>IN</abbv>
+    <name>Indiana</name>
+  </state>
+  <state>
+    <abbv>IA</abbv>
+    <name>Iowa</name>
+  </state>
+  <state>
+    <abbv>KS</abbv>
+    <name>Kansas</name>
+  </state>
+  <state>
+    <abbv>KY</abbv>
+    <name>Kentucky</name>
+  </state>
+  <state>
+    <abbv>LA</abbv>
+    <name>Louisiana</name>
+  </state>
+  <state>
+    <abbv>ME</abbv>
+    <name>Maine</name>
+  </state>
+  <state>
+    <abbv>MB</abbv>
+    <name>Manitoba</name>
+  </state>
+  <state>
+    <abbv>MD</abbv>
+    <name>Maryland</name>
+  </state>
+  <state>
+    <abbv>MA</abbv>
+    <name>Massachusetts</name>
+  </state>
+  <state>
+    <abbv>MI</abbv>
+    <name>Michigan</name>
+  </state>
+  <state>
+    <abbv>MN</abbv>
+    <name>Minnesota</name>
+  </state>
+  <state>
+    <abbv>MS</abbv>
+    <name>Mississippi</name>
+  </state>
+  <state>
+    <abbv>MO</abbv>
+    <name>Missouri</name>
+  </state>
+  <state>
+    <abbv>MT</abbv>
+    <name>Montana</name>
+  </state>
+  <state>
+    <abbv>NE</abbv>
+    <name>Nebraska</name>
+  </state>
+  <state>
+    <abbv>NV</abbv>
+    <name>Nevada</name>
+  </state>
+  <state>
+    <abbv>NB</abbv>
+    <name>New Brunswick</name>
+  </state>
+  <state>
+    <abbv>NH</abbv>
+    <name>New Hampshire</name>
+  </state>
+  <state>
+    <abbv>NJ</abbv>
+    <name>New Jersey</name>
+  </state>
+  <state>
+    <abbv>NM</abbv>
+    <name>New Mexico</name>
+  </state>
+  <state>
+    <abbv>NY</abbv>
+    <name>New York</name>
+  </state>
+  <state>
+    <abbv>NF</abbv>
+    <name>Newfoundland</name>
+  </state>
+  <state>
+    <abbv>NC</abbv>
+    <name>North Carolina</name>
+  </state>
+  <state>
+    <abbv>ND</abbv>
+    <name>North Dakota</name>
+  </state>
+  <state>
+    <abbv>MP</abbv>
+    <name>Nothern Mariana Is</name>
+  </state>
+  <state>
+    <abbv>NT</abbv>
+    <name>Northwest Territories</name>
+  </state>
+  <state>
+    <abbv>NS</abbv>
+    <name>Nova Scotia</name>
+  </state>
+  <state>
+    <abbv>OH</abbv>
+    <name>Ohio</name>
+  </state>
+  <state>
+    <abbv>OK</abbv>
+    <name>Oklahoma</name>
+  </state>
+  <state>
+    <abbv>ON</abbv>
+    <name>Ontario</name>
+  </state>
+  <state>
+    <abbv>OR</abbv>
+    <name>Oregon</name>
+  </state>
+  <state>
+    <abbv>PW</abbv>
+    <name>Palau</name>
+  </state>
+  <state>
+    <abbv>PA</abbv>
+    <name>Pennsylvania</name>
+  </state>
+  <state>
+    <abbv>PE</abbv>
+    <name>Prince Edward Island</name>
+  </state>
+  <state>
+    <abbv>PQ</abbv>
+    <name>Province de Quebec</name>
+  </state>
+  <state>
+    <abbv>PR</abbv>
+    <name>Puerto Rico</name>
+  </state>
+  <state>
+    <abbv>RI</abbv>
+    <name>Rhode Island</name>
+  </state>
+  <state>
+    <abbv>SK</abbv>
+    <name>Saskatchewan</name>
+  </state>
+  <state>
+    <abbv>SC</abbv>
+    <name>South Carolina</name>
+  </state>
+  <state>
+    <abbv>SD</abbv>
+    <name>South Dakota</name>
+  </state>
+  <state>
+    <abbv>TN</abbv>
+    <name>Tennessee</name>
+  </state>
+  <state>
+    <abbv>TX</abbv>
+    <name>Texas</name>
+  </state>
+  <state>
+    <abbv>UT</abbv>
+    <name>Utah</name>
+  </state>
+  <state>
+    <abbv>VT</abbv>
+    <name>Vermont</name>
+  </state>
+  <state>
+    <abbv>VI</abbv>
+    <name>Virgin Islands</name>
+  </state>
+  <state>
+    <abbv>VA</abbv>
+    <name>Virginia</name>
+  </state>
+  <state>
+    <abbv>WA</abbv>
+    <name>Washington</name>
+  </state>
+  <state>
+    <abbv>WV</abbv>
+    <name>West Virginia</name>
+  </state>
+  <state>
+    <abbv>WI</abbv>
+    <name>Wisconsin</name>
+  </state>
+  <state>
+    <abbv>WY</abbv>
+    <name>Wyoming</name>
+  </state>
+  <state>
+    <abbv>YT</abbv>
+    <name>Yukon Territory</name>
+  </state> 
+  
+</states>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sites>
+    
+  <site>
+    <id>9595</id>
+    <location>Carlsbad, CA</location>
+  </site>
+  <site>
+    <id>9590</id>
+    <location>Las Vegas, NV</location>
+  </site>
+  <site>
+    <id>9591</id>
+    <location>Myrtle Beach, SC</location>
+  </site>
+  <site>
+    <id>9593</id>
+    <location>Oahu, HI</location>
+  </site>
+  <site>
+    <id>9589</id>
+    <location>Orlando, FL</location>
+  </site>
+  <site>
+    <id>9592</id>
+    <location>Park City, UT</location>
+  </site>
+  <site>
+    <id>9594</id>
+    <location>Waikoloa, HI</location>
+  </site>
+    
+</sites>

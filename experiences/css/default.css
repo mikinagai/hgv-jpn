@@ -1,0 +1,379 @@
+/* Today font */
+@font-face {
+    font-family: 'Today';
+    src: url('../fonts/todaysanshef-light-webfont.eot');
+    src: url('../fonts/todaysanshef-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/todaysanshef-light-webfont.woff') format('woff'),
+         url('../fonts/todaysanshef-light-webfont.ttf') format('truetype'),
+         url('../fonts/todaysanshef-light-webfont.svg#todaysanshef-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* End today font */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html, body {
+	background-color: #e2e0de;
+	color: #000;
+	font-family: "Today", "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif; 	
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+}
+img {
+	max-width: 100%;	
+}
+.container {
+	max-width: 1000px;	
+}
+.row {
+	padding-left: 40px;
+	padding-right: 40px;	
+}
+.vendor-row {
+	padding-left: 15px;
+	padding-right: 0px;
+	padding-top: 10px;	
+}
+/*
+.vendor-row .col-md-10 {
+	padding-top: 5px;	
+}
+.vendor-row .col-md-10.first {
+	padding-top: 0px;	
+}
+*/
+.vendor {
+	padding-right: 0;
+	padding-bottom: 20px;	
+}
+.vendor h2 {
+	color: #329AB7;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 5px 0 15px;	
+}
+.no-padding {
+	padding: 0;
+}
+.about-copy {
+	padding-right: 25px;
+	border-right: 1px dotted #9e9791;		
+}
+.flowchart {
+	padding-left: 25px;	
+}
+header {
+	background-color: #FFF;
+	padding: 15px 0;	
+}
+.caret {
+	-webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);	
+}
+.open .caret {
+	-webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);	
+}
+nav {
+	background-color: #443135;
+	padding: 15px 0;
+	color: #FFF;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+nav.row {
+	padding-right: 20px;	
+}
+nav ul li.main a, nav ul li.main a:visited  {
+	color: #FFF;
+	text-decoration: none;	
+}
+nav ul li.main a:hover, nav ul li.main a:active {
+	color: #CCC;
+	text-decoration: none;	
+}
+nav ul li.main {
+	margin: 0 10px;
+}
+nav ul li.main:nth-child(2){
+	margin: 0;	
+}
+nav ul li.main:last-child {
+	margin: 0 0 0 10px;	
+}
+nav .links {
+	padding-top: 25px;	
+}
+nav ul li.main {
+	list-style-type: none;
+	display: inline-block;	
+}
+.dropdown-menu > li > a {
+	color: #000 !important;	
+	font-size: 15px;
+	padding: 6px 20px;
+	text-transform: none !important;
+}
+.dropdown-menu {
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .175);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .175);
+}
+section.content {
+	background-color: #FFF;
+	margin: 5px -15px;	
+}
+section.region-content {
+	background-color: #FFF;	
+	margin: 0 -15px;	
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.intro-copy {
+	padding: 50px 0 0 0;	
+}
+.map {
+	padding: 30px 0 80px;
+	position: relative;
+}
+.tooltip {
+	font-size: 15px;
+	line-height: 1.4;
+}
+.tooltip.top {
+  	padding: 5px 0;
+	margin-top: 7px;
+}
+.tooltip-inner {
+	max-width: 250px;
+  	padding: 4px 10px;
+  	background-color: #329ab7;
+  	border-radius: 0px;
+}
+.tooltip-arrow {
+  	display: none;
+}
+.dot {
+	position: absolute;	
+}
+@media (min-width: 768px){
+#anaheim-dot {
+	top: 235px;
+	left: 140px;
+}	
+#carlsbad-dot {
+	top: 246px;
+	left: 146px;
+}
+#myrtle-dot {
+	top: 250px;
+	left: 547px;
+}
+#parkcity-dot {
+	top: 158px;
+	left: 220px;
+}	
+#orlando-dot {
+	top: 323px;
+	left: 534px;
+}
+#bigisland-dot {
+	top: 361px;
+	left: 280px;
+}	
+#oahu-dot {
+	top: 338px;
+	left: 250px;
+}
+#phoenix-dot {
+	top: 240px;
+	left: 198px;
+}	
+}
+@media (min-width: 992px) {
+#anaheim-dot {
+	top: 235px;
+	left: 60px;
+}	
+#carlsbad-dot {
+	top: 246px;
+	left: 66px;
+}
+#myrtle-dot {
+	top: 250px;
+	left: 467px;
+}
+#parkcity-dot {
+	top: 158px;
+	left: 140px;
+}	
+#orlando-dot {
+	top: 320px;
+	left: 455px;
+}
+#bigisland-dot {
+	top: 361px;
+	left: 203px;
+}
+#oahu-dot {
+	top: 336px;
+	left: 172px;
+}
+#phoenix-dot {
+	top: 240px;
+	left: 123px;
+}
+}
+@media (min-width: 1200px){
+#anaheim-dot {
+	top: 235px;
+	left: 80px;
+}	
+#carlsbad-dot {
+	top: 246px;
+	left: 86px;
+}
+#myrtle-dot {
+	top: 250px;
+	left: 487px;
+}
+#parkcity-dot {
+	top: 158px;
+	left: 160px;
+}
+#orlando-dot {
+	top: 320px;
+	left: 475px;
+}
+#bigisland-dot {
+	top: 361px;
+	left: 223px;
+}
+#oahu-dot {
+	top: 337px;
+	left: 192px;
+}
+#phoenix-dot {
+	top: 240px;
+	left: 144px;
+}
+}
+@media (max-width: 755px){
+.intro-copy {
+	padding: 30px 0 20px;	
+}
+.map {
+	display: none;	
+}
+}
+footer {
+	padding: 20px 0;
+	color: #929494;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 20px;
+}
+.title {
+	background-color: #dad6d7;
+	margin-top: 0;
+}
+.title h1 {
+	padding: 14px 0 8px;
+	margin: 0;
+	font-weight: normal;
+	font-size: 30px;
+	color: #443135;
+	text-transform: uppercase;	
+}
+ul.region-nav li {
+	list-style-type: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 5px 0;
+}
+ul.region-nav li a {
+	color: #443135;
+	text-decoration: none;
+}
+ul.region-nav li a:hover {
+	color: #948185;
+	text-decoration: none;
+}
+ul.region-nav li a.active {
+	color: #443135;
+	font-weight: bold;
+	text-decoration: none;
+}
+.border-left {
+	border-left: 1px solid #c6c6c6;
+}
+.content.no-padding {
+	margin-bottom: 0;	
+}
+.btn-default {
+	background-color: #e88554;
+	border: none;
+	padding: 6px 0;
+	width: 140px;
+	color: #FFF;
+	font-size: 16px;
+	text-transform: uppercase;	
+}
+.btn-default:hover {
+	background-color: #f89564;	
+	color: #FFF;
+	text-decoration: none;
+}
+.btn-container {
+	margin-top: 20px;	
+}
+h3 {
+	color: #e88554;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 30px 0;	
+}
+.vendor-form {
+	max-width: 90%;
+	margin: 0 auto;	
+}
+textarea {
+	width: 100%;
+	min-height: 100px;	
+}
+
+@media (min-width: 992px){
+.vendor-about .col-md-5 {
+	width: 45%;
+}
+.vendor-about .col-md-7 {
+	width: 55%;
+}
+}
+
+/* Tablet */
+@media (min-width:500px) and (max-width:985px) {
+
+}
+/* End tablet */
+
+/* Mobile */
+@media (max-width:500px) {
+
+}
+/* End mobile */
+
+/* Print */
+@media print {
+	
+}
+/* End print */
