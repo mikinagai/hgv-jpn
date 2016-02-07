@@ -51,7 +51,7 @@
       </div>
 
 
-      <div id="resort-collection" class="sub-content">
+      <div id="resort-collection" class="sub-content resort-gallery-container">
       
         <div class="row resort">
           <div class="col-sm-4 text-center">
@@ -139,12 +139,98 @@
       
       </div> <!-- resort-collection -->
 
-      
 
 
-      <div id="sample-week" class="sub-content" style="display: none;">
+
+      <div id="sample-week" class="sub-content resort-gallery-container" style="display: none;">
+
+        <h1>オアフ島</h1>
       
-        anma
+        <h4 class="quote">ハワイ州の州都ホノルルを擁するオアフ島。１年を通して温暖な気候に恵まれたこの島は、日本をはじめ世界各国から多くの旅行者を迎え入れる観光都市でもあります。ビーチ沿いに高級リゾートホテルが集まり、世界有数のリゾート地として名を馳せるワイキキ、巨大ショッピングモールがあるアラモアナ、サーファーの聖地であるノースショア、ハワイ王朝ゆかりの史跡が残るダウンタウン、パウダーサンドのビーチが自慢のカイルアなど、バカンスを楽しむための素材が凝縮したオアフ島は、島そのものが一大リゾート。永遠の楽園と思わせるハワイが全てここに揃っています。</h4>
+
+        <p>ショッピングに明け暮れたりワイキキビーチで慌しく過ごすハワイはそろそろ卒業。これからは「１週間のハワイ暮らし」をテーマにハワイを訪れてみませんか？いつものハワイがより思い出深いものになるはずです。</p>
+
+        <h1>オアフ島の１週間</h1>
+
+        <div class="row sample-week-row">
+          <div class="col-sm-4 text-center">
+            <img data-original="http://placehold.it/350x200" class="lazyload" alt="" src="http://placehold.it/350x200" style="display: inline;">
+          </div>
+          <div class="col-sm-8">
+            <h3 class="quote">DAY 1: 快適な1週間を過ごすための準備をしましょう</h3>
+            <p>待ちに待ったハワイでのバケーション！</p>
+            <p>まずはこれからの１週間、お部屋でゆったりとくつろぐための準備をはじめます。日本からのフライトは午前中の到着がほとんど。午後のチェックインまで少し時間が空きますので、この時間を利用し「快適ハワイ暮らし」をサポートするアイテムを探しに出かけましょう。</p>
+          </div>
+        </div>
+
+        <div class="row sample-week-row">
+          <div class="col-sm-4 text-center">
+            <img data-original="http://placehold.it/350x200" class="lazyload" alt="" src="http://placehold.it/350x200" style="display: inline;">
+          </div>
+          <div class="col-sm-8">
+            <h3 class="quote">DAY 2: ファーマーズマーケットに出かけよう</h3>
+            <p>少し早起きをし、地元農家で栽培された新鮮野菜やフルーツが並ぶファーマーズマーケットに出かけてみませんか？</p>
+            <p>様々な野菜を少しずつ購入できるファーマーズマーケットはタイムシェア派の強い味方。新鮮食材を調達し、地元の人たちに教えてもらったハワイ料理に挑戦してみましょう！</p>
+          </div>
+        </div>
+
+        <div class="row sample-week-row">
+          <div class="col-sm-4 text-center">
+            <img data-original="http://placehold.it/350x200" class="lazyload" alt="" src="http://placehold.it/350x200" style="display: inline;">
+          </div>
+          <div class="col-sm-8">
+            <h3 class="quote">DAY 3: それぞれのバケーションを</h3>
+            <p>タイムシェア・ステイの魅力のひとつが、キッチン付きという点。外食続きで胃が疲れた時や、小さなお子様連れで外食がむずかしい、といった方々にはやはり自炊がおすすめです。</p>
+            <p>ヒルトンのタイムシェア・リゾートのキッチンは炊飯器をはじめ、鍋、調理器具、食器まで全て揃っていますので、スーパーマーケットやファーマーズマーケットで地元ならではの食材を購入し、ポキやロコモコなどハワイ料理に挑戦してはいかがでしょう。</p>
+          </div>
+        </div>
+
+        <div class="row sample-week-row">
+          <div class="col-sm-4 text-center">
+            <img data-original="http://placehold.it/350x200" class="lazyload" alt="" src="http://placehold.it/350x200" style="display: inline;">
+          </div>
+          <div class="col-sm-8">
+            <h3 class="quote">DAY 4: チャイナタウンを散策</h3>
+            <p>アジア系の移民が多く集まるチャイナタウン。</p>
+            <p>野菜や魚介類の市場や昔ながらの雑貨店、飲食店などがずらりと並ぶ町並みを歩けば、また違ったハワイを垣間見ることができるでしょう。</p>
+          </div>
+        </div>
+
+        <div class="row sample-week-row">
+          <div class="col-sm-4 text-center">
+            <img data-original="http://placehold.it/350x200" class="lazyload" alt="" src="http://placehold.it/350x200" style="display: inline;">
+          </div>
+          <div class="col-sm-8">
+            <h3 class="quote">DAY 5: ハワイの歴史を学ぶ</h3>
+            <p>日本人にとって最も身近な外国といえるハワイですが、アメリカの50番目の州となったのは1959年のこと。実は意外と最近です。それ以前には、日系人をはじめ多くの外国人を移民として迎えていたり、カメハメハ大王に統治されていたりと、ハワイは独特の歴史を歩み続けていました。そして今でもハワイ諸島のいたるところに歴史的スポットが点在しています。</p>
+
+            <p>ワイキキからアラモアナにかけて、王族に所縁のある場所が21箇所選定され、その場所には史跡の説明が簡単に書かれたサーフボード型の指標が建てられています。街角でこのサーフボードを見かけたら、少し立ち止まってみてください。見慣れた街の風景がまた別の表情を見せてくれるでしょう。</p>
+          </div>
+        </div>
+
+        <div class="row sample-week-row">
+          <div class="col-sm-4 text-center">
+            <img data-original="http://placehold.it/350x200" class="lazyload" alt="" src="http://placehold.it/350x200" style="display: inline;">
+          </div>
+          <div class="col-sm-8">
+            <h3 class="quote">DAY 6: アクティビティ体験</h3>
+            <p>せっかくハワイに来ているのですから、その土地に根付いた文化にも触れてみたいもの。ハワイに昔から伝わるフラやレイ、ウクレレは、人々との結びつきも深く、生活の一部となっているようです。</p>
+            <p>例えばレイ。もともと愛情や祝福の意味が込められており、卒業式や誕生日などあらゆる場面でレイを贈り合います。普段の服装にレイをプラスするだけで華やかな装いになりますので、ちょっとしたパーティーなどにも便利ですね。</p>
+            <p>ヒルトン･ハワイアン･ビレッジ・ワイキキ・ビーチリゾートでは、レイ作りなどハワイアン･カルチャーを楽しく学べるアクティビティを毎日開催（一部有料）。ヒルトン･ハワイアン・ビレッジ内のタイムシェア・タワーにお泊りの方もご参加いただけます。</p>
+          </div>
+        </div>
+
+        <div class="row sample-week-row">
+          <div class="col-sm-4 text-center">
+            <img data-original="http://placehold.it/350x200" class="lazyload" alt="" src="http://placehold.it/350x200" style="display: inline;">
+          </div>
+          <div class="col-sm-8">
+            <h3 class="quote">DAY 7:　ビーチで朝食を楽しむ</h3>
+            <p>満喫したハワイの滞在も今日が最終日。それぞれ旅のスタイルはあるもののビーチに行かずして旅を終わらせるわけにはいきませんよね。サーフィンやボディボードにいそしんだり、ビーチサイドでヨガや読書をしたりと、ビーチの楽しみ方は人それぞれです。</p>
+            <p>ヒルトン･ハワイアン･ビレッジ・ワイキキ・ビーチリゾート前のビーチも早朝ともなると、ジョギングやウォーキングをする人の姿が多く見られます。そんな中おすすめしたいのが、海を目の前にしての朝食。キッチンで簡単なサンドイッチやフルーツを準備し、ビーチマットを片手にいざビーチへ。人の少ないビーチで波の音を聞き、うっすらと差す太陽の光を浴びながらの朝食は、レストランでの豪華な食事よりもずっと贅沢かもしれません。</p>
+            <p>ただし、ハワイ州はビーチなど公共場所での飲酒や喫煙は禁止ですのでくれぐれもご注意ください。</p>
+          </div>
+        </div>
       
       </div> <!-- sample-week -->
 

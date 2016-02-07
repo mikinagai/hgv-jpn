@@ -43,16 +43,22 @@ li {
 	line-height: 18px;
 }
 
-p.quote{
+/*p.quote{
 	display: block;
     border-left: 4px solid #329ab7;
     line-height: 26px;
     padding-left: 12px;
     font-size: 16px;
 
+}*/
+
+.quote{
+	display: block;
+    border-left: 4px solid #329ab7;
+    padding: 10px 0 10px 12px;
 }
 
-p.quote span.q-smaller{
+.quote span.q-smaller{
 	display: block;
     font-size: 12px;
     line-height: 20px;
@@ -74,18 +80,29 @@ h1:nth-child(1){
     margin-bottom: 10px;
 } 
 
+
 h2 {
 	font-size: 22px;
 }
+
 h3 {
-	font-size: 22px;
-	color: #443135;	
+	font-size: 20px;
+	color: #443135;
+	 font-weight: 400;	
 }
 
 h3.eng{
 	font-family: 'Today' !important;
 	font-weight: 200;
 }
+
+
+h4{ 
+	font-size: 16px;
+	font-weight: 300;
+    line-height: 27px;
+}
+
 
 .content {
 	background-color: transparent;
@@ -1175,10 +1192,15 @@ label.error {
 	text-decoration: none;
 }
 
-
-#resort-collection {
+.resort-gallery-container{
 	padding: 15px 0;
 }
+
+/*#resort-collection {
+	padding: 15px 0;
+}
+*/
+
 #resort-collection .resort {
 	padding: 25px 0;
 }
@@ -1196,6 +1218,22 @@ label.error {
 	margin-top: 6px;	
 }
 
+.sample-week-row {
+	border:1px solid #ccc;
+	padding: 12px 0;
+	margin-bottom: 15px;
+}
+
+#sample-week h1{
+	margin-bottom: 35px;
+}
+
+
+/*#sample-week h3.quote{
+	display: block;
+    border-left: 4px solid #329ab7;
+    padding: 12px 0 12px 12px;
+}*/
 
 #destination-collection {
 	padding: 15px 0;	
