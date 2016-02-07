@@ -12,7 +12,7 @@
 <body>
 
   <div class="container">
-    <!--test commit-->
+  
     <?php addHeader(); ?>
     
     <div id="homeslideshow">
