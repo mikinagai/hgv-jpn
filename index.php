@@ -75,7 +75,7 @@
 
           <div class="content-item-wrapper">
             <p class="text-center"><a href="#" target="_blank"><img data-original="http://placehold.it/350x200" class="lazyload" alt="" /></a></p>
-            <h3 class="eng">preview</h3>
+            <h3 class="eng">previews</h3>
             <h2>タイムシェア販売説明会</h2>
             <p>「タイムシェアって何？」「会員リゾート権とは違うの？」といった皆さまからの様々な質問に、専任のスタッフがお答えし、オアフ島やハワイ島の魅力やヒルトン・グランド・バケーションズの柔軟で機能的な「タイムシェア・プログラム」を分かりやすくご紹介いたします。</p>
             <a class="viewmore-link" href="#">詳細はこちら</a>
