@@ -23,20 +23,16 @@
             <div class="item" id="slide2"></div>
             <div class="item" id="slide3"></div>
             <div class="item" id="slide4"></div>
-      </div>
+        </div>
 
       <!-- Indicators -->
-      <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-          <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-          <li data-target="#myCarousel" data-slide-to="3" class=""></li>
-      </ol>
-    </div>
-      <!-- <img src="img/cat.jpg" alt="Escape the Everyday in Las Vegas with Hilton Grand Vacations" />
-      <img src="img/banner02.jpg" alt="Have the Time of Your Life in Park City, Utah with Hilton Grand Vacations" />
-      <img src="img/banner03.jpg" alt="Open Up a World of Grand Vacations in Italy with Hilton Grand Vacations" />
-      <img src="img/banner04.jpg" alt="Wake Up in New York with Hilton Grand Vacations" /> -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+            <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+        </ol>
+      </div>
     </div>
     
     <div id="homeslider">

@@ -26,7 +26,7 @@
           
           <div class="col-sm-4 aside">
             <ul class="sidebar-menu">
-              <li><a href="#">タムシェア・プログラム</a></li>
+              <li><a class="active" href="#">タムシェア・プログラム</a></li>
               <li><a href="#">タイムシェアとホテル滞在の違い</a></li>
               <li><a href="#">ヒルトン・グランド・バケーションズの特徴</a></li>
               <li><a href="#">ご購入までの流れ</a></li>

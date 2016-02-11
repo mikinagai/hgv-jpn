@@ -1,19 +1,22 @@
 <header>
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <div id="logo">
         <a href="<?php echo getHost(); ?>"><img src="<?php echo getHost(); ?>img/logo.png" alt="Vacation Ownership Timeshare with Hilton Grand Vacations" /></a>
       </div>
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-9">
       <nav class="btn-group">
         <button type="button" class="btn btn-primary dropdown-toggle visible-xs-block" data-toggle="dropdown">Menu</button>
         <ul>
           <li><a href="<?php echo getHost(); ?>timeshare/">タイムシェア</a></li>
-          <li><a href="<?php echo getHost(); ?>explore/" id="open-explore">リゾートギャラリー <span class="caret"></span></a></li>
-          <li><a href="<?php echo getHost(); ?>discover/">Discover</a></li>
-          <li><a href="http://jobs.hiltongrandvacations.com/" target="_blank">Careers</a></li>
-          <li><a href="http://www.hgvclub.com/" target="_blank">Log In</a></li>
+          <li><a href="<?php echo getHost(); ?>explore/" id="open-explore">リゾート紹介<span class="caret"></span></a></li>
+          <li><a href="<?php echo getHost(); ?>discover/">販売説明会</a></li>
+          <li><a href="http://jobs.hiltongrandvacations.com/" target="_blank">リゾート宿泊プラン</a></li>
+          <li><a href="http://jobs.hiltongrandvacations.com/" target="_blank">オーナーの声</a></li>
+          <li><a href="http://jobs.hiltongrandvacations.com/" target="_blank">よくある質問</a></li>
+          <li><a href="http://jobs.hiltongrandvacations.com/" target="_blank">お問い合わせ</a></li>
+          <!-- <li><a href="http://www.hgvclub.com/" target="_blank">Log In</a></li> -->
         </ul>
       </nav>
     </div>

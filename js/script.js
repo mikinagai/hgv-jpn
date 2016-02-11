@@ -7,6 +7,8 @@ $(document).ready(function(e){
 
   $('.sidebar-menu li a').on('click', function(e){
     e.preventDefault();
+    $('.sidebar-menu li a').removeClass('active');
+    $(this).addClass('active');
     var type = $(this).text();
     $('.sub-content').hide();
     switch (type){
@@ -30,6 +32,8 @@ $(document).ready(function(e){
 
   $('.resort-navbar li').on('click', function(e){
     e.preventDefault();
+    $('.resort-navbar li a').removeClass('active');
+    $(this).find('a').addClass('active');
     var type = $(this).find('a').text();
     $('.sub-content').hide();
     switch (type){
@@ -39,14 +43,48 @@ $(document).ready(function(e){
       case 'ハワイの１週間':
       $('#sample-week').show();
       break;
-      case 'ヒルトン・グランド・バケーションズの特徴':
-      $('#hilton-features').show();
+      case 'イベント':
+      $('#events').show();
       break;
-      case 'ご購入までの流れ':
-      $('#how-to-purchase').show();
+      case 'アクティビティ':
+      $('#activities').show();
       break;
-      case '法人のお客様へ':
-      $('#for-business').show();
+      case 'ナイトライフ':
+      $('#nightlife').show();
+      break;
+      case 'ダイニング':
+      $('#dining').show();
+      break;
+      case 'ショッピング':
+      $('#shopping').show();
+      break;
+    }
+  });
+
+  $('#resort-nav-mobile').change(function(){
+    var url = $(this).val();
+    $('.sub-content').hide();
+    switch (url){
+      case 'リゾート':
+      $('#resort-collection').show();
+      break;
+      case 'ハワイの１週間':
+      $('#sample-week').show();
+      break;
+      case 'イベント':
+      $('#events').show();
+      break;
+      case 'アクティビティ':
+      $('#activities').show();
+      break;
+      case 'ナイトライフ':
+      $('#nightlife').show();
+      break;
+      case 'ダイニング':
+      $('#dining').show();
+      break;
+      case 'ショッピング':
+      $('#shopping').show();
       break;
     }
   });
