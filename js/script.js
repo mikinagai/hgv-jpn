@@ -56,7 +56,7 @@ $(document).ready(function(e){
 $(window).resize(function(e){
   mobileMenu();
 });
-
+ 
 function mobileMenu(){
   var width = $(window).width();
   if(width <= 599){
