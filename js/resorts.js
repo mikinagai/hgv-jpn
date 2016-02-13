@@ -74,12 +74,12 @@ $("#resorts-options ul li a").click(function(e){
   $("#resorts-options ul li a").removeClass("active");
   $(this).addClass("active");
   
-  $("#photosSlider, #floorplan-container, #points-container, #points-next-container, #map-container, #placeholder").hide();
+  $("#homeslideshow, #floorplan-container, #points-container, #points-next-container, #map-container, #placeholder").hide();
   
   var tab = $(this).attr("id");
   if(tab == "photos-link"){
-	$("#photosSlider, #placeholder").show();
-	photosSwipe.slide(0,100);
+	$("#homeslideshow, #placeholder").show();
+	// photosSwipe.slide(0,100);
   }
   else if(tab == "floorplans-link"){
 	$("#floorplan-container").show();

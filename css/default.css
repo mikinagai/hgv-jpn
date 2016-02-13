@@ -17,7 +17,7 @@ html, body {
 	-webkit-font-smoothing: antialiased;
 }
 body {
-	background-color: #FFFFFF;
+	background-color: #f8f8f8;
 	/*font-family: "Lucida Sans Unicode";*/
 	font-family: 'Noto Sans Japanese', serif;
 }
@@ -43,16 +43,22 @@ li {
 	line-height: 18px;
 }
 
-p.quote{
+/*p.quote{
 	display: block;
-    border-left: 4px solid #329ab7;
+    border-left: 4px solid #00a8cb;
     line-height: 26px;
     padding-left: 12px;
     font-size: 16px;
 
+}*/
+
+.quote{
+	display: block;
+    border-left: 4px solid #00a8cb;
+    padding: 10px 0 10px 12px;
 }
 
-p.quote span.q-smaller{
+.quote span.q-smaller{
 	display: block;
     font-size: 12px;
     line-height: 20px;
@@ -74,18 +80,29 @@ h1:nth-child(1){
     margin-bottom: 10px;
 } 
 
+
 h2 {
 	font-size: 22px;
 }
+
 h3 {
-	font-size: 22px;
-	color: #443135;	
+	font-size: 18px;
+	color: #00a8cb;
+	 font-weight: 500;	
 }
 
 h3.eng{
 	font-family: 'Today' !important;
 	font-weight: 200;
 }
+
+
+h4{ 
+	font-size: 16px;
+	font-weight: 300;
+    line-height: 27px;
+}
+
 
 .content {
 	background-color: transparent;
@@ -94,6 +111,11 @@ h3.eng{
     max-width: 1100px;
     margin: auto;
 }
+
+#content__wrap{
+	background: #f8f8f8;
+}
+
 .btn-primary {
 	background-color: #00a8cb;
 	border: none;
@@ -108,15 +130,21 @@ h3.eng{
 	background-color: #0097b7;
 }
 
+@media screen and (max-width: 768px){
+	.btn-primary{
+		width:100%;
+	}
+}
+
 .btn-full {
 	padding: 12px 30px;
 	font-size: 15px;
-	background-color: #329ab7;
+	background-color: #00a8cb;
 	border: none;
 }
 
 a.viewmore-link{
-	color:#329ab7;
+	color:#00a8cb;
 	font-size:13px;
 }
 .aside {
@@ -213,8 +241,8 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	text-transform: uppercase;
-	padding: 0 20px;
-	font-size: 16px;
+	padding: 0 11px;
+	font-size: 13px;
 	font-family: 'Noto Sans Japanese', serif;
 	line-height: 16px;
 	margin: 0;
@@ -239,6 +267,17 @@ nav ul li.active a, nav ul li a:hover {
     transform: rotate(180deg);
 }
 
+#open-explore2 .caret {
+	position: relative;
+	top: -2px;	
+}
+#open-explore2.active .caret {
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 
 #explore-menu {
 	left: 0;
@@ -286,6 +325,55 @@ nav ul li.active a, nav ul li a:hover {
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 }
+
+
+#explore-menu2 {
+	left: 0;
+    right: 0;
+    margin: auto;
+	position: absolute; 
+	width: 100%;
+	max-width: 1100px;
+	background-color: #fff; 
+	z-index: 200; 
+	padding: 20px;
+	display: none;
+	border-bottom: 1px solid #ccc;
+	-webkit-box-shadow: 0 2px 4px -2px #888;
+       -moz-box-shadow: 0 2px 4px -2px #888;
+            box-shadow: 0 2px 4px -2px #888;
+}
+#explore-menu2 .col-sm-6:last-child {
+	/*border-left: 1px dotted #ccc;	*/
+}
+#explore-menu2 h4 {
+	letter-spacing: 0.5px;	
+}
+#explore-menu2 p {
+	line-height: 14px;
+	margin: 0 0 8px;
+	font-size: 13px;
+}
+#explore-menu2 p.heading {
+	font-family: 'Today';
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 5px 0;
+}
+#explore-menu2 p a {
+	color: #42aad7;	
+}
+#explore-menu2 p a:hover {
+	text-decoration: none;	
+	color: #62caff;
+}
+#explore-menu2 p a.btn-info {
+	color: #fff;
+	font-family: 'Today';
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
 .featured {
 	margin: 10px -5px 0;
 }
@@ -345,7 +433,7 @@ nav ul li.active a, nav ul li a:hover {
 #homeslider {
 	min-height: 50px;
 	background-color: #443135;
-	border-bottom: 5px solid #329ab7;
+	border-bottom: 5px solid #00a8cb;
 }
 #homeslider h2 {
 	margin: 0;
@@ -387,9 +475,22 @@ nav ul li.active a, nav ul li a:hover {
 }
 
 
-.content-item-wrapper{
+.s_content-item-wrapper{
+	min-height: 390px;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+.m_content-item-wrapper{
 	min-height: 430px;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+.sweep_content-item-wrapper{
+	min-height: 430px;
+	margin-bottom: 69px;
+	padding: 10px;
 }
 
 
@@ -425,7 +526,7 @@ nav ul li.active a, nav ul li a:hover {
 }
 
 .content-news-wrapper span.press{
-	background: #329ab7;
+	background: #00a8cb;
 }
 
 
@@ -453,6 +554,7 @@ div.news-item{
 	padding: 13px;
 	border: 1px solid #ccc;
 	margin-bottom:20px;
+	background: #FFF;
 }
 
 .hide {
@@ -499,6 +601,21 @@ a.read-more-show{
 	position: relative;	
 	min-height: 500px;
 }
+
+@media screen and (max-width: 768px){
+	#subbanner {
+		min-height:300px;
+	}
+	#homeslideshow, #destinationslideshow {
+    	height: 300px;
+    }
+    #homeslideshow #myCarousel .item {
+    height: 300px;
+	}
+	
+}
+
+
 /*/////// SUB BANNERS /////////*/
 
 .timeshare-program-container #subbanner{
@@ -515,6 +632,22 @@ a.read-more-show{
 	background-position: center;
 	background-size: cover;
 }
+/* Dropdown Menu */
+
+.sub-dropdown-menu{
+	position: absolute;
+	display: none;
+	background: #fff;
+	z-index: 999;
+} 
+
+nav ul li.nav-main:hover > .sub-dropdown-menu{
+	display: block;
+}
+
+.sub-dropdown-menu li{
+	display: block;
+}
 
 /*/////// Timeshare Program /////////*/
 
@@ -526,6 +659,7 @@ img.slider-turtle{
 	position: absolute;
     top: 46%;
     left: 16%;
+    z-index: 9;
 }
 
 a.next-step-learn{
@@ -564,8 +698,21 @@ a.next-step-resorts{
 /*//////////////////////////////////*/
 
 nav#resort-navbar{
+	border-bottom: 1px solid #e7e7e7;
+	background: #f8f8f8;
 	background: #f7f7f7;
 	margin: 0;
+}
+
+
+@media screen and (max-width: 768px){
+
+	nav#resort-navbar{
+	border-bottom: none;
+	}
+
+	
+
 }
 
 nav#resort-navbar .resort-navbar-container{
@@ -573,6 +720,24 @@ nav#resort-navbar .resort-navbar-container{
 	margin: auto;
 
 }
+
+#resort-nav-mobile{
+	display: none;
+}
+
+@media screen and (max-width: 768px){
+	.resort-navbar-container{
+		display: none;
+	}
+
+	#resort-nav-mobile{
+	display: block;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 18px;
+	}
+}
+
 ul.resort-navbar{
 	list-style: none;
 	text-align: center;
@@ -590,6 +755,7 @@ ul.resort-navbar li{
 }
 
 ul.resort-navbar li a{
+	text-decoration: none;
 	color:#d5d5d5;
 	position: relative;
     display: block;
@@ -630,6 +796,7 @@ span.resort-navbar-icon{
 	background-color: rgba(68,49,53,0.8);
 	padding: 15px 40px 5px;
 }
+
 #subbanner .banner-caption h1 {
 	color: #fff;
 	font-size: 36px;
@@ -770,6 +937,16 @@ ul.sidebar-menu li{
 	margin: 0;
 }
 
+ul.sidebar-menu li.sidebar-menu-header{
+	display: block;
+    padding: 18px 21px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+ul.sidebar-menu li.sidebar-menu-header h3{
+	color:#443135;
+}
+
 ul.sidebar-menu li a{
 	color: #443135;
     font-size: 13px;
@@ -777,20 +954,105 @@ ul.sidebar-menu li a{
     display: inline-block;
     width: 100%;
 } 
-
-ul.sidebar-menu li a:hover{
+ul.sidebar-menu li a.active{
 	color:#FFF;
-	background:#75D3c0;
+	background:#8fd2ca;
 	text-decoration: none;
 }
-.fullwidth-wrapper{
-	background: url("../img/bg-pattern.png") repeat-x;
+
+ul.sidebar-menu li a:hover{
+	text-decoration: underline;
+}
+
+.panel-box{
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #e7e7e7;
+    position: relative;
+}
+
+.panel, .panel:nth-child(n) {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+.panel_cell-knockout {
+    background-color: #f8f8f8;
+    box-shadow: inset 0 0 0 1px #e7e7e7;
+}
+*/
+
+
+.panel-cell {
+    padding: 2.37037em;
+}
+
+.panel-cell-top{
+    box-shadow: inset 0 0 0 1px #e7e7e7;
+	background-color: #f8f8f8;
+}
+
+.link-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list li a{
+}
+
+.panel-cell h5:nth-child(1){
+	margin-top: 0px;
 }
 
 
+.panel-cell h5{
+	margin-top: 40px;
+}
+
+.panel-cell h5 a{
+	color:#333;    
+	font-size: 16px;
+    line-height: 23px;
+}
+
+.panel-cell p{
+	color: gray;
+    margin-top: 0px;
+}
+.pattern{
+	background: url("../img/bg-pattern.png");
+}
+
+
+.pattern-fade{
+	position: relative;
+	background-repeat: repeat-x;	
+}
+
+.pattern-fade:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30em;
+    left: 0;
+    top: 0;
+    background-image: -webkit-linear-gradient(top,rgba(248,248,248,0)0%,rgba(248,248,248,0)20%,#f8f8f8 100%);
+    background-image: linear-gradient(to bottom,rgba(248,248,248,0)0%,rgba(248,248,248,0)20%,#f8f8f8 100%);
+}
+
+.timeshare-program-container #subcontent .col-sm-8 {
+	border-right:none;
+}
 
 #subcontent .col-sm-8 {
-	/*border-right: 1px solid #ccc;*/
+	border-right: 1px solid #ccc;
 }
 
 
@@ -1057,6 +1319,8 @@ label.error {
 	background-color: #fff;	
 	min-height: 480px;
 	padding: 50px 40px 80px;
+	max-width: 1100px;
+    margin: auto;
 }
 .floorplan {
 	cursor: pointer;
@@ -1103,6 +1367,8 @@ label.error {
 	background-color: #fff;	
 	min-height: 480px;
 	padding: 50px 40px 80px;
+	max-width: 1100px;
+    margin: auto;
 }
 #points-container .table, #points-next-container .table  {
 	margin-bottom: 0px;	
@@ -1137,9 +1403,13 @@ label.error {
 	margin-right: 4px;	
 }
 
+.container-max{
+	max-width: 1100px;
+	margin: auto;
+}
 
 #resorts-options {
-	position: absolute;
+	position: relative;
 	top: 0;
 	right: 0;
 	background-color: #fff;
@@ -1147,6 +1417,9 @@ label.error {
 	background-color: rgba(68,49,53,0.8);	
 	margin: 0;
 	font-size: 0px; /* fix for inline-block spacing; http://css-tricks.com/fighting-the-space-between-inline-block-elements/ */
+	z-index: 9;
+    float: right;
+    max-width: 300px;
 }
 #resorts-options ul {
 	list-style-type: none;
@@ -1175,10 +1448,24 @@ label.error {
 	text-decoration: none;
 }
 
+#subbanner .slide{
+    overflow-x: initial;
+    overflow-y: initial;
+}
 
-#resort-collection {
+#subbanner .carousel-inner{
+	overflow: visible;
+}
+
+.resort-gallery-container{
 	padding: 15px 0;
 }
+
+/*#resort-collection {
+	padding: 15px 0;
+}
+*/
+
 #resort-collection .resort {
 	padding: 25px 0;
 }
@@ -1196,6 +1483,154 @@ label.error {
 	margin-top: 6px;	
 }
 
+.g-waikikian{
+	background-image: url('../hawaii/img/banner.jpg');
+}
+
+p.location{
+    margin: 0;
+    font-weight: 400;
+}
+
+p.location i{
+	margin-right: 3px;
+}
+
+.block {
+	box-shadow: inset 0 0 0 1px #e7e7e7;
+	padding: 12px 0;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	background: #FFF;
+}
+
+
+@media screen and (max-width: 768px){
+	body .photo-tile{
+	    width: 100%;
+	    height: 200px;
+	    position: relative;
+	    margin: auto;
+	}
+	body .l_cell {
+	    display: block;
+	    width: 100%;
+	    position: relative;
+	} 
+	body .r_cell{
+		display: block;
+	    vertical-align: top;
+	    padding: 0 25px;
+	    width: 100%;
+	    float: none;
+	}
+}
+
+
+.photo-tile{
+	z-index: 100;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #472a2b;
+    display: table;
+    text-decoration: none;
+    height: 100%;
+    position: absolute;
+}
+
+
+.card{
+	box-shadow: inset 0 0 0 1px #e7e7e7;
+	background-color: #fff;
+	border-radius: 3px;
+	position: relative;
+    overflow: hidden;
+	margin-bottom: 20px;
+	display: table;
+}
+
+
+.l_cell{
+	padding:0;
+	display: table-cell;
+	vertical-align: top;
+	height: 100%;
+    position: absolute;
+    display: table-cell;
+    width: 32%; 
+    margin-right: 0;
+}
+
+.r_cell{
+	display: table-cell;
+    vertical-align: top;
+    padding: 0 25px;
+    width: 67%;
+    float: right;
+
+}
+
+.portfolio-post-r {
+	background-color: #fff;
+	padding: 30px;
+    border: 2px solid rgba(237, 237, 237, 1);
+}
+
+
+.portfolio-post-l{
+	background-color: #ccc;
+	padding: 30px;
+    border: 2px solid rgba(237, 237, 237, 1);
+}
+
+
+.row {
+    /*display: table;*/
+    /*padding-right: 10px;
+    padding-left: 10px;*/
+}
+
+.page-overflow	{
+	background-color: rgba(237, 237, 237, 1);
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+/*
+.row {
+    display: table;
+}
+
+.row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+*/
+
+/*@media screen and (max-width: 768px){
+	.block {
+	max-width: 350px;
+	margin: auto;
+	margin-bottom: 28px;
+	}
+}*/
+
+
+.sub-content h1{
+	margin-bottom: 35px;
+}
+
+
+/*#sample-week h3.quote{
+	display: block;
+    border-left: 4px solid #00a8cb;
+    padding: 12px 0 12px 12px;
+}*/
 
 #destination-collection {
 	padding: 15px 0;	
@@ -1210,7 +1645,7 @@ label.error {
 
 #destination-nav {
 	background-color: #443135;
-	border-bottom: 3px solid #329ab7;
+	border-bottom: 3px solid #00a8cb;
 	min-height: 20px;	
 	color: #fff;
 	text-align: center;

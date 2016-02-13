@@ -24,7 +24,7 @@ $(".bxslider").bxSlider({
   captions: true
 });
 
-$(".bxslider li").live({
+$(".bxslider li").on({
   mouseenter: function(){
 	$(this).children(".bx-caption").animate({bottom:"0"},200);
   },
