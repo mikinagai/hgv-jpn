@@ -17,7 +17,7 @@ html, body {
 	-webkit-font-smoothing: antialiased;
 }
 body {
-	background-color: #FFFFFF;
+	background-color: #f8f8f8;
 	/*font-family: "Lucida Sans Unicode";*/
 	font-family: 'Noto Sans Japanese', serif;
 }
@@ -86,9 +86,9 @@ h2 {
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 18px;
 	color: #00a8cb;
-	 font-weight: 400;	
+	 font-weight: 500;	
 }
 
 h3.eng{
@@ -128,6 +128,12 @@ h4{
 }
 .btn-primary:hover {
 	background-color: #0097b7;
+}
+
+@media screen and (max-width: 768px){
+	.btn-primary{
+		width:100%;
+	}
 }
 
 .btn-full {
@@ -261,6 +267,17 @@ nav ul li.active a, nav ul li a:hover {
     transform: rotate(180deg);
 }
 
+#open-explore2 .caret {
+	position: relative;
+	top: -2px;	
+}
+#open-explore2.active .caret {
+	-webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
 
 #explore-menu {
 	left: 0;
@@ -308,6 +325,55 @@ nav ul li.active a, nav ul li a:hover {
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 }
+
+
+#explore-menu2 {
+	left: 0;
+    right: 0;
+    margin: auto;
+	position: absolute; 
+	width: 100%;
+	max-width: 1100px;
+	background-color: #fff; 
+	z-index: 200; 
+	padding: 20px;
+	display: none;
+	border-bottom: 1px solid #ccc;
+	-webkit-box-shadow: 0 2px 4px -2px #888;
+       -moz-box-shadow: 0 2px 4px -2px #888;
+            box-shadow: 0 2px 4px -2px #888;
+}
+#explore-menu2 .col-sm-6:last-child {
+	/*border-left: 1px dotted #ccc;	*/
+}
+#explore-menu2 h4 {
+	letter-spacing: 0.5px;	
+}
+#explore-menu2 p {
+	line-height: 14px;
+	margin: 0 0 8px;
+	font-size: 13px;
+}
+#explore-menu2 p.heading {
+	font-family: 'Today';
+	text-transform: uppercase;
+	font-size: 15px;
+	margin: 5px 0;
+}
+#explore-menu2 p a {
+	color: #42aad7;	
+}
+#explore-menu2 p a:hover {
+	text-decoration: none;	
+	color: #62caff;
+}
+#explore-menu2 p a.btn-info {
+	color: #fff;
+	font-family: 'Today';
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
 .featured {
 	margin: 10px -5px 0;
 }
@@ -409,9 +475,22 @@ nav ul li.active a, nav ul li a:hover {
 }
 
 
-.content-item-wrapper{
+.s_content-item-wrapper{
+	min-height: 390px;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+.m_content-item-wrapper{
 	min-height: 430px;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
+	padding: 10px;
+}
+
+.sweep_content-item-wrapper{
+	min-height: 430px;
+	margin-bottom: 69px;
+	padding: 10px;
 }
 
 
@@ -475,6 +554,7 @@ div.news-item{
 	padding: 13px;
 	border: 1px solid #ccc;
 	margin-bottom:20px;
+	background: #FFF;
 }
 
 .hide {
@@ -552,6 +632,22 @@ a.read-more-show{
 	background-position: center;
 	background-size: cover;
 }
+/* Dropdown Menu */
+
+.sub-dropdown-menu{
+	position: absolute;
+	display: none;
+	background: #fff;
+	z-index: 999;
+} 
+
+nav ul li.nav-main:hover > .sub-dropdown-menu{
+	display: block;
+}
+
+.sub-dropdown-menu li{
+	display: block;
+}
 
 /*/////// Timeshare Program /////////*/
 
@@ -563,6 +659,7 @@ img.slider-turtle{
 	position: absolute;
     top: 46%;
     left: 16%;
+    z-index: 9;
 }
 
 a.next-step-learn{
@@ -605,6 +702,17 @@ nav#resort-navbar{
 	background: #f8f8f8;
 	background: #f7f7f7;
 	margin: 0;
+}
+
+
+@media screen and (max-width: 768px){
+
+	nav#resort-navbar{
+	border-bottom: none;
+	}
+
+	
+
 }
 
 nav#resort-navbar .resort-navbar-container{
@@ -829,6 +937,16 @@ ul.sidebar-menu li{
 	margin: 0;
 }
 
+ul.sidebar-menu li.sidebar-menu-header{
+	display: block;
+    padding: 18px 21px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+ul.sidebar-menu li.sidebar-menu-header h3{
+	color:#443135;
+}
+
 ul.sidebar-menu li a{
 	color: #443135;
     font-size: 13px;
@@ -845,10 +963,89 @@ ul.sidebar-menu li a.active{
 ul.sidebar-menu li a:hover{
 	text-decoration: underline;
 }
-.fullwidth-wrapper{
-	background: url("../img/bg-pattern.png") repeat-x;
+
+.panel-box{
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #e7e7e7;
+    position: relative;
 }
 
+.panel, .panel:nth-child(n) {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+.panel_cell-knockout {
+    background-color: #f8f8f8;
+    box-shadow: inset 0 0 0 1px #e7e7e7;
+}
+*/
+
+
+.panel-cell {
+    padding: 2.37037em;
+}
+
+.panel-cell-top{
+    box-shadow: inset 0 0 0 1px #e7e7e7;
+	background-color: #f8f8f8;
+}
+
+.link-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+}
+
+.link-list li a{
+}
+
+.panel-cell h5:nth-child(1){
+	margin-top: 0px;
+}
+
+
+.panel-cell h5{
+	margin-top: 40px;
+}
+
+.panel-cell h5 a{
+	color:#333;    
+	font-size: 16px;
+    line-height: 23px;
+}
+
+.panel-cell p{
+	color: gray;
+    margin-top: 0px;
+}
+.pattern{
+	background: url("../img/bg-pattern.png");
+}
+
+
+.pattern-fade{
+	position: relative;
+	background-repeat: repeat-x;	
+}
+
+.pattern-fade:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30em;
+    left: 0;
+    top: 0;
+    background-image: -webkit-linear-gradient(top,rgba(248,248,248,0)0%,rgba(248,248,248,0)20%,#f8f8f8 100%);
+    background-image: linear-gradient(to bottom,rgba(248,248,248,0)0%,rgba(248,248,248,0)20%,#f8f8f8 100%);
+}
 
 .timeshare-program-container #subcontent .col-sm-8 {
 	border-right:none;
@@ -1286,7 +1483,20 @@ label.error {
 	margin-top: 6px;	
 }
 
-.bordered-row {
+.g-waikikian{
+	background-image: url('../hawaii/img/banner.jpg');
+}
+
+p.location{
+    margin: 0;
+    font-weight: 400;
+}
+
+p.location i{
+	margin-right: 3px;
+}
+
+.block {
 	box-shadow: inset 0 0 0 1px #e7e7e7;
 	padding: 12px 0;
 	margin-bottom: 20px;
@@ -1295,8 +1505,115 @@ label.error {
 }
 
 
+@media screen and (max-width: 768px){
+	body .photo-tile{
+	    width: 100%;
+	    height: 200px;
+	    position: relative;
+	    margin: auto;
+	}
+	body .l_cell {
+	    display: block;
+	    width: 100%;
+	    position: relative;
+	} 
+	body .r_cell{
+		display: block;
+	    vertical-align: top;
+	    padding: 0 25px;
+	    width: 100%;
+	    float: none;
+	}
+}
+
+
+.photo-tile{
+	z-index: 100;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #472a2b;
+    display: table;
+    text-decoration: none;
+    height: 100%;
+    position: absolute;
+}
+
+
+.card{
+	box-shadow: inset 0 0 0 1px #e7e7e7;
+	background-color: #fff;
+	border-radius: 3px;
+	position: relative;
+    overflow: hidden;
+	margin-bottom: 20px;
+	display: table;
+}
+
+
+.l_cell{
+	padding:0;
+	display: table-cell;
+	vertical-align: top;
+	height: 100%;
+    position: absolute;
+    display: table-cell;
+    width: 32%; 
+    margin-right: 0;
+}
+
+.r_cell{
+	display: table-cell;
+    vertical-align: top;
+    padding: 0 25px;
+    width: 67%;
+    float: right;
+
+}
+
+.portfolio-post-r {
+	background-color: #fff;
+	padding: 30px;
+    border: 2px solid rgba(237, 237, 237, 1);
+}
+
+
+.portfolio-post-l{
+	background-color: #ccc;
+	padding: 30px;
+    border: 2px solid rgba(237, 237, 237, 1);
+}
+
+
+.row {
+    /*display: table;*/
+    /*padding-right: 10px;
+    padding-left: 10px;*/
+}
+
+.page-overflow	{
+	background-color: rgba(237, 237, 237, 1);
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+
+/*
+.row {
+    display: table;
+}
+
+.row [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+*/
+
 /*@media screen and (max-width: 768px){
-	.bordered-row {
+	.block {
 	max-width: 350px;
 	margin: auto;
 	margin-bottom: 28px;

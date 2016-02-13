@@ -1,7 +1,26 @@
 $(document).ready(function(e){
 
+  $.fn.scrollTo = function( target, options, callback ){
+    if(typeof options == 'function' && arguments.length == 2){ callback = options; options = target; }
+    var settings = $.extend({
+      scrollTarget  : target,
+      offsetTop     : 50,
+      duration      : 500,
+      easing        : 'swing'
+    }, options);
+    return this.each(function(){
+      var scrollPane = $(this);
+      var scrollTarget = (typeof settings.scrollTarget == "number") ? settings.scrollTarget : $(settings.scrollTarget);
+      var scrollY = (typeof scrollTarget == "number") ? scrollTarget : scrollTarget.offset().top + scrollPane.scrollTop() - parseInt(settings.offsetTop);
+      scrollPane.animate({scrollTop : scrollY }, parseInt(settings.duration), settings.easing, function(){
+        if (typeof callback == 'function') { callback.call(this); }
+      });
+    });
+  }
 
   mobileMenu();
+
+  new WOW().init();
 
   $('.lazyload').lazyload();
 
@@ -27,7 +46,19 @@ $(document).ready(function(e){
       case '法人のお客様へ':
       $('#for-business').show();
       break;
+      case 'タイムシェアについて':
+      $('#timeshare-program').show();
+      break;
+      case 'オーナーになったら':
+      $('#become-owner').show();
+      break;
     }
+  });
+
+  $('.link-list li a').on('click', function(e){
+    e.preventDefault();
+    var href = $(this).attr('href');
+    $('body').scrollTo(href);
   });
 
   $('.resort-navbar li').on('click', function(e){
@@ -98,23 +129,80 @@ $(window).resize(function(e){
 function mobileMenu(){
   var width = $(window).width();
   if(width <= 599){
-	$("nav ul").addClass("dropdown-menu");  
+	 $("nav ul").addClass("dropdown-menu");  
   }
   else {
-	$("nav ul").removeClass("dropdown-menu");  
+	 $("nav ul").removeClass("dropdown-menu");  
   }
 }
 
-$("header nav ul li a#open-explore").click(function(e){
-  if(!$("#explore-menu").is(":visible")){
-	$("#explore-menu").slideDown(200);
-	$(this).addClass("active");
+$("header nav ul li a#open-explore").on('mouseenter', function(e){
+  if ($(window).width() >= 768){
+    closeDropdowns();
+    if(!$("#explore-menu").is(":visible")){
+      $("#explore-menu").slideDown(200);
+      $(this).addClass("active");
+    }
+    else {
+      $("#explore-menu").slideUp(200);  
+      $(this).removeClass("active");
+    }
+    e.preventDefault();
   }
-  else {
-	$("#explore-menu").slideUp(200);  
-	$(this).removeClass("active");
+});
+
+$("header nav ul li a#open-explore2").on('mouseenter', function(e){
+  if ($(window).width() >= 768){
+    if(!$("#explore-menu2").is(":visible")){
+      $("#explore-menu2").slideDown(200);
+      $(this).addClass("active");
+    }
+    else {
+      $("#explore-menu2").slideUp(200);  
+      $(this).removeClass("active");
+    }
+    e.preventDefault();
   }
-  e.preventDefault();
+});
+
+
+$("header nav ul li a#open-explore").on('click', function(e){
+  if ($(window).width() <= 767){
+    closeDropdowns();
+    if(!$("#explore-menu").is(":visible")){
+      $("#explore-menu").slideDown(200);
+      $(this).addClass("active");
+    }
+    else {
+      $("#explore-menu").slideUp(200);  
+      $(this).removeClass("active");
+    }
+    e.preventDefault();
+  }
+});
+
+$("header nav ul li a#open-explore2").on('click', function(e){
+  if ($(window).width() <= 767){
+    if(!$("#explore-menu2").is(":visible")){
+      $("#explore-menu2").slideDown(200);
+      $(this).addClass("active");
+    }
+    else {
+      $("#explore-menu2").slideUp(200);  
+      $(this).removeClass("active");
+    }
+    e.preventDefault();
+  }
+});
+
+function closeDropdowns(){
+  $("#explore-menu").slideUp(200);
+    $('header nav ul li a').removeClass("active");
+    $("#explore-menu2").slideUp(200);
+}
+
+$('.nav-dropdown-menu').on('mouseleave', function(){
+    closeDropdowns();
 });
 
 

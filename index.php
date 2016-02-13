@@ -61,23 +61,23 @@
     <div id="homecontent" class="content">
       <div class="row">
         <div class="col-sm-4">
-          <div class="content-item-wrapper">
-            <p class="text-center"><a href="#" target="_blank"><img data-original="http://placehold.it/350x200" class="lazyload" alt="" /></a></p>
+          <div class="s_content-item-wrapper wow fadeInUp">
+            <p class="text-center"><a href="#" target="_blank"><img data-original="img/homethumbnails/thumb-timeshare.jpg" class="lazyload" alt="" /></a></p>
             <h3 class="eng">What's timeshare?</h3>
             <h2>タイムシェアとは</h2>
             <p>ヒルトンのタイムシェアは、１年を52週に分け、高級コンドミニアム・スタイルのお部屋を１週間単位で所有する権利をお手頃な価格で購入いただけるシステムです。</p>
             <a class="viewmore-link" href="#">詳細はこちら</a>
           </div>
 
-          <div class="content-item-wrapper">
-            <p class="text-center"><a href="#" target="_blank"><img data-original="http://placehold.it/350x200" class="lazyload" alt="" /></a></p>
+          <div class="m_content-item-wrapper wow fadeInUp">
+            <p class="text-center"><a href="#" target="_blank"><img data-original="img/homethumbnails/thumb-preview.jpg" class="lazyload" alt="" /></a></p>
             <h3 class="eng">preview</h3>
             <h2>タイムシェア販売説明会</h2>
-            <p>「タイムシェアって何？」「会員リゾート権とは違うの？」といった皆さまからの様々な質問に、専任のスタッフがお答えし、オアフ島やハワイ島の魅力やヒルトン・グランド・バケーションズの柔軟で機能的な「タイムシェア・プログラム」を分かりやすくご紹介いたします。</p>
+            <p>「タイムシェアって何？」「会員リゾート権とは違うの？」といった皆さまからの様々な質問に、専任のスタッフがお答えし、オアフ島やハワイ島の魅力やヒルトン・グランド・バケーションズの柔軟で機能的な「タイムシェア・プログラム」を分かりやすくご紹介。</p>
             <a class="viewmore-link" href="#">詳細はこちら</a>
           </div>
 
-          <div class="content-news-wrapper">
+          <div class="content-news-wrapper wow fadeInUp">
             <h3 class="eng">news</h3>
               <h2>新着情報</h2>
             <div class="news-item">
@@ -103,24 +103,24 @@
 
 
         <div class="col-sm-4">
-          <div class="content-item-wrapper">
-            <p class="text-center"><a href="#" target="_blank"><img data-original="http://placehold.it/350x200" class="lazyload" alt="" /></a></p>
+          <div class="s_content-item-wrapper wow fadeInUp">
+            <p class="text-center"><a href="#" target="_blank"><img data-original="img/homethumbnails/thumb-vp.jpg" class="lazyload" alt="" /></a></p>
             <h3 class="eng">Vacations packages</h3>
             <h2>リゾート宿泊プラン</h2>
-            <p>ヒルトンのタイムシェアのお部屋に実際にお泊まりいただき、「暮らすように過ごすハワイ」をご体験いただけます。体験宿泊・新プランがスタート！ご予約はお早めに。</p>
+            <p>ヒルトンのタイムシェアのお部屋に実際にお泊まりいただき、「暮らすように過ごすハワイ」をご体験ください。体験宿泊・新プランがスタート！予約はお早めに。</p>
             <a class="viewmore-link" href="#">詳細はこちら</a>
           </div>
 
-          <div class="content-item-wrapper">
-            <p class="text-center"><a href="#" target="_blank"><img data-original="http://placehold.it/350x200" class="lazyload" alt="" /></a></p>
+          <div class="m_content-item-wrapper wow fadeInUp">
+            <p class="text-center"><a href="#" target="_blank"><img data-original="img/homethumbnails/thumb-forbusiness.jpg" class="lazyload" alt="" /></a></p>
             <h3 class="eng">for business</h3>
             <h2>法人のお客様へ</h2>
             <p>近年、法人名義でのオーナーシップご購入が着実に増えております。大切な社員の皆様に最高の休暇を提供されることは貴社の福利厚生に大きく寄与すること間違いありません。貴社も是非、合理的なスタイルでハワイに別荘を所有されてはいかがですか？</p>
             <a class="viewmore-link" href="#">詳細はこちら</a>
           </div>
 
-          <div class="content-item-wrapper">
-            <p class="text-center"><a href="#" target="_blank"><img data-original="http://placehold.it/350x200" class="lazyload" alt="" /></a></p>
+          <div class="s_content-item-wrapper wow fadeInUp">
+            <p class="text-center"><a href="#" target="_blank"><img data-original="img/homethumbnails/thumb-testimonials.jpg" class="lazyload" alt="" /></a></p>
             <h3 class="eng">testimonials</h3>
             <h2>オーナーの声</h2>
             <p>タイムシェアを購入し、"バケーションスタイル"を体験されたオーナー様からのお便りをご紹介いたします。各島でのオーナー様の"暮らし"をご覧いただけます。</p>
@@ -131,16 +131,16 @@
 
 
         <div class="col-sm-4">
-          <div class="content-item-wrapper">
-            <p class="text-center"><a href="#" target="_blank"><img data-original="http://placehold.it/350x200" class="lazyload" alt="" /></a></p>
+          <div class="sweep_content-item-wrapper wow fadeInUp">
+            <p class="text-center"><a href="#" target="_blank"><img data-original="img/sweepsbanner1.png" class="lazyload" alt="" /></a></p>
             <h3 class="eng">sweepstakes</h3>
             <h2>ハワイ旅行券などが当たる！</h2>
-            <p>アンケートにご協力いただいた方の中から、抽選でハワイ旅行やホテル宿泊など豪華賞品をプレゼントします。</p>
+            <p>アンケートにご協力いただいた方の中から、抽選でハワイ旅行やホテル宿泊など豪華賞品をプレゼントします。この機会に是非ご参加ください！</p>
             <a class="viewmore-link" href="#">詳細はこちら</a>
           </div>
 
-          <div class="content-item-wrapper">
-            <p class="text-center"><a href="#" target="_blank"><img data-original="http://placehold.it/350x200" class="lazyload" alt="" /></a></p>
+          <div class="s_content-item-wrapper wow fadeInUp">
+            <p class="text-center"><a href="#" target="_blank"><img data-original="img/homethumbnails/thumb-faq.jpg" class="lazyload" alt="" /></a></p>
             <h3 class="eng">FAQ</h3>
             <h2>よくある質問</h2>
             <p>説明会やお問い合わせにてよくいただくご質問をご紹介します。</p>
