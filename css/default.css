@@ -43,14 +43,25 @@ li {
 	line-height: 18px;
 }
 
-/*p.quote{
-	display: block;
-    border-left: 4px solid #00a8cb;
-    line-height: 26px;
-    padding-left: 12px;
-    font-size: 16px;
+.content-wrapper{
+	padding: 1px;
+}
 
-}*/
+@media screen and (max-width: 768px){
+	
+	.nav-dropdown-menu{
+		left: 0 !important;
+		right: 0 !important;
+		max-width: none !important;
+		z-index: 9999 !important;
+	}
+
+	.content-wrapper{
+		padding: 25px;
+	}
+}
+
+
 
 .quote{
 	display: block;
@@ -241,7 +252,7 @@ nav ul {
 nav ul li {
 	display: inline-block;
 	text-transform: uppercase;
-	padding: 0 11px;
+	padding: 0 8px;
 	font-size: 13px;
 	font-family: 'Noto Sans Japanese', serif;
 	line-height: 16px;
@@ -303,75 +314,125 @@ nav ul li.active a, nav ul li a:hover {
 }
 #explore-menu p {
 	line-height: 14px;
-	margin: 0 0 8px;
+	margin:0;
 	font-size: 13px;
 }
 #explore-menu p.heading {
-	font-family: 'Today';
+	font-family: 'Noto Sans Japanese', serif;
 	text-transform: uppercase;
 	font-size: 15px;
 	margin: 5px 0;
 }
 #explore-menu p a {
-	color: #42aad7;	
+	color: gray;
+	width: 100%;
+    display: inline-block;
+    padding: 9px 14px;
+    border-radius: 3px;
 }
 #explore-menu p a:hover {
-	text-decoration: none;	
-	color: #62caff;
+	text-decoration: none;
+    background-color: #f8f8f8;
 }
 #explore-menu p a.btn-info {
 	color: #fff;
-	font-family: 'Today';
+	font-family: 'Noto Sans Japanese', serif;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 }
 
 
-#explore-menu2 {
-	left: 0;
+.container-fluid-subnav {
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#timeshare-menu {
+	left: -250px;
     right: 0;
     margin: auto;
 	position: absolute; 
 	width: 100%;
-	max-width: 1100px;
+	max-width: 222px;
 	background-color: #fff; 
-	z-index: 200; 
-	padding: 20px;
+	z-index: 200;
 	display: none;
 	border-bottom: 1px solid #ccc;
 	-webkit-box-shadow: 0 2px 4px -2px #888;
        -moz-box-shadow: 0 2px 4px -2px #888;
             box-shadow: 0 2px 4px -2px #888;
 }
-#explore-menu2 .col-sm-6:last-child {
+#timeshare-menu .col-sm-6:last-child {
 	/*border-left: 1px dotted #ccc;	*/
 }
-#explore-menu2 h4 {
+#timeshare-menu h4 {
 	letter-spacing: 0.5px;	
 }
-#explore-menu2 p {
+#timeshare-menu p {
 	line-height: 14px;
 	margin: 0 0 8px;
 	font-size: 13px;
 }
-#explore-menu2 p.heading {
+#timeshare-menu p.heading {
 	font-family: 'Today';
 	text-transform: uppercase;
 	font-size: 15px;
 	margin: 5px 0;
 }
-#explore-menu2 p a {
+#timeshare-menu p a {
 	color: #42aad7;	
 }
-#explore-menu2 p a:hover {
+#timeshare-menu p a:hover {
 	text-decoration: none;	
 	color: #62caff;
 }
-#explore-menu2 p a.btn-info {
+#timeshare-menu p a.btn-info {
 	color: #fff;
 	font-family: 'Today';
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
+}
+
+.main-menu-sub {
+	padding: 0;
+	margin:0;
+    white-space: nowrap;
+    /*border-radius: 3px;
+    border: 1px solid rgba(207,212,216,.8);
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+    background-color: #fff;
+    position: absolute;
+    left: -.5625em;
+    width: auto;
+    text-align: left;
+    top: -31.56929em;
+    margin-top: .31641em;
+    padding: 0;
+    overflow: visible;
+    -webkit-transition: opacity 188.46198ms,-webkit-transform 188.46198ms,max-height 0 150ms,top 0 188.46198ms;
+    transition: opacity 188.46198ms,transform 188.46198ms,max-height 0s 150ms,top 0s 188.46198ms;*/
+}
+
+.main-menu-sub li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu-sub li a:focus{
+    outline:none;
+}
+
+.main-menu-sub li>a:not(.button) {
+    color: gray;
+    display: block;
+    padding: 19px 14px;
+    text-decoration: none;
+}
+
+.main-menu-sub li:hover {
+    background-color: #f8f8f8;
 }
 
 .featured {
@@ -632,7 +693,9 @@ a.read-more-show{
 	background-position: center;
 	background-size: cover;
 }
-/* Dropdown Menu */
+
+
+/*/////// DROPDOWN /////////*/
 
 .sub-dropdown-menu{
 	position: absolute;
@@ -693,6 +756,17 @@ a.next-step-experience{
 a.next-step-resorts{
 	background: #eaf5f8;
 }
+
+
+/*//////////////////////////////////*/
+
+/*/////// SALES PREVIEW /////////*/
+
+.card h3{
+
+}
+
+
 
 
 /*//////////////////////////////////*/
@@ -1588,9 +1662,7 @@ p.location i{
 
 
 .row {
-    /*display: table;*/
-    /*padding-right: 10px;
-    padding-left: 10px;*/
+   
 }
 
 .page-overflow	{
@@ -1926,7 +1998,7 @@ nav ul li {
 }
 
 
-@media only screen and (max-width : 699px) {
+@media only screen and (max-width : 768px) {
 	
 h1 {
 	font-size: 20px;

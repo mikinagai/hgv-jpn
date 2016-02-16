@@ -29,12 +29,14 @@
               <li><a class="active" href="#">タイムシェアについて</a></li>
               <li><a href="#">オーナーになったら</a></li>
               <li><a href="#">各リゾートについて</a></li>
+              <li><a href="#">販売説明会について</a></li>
+              <li><a href="#">リゾート宿泊プランについて</a></li>
             </ul>
           </div>
 
 
-          <!-- #1 Timeshare program - タイムシェアについて -->
-          <div id="timeshare-program" class="col-sm-8 main-column sub-content">
+          <!-- #1 タイムシェアについて -->
+          <div id="fq_timeshare-program" class="col-sm-8 main-column sub-content">
             <h1>タイムシェアについて</h1>
             
             <div class="panel-box">
@@ -112,84 +114,79 @@
               </div>
             </div> <!-- panel-box -->
             
-              
           </div> <!-- col-sm-8 -->
 
 
-
-
-          <!-- #2 Difference between timeshare and hotels / タイムシェアとホテル滞在の違い -->
-          <div id="become-owner" class="col-sm-8 main-column sub-content" style="display:none;">
-            <h1>オーナーになったら</h1>
-          </div> <!-- col-sm-8 -->
-
-
-          <!-- #3 Features - ヒルトン・グランド・バケーションズの特徴 -->
-          <div id="hilton-features" class="col-sm-8 main-column sub-content" style="display:none;">
-            <h1>ヒルトン・グランド・バケーションズの特徴</h1>
-          </div> <!-- col-sm-8 -->
-
-          <!-- #4 How to purchase - オーナーになったら -->
-          <div id="how-to-purchase" class="col-sm-8 main-column sub-content" style="display:none;">
+          <!-- #2 オーナーになったら -->
+          <div id="fq_become-owner" class="col-sm-8 main-column sub-content" style="display:none;">
             <h1>オーナーになったら</h1>
 
-            <div class="row block">
-              <div class="col-sm-5 text-center">
-                <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="panel-box">
+              <div class="panel-cell panel-cell-top">
+                <ul class="link-list">
+                  <li>
+                    <a href="#question-11">オーナーになると、ヒルトン･グランド･バケーション･クラブ以外でも様々な優待が受けられると聞きましたが、本当ですか？</a>
+                  </li>
+                  <li>
+                    <a href="#question-12">予約はどのように入れればよいのでしょうか？</a>
+                  </li>
+                  <li>
+                    <a href="#question-13">クラブポイントの利用方法やシステムってなんだか複雑そうですが･･･。</a>
+                  </li>
+                  <li>
+                    <a href="#question-14">インターネットでオーナー専用サイトがあると聞きました。そこではどのようなサービスが受けられるのでしょうか？</a>
+                  </li>
+                  <li>
+                    <a href="#question-15">タイムシェア・リゾートはオーナーしか利用することができないのでしょうか？</a>
+                  </li>
+                  <li>
+                    <a href="#question-16">ポイントを利用して、日本のホテルに泊まることはできますか？</a>
+                  </li>
+                </ul>
               </div>
-              <div class="col-sm-7">
-                <h3 class="quote">STEP 1: 資料請求</h3>
-                <p>タイムシェア・プログラムのご説明やヒルトン・グランド・バケーションズのリゾートを掲載した資料をご用意しております。インターネットやお電話でもお申し込みいただけますので、お気軽にお問い合わせください。</p>
-                <p><a href="grand-waikikian-hgvc/" class="btn btn-primary">資料請求・ダウンロード</a></p>
+              <div class="panel-cell">
+                <h5><a href="#question-11" id="question-11">オーナーになると、ヒルトン･グランド･バケーション･クラブ以外でも様々な優待が受けられると聞きましたが、本当ですか？</a></h5>
+                <p>はい。様々なご優待がございます。<br /><br />年４回発行しているオーナー様向けの会報誌『バケーション・タイムス』の中で、航空券のご優待などオーナー様限定のお得な情報を紹介しております。</p>
+
+                <h5><a href="#question-12" id="question-12">予約はどのように入れればよいのでしょうか？</a></h5>
+                <p>オーナー様専用ダイヤルにて承ります。または、オーナー専用サイトからでもお申し込みが可能です。共に日本語にて対応しておりますので、ご安心ください。</p>
+
+                <h5><a href="#question-13" id="question-13">クラブポイントの利用方法やシステムってなんだか複雑そうですが･･･。</a></h5>
+                <p>ご安心ください。オーナー専用サイトにて、各リゾートの紹介やポイントの使い方などを詳しく紹介しております。また、オーナー様専用ダイヤルにて専用のスタッフが日本語で各サービスのご案内をさせていただきます。</p>
+
+                <h5><a href="#question-14" id="question-14">インターネットでオーナー専用サイトがあると聞きました。そこではどのようなサービスが受けられるのでしょうか？</a></h5>
+                <p>リゾートの予約や管理費の支払いができ、オーナー特典情報などをいつでもご覧いただけます。</p>
+
+                <h5><a href="#question-15" id="question-15">タイムシェア・リゾートはオーナーしか利用することができないのでしょうか？</a></h5>
+                <p>オーナー様ご自身でご予約を入れていただければ、ご家族やご友人様にもご利用いただくことができます。</p>
+
+                <h5><a href="#question-16" id="question-16">ポイントを利用して、日本のホテルに泊まることはできますか？</a></h5>
+                <p>日本にあるヒルトン系列のホテルをご利用いただける他、15ヶ所のホテルハーヴェストにもお泊りいただけます。</p>
+
               </div>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-5 text-center">
-                <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
-              </div>
-              <div class="col-sm-7">
-                <h3 class="quote">STEP 2: 販売説明会に参加</h3>
-                <p>ヒルトン・グランド・バケーションズでは日本各地で説明会を開催しております。専任のスタッフがリゾートの詳細をはじめ、購入費用や諸経費、オーナープログラムなどについて個別にご説明させていただきます。</p>
-                <p><a href="grand-waikikian-hgvc/" class="btn btn-primary">資料請求・ダウンロード</a></p>
-              </div>
-            </div>
-
-
-
+            </div> <!-- panel-box -->
 
           </div> <!-- col-sm-8 -->
 
-          <!-- #5 For business -  各リゾートについて -->
-          <div id="for-business" class="col-sm-8 main-column sub-content" style="display:none;">
+
+          <!-- #3 各リゾートについて -->
+          <div id="fq_each-resort" class="col-sm-8 main-column sub-content" style="display:none;">
             <h1>各リゾートについて</h1>
-            <p>日本の皆様へ「タイムシェア」のご紹介を始めてからこれまで、おかげ様で43,000組を超えるオーナー様をお迎えするに至りました。</p>
-            <p>そして近年、法人名義でのオーナーシップご購入が着実に増えております。 大切な社員の皆様に最高の休暇を提供されることは貴社の福利厚生に大きく寄与すること間違いありません。貴社も是非、合理的なスタイルでハワイに別荘を所有されてはいかがですか？ ヒルトン・グランド・バケーションズのバケーション･カウンセラーが、タイムシェア・システムや効果的なご利用方法について詳しくご案内させていただきます。訪問説明も承っておりますので、まずはお問い合わせください。<p/>
-
-            <h1>法人オーナー様ご利用例</h1>
-
-            <div class="advice-wrapper">
-                <div class="row">
-                    <div class="col-sm-12">
-                      <h4 class="quote">経営される冠婚葬祭会社の会員様を毎年ハワイへご招待
-                        <span class="q-smaller">滋賀県在住/O.Sさん（冠婚葬祭会社経営）【法人名義で購入】</span>
-                      </h4>
-                      <article>
-                          <p>O.S.さんは以前から大のハワイ好き。どうせ毎年行くハワイなら少しでも早くタイムシェアオーナーとして、とお考えでオーナーシップ販売説明会にお越しくださいました。<span class="read-more-content"><br /><br />
-
-                          お部屋もシステムもすぐにお気に召していただいて即ご購入！となったのですが、個人名義だけでなく法人名義でも購入可能なことを知ったO.S.さん、名案が浮かびました。<br /><br />
-
-                          個人名義の他にもう1週を法人で購入、経営される冠婚葬祭会社の会員様を毎年ハワイへご招待することにしたのです。しかもヒルトン・グランド・バケーション・クラブのフレキシブルなシステムを使えばポイントを小分けにして複数のお客様をお招きすることができるのです。これはまさにグッド・アイデア！　販売促進として絶大な効果を発揮しています。
-
-                          </p></span>                 
-                      </article>
-                    </div> <!-- col-sm-10 -->
-                </div> <!-- row -->
-            </div><!-- advice-wrapper -->
-
-
-
           </div> <!-- col-sm-8 -->
+
+
+          <!-- #4 販売説明会について -->
+          <div id="fq_sales-preview" class="col-sm-8 main-column sub-content" style="display:none;">
+            <h1>販売説明会について</h1>
+          </div> <!-- col-sm-8 -->
+
+
+          <!-- #5 リゾート宿泊プランについて -->
+          <div id="fq_resort-plans" class="col-sm-8 main-column sub-content" style="display:none;">
+            <h1>リゾート宿泊プランについて</h1>
+          </div> <!-- col-sm-8 -->
+
+
 
 
           

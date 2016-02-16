@@ -47,10 +47,34 @@ $(document).ready(function(e){
       $('#for-business').show();
       break;
       case 'タイムシェアについて':
-      $('#timeshare-program').show();
+      $('#fq_timeshare-program').show();
       break;
       case 'オーナーになったら':
-      $('#become-owner').show();
+      $('#fq_become-owner').show();
+      break;
+      case '各リゾートについて':
+      $('#fq_each-resort').show();
+      break;
+      case '販売説明会について':
+      $('#fq_sales-preview').show();
+      break;
+      case 'リゾート宿泊プランについて':
+      $('#fq_resort-plans').show();
+      break;
+      case 'タムシェア販売説明会':
+      $('#sales-preview').show();
+      break;
+      case '販売説明会の流れ':
+      $('#sales-tower-flow').show();
+      break;
+      case '開催地・日程':
+      $('#tour-location').show();
+      break;
+      case '来場ご予約（ハワイ）':
+      $('#booking-form-hawaii').show();
+      break;
+      case '来場ご予約（国内）':
+      $('#booking-form-japan').show();
       break;
     }
   });
@@ -128,7 +152,7 @@ $(window).resize(function(e){
  
 function mobileMenu(){
   var width = $(window).width();
-  if(width <= 599){
+  if(width <= 767){
 	 $("nav ul").addClass("dropdown-menu");  
   }
   else {
@@ -136,69 +160,39 @@ function mobileMenu(){
   }
 }
 
-$("header nav ul li a#open-explore").on('mouseenter', function(e){
-  if ($(window).width() >= 768){
-    closeDropdowns();
-    if(!$("#explore-menu").is(":visible")){
-      $("#explore-menu").slideDown(200);
-      $(this).addClass("active");
-    }
-    else {
-      $("#explore-menu").slideUp(200);  
-      $(this).removeClass("active");
-    }
-    e.preventDefault();
-  }
-});
-
-$("header nav ul li a#open-explore2").on('mouseenter', function(e){
-  if ($(window).width() >= 768){
-    if(!$("#explore-menu2").is(":visible")){
-      $("#explore-menu2").slideDown(200);
-      $(this).addClass("active");
-    }
-    else {
-      $("#explore-menu2").slideUp(200);  
-      $(this).removeClass("active");
+function openNav(elem, e, mobile){
+  var id = $(elem).attr('id'); 
+  var selector = "#" + id + "-menu";
+  if ($(window).width() >= 768 || mobile){
+    $('.nav-dropdown-menu').slideUp(200); 
+    if(!$(selector).is(":visible")){
+      $(selector).slideDown(200);
+      $(elem).addClass("active");
+    } else {
+      $(selector).slideUp(200);  
+      $(elem).removeClass("active");
     }
     e.preventDefault();
   }
-});
+}
 
-
-$("header nav ul li a#open-explore").on('click', function(e){
-  if ($(window).width() <= 767){
-    closeDropdowns();
-    if(!$("#explore-menu").is(":visible")){
-      $("#explore-menu").slideDown(200);
-      $(this).addClass("active");
+$("header nav ul li a").on({
+    mouseenter: function(e) {
+        openNav(this, e);
+    },
+    mouseleave: function() {
+        // Handle mouseleave...
+    },
+    click: function(e) {
+        openNav(this, e, true);
+        console.log('clicked mobile');
     }
-    else {
-      $("#explore-menu").slideUp(200);  
-      $(this).removeClass("active");
-    }
-    e.preventDefault();
-  }
-});
-
-$("header nav ul li a#open-explore2").on('click', function(e){
-  if ($(window).width() <= 767){
-    if(!$("#explore-menu2").is(":visible")){
-      $("#explore-menu2").slideDown(200);
-      $(this).addClass("active");
-    }
-    else {
-      $("#explore-menu2").slideUp(200);  
-      $(this).removeClass("active");
-    }
-    e.preventDefault();
-  }
-});
+}, null);
 
 function closeDropdowns(){
   $("#explore-menu").slideUp(200);
     $('header nav ul li a').removeClass("active");
-    $("#explore-menu2").slideUp(200);
+    $("#timeshare-menu").slideUp(200);
 }
 
 $('.nav-dropdown-menu').on('mouseleave', function(){
