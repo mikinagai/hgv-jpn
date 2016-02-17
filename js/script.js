@@ -76,6 +76,18 @@ $(document).ready(function(e){
       case '来場ご予約（国内）':
       $('#booking-form-japan').show();
       break;
+      case 'リゾート宿泊プラン':
+      $('#vacation-packages').show();
+      break;
+      case 'オアフ島プラン':
+      $('#oahu-pkgs').show();
+      break;
+      case 'ハワイ島プラン':
+      $('#hawaii-pkgs').show();
+      break;
+      case 'Wアイランド・プラン':
+      $('#wisland-pkgs').show();
+      break;
     }
   });
 

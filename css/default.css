@@ -47,6 +47,10 @@ li {
 	padding: 1px;
 }
 
+img.mobile-show{
+		display: none;
+	}
+
 @media screen and (max-width: 768px){
 	
 	.nav-dropdown-menu{
@@ -59,6 +63,15 @@ li {
 	.content-wrapper{
 		padding: 25px;
 	}
+
+	img.mobile-hide{
+		display: none !important;
+	}
+
+	img.mobile-show{
+		display: block !important;
+	}
+
 }
 
 
@@ -127,6 +140,10 @@ h4{
 	background: #f8f8f8;
 }
 
+.btns{
+	margin-right:10px;
+}
+
 .btn-primary {
 	background-color: #00a8cb;
 	border: none;
@@ -141,10 +158,31 @@ h4{
 	background-color: #0097b7;
 }
 
+.btn-secondary {
+	background-color: #bbb0a6;
+	border: none;
+    border-radius: 2px;
+    padding: 10px 41px;
+    color:#FFF;
+    cursor: pointer;
+    -webkit-transition: background-color 125.60991ms cubic-bezier(.42,0,.58,1);
+    transition: background-color 125.60991ms cubic-bezier(.42,0,.58,1);
+}
+.btn-secondary:hover {
+	background-color: #b2a69a;
+	color:#FFF;
+}
+
+
 @media screen and (max-width: 768px){
-	.btn-primary{
+	.btn-primary, .btn-secondary{
 		width:100%;
 	}
+	.btns{
+	margin-right:0px;
+	margin-bottom:10px;
+	}
+
 }
 
 .btn-full {
@@ -348,7 +386,7 @@ nav ul li.active a, nav ul li a:hover {
     margin-left: auto;
 }
 
-#timeshare-menu {
+#timeshare-menu{
 	left: -250px;
     right: 0;
     margin: auto;
@@ -363,6 +401,58 @@ nav ul li.active a, nav ul li a:hover {
        -moz-box-shadow: 0 2px 4px -2px #888;
             box-shadow: 0 2px 4px -2px #888;
 }
+
+#sales-prev-menu{
+	left:0px;
+    right:  -180px;
+    margin: auto;
+	position: absolute; 
+	width: 100%;
+	max-width: 222px;
+	background-color: #fff; 
+	z-index: 200;
+	display: none;
+	border-bottom: 1px solid #ccc;
+	-webkit-box-shadow: 0 2px 4px -2px #888;
+       -moz-box-shadow: 0 2px 4px -2px #888;
+            box-shadow: 0 2px 4px -2px #888;
+}
+
+#resort-pln-menu{
+	left:0px;
+    right:  -383px;
+    margin: auto;
+	position: absolute; 
+	width: 100%;
+	max-width: 222px;
+	background-color: #fff; 
+	z-index: 200;
+	display: none;
+	border-bottom: 1px solid #ccc;
+	-webkit-box-shadow: 0 2px 4px -2px #888;
+       -moz-box-shadow: 0 2px 4px -2px #888;
+            box-shadow: 0 2px 4px -2px #888;
+}
+
+#f_a_q-menu{
+	left:0px;
+    right:  -860px;
+    margin: auto;
+	position: absolute; 
+	width: 100%;
+	max-width: 222px;
+	background-color: #fff; 
+	z-index: 200;
+	display: none;
+	border-bottom: 1px solid #ccc;
+	-webkit-box-shadow: 0 2px 4px -2px #888;
+       -moz-box-shadow: 0 2px 4px -2px #888;
+            box-shadow: 0 2px 4px -2px #888;
+}
+
+
+
+
 #timeshare-menu .col-sm-6:last-child {
 	/*border-left: 1px dotted #ccc;	*/
 }
@@ -1998,7 +2088,7 @@ nav ul li {
 }
 
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 699px) {
 	
 h1 {
 	font-size: 20px;
