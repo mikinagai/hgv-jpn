@@ -11,10 +11,10 @@
         <ul>
           <li class="nav-main"><a href="<?php echo getHost(); ?>timeshare/" id="timeshare">タイムシェア<span class="caret"></span></a></li>
           <li class="nav-main"><a href="<?php echo getHost(); ?>explore/" id="explore">リゾート紹介<span class="caret"></span></a></li>
-          <li class="nav-main"><a href="<?php echo getHost(); ?>sales-preview/">販売説明会<span class="caret"></span></a></li>
-          <li class="nav-main"><a href="http://jobs.hiltongrandvacations.com/" target="_blank">リゾート宿泊プラン<span class="caret"></span></a></li>
+          <li class="nav-main"><a href="<?php echo getHost(); ?>sales-preview/" id="sales-prev">販売説明会<span class="caret"></span></a></li>
+          <li class="nav-main"><a href="<?php echo getHost(); ?>vacation-packages/" id="resort-pln">リゾート宿泊プラン<span class="caret"></span></a></li>
           <li class="nav-main"><a href="http://jobs.hiltongrandvacations.com/" target="_blank">オーナーの声</a></li>
-          <li class="nav-main"><a href="<?php echo getHost(); ?>faq/">よくある質問<span class="caret"></span></a></li>
+          <li class="nav-main"><a href="<?php echo getHost(); ?>faq/" id="f_a_q">よくある質問<span class="caret"></span></a></li>
           <li class="nav-main"><a href="http://jobs.hiltongrandvacations.com/" target="_blank">お問い合わせ</a></li>
           <!-- <li><a href="http://www.hgvclub.com/" target="_blank">Log In</a></li> -->
         </ul>
@@ -118,3 +118,93 @@
   </div>
 </div>
 
+<div style="position: relative; width: 100%;">
+  <div id="sales-prev-menu" class="nav-dropdown-menu">
+    <div class="container-fluid-subnav">
+      <div class="row">
+        <div class="col-sm-12">
+            <ul class="main-menu-sub">
+              <li>
+                <a href="<?php echo getHost(); ?>sales-preview/" tabindex="-1">販売説明会の流れ</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">開催地・日程</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">来場ご予約（国内）</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">来場ご予約（国内）</a>
+              </li>
+            </ul>
+        </div>
+        <!--div class="col-sm-3">
+          <h4>Recently Viewed</h4>
+          <br class="visible-xs" />
+        </div-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="position: relative; width: 100%;">
+  <div id="resort-pln-menu" class="nav-dropdown-menu">
+    <div class="container-fluid-subnav">
+      <div class="row">
+        <div class="col-sm-12">
+            <ul class="main-menu-sub">
+              <li>
+                <a href="<?php echo getHost(); ?>vacation-packages/" tabindex="-1">オアフ島プラン</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">ハワイ島プラン</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">Wアイランド・プラン</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">お申し込みフォーム</a>
+              </li>
+            </ul>
+        </div>
+        <!--div class="col-sm-3">
+          <h4>Recently Viewed</h4>
+          <br class="visible-xs" />
+        </div-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div style="position: relative; width: 100%;">
+  <div id="f_a_q-menu" class="nav-dropdown-menu">
+    <div class="container-fluid-subnav">
+      <div class="row">
+        <div class="col-sm-12">
+            <ul class="main-menu-sub">
+              <li>
+                <a href="<?php echo getHost(); ?>sales-preview/" tabindex="-1">タイムシェアについて</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">オーナーになったら</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">各リゾートについて</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">販売説明会について</a>
+              </li>
+              <li>
+                <a href="#" tabindex="-1">リゾート宿泊プランについて</a>
+              </li>
+            </ul>
+        </div>
+        <!--div class="col-sm-3">
+          <h4>Recently Viewed</h4>
+          <br class="visible-xs" />
+        </div-->
+      </div>
+    </div>
+  </div>
+</div>

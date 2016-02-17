@@ -25,61 +25,63 @@
           
           <div class="col-sm-4 aside">
             <ul class="sidebar-menu">
-              <li><a class="active" href="#">タムシェア販売説明会</a></li>
-              <li><a href="#">販売説明会の流れ</a></li>
-              <li><a href="#">開催地・日程</a></li>
-              <li><a href="#">来場ご予約（国内）</a></li>
-              <li><a href="#">来場ご予約（ハワイ）</a></li>
+              <li><a class="active" href="#">リゾート宿泊プラン</a></li>
+              <li><a href="#">オアフ島プラン</a></li>
+              <li><a href="#">ハワイ島プラン</a></li>
+              <li><a href="#">Wアイランド・プラン</a></li>
             </ul>
           </div>
 
 
-          <!-- #1 販売説明会 -->
-          <div id="sales-preview" class="col-sm-8 main-column sub-content">
+          <!-- #1 リゾート宿泊プラン -->
+          <div id="vacation-packages" class="col-sm-8 main-column sub-content">
           
             <div class="row content-wrapper">
-              <h1>タムシェア販売説明会</h1>
-              <p>販売説明会では「タイムシェアって何？」「会員リゾート権とは違うの？」「ハワイにしか行けないの？」といった皆さまからの様々な質問に、専任のスタッフがお答えし、オアフ島やハワイ島の魅力やヒルトン・グランド・バケーションズの柔軟で機能的な「タイムシェア・プログラム」を分かりやすくご紹介いたします。</p>
+              <h1>リゾート宿泊プラン</h1>
+              <h4 class="quote">タイムシェア・リゾートに体験宿泊してみませんか？</h4>
+              <p>ビーチライフ、ショッピングにナイトライフ。オアフ島のヒルトン・ハワイアン・ビレッジ・ワイキキビーチ・リゾートやショッピング街にそびえるホクラニ・ワイキキにご滞在できます。</p>
+              <p>ゴルフ、ハイキング、ボリケーノツアーなど、大自然で過ごしたい方はハワイ島にあるヒルトン・ワイコロア・ビレッジ、またはキングスランドにご滞在はいかがでしょうか？</p>
 
-              <h1>当日の流れ</h1>
+              <h1>選べる宿泊プラン</h1>
 
-              <div class="col-sm-3 col-xs-6">
-                <div class="steps-wrapper">
-                  <img src="img/1-sales-center.jpg" />
-                  <h3>Step 1</h3>
-                  <p>ご予約いただいた会場にご来場</p>
+              <div class="row block">
+                <div class="col-sm-4 text-center">
+                  <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
+                  <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
                 </div>
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="steps-wrapper">
-                  <img src="img/2-sales-center.jpg" />
-                  <h3>Step 2</h3>
-                  <p>専用スタッフのご紹介</p>
-                </div>
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="steps-wrapper">
-                  <img src="img/3-sales-center.jpg" />
-                  <h3>Step 3</h3>
-                  <p>タイムシェア・プログラムについてご案内</p>
-                </div>
-              </div>
-              <div class="col-sm-3 col-xs-6">
-                <div class="steps-wrapper">
-                  <img src="img/4-sales-center.jpg" />
-                  <h3>Step 4</h3>
-                  <p>終了。ご購入のお客様はそのままご契約いただけます。</p>
+                <div class="col-sm-8">
+                  <h3>オアフ島プラン</h3>
+                  <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
+                  <p>選べるアクティビティ付き</p>
+                  <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
                 </div>
               </div>
 
-              <h1>タイムシェア国内販売説明会</h1>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-              <p><a href="#" class="btn btn-primary">申し込みフォーム</a></p>
+              <div class="row block">
+                <div class="col-sm-4 text-center">
+                  <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
+                  <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                </div>
+                <div class="col-sm-8">
+                  <h3>ハワイ島プラン</h3>
+                  <p>一度は訪れてみたい、ハワイ島ワイコロア・ビーチ・リゾート内「キングス･ランド」に滞在する「ハワイ島スイートルーム・プラン」です。</p>
+                  <p>選べるアクティビティ付き</p>
+                  <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+                </div>
+              </div>
 
-              <h1>タイムシェアハワイ現地販売説明会</h1>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-              <p><a href="#" class="btn btn-primary">申し込みフォーム</a></p>
-
+              <div class="row block">
+                <div class="col-sm-4 text-center">
+                  <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
+                  <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                </div>
+                <div class="col-sm-8">
+                  <h3>Wアイランド・プラン</h3>
+                  <p>オアフ島ワイキキ中心部に2013年12月末にオープンした「ホクラニ・ワイキキ」と、ハワイ島ワイコロア・ビーチ・リゾート内「キングス・ランド」に滞在いただける欲張りプラン。両方の島を満喫できるお得なプランです。</p>
+                  <p>選べるアクティビティ付き</p>
+                  <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+                </div>
+              </div>
 
             </div> <!-- content-wrapper -->
 
@@ -88,66 +90,63 @@
 
 
 
-          <!-- #2 販売説明会の流れ -->
-          <div id="sales-tower-flow" class="col-sm-8 main-column sub-content" style="display:none;">
+          <!-- #2 オアフ島プラン -->
+          <div id="oahu-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
 
             <div class="row content-wrapper">
-              <h1>販売説明会の流れ</h1>
-
-              <div class="row block">
-                <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" class="lazyload" src="http://placehold.it/230x230" style="display: inline;">
-                </div>
-                <div class="col-sm-8">
-                  <h3>STEP1 : ご予約いただいた会場にご来場</h3>
-                  <p>私どもは販売説明会場を「ギャラリー」と称しています。東京会場のギャラリーは約100坪のスペースを誇り、プライベート・スペースが確保された14のブース、バーチャルツアーを体験できるシアタールームなど、海外リゾートを体感できる魅力的な設備となっております。</p>
-                  <p>ハワイ現地のギャラリーは、実際にご購入いただけるタイムシェアタワー内にあり、海やゴルフ場の素晴しい眺めを背景に、オーナー気分を味わっていただけます。</p>
-                </div>
-              </div>
-
-              <div class="row block">
-                <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" src="http://placehold.it/230x230" style="display: inline;">
-                </div>
-                <div class="col-sm-8">
-                  <h3>STEP2 : 専用スタッフのご紹介</h3>
-                  <p>まずは、入り口でチェックイン。お客様ひと組に対し、ひとりのスタッフが専属で担当させていただきます。</p>
-                  <p>ご説明はプライバシーを重視したブースで個別に行っております。</p>
-                </div>
-              </div>
-
-              <div class="row block">
-                <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" src="http://placehold.it/230x230" style="display: inline;">
-                </div>
-                <div class="col-sm-8">
-                  <h3>STEP3 : タイムシェア・プログラムについてご案内</h3>
-                  <p>お客様お一人おひとりに合ったタイムシェア・プログラムをご案内いたします。オアフ島やハワイ島リゾートのご説明、ヒルトン・グランド・バケーションズならではの、タイムシェアのお得な活用法、世界各地の施設情報をご説明させていただきます。</p>
-                  <p>ハワイでの販売説明会では、モデルルームも見学いただけます。</p>
-                </div>
-              </div>
-
-              <div class="row block">
-                <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" src="http://placehold.it/230x230" style="display: inline;">
-                </div>
-                <div class="col-sm-8">
-                  <h3>STEP4 : 終了</h3>
-                  <p>ご購入のお客様にはその場でご契約もいただけます。</p>
-                  <p>登記に必要な契約書を専属スタッフが丁寧にご説明いたしますので、安心してご契約いただけます。</p>
-                </div>
-              </div>
-
+              <h1>オアフ島プラン</h1>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
+
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+              </div>
+              <div class="col-sm-8">
+                <h3>リゾート宿泊プラン</h3>
+                <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
+                <p>選べるアクティビティ付き</p>
+                <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+              </div>
+            </div>
+
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+              </div>
+              <div class="col-sm-8">
+                <h3>リゾート宿泊プラン</h3>
+                <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
+                <p>選べるアクティビティ付き</p>
+                <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+              </div>
+            </div>
+
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+              </div>
+              <div class="col-sm-8">
+                <h3>ホテル宿泊プラン</h3>
+                <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
+                <p>選べるアクティビティ付き</p>
+                <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+              </div>
+            </div>
+
+            
 
 
           </div> <!-- col-sm-8 -->
 
 
-          <!-- #3 開催地・日程 -->
-          <div id="tour-location" class="col-sm-8 main-column sub-content" style="display:none;">
+          <!-- #3 ハワイ島プラン -->
+          <div id="hawaii-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
             <div class="row content-wrapper">
-              <h1>開催地・日程</h1>
+              <h1>ハワイ島プラン</h1>
               <p>お客様のご旅行スタイル、これからのバケーションプランなどを伺いながら、タイムシェアの概要や仕組みを専任のスタッフが丁寧にご説明します。販売説明会は、日本各地、そしてハワイでほぼ毎日開催。開催地につきまして、以下をご覧ください。</p>
             </div>
 
@@ -285,14 +284,9 @@
 
           </div> <!-- col-sm-8 -->
 
-          <!-- #4 来場ご予約（ハワイ） -->
-          <div id="booking-form-hawaii" class="col-sm-8 main-column sub-content" style="display:none;">
-            <h1>来場ご予約（ハワイ）</h1>
-          </div> <!-- col-sm-8 -->
-
-          <!-- #5 来場ご予約（国内） -->
-          <div id="booking-form-japan" class="col-sm-8 main-column sub-content" style="display:none;">
-            <h1>来場ご予約（国内）</h1>
+          <!-- #5 Wアイランド・プラン -->
+          <div id="wisland-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
+            <h1>Wアイランド・プラン</h1>
 
           </div> <!-- col-sm-8 -->
 
