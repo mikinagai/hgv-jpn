@@ -8,12 +8,11 @@
 </head>
 <body>
 
-  <div class="container timeshare-program-container">
+  <div class="container page-container">
   
     <?php addHeader(); ?>
     
-    <div id="subbanner"><!-- 
-      <img class="slider-turtle" src="img/slider-turtles.png" /> -->
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
     </div>
     
     <!-- <div id="subtitle">
