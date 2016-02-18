@@ -158,6 +158,12 @@ h6{
 	background: #f8f8f8;
 }
 
+.btn{
+	 -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
 .btns{
 	margin-right:10px;
 }
@@ -169,8 +175,6 @@ h6{
     padding: 10px 41px;
     color:#FFF;
     cursor: pointer;
-    -webkit-transition: background-color 125.60991ms cubic-bezier(.42,0,.58,1);
-    transition: background-color 125.60991ms cubic-bezier(.42,0,.58,1);
 }
 .btn-primary:hover {
 	background-color: #0097b7;
@@ -183,17 +187,41 @@ h6{
     padding: 10px 41px;
     color:#FFF;
     cursor: pointer;
-    -webkit-transition: background-color 125.60991ms cubic-bezier(.42,0,.58,1);
-    transition: background-color 125.60991ms cubic-bezier(.42,0,.58,1);
 }
 .btn-secondary:hover {
 	background-color: #b2a69a;
 	color:#FFF;
 }
 
+.btn-pink {
+	background-color: #cb4e78;
+	border: none;
+    border-radius: 2px;
+    padding: 10px 41px;
+    color:#FFF;
+    cursor: pointer;
+}
+.btn-pink:hover {
+	background-color: #bb486f;
+	color:#FFF;
+}
+
+.btn-green {
+	background-color: #75d3c0;
+	border: none;
+    border-radius: 2px;
+    padding: 10px 41px;
+    color:#FFF;
+    cursor: pointer;
+}
+.btn-green:hover {
+	background-color: #6cc2b1;
+	color:#FFF;
+}
+
 
 @media screen and (max-width: 768px){
-	.btn-primary, .btn-secondary{
+	.btn-primary, .btn-secondary, .btn-pink, .btn-green{
 		width:100%;
 	}
 	.btns{
@@ -1689,6 +1717,9 @@ p.location i{
 	background: #FFF;
 }
 
+.pink{color:#cb4e78;}
+.blue{color:#00A8C7;}
+.green{color:#75d3c0;}
 
 @media screen and (max-width: 768px){
 	body .photo-tile{
