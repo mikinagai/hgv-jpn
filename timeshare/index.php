@@ -223,12 +223,12 @@
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show">
+                <img src="img/step6-sm.jpg" class="mobile-hide" style="display: inline;">
+                <img src="img/step6-lg.jpg" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>オーナー様の誕生</h3>
-                <h6>ようこそ、ヒルトン・グランド・バケーションズへ！</h6>
+                <h6 style="margin-top: 20px;">ようこそ、ヒルトン・グランド・バケーションズへ！</h6>
                 <p> オーナーカードが届いたその日から、オーナーとしてのリゾートライフが始まります。「次のバケーションはどう過ごそうか？」、「水着を新調しようかな」、「次のハワイではサーフィンに挑戦！」と、楽しい話題は尽きません。</p>
               </div>
             </div>
