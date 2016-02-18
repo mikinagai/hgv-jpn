@@ -41,7 +41,7 @@
           </div> <!-- row -->
         </div><!-- resort-navbar-container -->
 
-        <select id="resort-nav-mobile" class="form-control">
+        <select class="form-control nav-mobile">
           <option value="リゾート">リゾート</option>
           <option value="ハワイの１週間">ハワイの１週間</option>
           <option value="イベント">イベント</option>

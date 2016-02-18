@@ -64,6 +64,10 @@ img.mobile-show{
 		padding: 25px;
 	}
 
+	.main-column{
+		padding: 25px;
+	}
+
 	img.mobile-hide{
 		display: none !important;
 	}
@@ -82,7 +86,7 @@ img.mobile-show{
     padding: 10px 0 10px 12px;
 }
 
-.quote span.q-smaller{
+span.q-smaller{
 	display: block;
     font-size: 12px;
     line-height: 20px;
@@ -122,12 +126,22 @@ h3.eng{
 
 
 h4{ 
-	font-size: 16px;
-	font-weight: 300;
-    line-height: 27px;
+	font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
 }
 
+h6{ 
+	font-size: 13px;
+    font-weight: 500;
+}
 
+.text-sub{
+	background-color: #f8f8f8;
+    padding: 12px;
+    color: gray;
+    border-bottom: 1px solid #e7e7e7;
+}
 .content {
 	background-color: transparent;
 	color: #333;
@@ -199,9 +213,9 @@ a.viewmore-link{
 .aside {
 	padding: 0 30px 0 35px;
 }
-.main-column {
+/*.main-column {
 	padding-right: 40px;	
-}
+}*/
 .aside p, .aside li, .aside blockquote {
 	font-size: 12px;
 	line-height: 18px;
@@ -885,16 +899,20 @@ nav#resort-navbar .resort-navbar-container{
 
 }
 
-#resort-nav-mobile{
+.nav-mobile{
 	display: none;
 }
 
 @media screen and (max-width: 768px){
-	.resort-navbar-container{
+	.resort-navbar-container, ul.sidebar-menu{
 		display: none;
 	}
 
-	#resort-nav-mobile{
+	#subcontent{
+		padding-top: 0 !important;
+	}
+
+	.nav-mobile{
 	display: block;
     max-width: 90%;
     margin: auto;
@@ -2224,9 +2242,9 @@ nav ul li {
 .aside {
 	padding: 20px 0 0 0;
 }
-.main-column {
+/*.main-column {
 	padding: 0;	
-}
+}*/
 	
 }
 .job-well p {

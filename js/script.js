@@ -128,7 +128,7 @@ $(document).ready(function(e){
     }
   });
 
-  $('#resort-nav-mobile').change(function(){
+  $('.nav-mobile').change(function(){
     var url = $(this).val();
     $('.sub-content').hide();
     switch (url){
@@ -152,6 +152,15 @@ $(document).ready(function(e){
       break;
       case 'ショッピング':
       $('#shopping').show();
+      break;
+      case 'タムシェア・プログラム':
+      $('#timeshare-program').show();
+      break;
+      case 'ご購入までの流れ':
+      $('#how-to-purchase').show();
+      break;
+      case '法人のお客様へ':
+      $('#for-business').show();
       break;
     }
   });
