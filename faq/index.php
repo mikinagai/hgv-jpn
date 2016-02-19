@@ -8,11 +8,11 @@
 </head>
 <body>
 
-  <div class="container timeshare-program-container">
+  <div class="container page-container">
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
     </div>
     
     <!-- <div id="subtitle">

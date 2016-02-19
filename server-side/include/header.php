@@ -184,7 +184,7 @@
         <div class="col-sm-12">
             <ul class="main-menu-sub">
               <li>
-                <a href="<?php echo getHost(); ?>sales-preview/" tabindex="-1">タイムシェアについて</a>
+                <a href="<?php echo getHost(); ?>faq/" tabindex="-1">タイムシェアについて</a>
               </li>
               <li>
                 <a href="#" tabindex="-1">オーナーになったら</a>

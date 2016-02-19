@@ -614,9 +614,7 @@ nav ul li.active a, nav ul li a:hover {
 	line-height: 18px !important;	
 }
 
-
-
-#homeslideshow, #destinationslideshow {
+#homeslideshow {
 	position: relative;	
 	height: 500px;
 }
@@ -665,6 +663,45 @@ nav ul li.active a, nav ul li a:hover {
 #homeslideshow #slide4{
 	background: url('../img/banner01.jpg') no-repeat;
     background-position-y: -200px;
+}
+
+
+#destinationslideshow {
+	position: relative;	
+	height: 500px;
+}
+
+#destinationslideshow #myCarousel .item{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#destinationslideshow #myCarousel .item{
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+#destinationslideshow #slide {
+	margin: 0 auto 20px;	
+}
+
+
+@media screen and (max-width: 768px){
+	#subbanner {
+		min-height:300px;
+	}
+	#destinationslideshow {
+    	height: 300px;
+    }
+    #destinationslideshow #myCarousel .item {
+    height: 300px;
+	}
+	
 }
 
 #homeslider #slide {
@@ -803,7 +840,7 @@ a.read-more-show{
 	#subbanner {
 		min-height:300px;
 	}
-	#homeslideshow, #destinationslideshow {
+	#homeslideshow {
     	height: 300px;
     }
     #homeslideshow #myCarousel .item {
@@ -1577,7 +1614,7 @@ label.error {
 
 #points-container, #points-next-container  {
 	display: none;
-	background-color: #fff;	
+	background-color: #f8f8f8;	
 	min-height: 480px;
 	padding: 50px 40px 80px;
 	max-width: 1100px;
