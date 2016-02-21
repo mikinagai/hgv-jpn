@@ -26,11 +26,11 @@
           <div class="col-sm-4 aside">
             <ul class="sidebar-menu">
               <li class="sidebar-menu-header"><h3>よくある質問</h3></li>
-              <li><a class="active" href="#">タイムシェアについて</a></li>
-              <li><a href="#">オーナーになったら</a></li>
-              <li><a href="#">各リゾートについて</a></li>
-              <li><a href="#">販売説明会について</a></li>
-              <li><a href="#">リゾート宿泊プランについて</a></li>
+              <li><a menu="fq_timeshare-program" href="#">タイムシェアについて</a></li>
+              <li><a menu="fq_become-owner" href="#">オーナーになったら</a></li>
+              <li><a menu="fq_each-resort" href="#">各リゾートについて</a></li>
+              <li><a menu="fq_sales-preview" href="#">販売説明会について</a></li>
+              <li><a menu="fq_resort-plans" href="#">リゾート宿泊プランについて</a></li>
             </ul>
           </div>
 

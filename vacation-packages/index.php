@@ -25,10 +25,11 @@
           
           <div class="col-sm-4 aside">
             <ul class="sidebar-menu">
-              <li><a class="active" href="#">リゾート宿泊プラン</a></li>
-              <li><a href="#">オアフ島プラン</a></li>
-              <li><a href="#">ハワイ島プラン</a></li>
-              <li><a href="#">Wアイランド・プラン</a></li>
+              <li><a menu="vacation-packages" href="#">リゾート宿泊プラン</a></li>
+              <li><a menu="oahu-pkgs" href="#">オアフ島プラン</a></li>
+              <li><a menu="hawaii-pkgs" href="#">ハワイ島プラン</a></li>
+              <li><a menu="wisland-pkgs" href="#">Wアイランド・プラン</a></li>
+              <li><a menu="vacation-pkgs-forms" href="#">お申し込みフォーム</a></li>
             </ul>
           </div>
 
@@ -287,6 +288,12 @@
           <!-- #5 Wアイランド・プラン -->
           <div id="wisland-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
             <h1>Wアイランド・プラン</h1>
+
+          </div> <!-- col-sm-8 -->
+
+          <!-- #6 Forms -->
+          <div id="vacation-pkgs-forms" class="col-sm-8 main-column sub-content" style="display:none;">
+            <h1>お申し込みフォーム</h1>
 
           </div> <!-- col-sm-8 -->
 

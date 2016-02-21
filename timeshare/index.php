@@ -25,9 +25,9 @@
           
           <div class="col-sm-4 aside">
             <ul class="sidebar-menu">
-              <li><a class="active" href="#">タムシェア・プログラム</a></li>
-              <li><a href="#">ご購入までの流れ</a></li>
-              <li><a href="#">法人のお客様へ</a></li>
+              <li><a menu="timeshare-program" href="#">タムシェア・プログラム</a></li>
+              <li><a menu="how-to-purchase" href="#">ご購入までの流れ</a></li>
+              <li><a menu="for-business" href="#">法人のお客様へ</a></li>
             </ul>
 
             <select class="form-control nav-mobile">
