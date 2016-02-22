@@ -8,11 +8,11 @@
 </head>
 <body>
 
-  <div class="container timeshare-program-container">
+  <div class="container page-container">
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
     </div>
     
     <!-- <div id="subtitle">
@@ -37,12 +37,12 @@
           <!-- #1 販売説明会 -->
           <div id="sales-preview" class="col-sm-8 main-column sub-content">
           
-            <div class="row content-wrapper">
-              <h1>タムシェア販売説明会</h1>
-              <p>販売説明会では「タイムシェアって何？」「会員リゾート権とは違うの？」「ハワイにしか行けないの？」といった皆さまからの様々な質問に、専任のスタッフがお答えし、オアフ島やハワイ島の魅力やヒルトン・グランド・バケーションズの柔軟で機能的な「タイムシェア・プログラム」を分かりやすくご紹介いたします。</p>
+            <h1>タムシェア販売説明会</h1>
+            <p>販売説明会では「タイムシェアって何？」「会員リゾート権とは違うの？」「ハワイにしか行けないの？」といった皆さまからの様々な質問に、専任のスタッフがお答えし、オアフ島やハワイ島の魅力やヒルトン・グランド・バケーションズの柔軟で機能的な「タイムシェア・プログラム」を分かりやすくご紹介いたします。</p>
 
-              <h1>当日の流れ</h1>
+            <h1>当日の流れ</h1>
 
+            <div class="row space-bottom">
               <div class="col-sm-3 col-xs-6">
                 <div class="steps-wrapper">
                   <img src="img/1-sales-center.jpg" />
@@ -71,17 +71,31 @@
                   <p>終了。ご購入のお客様はそのままご契約いただけます。</p>
                 </div>
               </div>
+            </div>
 
-              <h1>タイムシェア国内販売説明会</h1>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-              <p><a href="#" class="btn btn-primary">申し込みフォーム</a></p>
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="img/sales-prev-japan-sm.jpg" class="mobile-hide" />
+                <img src="img/sales-prev-japan-lg.jpg" class="mobile-show" />
+              </div>
+              <div class="col-sm-8">
+                <h3>タイムシェア国内販売説明会</h3>
+                <p>国内会場の説明会をご予約される方はこちらよりお申し込みください。</p>
+                <p><a href="#" class="btn btn-primary btns">来場ご予約お申し込み</a></p>
+              </div>
+            </div>
 
-              <h1>タイムシェアハワイ現地販売説明会</h1>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
-              <p><a href="#" class="btn btn-primary">申し込みフォーム</a></p>
-
-
-            </div> <!-- content-wrapper -->
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="img/sales-prev-hawaii-sm.jpg" class="mobile-hide" />
+                <img src="img/sales-prev-hawaii-lg.jpg" class="mobile-show" />
+              </div>
+              <div class="col-sm-8">
+                <h3>タイムシェアハワイ現地販売説明会</h3>
+                <p>現地ハワイにてご来場ご予約をされる方はこちらよりお申し込みください。</p>
+                <p><a href="#" class="btn btn-primary btns">来場ご予約お申し込み</a></p>
+              </div>
+            </div>
 
           </div> <!-- col-sm-8 -->
 
@@ -91,53 +105,54 @@
           <!-- #2 販売説明会の流れ -->
           <div id="sales-tower-flow" class="col-sm-8 main-column sub-content" style="display:none;">
 
-            <div class="row content-wrapper">
-              <h1>販売説明会の流れ</h1>
+            <h1>販売説明会の流れ</h1>
 
-              <div class="row block">
-                <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" class="lazyload" src="http://placehold.it/230x230" style="display: inline;">
-                </div>
-                <div class="col-sm-8">
-                  <h3>STEP1 : ご予約いただいた会場にご来場</h3>
-                  <p>私どもは販売説明会場を「ギャラリー」と称しています。東京会場のギャラリーは約100坪のスペースを誇り、プライベート・スペースが確保された14のブース、バーチャルツアーを体験できるシアタールームなど、海外リゾートを体感できる魅力的な設備となっております。</p>
-                  <p>ハワイ現地のギャラリーは、実際にご購入いただけるタイムシェアタワー内にあり、海やゴルフ場の素晴しい眺めを背景に、オーナー気分を味わっていただけます。</p>
-                </div>
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
-
-              <div class="row block">
-                <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" src="http://placehold.it/230x230" style="display: inline;">
-                </div>
-                <div class="col-sm-8">
-                  <h3>STEP2 : 専用スタッフのご紹介</h3>
-                  <p>まずは、入り口でチェックイン。お客様ひと組に対し、ひとりのスタッフが専属で担当させていただきます。</p>
-                  <p>ご説明はプライバシーを重視したブースで個別に行っております。</p>
-                </div>
+              <div class="col-sm-8">
+                <h3>STEP 1 : ご予約いただいた会場にご来場</h3>
+                <p>私どもは販売説明会場を「ギャラリー」と称しています。東京会場のギャラリーは約100坪のスペースを誇り、プライベート・スペースが確保された14のブース、バーチャルツアーを体験できるシアタールームなど、海外リゾートを体感できる魅力的な設備となっております。</p>
+                <p>ハワイ現地のギャラリーは、実際にご購入いただけるタイムシェアタワー内にあり、海やゴルフ場の素晴しい眺めを背景に、オーナー気分を味わっていただけます。</p>
               </div>
+            </div>
 
-              <div class="row block">
-                <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" src="http://placehold.it/230x230" style="display: inline;">
-                </div>
-                <div class="col-sm-8">
-                  <h3>STEP3 : タイムシェア・プログラムについてご案内</h3>
-                  <p>お客様お一人おひとりに合ったタイムシェア・プログラムをご案内いたします。オアフ島やハワイ島リゾートのご説明、ヒルトン・グランド・バケーションズならではの、タイムシェアのお得な活用法、世界各地の施設情報をご説明させていただきます。</p>
-                  <p>ハワイでの販売説明会では、モデルルームも見学いただけます。</p>
-                </div>
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+              <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
-
-              <div class="row block">
-                <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" src="http://placehold.it/230x230" style="display: inline;">
-                </div>
-                <div class="col-sm-8">
-                  <h3>STEP4 : 終了</h3>
-                  <p>ご購入のお客様にはその場でご契約もいただけます。</p>
-                  <p>登記に必要な契約書を専属スタッフが丁寧にご説明いたしますので、安心してご契約いただけます。</p>
-                </div>
+              <div class="col-sm-8">
+                <h3>STEP 2 : 専用スタッフのご紹介</h3>
+                <p>まずは、入り口でチェックイン。お客様ひと組に対し、ひとりのスタッフが専属で担当させていただきます。</p>
+                <p>ご説明はプライバシーを重視したブースで個別に行っております。</p>
               </div>
+            </div>
 
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+              <img src="http://placehold.it/767x300" class="mobile-show">
+              </div>
+              <div class="col-sm-8">
+                <h3>STEP 3 : タイムシェア・プログラムについてご案内</h3>
+                <p>お客様お一人おひとりに合ったタイムシェア・プログラムをご案内いたします。オアフ島やハワイ島リゾートのご説明、ヒルトン・グランド・バケーションズならではの、タイムシェアのお得な活用法、世界各地の施設情報をご説明させていただきます。</p>
+                <p>ハワイでの販売説明会では、モデルルームも見学いただけます。</p>
+              </div>
+            </div>
+
+            <div class="row block">
+              <div class="col-sm-4 text-center">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+              <img src="http://placehold.it/767x300" class="mobile-show">
+              </div>
+              <div class="col-sm-8">
+                <h3>STEP 4 : 終了</h3>
+                <p>ご購入のお客様にはその場でご契約もいただけます。</p>
+                <p>登記に必要な契約書を専属スタッフが丁寧にご説明いたしますので、安心してご契約いただけます。</p>
+              </div>
             </div>
 
 
@@ -146,10 +161,8 @@
 
           <!-- #3 開催地・日程 -->
           <div id="tour-location" class="col-sm-8 main-column sub-content" style="display:none;">
-            <div class="row content-wrapper">
-              <h1>開催地・日程</h1>
-              <p>お客様のご旅行スタイル、これからのバケーションプランなどを伺いながら、タイムシェアの概要や仕組みを専任のスタッフが丁寧にご説明します。販売説明会は、日本各地、そしてハワイでほぼ毎日開催。開催地につきまして、以下をご覧ください。</p>
-            </div>
+            <h1>開催地・日程</h1>
+            <p>お客様のご旅行スタイル、これからのバケーションプランなどを伺いながら、タイムシェアの概要や仕組みを専任のスタッフが丁寧にご説明します。販売説明会は、日本各地、そしてハワイでほぼ毎日開催。開催地につきまして、以下をご覧ください。</p>
 
             <div class="row block">
               <div class="col-sm-4 text-center">

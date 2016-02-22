@@ -8,11 +8,11 @@
 </head>
 <body>
 
-  <div class="container timeshare-program-container">
+  <div class="container page-container">
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
     </div>
     
     <!-- <div id="subtitle">
@@ -44,42 +44,42 @@
 
               <h1>選べる宿泊プラン</h1>
 
-              <div class="row block">
+              <div class="row block" style="background-image: url('img/hula-girls.jpg');background-repeat: no-repeat;background-position: right bottom;">
                 <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                  <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                  <img src="img/pkg-oahu-thumb-sm.jpg" class="mobile-hide" />
+                  <img src="img/pkg-oahu-thumb-lg.jpg" class="mobile-show" />
                 </div>
                 <div class="col-sm-8">
-                  <h3>オアフ島プラン</h3>
+                  <h3 class="pink">オアフ島プラン</h3>
                   <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+                  <p><a href="#" class="btn btn-pink">予約・お問い合わせ</a></p>
                 </div>
               </div>
 
-              <div class="row block">
+              <div class="row block" style="background-image: url('img/turtles.jpg');background-repeat: no-repeat;background-position: right bottom;">
                 <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                  <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                  <img src="img/pkg-hawaii-thumb-sm.jpg" class="mobile-hide" />
+                  <img src="img/pkg-hawaii-thumb-lg.jpg" class="mobile-show" />
                 </div>
                 <div class="col-sm-8">
-                  <h3>ハワイ島プラン</h3>
+                  <h3 class="blue">ハワイ島プラン</h3>
                   <p>一度は訪れてみたい、ハワイ島ワイコロア・ビーチ・リゾート内「キングス･ランド」に滞在する「ハワイ島スイートルーム・プラン」です。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+                  <p><a href="#" class="btn btn-primary">予約・お問い合わせ</a></p>
                 </div>
               </div>
 
-              <div class="row block">
+              <div class="row block" style="background-image: url('img/lizard.jpg');background-repeat: no-repeat;background-position: right bottom;">
                 <div class="col-sm-4 text-center">
-                  <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                  <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                  <img src="img/pkg-w-thumb-sm.jpg" class="mobile-hide" />
+                  <img src="img/pkg-w-thumb-lg.jpg" class="mobile-show" />
                 </div>
                 <div class="col-sm-8">
-                  <h3>Wアイランド・プラン</h3>
+                  <h3 class="green">Wアイランド・プラン</h3>
                   <p>オアフ島ワイキキ中心部に2013年12月末にオープンした「ホクラニ・ワイキキ」と、ハワイ島ワイコロア・ビーチ・リゾート内「キングス・ランド」に滞在いただける欲張りプラン。両方の島を満喫できるお得なプランです。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+                  <p><a href="#" class="btn btn-green">予約・お問い合わせ</a></p>
                 </div>
               </div>
 
@@ -94,7 +94,7 @@
           <div id="oahu-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
 
             <div class="row content-wrapper">
-              <h1>オアフ島プラン</h1>
+              <h1>オアフリゾート宿泊プラン</h1>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             </div>
 
