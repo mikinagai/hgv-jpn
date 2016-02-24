@@ -52,7 +52,9 @@ jQuery(document).ready(function($){
 
 	//fix lateral filter and gallery on scrolling
 	$(window).on('scroll', function(){
-		(!window.requestAnimationFrame) ? fixGallery() : window.requestAnimationFrame(fixGallery);
+		if (!window.requestAnimationFrame) { 
+			//? fixGallery() : window.requestAnimationFrame(fixGallery)
+		}
 	});
 
 	function fixGallery() {

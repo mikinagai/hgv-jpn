@@ -2583,6 +2583,8 @@ xgallery
   }
   .cd-gallery ul {
     text-align: justify;
+    margin: 0;
+    padding: 0;
   }
   .cd-gallery ul:after {
     content: "";
@@ -2591,12 +2593,12 @@ xgallery
   }
   .cd-gallery li {
     width: 48%;
-    margin-bottom: 7px;
+    margin-bottom: 23px;
   }
 }
 @media only screen and (min-width: 1170px) {
   .cd-gallery {
-    padding: 50px 2%;
+        padding: 28px 2%;
     float: right;
     -webkit-transition: width 0.3s;
     -moz-transition: width 0.3s;
@@ -2604,6 +2606,7 @@ xgallery
   }
   .cd-gallery li {
     width: 32%;
+    margin-bottom: 2px;
   }
   .cd-gallery.filter-is-visible {
     /* reduce width when filter is visible */
@@ -2988,4 +2991,21 @@ span.testimonial-title{
 
 span.testimonial-name{
 	font-size: 11px;
+}
+
+.pagination{
+	display: table;
+	margin: auto;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #8fd2ca;
+    border-color: #8fd2ca;
+}
+
+.pagination>li>a, .pagination>li>span {
+    color: #8fd2ca;  
 }

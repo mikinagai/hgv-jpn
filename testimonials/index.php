@@ -46,7 +46,7 @@
               </div> <!-- cd-tab-filter -->
             </div> <!-- cd-tab-filter-wrapper -->
            
-            <section class="cd-gallery">
+            <section class="cd-gallery pagination-page" id="page1">
               <ul>
                 <li class="mix video testimonial-link">
                   <a href="https://www.youtube.com/watch?v=5b3ggGNMItw" class="popup-youtube"><img src="img/video/video-01.jpg" />
@@ -112,6 +112,12 @@
                     </div>
                   </a>
                 </li>
+
+
+              <!--   <p><a href="#" class="btn btn-secondary">全て見る</a></p> -->
+
+
+
                 <li class="mix pics-other testimonial-link">
                   <a href="#"><img src="img/other/other-02.jpg" />
                     <div class="testimonial-details">
@@ -144,31 +150,90 @@
                     </div>
                   </a>
                 </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a href="#"><img src="img/hawaii/hawaii-08.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">家族のバトンリレー</span>
+                      <span class="testimonial-name">神奈川県在住／植木様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a href="#"><img src="img/hawaii/hawaii-09.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">やっぱりハワイは最高です！</span>
+                      <span class="testimonial-name">神奈川県在住／川口様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-other testimonial-link">
+                  <a href="#"><img src="img/other/other-03.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">娘との再会をNYで</span>
+                      <span class="testimonial-name">静岡県在住／広田様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a href="#"><img src="img/hawaii/hawaii-10.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">素晴らしい４世代旅行の実現！</span>
+                      <span class="testimonial-name">静岡県在住／松浦様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a href="#"><img src="img/hawaii/hawaii-11.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">念願の三世代ハワイ旅行</span>
+                      <span class="testimonial-name">東京都在住／堀様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a href="#"><img src="img/hawaii/hawaii-12.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">次回は長期滞在をしたい</span>
+                      <span class="testimonial-name">兵庫県在住／江崎様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a href="#"><img src="img/hawaii/hawaii-13.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">Honolulu Century Rideに参加して</span>
+                      <span class="testimonial-name">東京都在住／堀様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a href="#"><img src="img/hawaii/hawaii-14.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">恋しくて</span>
+                      <span class="testimonial-name">愛知県在住／小林様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a href="#"><img src="img/hawaii/hawaii-15.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">キングス・ランド　グランドオープン!!</span>
+                      <span class="testimonial-name">神奈川県在住／南雲様</span>
+                    </div>
+                  </a>
+                </li>
                 <li class="gap"></li>
               </ul>
               <div class="cd-fail-message">No results found</div>
             </section> <!-- cd-gallery -->
+
           </main> <!-- cd-main-content -->
 
-          <nav>
-            <ul class="pagination">
-              <li>
-                <a href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              <li class="active"><a href="#">1</a></li>
-              <li><a href="#">2</a></li>
-              <li><a href="#">3</a></li>
-              <li><a href="#">4</a></li>
-              <li><a href="#">5</a></li>
-              <li>
-                <a href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
+          
+
+          
+
+          
 
 
           
