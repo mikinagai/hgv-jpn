@@ -25,12 +25,20 @@
           
           <div class="col-sm-4 aside">
             <ul class="sidebar-menu">
-              <li><a class="active" href="#">タムシェア販売説明会</a></li>
-              <li><a href="#">販売説明会の流れ</a></li>
-              <li><a href="#">開催地・日程</a></li>
-              <li><a href="#">来場ご予約（国内）</a></li>
-              <li><a href="#">来場ご予約（ハワイ）</a></li>
+              <li><a menu="sales-preview" href="#">タムシェア販売説明会</a></li>
+              <li><a menu="sales-tower-flow" href="#">販売説明会の流れ</a></li>
+              <li><a menu="tour-location" href="#">開催地・日程</a></li>
+              <li><a menu="booking-form-japan" href="#">来場ご予約（国内）</a></li>
+              <li><a menu="booking-form-hawaii" href="#">来場ご予約（ハワイ）</a></li>
             </ul>
+
+            <select class="form-control nav-mobile">
+              <option value="タムシェア販売説明会">タムシェア販売説明会</option>
+              <option value="販売説明会の流れ">販売説明会の流れ</option>
+              <option value="開催地・日程">開催地・日程</option>
+              <option value="来場ご予約（国内）">来場ご予約（国内）</option>
+              <option value="来場ご予約（ハワイ）">来場ご予約（ハワイ）</option>
+            </select>
           </div>
 
 

@@ -63,102 +63,93 @@
         <div id="resort-collection" class="sub-content resort-gallery-container">
 
           <div class="row">
-              <div class="card wow fadeInUp">
-                <div class="col-sm-4 l_cell">
-                  <a class="photo-tile" href="grand-waikikian-hgvc/" style="background-image: url('img/thumbnails/grandwaikikian.jpg');"></a>
-                </div>
-                <div class="col-sm-8 r_cell" style="">
-                  <h3>グランド・ワイキキアン・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
-                  <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ハワイ州ホノルル</p>
-                  <p>広大なヒルトン・ハワイアン・ ビレッジ&reg;・ワイキキ･ビーチ・リゾートの中心部に建設されたグランド・ワイキキアンでは、リゾートからの壮大な眺望、グランドホテルならではの高級感と行き届いたサービス、そして豪華なコンドミニアムの安らぎと利便性に至るまで、かつてない贅沢なホノルルでのバケーションを皆様に提供しています。</p>
-                  <p><a href="grand-waikikian-hgvc/" class="btn btn-primary">詳細</a></p>
-                </div>
-              </div><!-- card -->
-          </div>
-        
-          <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img src="img/grandwaikikian.jpg" alt="Grand Waikikian by Hilton Grand Vacations Club" />
-            </div>
-            <div class="col-sm-8">
-              <h3>グランド・ワイキキアン・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
-              <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ハワイ州ホノルル</p>
-              <p>広大なヒルトン・ハワイアン・ ビレッジ&reg;・ワイキキ･ビーチ・リゾートの中心部に建設されたグランド・ワイキキアンでは、リゾートからの壮大な眺望、グランドホテルならではの高級感と行き届いたサービス、そして豪華なコンドミニアムの安らぎと利便性に至るまで、かつてない贅沢なホノルルでのバケーションを皆様に提供しています。</p>
-              <p><a href="grand-waikikian-hgvc/" class="btn btn-primary">詳細</a></p>
-            </div>
-          </div>
-          
-          <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img src="img/hokulaniwaikiki.jpg" alt="Hokulani Waikiki by Hilton Grand Vacations Club" />
-            </div>
-            <div class="col-sm-8">
-              <h3>ホクラニ・ワイキキ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
-              <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ハワイ州ホノルル</p>
-              <p>有名なワイキキ・ビーチ・ウォーク®最北端のエンターテイメント地区に位置し、ダイニング、ショッピング、エンターテイメントとワイキキで最も活気のあるワイキキ・ビーチ・ウォーク®に理想的なアクセスを提供しています。プールラウンジ、バー、プライベートカバナ、そしてダイナミックなワイキキの景観をお楽しみいただけるナラニが特徴です。</p>
-              <p><a href="hokulani-waikiki-hgvc/" class="btn btn-primary">詳細</a></p>
-            </div>
-          </div>
-          
-          <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img src="img/kalia.jpg" alt="Kalia Suites by Hilton Grand Vacations Club" />
-            </div>
-            <div class="col-sm-8">
-              <h3>カリア・スイーツ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
-              <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ハワイ州ホノルル</p>
-              <p>トロピカルな雰囲気溢れるカリアタワーは、22エーカー（約0.089km²）のヒルトン・ハワイアン・ビレッジ&reg;・ワイキキ･ビーチ・リゾートの敷地内という理想的な立地条件を誇ります。カリアタワーの12階から18階にある客室から、最高のワイキキを実感いただけることでしょう。</p>
-              <p><a href="kalia-hgvc/" class="btn btn-primary">詳細</a></p>
-            </div>
-          </div>
-      
-          <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img src="img/kingsland.jpg" alt="Kings' Land by Hilton Grand Vacations Club" />
-            </div>
-            <div class="col-sm-8">
-              <h3>キングス・ランド・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
-              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州ワイコロア</p>
-              <p>有名なコハラ・コーストにあるヒルトン・グランド・バケーションズ・クラブの最新リゾート、キングス・ランド。美しいフェアウェイと、壮大なワイコロアの眺望をお楽しみください。溶岩原を切り開いた、112エーカー（約0.45km²）の広大な敷地を誇り、ハワイ島で最高のゴルフ場として定評のある、キングスコースとビーチコースの間に位置しています。</p>
-              <p><a href="kings-land-hgvc/" class="btn btn-primary">詳細</a></p>
-            </div>
-          </div>
-          
-          <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img src="img/kohala.jpg" alt="Kohala Suites by Hilton Grand Vacations Club" />
-            </div>
-            <div class="col-sm-8">
-              <h3>コハラ・スイーツ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
-              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州ワイコロア</p>
-              <p>ビッグ・アイランドの澄み切ったコハラ・コーストに位置するヒルトン・グランド・バケーションズ・ クラブ・アット・ワイコロア・ビーチ・リゾートは、壮大なワイコロアの中心地として、リラックスしたオアシスを提供しています。上品な部屋には、カジュアルでエレガントなトロピカルスタイルといった独特なアメニティーと家具が調和されています。</p>
-              <p><a href="kohala-hgvc/" class="btn btn-primary">詳細</a></p>
-            </div>
-          </div>
-          
-          <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img src="img/lagoon.jpg" alt="Lagoon Tower by Hilton Grand Vacations Club" />
-            </div>
-            <div class="col-sm-8">
-              <h3>ラグーン・タワー・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
-              <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ハワイ州ホノルル</p>
-              <p>美しい南国の自然を背景にしたホノルルのヒルトン・ハワイアン・ビレッジ®・ワイキキ・ビーチ・リゾートは、まさにパラダイスの中心。絶好のロケーションに、最高水準のアメニティーが整っています。ワイキキ屈指の有名な白浜に隣接しており、ヒルトン・ハワイアン・ビレッジ内では、心ゆくまでショッピングやお食事、そして各種エンターテイメントをお楽しみいただけるほか、トロピカルな植物や、水のきらめくプール、まばゆい滝などの演出で、楽園ムード漂うバケーションが皆様をお待ちしています。</p>
-              <p><a href="lagoon-tower-hgvc/" class="btn btn-primary">詳細</a></p>
-            </div>
-          </div>
-          
-          <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img src="img/bayclub.jpg" alt="The Bay Club at Waikoloa Beach Resort" />
-            </div>
-            <div class="col-sm-8">
-              <h3>ザ・ベイクラブ・アット・ワイコロア・ビーチ・リゾート</h3>
-              <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ハワイ州ワイコロア</p>
-              <p>入り組んだ秘境の渓谷や、燃え立つ溶岩など自然の驚異をヘリコプター・ツアーから望む雄大な光景は、ハワイ島ならではの醍醐味です。コハラコーストの散策でも、手つかずの自然を間近に感じられます。2つのダイナミックなゴルフコースに囲まれたこのリゾートは、太陽が降り注ぐのどかで美しい環境に位置します。</p>
-              <p><a href="bay-club-waikoloa-beach/" class="btn btn-primary">詳細</a></p>
-            </div>
-          </div>
+            <div class="card wow fadeInUp">
+              <div class="col-sm-4 l_cell">
+                <a class="photo-tile" href="grand-waikikian-hgvc/" style="background-image: url('img/thumbnails/grandwaikikian.jpg');"></a>
+              </div>
+              <div class="col-sm-8 r_cell" style="">
+                <h3>グランド・ワイキキアン・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
+                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
+                <p>広大なヒルトン・ハワイアン・ ビレッジ&reg;・ワイキキ･ビーチ・リゾートの中心部に建設されたグランド・ワイキキアンでは、リゾートからの壮大な眺望、グランドホテルならではの高級感と行き届いたサービス、そして豪華なコンドミニアムの安らぎと利便性に至るまで、かつてない贅沢なホノルルでのバケーションを皆様に提供しています。</p>
+                <p><a href="grand-waikikian-hgvc/" class="btn btn-primary">詳細</a></p>
+              </div>
+            </div><!-- card -->
+
+
+            <div class="card wow fadeInUp">
+              <div class="col-sm-4 l_cell">
+                <a class="photo-tile" href="hokulani-waikiki-hgvc/" style="background-image: url('img/thumbnails/hokulaniwaikiki.jpg');"></a>
+              </div>
+              <div class="col-sm-8 r_cell" style="">
+                <h3>ホクラニ・ワイキキ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
+                <p>有名なワイキキ・ビーチ・ウォーク®最北端のエンターテイメント地区に位置し、ダイニング、ショッピング、エンターテイメントとワイキキで最も活気のあるワイキキ・ビーチ・ウォーク®に理想的なアクセスを提供しています。プールラウンジ、バー、プライベートカバナ、そしてダイナミックなワイキキの景観をお楽しみいただけるナラニが特徴です。</p>
+                <p><a href="hokulani-waikiki-hgvc/" class="btn btn-primary">詳細</a></p>
+              </div>
+            </div><!-- card -->
+
+
+            <div class="card wow fadeInUp">
+              <div class="col-sm-4 l_cell">
+                <a class="photo-tile" href="kalia-hgvc/" style="background-image: url('img/thumbnails/kalia.jpg');"></a>
+              </div>
+              <div class="col-sm-8 r_cell" style="">
+                <h3>カリア・スイーツ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
+                <p>トロピカルな雰囲気溢れるカリアタワーは、22エーカー（約0.089km²）のヒルトン・ハワイアン・ビレッジ&reg;・ワイキキ･ビーチ・リゾートの敷地内という理想的な立地条件を誇ります。カリアタワーの12階から18階にある客室から、最高のワイキキを実感いただけることでしょう。</p>
+                <p><a href="kalia-hgvc/" class="btn btn-primary">詳細</a></p>
+              </div>
+            </div><!-- card -->
+
+            <div class="card wow fadeInUp">
+              <div class="col-sm-4 l_cell">
+                <a class="photo-tile" href="kings-land-hgvc/" style="background-image: url('img/thumbnails/kingsland.jpg');"></a>
+              </div>
+              <div class="col-sm-8 r_cell" style="">
+                <h3>キングス・ランド・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
+                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
+                <p>有名なコハラ・コーストにあるヒルトン・グランド・バケーションズ・クラブの最新リゾート、キングス・ランド。美しいフェアウェイと、壮大なワイコロアの眺望をお楽しみください。溶岩原を切り開いた、112エーカー（約0.45km²）の広大な敷地を誇り、ハワイ島で最高のゴルフ場として定評のある、キングスコースとビーチコースの間に位置しています。</p>
+                <p><a href="kings-land-hgvc/" class="btn btn-primary">詳細</a></p>
+              </div>
+            </div><!-- card -->
+
+            <div class="card wow fadeInUp">
+              <div class="col-sm-4 l_cell">
+                <a class="photo-tile" href="kohala-hgvc/" style="background-image: url('img/thumbnails/kohala.jpg');"></a>
+              </div>
+              <div class="col-sm-8 r_cell" style="">
+                <h3>コハラ・スイーツ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
+                <p>ビッグ・アイランドの澄み切ったコハラ・コーストに位置するヒルトン・グランド・バケーションズ・ クラブ・アット・ワイコロア・ビーチ・リゾートは、壮大なワイコロアの中心地として、リラックスしたオアシスを提供しています。上品な部屋には、カジュアルでエレガントなトロピカルスタイルといった独特なアメニティーと家具が調和されています。</p>
+                <p><a href="kohala-hgvc/" class="btn btn-primary">詳細</a></p>
+              </div>
+            </div><!-- card -->
+
+            <div class="card wow fadeInUp">
+              <div class="col-sm-4 l_cell">
+                <a class="photo-tile" href="lagoon-tower-hgvc/" style="background-image: url('img/thumbnails/lagoon.jpg');"></a>
+              </div>
+              <div class="col-sm-8 r_cell" style="">
+                <h3>ラグーン・タワー・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
+                <p>美しい南国の自然を背景にしたホノルルのヒルトン・ハワイアン・ビレッジ®・ワイキキ・ビーチ・リゾートは、まさにパラダイスの中心。絶好のロケーションに、最高水準のアメニティーが整っています。ワイキキ屈指の有名な白浜に隣接しており、ヒルトン・ハワイアン・ビレッジ内では、心ゆくまでショッピングやお食事、そして各種エンターテイメントをお楽しみいただけるほか、トロピカルな植物や、水のきらめくプール、まばゆい滝などの演出で、楽園ムード漂うバケーションが皆様をお待ちしています。</p>
+                <p><a href="lagoon-tower-hgvc/" class="btn btn-primary">詳細</a></p>
+              </div>
+            </div><!-- card -->
+
+            <div class="card wow fadeInUp">
+              <div class="col-sm-4 l_cell">
+                <a class="photo-tile" href="bay-club-waikoloa-beach/" style="background-image: url('img/thumbnails/bayclub.jpg');"></a>
+              </div>
+              <div class="col-sm-8 r_cell" style="">
+                <h3>ザ・ベイクラブ・アット・ワイコロア・ビーチ・リゾート</h3>
+                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
+                <p>入り組んだ秘境の渓谷や、燃え立つ溶岩など自然の驚異をヘリコプター・ツアーから望む雄大な光景は、ハワイ島ならではの醍醐味です。コハラコーストの散策でも、手つかずの自然を間近に感じられます。2つのダイナミックなゴルフコースに囲まれたこのリゾートは、太陽が降り注ぐのどかで美しい環境に位置します。</p>
+                <p><a href="bay-club-waikoloa-beach/" class="btn btn-primary">詳細</a></p>
+              </div>
+            </div><!-- card -->
+
+          </div> <!-- row -->
         
         </div> <!-- resort-collection -->
 
@@ -169,7 +160,7 @@
 
           <h1>オアフ島</h1>
         
-          <h4 class="quote">ハワイ州の州都ホノルルを擁するオアフ島。１年を通して温暖な気候に恵まれたこの島は、日本をはじめ世界各国から多くの旅行者を迎え入れる観光都市でもあります。ビーチ沿いに高級リゾートホテルが集まり、世界有数のリゾート地として名を馳せるワイキキ、巨大ショッピングモールがあるアラモアナ、サーファーの聖地であるノースショア、ハワイ王朝ゆかりの史跡が残るダウンタウン、パウダーサンドのビーチが自慢のカイルアなど、バカンスを楽しむための素材が凝縮したオアフ島は、島そのものが一大リゾート。永遠の楽園と思わせるハワイが全てここに揃っています。</h4>
+          <h4 class="quote">ハワイ州の州都ホノルルを擁するオアフ島。１年を通して温暖な気候に恵まれたこの島は、日本をはじめ世界各国から多くの旅行者を迎え入れる観光都市でもあります。ビーチ沿いに高級リゾートホテルが集まり、世界有数のリゾート地として名を馳せるワイキキ、巨大ショッピングモールがあるアラモアナ、サーファーの聖地であるノースショア、ハワイ王朝ゆかりの史跡が残るダウンタウン、パウダーサンドのビーチが自慢のカイルアなど、バカンスを楽しむための素材が凝縮したオアフ島は、島そのものが一大リゾート。</h4>
 
           <p>ショッピングに明け暮れたりワイキキビーチで慌しく過ごすハワイはそろそろ卒業。これからは「１週間のハワイ暮らし」をテーマにハワイを訪れてみませんか？いつものハワイがより思い出深いものになるはずです。</p>
 
@@ -177,8 +168,9 @@
 
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 1: 快適な1週間を過ごすための準備をしましょう</h3>
@@ -188,8 +180,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 2: ファーマーズマーケットに出かけよう</h3>
@@ -199,8 +192,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 3: それぞれのバケーションを</h3>
@@ -210,8 +204,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 4: チャイナタウンを散策</h3>
@@ -221,8 +216,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 5: ハワイの歴史を学ぶ</h3>
@@ -233,8 +229,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 6: アクティビティ体験</h3>
@@ -245,8 +242,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 7:　ビーチで朝食を楽しむ</h3>
@@ -266,8 +264,9 @@
           <h1>イベント</h1>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -278,8 +277,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -290,8 +290,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -302,8 +303,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -325,8 +327,9 @@
           <h1>アクティビティ</h1>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -344,8 +347,9 @@
 
           <h1>ナイトライフ</h1>
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -363,8 +367,9 @@
 
           <h1>ダイニング</h1>
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>モリモト・ワイキキ</h3>
@@ -383,8 +388,9 @@
 
           <h1>ショッピング</h1>
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>

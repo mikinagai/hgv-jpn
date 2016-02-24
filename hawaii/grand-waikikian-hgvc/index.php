@@ -1,11 +1,4 @@
-<?php include("../../server-side/library.php");
-if(isset($_GET["lang"])){
-  $lang = $_GET["lang"];
-}
-else {
-  $lang = "eng";	
-}
-?>
+<?php include("../../server-side/library.php");?>
 <!doctype html>
 <html>
 <head>
@@ -32,14 +25,14 @@ else {
         </div>
       </div>
     
-       <div id="homeslideshow">
+       <div id="homeslideshow"> 
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
-              <div class="item active" id="slide1"></div>
-              <div class="item" id="slide2"></div>
-              <div class="item" id="slide3"></div>
-              <div class="item" id="slide4"></div>
+              <div class="item active" id="slide1" style="background-image: url('img/banner01.jpg');"></div>
+              <div class="item" id="slide2" style="background-image: url('img/banner02.jpg');"></div>
+              <div class="item" id="slide3" style="background-image: url('img/banner03.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner04.jpg');"></div>
           </div>
 
           <!-- Left and right controls -->
@@ -53,7 +46,7 @@ else {
           </a>
 
         </div>
-      </div><!-- homeslideshow -->
+      </div><!-- destinationslideshow -->
       
       <div id="floorplan-container">
       
@@ -330,8 +323,7 @@ else {
         <div class="col-sm-4 aside">
           <h3>追加情報</h3>
           <p>チェックイン: 4 p.m.<br />チェックアウト: 10 a.m.<br />電話番号: 808-953-2700</p>
-
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">リクエストフォーム</a></h3>
+          <p><a href="#" class="btn btn-secondary">リクエストフォーム</a></p>
 
           
    
