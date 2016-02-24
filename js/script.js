@@ -220,6 +220,36 @@ $(document).ready(function(e){
       case '法人のお客様へ':
       $('#for-business').show();
       break;
+      case 'タムシェア販売説明会':
+        $('#sales-preview').show();
+        break;
+      case '販売説明会の流れ':
+        $('#sales-tower-flow').show();
+        break;
+      case '開催地・日程':
+        $('#tour-location').show();
+        break;
+      case '来場ご予約（ハワイ）':
+        $('#booking-form-hawaii').show();
+        break;
+      case '来場ご予約（国内）':
+        $('#booking-form-japan').show();
+        break;
+      case 'タイムシェアについて':
+        $('#fq_timeshare-program').show();
+        break;
+      case 'オーナーになったら':
+        $('#fq_become-owner').show();
+        break;
+      case '各リゾートについて':
+        $('#fq_each-resort').show();
+        break;
+      case '販売説明会について':
+        $('#fq_sales-preview').show();
+        break;
+      case 'リゾート宿泊プランについて':
+        $('#fq_resort-plans').show();
+        break;
     }
   });
 });

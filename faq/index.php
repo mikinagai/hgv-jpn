@@ -32,6 +32,15 @@
               <li><a menu="fq_sales-preview" href="#">販売説明会について</a></li>
               <li><a menu="fq_resort-plans" href="#">リゾート宿泊プランについて</a></li>
             </ul>
+
+            <select class="form-control nav-mobile">
+              <option value="タイムシェアについて">タイムシェアについて</option>
+              <option value="オーナーになったら">オーナーになったら</option>
+              <option value="各リゾートについて">各リゾートについて</option>
+              <option value="販売説明会について">販売説明会について</option>
+              <option value="リゾート宿泊プランについて">リゾート宿泊プランについて</option>
+            </select>
+            
           </div>
 
 
