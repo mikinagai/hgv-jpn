@@ -168,8 +168,9 @@
 
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 1: 快適な1週間を過ごすための準備をしましょう</h3>
@@ -179,8 +180,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 2: ファーマーズマーケットに出かけよう</h3>
@@ -190,8 +192,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 3: それぞれのバケーションを</h3>
@@ -201,8 +204,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 4: チャイナタウンを散策</h3>
@@ -212,8 +216,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 5: ハワイの歴史を学ぶ</h3>
@@ -224,8 +229,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 6: アクティビティ体験</h3>
@@ -236,8 +242,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3 class="quote">DAY 7:　ビーチで朝食を楽しむ</h3>
@@ -257,8 +264,9 @@
           <h1>イベント</h1>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -269,8 +277,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -281,8 +290,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -293,8 +303,9 @@
           </div>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -316,8 +327,9 @@
           <h1>アクティビティ</h1>
 
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -335,8 +347,9 @@
 
           <h1>ナイトライフ</h1>
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
@@ -354,8 +367,9 @@
 
           <h1>ダイニング</h1>
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>モリモト・ワイキキ</h3>
@@ -374,8 +388,9 @@
 
           <h1>ショッピング</h1>
           <div class="row block">
-            <div class="col-sm-4 text-center">
-              <img data-original="http://placehold.it/767x477" class="lazyload" alt="" src="http://placehold.it/767x477" style="display: inline;">
+            <div class="col-sm-4">
+                <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
             </div>
             <div class="col-sm-8">
               <h3>First Friday Street Festival</h3>
