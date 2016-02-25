@@ -306,14 +306,23 @@
 
           </div> <!-- col-sm-8 -->
 
-          <!-- #4 来場ご予約（ハワイ） -->
-          <div id="booking-form-hawaii" class="col-sm-8 main-column sub-content" style="display:none;">
-            <h1>来場ご予約（ハワイ）</h1>
-          </div> <!-- col-sm-8 -->
 
           <!-- #5 来場ご予約（国内） -->
           <div id="booking-form-japan" class="col-sm-8 main-column sub-content" style="display:none;">
-            <h1>来場ご予約（国内）</h1>
+            <h1>タイムシェア国内販売説明会・来場ご予約フォーム</h1>
+
+            <?php include 'forms/tour_japan.php' ?>
+
+          </div> <!-- col-sm-8 -->
+
+          <!-- #4 来場ご予約（ハワイ） -->
+          <div id="booking-form-hawaii" class="col-sm-8 main-column sub-content" style="display:none;">
+            <h1>来場ご予約（ハワイ）</h1>
+
+
+
+
+
 
           </div> <!-- col-sm-8 -->
 
