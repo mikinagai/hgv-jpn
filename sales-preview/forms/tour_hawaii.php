@@ -32,16 +32,16 @@
 </section>
 <hr>
 <section id="Form">
-    <form class="form-horizontal" id="Japan-tour-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
+        <form class="form-horizontal" id="exampleForm" method="post" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
 
-        <input type="hidden" name="oid" value="00D700000008gjv">
-        <input type="hidden" name="retURL" value="http://localhost:8888/sales-preview/?index=booking-form-japan&amp;form=submit">
-        <input type="hidden" name="lead_source" id="lead_source" value="Web Tour Booking Form">
-        <input type="hidden" name="recordType" id="recordType" value="01290000001YZpv">
-        <input type="hidden" name="00N90000003MXXY" id="00N90000003MXXY" title="Country Origin" value="JAPAN">
-        <input type="hidden" name="00N9000000Drpdd" id="00N9000000Drpdd" title="Airline" value="ANA">
-        <input type="hidden" name="Campaign_ID" id="Campaign_ID" value="70190000001QtBw">
-        <input type="hidden" id="00N70000002F8oS" name="00N70000002F8oS" value="1" />
+            <input type="hidden" name="oid" value="00D700000008gjv">
+            <input type="hidden" name="retURL" value="http://localhost:8888/sales-preview/?index=booking-form-hawaii&amp;form=submit">
+            <input type="hidden" name="lead_source" id="lead_source" value="Web Tour Booking Form">
+            <input type="hidden" name="recordType" id="recordType" value="01290000001YZpv">
+            <input type="hidden" name="00N90000003MXXY" id="00N90000003MXXY" title="Country Origin" value="JAPAN">
+            <input type="hidden" name="00N9000000Drpdd" id="00N9000000Drpdd" title="Airline" value="ANA">
+            <input type="hidden" name="Campaign_ID" id="Campaign_ID" value="70190000001QtGI">
+            <input type="hidden" id="00N70000002F8oS" name="00N70000002F8oS" type="checkbox" value="1" />
 
         <div class="container">
             <div class="single-features">
@@ -362,12 +362,8 @@
                                 <div class="col-sm-12">
                                     <select class="form-control row__form" id="00N9000000EaMff" name="00N9000000EaMff">
                                         <option value="" selected disabled>場所</option>
-                                        <option value="Hibiya">日比谷</option>
-                                        <option value="Shinjuku">新宿</option>
-                                        <option value="Osaka">大阪</option>
-                                        <option value="Nagoya">名古屋</option>
-                                        <option value="Yokohama">横浜</option>
-                                        <option value="Fukuoka">福岡</option>
+                                        <option value="Oahu Island">オアフ島</option>
+                                        <option value="Hawaii Island">ハワイ島</option>
                                     </select>
                                 </div>
                             </div> <!-- row -->
@@ -380,7 +376,6 @@
                                         <span class="glyphicon glyphicon-calendar"></span>
                                     </div>
                                 </div>
-
                             </div> <!-- row -->
                         </div>
                         <div class="col-sm-4">
@@ -403,8 +398,50 @@
                     </div>
                     <!-- 1st choice tour location-->
 
-                    <!-- Email Opt in -->
+                    <!-- Hotel -->
                     <div class="row formSection">
+                        <div class="col-sm-12">
+                            <label class="form__label">滞在先のホテル名</label>
+                        </div>
+                        <div class="col-sm-12 row__form">
+                            <input type="text" class="form-control" id="00N9000000EaMfZ" name="00N9000000EaMfZ" maxlength="10" placeholder="ホテル名">
+                        </div>
+                    </div>
+                    <!-- Hotel -->
+
+                    <!-- check in/out date -->
+                    <div class="row formSection">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <label class="form__label">チェックイン日</label>
+                                </div>
+                                <div class="col-sm-12 date" data-provide="datepicker">
+                                    <input type="text" class="input-sm form-control" id="00N70000002G9VJ" name="00N70000002G9VJ" placeholder="日時" value="" />
+                                    <div class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </div>
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <label class="form__label">チェックアウト日</label>
+                                </div>
+                                <div class="col-sm-12 date" data-provide="datepicker">
+                                    <input type="text" class="input-sm form-control" id="00N9000000EaMfS" name="00N9000000EaMfS" placeholder="日時" value="" />
+                                    <div class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                    </div>
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                    </div>
+                    <!-- check in/out date -->
+
+                    <!-- Email Opt in -->
+                    <div class="row formSection margin-top">
                         <div class="col-sm-12">
                             <div class="formText">
                                 <p class="form__label">Eメールによるヒルトン・グランド・バケーションズ・タイムシェアに関するキャンペーンや最新情報、販売説明会のご案内等の配信を希望しますか？<span class="form_required">必須</span></p>
