@@ -7,6 +7,10 @@
 <script type="text/javascript" src="<?php echo getHost(); ?>js/jquery.mixitup.min.js"></script>
 <script type="text/javascript" src="<?php echo getHost(); ?>js/filter.js"></script>
 <script type="text/javascript" src="<?php echo getHost(); ?>js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="<?php echo getHost(); ?>js/bootstrap-datepicker.min.js"></script>
+<script type="text/javascript" src="<?php echo getHost(); ?>js/formValidation.js"></script>
+<script type="text/javascript" src="<?php echo getHost(); ?>js/bootstrap-form-validation.min.js"></script>
+<script type="text/javascript" src="<?php echo getHost(); ?>js/geoapi-hgv.js"></script>
   
 <script type="text/javascript">
 

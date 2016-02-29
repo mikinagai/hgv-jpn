@@ -51,6 +51,14 @@ img.mobile-show{
 		display: none;
 	}
 
+.bold{
+	font-weight:600;
+}
+
+.show-onclick{
+	display: none;
+}
+
 @media screen and (max-width: 768px){
 	
 	.nav-dropdown-menu{
@@ -83,7 +91,7 @@ img.mobile-show{
 .quote{
 	display: block;
     border-left: 4px solid #00a8cb;
-    padding: 10px 0 10px 12px;
+    padding: 6px 0 6px 12px;
 }
 
 .space-bottom{
@@ -145,6 +153,14 @@ h6{
     padding: 12px;
     color: gray;
     border-bottom: 1px solid #e7e7e7;
+}
+
+.text-block{
+	background-color: #ffffff;
+    padding: 12px;
+    color: gray;
+    margin: 24px 0;
+
 }
 .content {
 	background-color: transparent;
@@ -1811,8 +1827,12 @@ p.location i{
     overflow: hidden;
 	margin-bottom: 20px;
 	display: table;
+	min-width: 515px;
 }
 
+.card_cell {
+    padding: 22px;
+}
 
 .l_cell{
 	padding:0;
@@ -3014,3 +3034,163 @@ span.testimonial-name{
 .pagination>li>a, .pagination>li>span {
     color: #8fd2ca;  
 }
+
+/* -------------------------------- 
+
+Form 
+
+-------------------------------- */
+
+.form__label{
+	font-weight:600;
+	margin: 10px 0 11px;
+}
+
+span.form_required{
+	background: #cb4e78;
+	padding: 2px 6px;
+    font-size: 9px;
+    vertical-align: bottom;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 2px;
+}
+
+.formSection{
+	margin-bottom: 15px;
+}
+
+.zip-box3 {
+    padding: 5px !important;
+    height: 40px;
+    width: 60px;
+    border: 1px solid #e7e7e7;
+    line-height: 1.33333;
+    border-radius: 3px;
+}
+
+.zip-box4 {
+    padding: 5px !important;
+    height: 40px;
+    width: 90px;
+    border: 1px solid #e7e7e7;
+    line-height: 1.33333;
+    border-radius: 3px;
+}
+
+span.form__label_sm{
+	font-weight:300;
+	display: block;
+	font-size: 11px;
+	color: gray;
+}
+
+.form-control {
+    width: 100%;
+    border: 1px solid #e7e7e7;
+    padding: 21px 10px;
+    line-height: 1.33333;
+    border-radius: 3px;
+    -webkit-transition: border 251.21982ms cubic-bezier(.42,0,.58,1);
+    transition: border 251.21982ms cubic-bezier(.42,0,.58,1);
+}
+
+.form-control:focus, .zip-box4:focus, .zip-box3:focus {
+    outline: none !important;
+    border-color: #8fd2ca !important;
+    box-shadow:none;
+}
+
+select{
+	height:44px!important;
+}
+
+.addressFormzip-button{
+	background-color: #bbb0a6;
+	border: none;
+	border-radius: 2px;
+	padding: 8px 29px;
+	color: #FFF;
+	cursor: pointer;
+	vertical-align: initial;
+}
+
+.addressFormzip-button:hover {
+    background-color: #b2a69a;
+    color: #FFF;
+}
+
+.row__form{
+	margin-bottom: 13px;
+}
+
+.input-group-addon {
+   border: 1px solid #e7e7e7;
+}
+
+.date{
+	display: table;
+}
+
+@media only screen and (max-width: 767px) {
+  .margin-top{
+  	margin-top:13px;
+  }
+}
+
+.help-block {
+    color: red;
+}
+.scroll-box {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 300px;
+    border: 1px solid #e7e7e7;
+    padding: 1.33333em;
+}
+
+.panel {
+    border:none;
+    border-radius: 4px;
+}
+
+ul.dop-list{
+	padding-left: 28px;
+}
+
+/* -------------------------------- 
+
+Contact 
+
+-------------------------------- */
+
+.phone-number{
+	font-weight:600;
+	font-size: 25px;
+	color:#00a8cb;
+}
+.e-address{
+	font-weight:500;
+	font-size: 15px;
+}
+
+i.fa-envelope-o{
+	margin-right: 9px;
+}
+
+img.freedial{
+	vertical-align: top;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+span.hours{
+	 color: gray;
+    font-size: 13px;
+    font-weight: 300;
+    display: block;
+    margin-top: 9px;
+
+}
+
+
