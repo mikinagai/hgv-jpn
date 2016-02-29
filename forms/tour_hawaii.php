@@ -1,36 +1,16 @@
-<section id="conditions">
-  <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-              <div class="conditions">
-                  <h4>国内販売説明会ご参加及び特典進呈の条件</h4></div>
-              <div class="conditionsText">
-                  <p>1) 年齢20歳以上の方</p>
-              </div>
-              <div class="conditionsText">
-                  <p>2) 年収750万円以上の方（夫婦合算可）。 リタイアされている場合は「持ち家」がある方</p>
-              </div>
-              <div class="conditionsText">
-                  <p>3) 既婚の場合、ご夫婦同伴でのタイムシェア販売説明会へのご参加 ※独身の方もご参加いただけます。</p>
-              </div>
-              <div class="conditionsText">
-                  <p>4) 約90分のタイムシェア販売説明会へのご参加</p>
-              </div>
-              <div class="conditionsText">
-                  <p>5) 過去1年間、ヒルトン・グランド・バケーションズの特典付き タイムシェア販売説明会に参加されていない方。 体験宿泊、HVIP（＊1）を購入されていない方 ＊1ヒルトン・グランド・バケーションズが提供するプログラムです。</p>
-              </div>
-              <div class="conditionsText">
-                  <p>6) ヒルトン・グランド・バケーションズのオーナー様ではない方</p>
-              </div>
-              <div class="conditionsText">
-                  <p>7) ヒルトン・ワールドワイドおよび同系列企業の社員ではない方</p>
-              </div>
-
-          </div>
-      </div>
-  </div>
-</section>
-<hr>
+<p>こちらのフォームに必要事項を入力し、お送りください。なお、インターネットでのご予約は５日前まで、またお電話でのご予約は前日までとなります。（フリーダイヤル：0120-805-817 月～土・祝 9:30am～6:00pm　日曜休）おかけ間違いのないようご注意ください。</p>
+<div class="text-block">
+<p class="form__label" style="margin-left: 10px;">国内販売説明会ご参加及び特典進呈の条件</p>
+  <ul>
+    <li>年齢20歳以上の方</li>
+    <li>年収750万円以上の方（夫婦合算可）。 リタイアされている場合は「持ち家」がある方</li>
+    <li>既婚の場合、ご夫婦同伴でのタイムシェア販売説明会へのご参加 ※独身の方もご参加いただけます。</li>
+    <li>約90分のタイムシェア販売説明会へのご参加</li>
+    <li>過去1年間、ヒルトン・グランド・バケーションズの特典付き タイムシェア販売説明会に参加されていない方。 体験宿泊、HVIP（＊1）を購入されていない方 ＊1ヒルトン・グランド・バケーションズが提供するプログラムです。</li>
+    <li>ヒルトン・グランド・バケーションズのオーナー様ではない方</li>
+    <li>ヒルトン・ワールドワイドおよび同系列企業の社員ではない方</li>
+  </ul>
+</div>
 <section id="Form">
         <form class="form-horizontal" id="exampleForm" method="post" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
 
@@ -217,18 +197,18 @@
                         <div class="col-sm-12">
                             <div class="radio-wrap row__form">
                                 <label class="radio-inline formText">
-                                    <input type="radio" class="marital-status" name="00N70000001hDUg" id="00N70000001hDUg" value="Married"> &nbsp; &nbsp; はい
+                                    <input type="radio" class="form-click-to-show" name="00N70000001hDUg" id="00N70000001hDUg" value="Married"> &nbsp; &nbsp; はい
                                 </label>
                                 <br />
                                 <label class="radio-inline formText">
-                                    <input type="radio" class="marital-status" name="00N70000001hDUg" id="00N70000001hDUg" value="Single"> &nbsp; &nbsp; いいえ
+                                    <input type="radio" class="form-click-to-show" name="00N70000001hDUg" id="00N70000001hDUg" value="Single"> &nbsp; &nbsp; いいえ
                                 </label>
                             </div>
                         </div>
                     </div>
                     <!-- Marital status -->
                     
-                    <div class="show-on-click">
+                    <div class="show-onclick show-onclick-marital-status">
                         <!-- Spouse name -->
                         <div class="row formSection">
                             <div class="col-sm-12">

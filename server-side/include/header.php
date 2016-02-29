@@ -14,8 +14,8 @@
           <li class="nav-main"><a href="<?php echo getHost(); ?>sales-preview/?index=sales-preview" id="sales-prev">販売説明会<span class="caret"></span></a></li>
           <li class="nav-main"><a href="<?php echo getHost(); ?>vacation-packages/?index=vacation-packages" id="resort-pln">リゾート宿泊プラン<span class="caret"></span></a></li>
           <li class="nav-main"><a href="<?php echo getHost(); ?>/testimonials">オーナーの声</a></li>
-          <li class="nav-main"><a href="<?php echo getHost(); ?>faq/?index=fq_timeshare-program" id="f_a_q">よくある質問<span class="caret"></span></a></li>
-          <li class="nav-main"><a href="http://jobs.hiltongrandvacations.com/" target="_blank">お問い合わせ</a></li>
+          <li class="nav-main"><a href="<?php echo getHost(); ?>/faq/?index=fq_timeshare-program" id="f_a_q">よくある質問<span class="caret"></span></a></li>
+          <li class="nav-main"><a href="<?php echo getHost(); ?>/contact/">お問い合わせ</a></li>
           <!-- <li><a href="http://www.hgvclub.com/" target="_blank">Log In</a></li> -->
         </ul>
       </nav>

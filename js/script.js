@@ -9,13 +9,24 @@ $(document).ready(function() {
     fixedContentPos: false
   });
 
-  $(".marital-status").click(function(){
+  $(".form-click-to-show").click(function(){
     if($(this).val() === "Married"){
-      $(".show-on-click").show("fast");    
+      $(".show-onclick-marital-status").show("fast");    
     } else {
-      $(".show-on-click").hide("fast");
+      $(".show-onclick-marital-status").hide("fast");
+    }
+    if($(this).val() === "Yes"){
+      $(".show-onclick-promocode").show("fast");    
+    } else {
+      $(".show-onclick-promocode").hide("fast");
+    }
+    if($(this).val() === "Catalogue"){
+      $(".show-onclick-catalogue").show("fast");    
+    } else {
+      $(".show-onclick-catalogue").hide("fast");
     }
   });
+
 
   $('.datepicker').datepicker();
 
@@ -290,6 +301,21 @@ $(document).ready(function(e){
       case 'お申し込みフォーム':
         $('#vacation-pkgs-forms').show();
         break;
+      case '資料請求':
+        $('#request-dvd').show();
+        break;
+      case 'タイムシェア販売説明会':
+        $('#request-tours').show();
+        break;
+      case 'タイムシェア新規購入やオーナー様の追加購入':
+        $('#purchase-on-phone').show();
+        break;
+      case '販売説明会宿泊プラン':
+        $('#minivac').show();
+        break;
+      case 'その他':
+        $('#other-contact').show();
+        break;
     }
   }
 
@@ -408,6 +434,21 @@ $(document).ready(function(e){
         break;
       case 'リゾート宿泊プランについて':
         $('#fq_resort-plans').show();
+        break;
+      case '資料請求':
+        $('#request-dvd').show();
+        break;
+      case 'タイムシェア販売説明会':
+        $('#request-tours').show();
+        break;
+      case 'タイムシェア新規購入やオーナー様の追加購入':
+        $('#purchase-on-phone').show();
+        break;
+      case '販売説明会宿泊プラン':
+        $('#minivac').show();
+        break;
+      case 'その他':
+        $('#other-contact').show();
         break;
     }
   });

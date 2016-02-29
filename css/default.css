@@ -51,6 +51,14 @@ img.mobile-show{
 		display: none;
 	}
 
+.bold{
+	font-weight:600;
+}
+
+.show-onclick{
+	display: none;
+}
+
 @media screen and (max-width: 768px){
 	
 	.nav-dropdown-menu{
@@ -83,7 +91,7 @@ img.mobile-show{
 .quote{
 	display: block;
     border-left: 4px solid #00a8cb;
-    padding: 10px 0 10px 12px;
+    padding: 6px 0 6px 12px;
 }
 
 .space-bottom{
@@ -145,6 +153,14 @@ h6{
     padding: 12px;
     color: gray;
     border-bottom: 1px solid #e7e7e7;
+}
+
+.text-block{
+	background-color: #ffffff;
+    padding: 12px;
+    color: gray;
+    margin: 24px 0;
+
 }
 .content {
 	background-color: transparent;
@@ -1811,8 +1827,12 @@ p.location i{
     overflow: hidden;
 	margin-bottom: 20px;
 	display: table;
+	min-width: 515px;
 }
 
+.card_cell {
+    padding: 22px;
+}
 
 .l_cell{
 	padding:0;
@@ -3104,10 +3124,6 @@ select{
 	margin-bottom: 13px;
 }
 
-.show-on-click{
-	display: none;
-}
-
 .input-group-addon {
    border: 1px solid #e7e7e7;
 }
@@ -3141,3 +3157,40 @@ select{
 ul.dop-list{
 	padding-left: 28px;
 }
+
+/* -------------------------------- 
+
+Contact 
+
+-------------------------------- */
+
+.phone-number{
+	font-weight:600;
+	font-size: 25px;
+	color:#00a8cb;
+}
+.e-address{
+	font-weight:500;
+	font-size: 15px;
+}
+
+i.fa-envelope-o{
+	margin-right: 9px;
+}
+
+img.freedial{
+	vertical-align: top;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+span.hours{
+	 color: gray;
+    font-size: 13px;
+    font-weight: 300;
+    display: block;
+    margin-top: 9px;
+
+}
+
+

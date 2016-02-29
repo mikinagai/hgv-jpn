@@ -325,7 +325,7 @@
             </div><!-- form-success -->
             <div class="pre-form">
               <h1>国内販売説明会・来場ご予約フォーム</h1>
-              <?php include 'forms/tour_japan.php' ?>
+              <?php include '../forms/tour_japan.php' ?>
             </div>
 
           </div> <!-- col-sm-8 -->
@@ -348,7 +348,7 @@
             </div><!-- form-success -->
             <div class="pre-form">
               <h1>ハワイ販売説明会・来場ご予約フォーム</h1>
-              <?php include 'forms/tour_hawaii.php' ?>
+              <?php include '../forms/tour_hawaii.php' ?>
             </div>
             
 
