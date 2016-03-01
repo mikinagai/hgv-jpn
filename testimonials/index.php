@@ -35,7 +35,7 @@
               <div class="cd-tab-filter">
                 <ul class="cd-filters">
                   <li class="placeholder"> 
-                    <a data-type="all" href="#0">All</a> <!-- selected option on mobile -->
+                    <a data-type="all" href="#0">全て</a> <!-- selected option on mobile -->
                   </li> 
                   <li class="filter"><a class="selected" href="#0" data-type="all">全て</a></li>
                   <li class="filter" data-filter=".video"><a href="#0" data-type="movie">動画</a></li>
@@ -45,7 +45,7 @@
                 </ul> <!-- cd-filters -->
               </div> <!-- cd-tab-filter -->
             </div> <!-- cd-tab-filter-wrapper -->
-           
+
             <section class="cd-gallery pagination-page" id="page1">
               <ul>
                 <li class="mix video testimonial-link">
@@ -73,7 +73,7 @@
                   </a>
                 </li>
                 <li class="mix pics-other testimonial-link">
-                  <a href="#"><img src="img/other/other-01.jpg" />
+                  <a class="testimonial-popup" href="details/other-01.html"><img src="img/other/other-01.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">充実のアメリカ旅行</span>
                       <span class="testimonial-name">神奈川県在住／宗像様</span>

@@ -1,11 +1,4 @@
-<?php include("../../server-side/library.php");
-if(isset($_GET["lang"])){
-  $lang = $_GET["lang"];
-}
-else {
-  $lang = "eng";	
-}
-?>
+<?php include("../../server-side/library.php");?>
 <!doctype html>
 <html>
 <head>
@@ -20,40 +13,50 @@ else {
     <?php addHeader(); ?>
     
     <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="The Exterior of Plantation Beach Club at Indian River Plantation Resort in Stuart, Florida" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="The Living Area of Plantation Beach Club at Indian River Plantation Resort in Stuart, Florida" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/03.jpg" alt="The Kitchen of Plantation Beach Club at Indian River Plantation Resort in Stuart, Florida" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/04.jpg" alt="The Bedroom of Plantation Beach Club at Indian River Plantation Resort in Stuart, Florida" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/05.jpg" alt="The Pool of Plantation Beach Club at Indian River Plantation Resort in Stuart, Florida" />
-          </div>
-          
+
+      <div class="container-max">
+        <div id="resorts-options" class="hidden-xs">
+          <ul>
+            <li><a href="#" id="photos-link" class="active">写真</a></li>
+<!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+            <li><a href="#" id="points-link">必要ポイント数</a></li>
+            <li><a href="#" id="map-link">地図</a></li>
+          </ul>
         </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
       </div>
+    
+       <div id="homeslideshow"> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active" id="slide1" style="background-image: url('img/banner01.jpg');"></div>
+              <div class="item" id="slide2" style="background-image: url('img/banner02.jpg');"></div>
+              <div class="item" id="slide3" style="background-image: url('img/banner03.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner04.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner05.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner06.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner07.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner08.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner09.jpg');"></div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+      </div><!-- destinationslideshow -->
+<!--start floorplans -->
+<!-- floorplan-container -->
       
       <div id="points-container">
-        <?php
-		  if($lang == "jpn"){
-		?>
-          <div class="row">
+        <div class="row">
         
           <div class="col-sm-6">
         
@@ -107,30 +110,24 @@ else {
                 <tbody>
                   <tr>
                     <td>1 ベッドルーム</td>
-                    <td>480</td>
-                    <td>960</td>
-                    <td>7,000</td>
+                    <td>340</td>
+                    <td>680</td>
+                    <td>3,400</td>
                   </tr>
                   <tr>
                     <td>2 ベッドルーム</td>
-                    <td>700</td>
-                    <td>1,400</td>
-                    <td>7,000</td>
+                    <td>500</td>
+                    <td>1,000</td>
+                    <td>5,000</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             
           </div>
+            
+                      <div class="col-sm-6">
           
-        </div> 
-        
-        <br />
-        
-        <div class="row">
-        
-          <div class="col-sm-6">
-        
             <div class="table-responsive">
               <table class="table table-hover platinum">
                 <thead>
@@ -163,201 +160,36 @@ else {
             
           </div>
           
-        </div> 
-        <?php
-		  }
-		  else {
-		?>
-        <div class="row">
-        
-          <div class="col-sm-6">
-        
-            <div class="table-responsive">
-              <table class="table table-hover silver">
-                <thead>
-                  <tr>
-                    <th colspan="4"><img src="../../img/silver.gif" alt="" class="level" /> Silver: Weeks 19 &ndash; 23, 34 &ndash; 42, 49, 50</th>
-                  </tr>
-                  <tr>
-                    <th>Unit Size</th>
-                    <th>Mon &ndash; Thurs</th>
-                    <th>Fri &ndash; Sun</th>
-                    <th>7 Night</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1 Bedroom</td>
-                    <td>240</td>
-                    <td>480</td>
-                    <td>2,400</td>
-                  </tr>
-                  <tr>
-                    <td>2 Bedroom</td>
-                    <td>350</td>
-                    <td>700</td>
-                    <td>3,500</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            
-          </div>
-        
-          <div class="col-sm-6">
-          
-            <div class="table-responsive">
-              <table class="table table-hover gold">
-                <thead>
-                  <tr>
-                    <th colspan="4"><img src="../../img/gold.gif" alt="" class="level" /> Gold: Weeks 1 &ndash; 6, 14 &ndash; 18, 24 &ndash; 33, 43 &ndash; 48</th>
-                  </tr>
-                  <tr>
-                    <th>Unit Size</th>
-                    <th>Mon &ndash; Thurs</th>
-                    <th>Fri &ndash; Sun</th>
-                    <th>7 Night</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1 Bedroom</td>
-                    <td>480</td>
-                    <td>960</td>
-                    <td>7,000</td>
-                  </tr>
-                  <tr>
-                    <td>2 Bedroom</td>
-                    <td>700</td>
-                    <td>1,400</td>
-                    <td>7,000</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            
-          </div>
-          
-        </div> 
-        
-        <br />
-        
-        <div class="row">
-        
-          <div class="col-sm-6">
-        
-            <div class="table-responsive">
-              <table class="table table-hover platinum">
-                <thead>
-                  <tr>
-                    <th colspan="4"><img src="../../img/platinum.gif" alt="" class="level" /> Platinum: Weeks 7 &ndash; 13, 51, 52</th>
-                  </tr>
-                  <tr>
-                    <th>Unit Size</th>
-                    <th>Mon &ndash; Thurs</th>
-                    <th>Fri &ndash; Sun</th>
-                    <th>7 Night</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>1 Bedroom</td>
-                    <td>480</td>
-                    <td>960</td>
-                    <td>4,800</td>
-                  </tr>
-                  <tr>
-                    <td>2 Bedroom</td>
-                    <td>700</td>
-                    <td>1,400</td>
-                    <td>7,000</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            
-          </div>
-          
-        </div> 
-        <?php
-		  }
-		?>   
+        </div> <!-- row -->
       </div>
       
       <div id="map-container">
         <div id="map"></div>
       </div>
-      
-      <?php
-		if($lang == "jpn"){
-	  ?>
+    
       
       <div class="banner-caption resort-title">
         <h1>プランテーション・ビーチ･クラブ・アット・<br/>インディアン・リバー・プランテーション・リゾート</h1>
       </div>
       
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="points-link">必要ポイント数</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
+    </div> <!-- subbanner -->
     
+
     <div id="subtitle">
       <h2>アメリカ、フロリダ州スチュアート</h2>
     </div>
     
-      <?php
-		}
-		else {
-	  ?>
-      
-      <div class="banner-caption resort-title">
-        <h1>Plantation Beach Club at Indian River Plantation Resort</h1>
-      </div>
-      
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">Photos (<span id="photo-count"></span>)</a></li>
-          <li><a href="#" id="points-link">Points Chart</a></li>
-          <li><a href="#" id="map-link">Map</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    
-    <div id="subtitle">
-      <h2>Stuart, Florida</h2>
-    </div>
-    
-      <?php
-	    }
-  	  ?>
-    
+
+
     <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
-        </div>
-      </div>
     
       <div class="row">
       
         <div class="col-sm-8 main-column">
-        
-          <?php
-			if($lang == "jpn"){
-		  ?>
-          
+
           <h3>概要</h3>
           <address>329 NE Tradewind Ln, Stuart, FL 34996</address>
-          <p>大西洋に面した広大なプランテーション・ビーチ・クラブ・アット・インディアン・リバー・プランテーション・リゾートで、フロリダならではのバケーションをお楽しみください。ハッチンソン島の美しいビーチフロント沿いに位置し、自然散策、海水浴、サーフィン、セーリング、スノーケリングなど、さまざまなレクリエーションに理想的な環境を備えています。この島での素晴らしい食事とエンターテイメントもお見逃しなく。まるで絵画のように穏やかで静かな島は、心身ともに寛ぐ休暇にぴったりの場所です。魅力的なスチュアートの街からも便利な場所にあり、45分程のドライブで有名なパームビーチにもお出かけいただけます。</p>
+          <p>大西洋に面した広大なプランテーション・ビーチ・クラブ・アット・インディアン・リバー・プランテーション・リゾートで、フロリダならではのバケーションをお楽しみください。ハッチンソン島の美しいビーチフロント沿いに位置し、自然散策、海水浴、サーフィン、セーリング、スノーケリングなど、さまざまなレクリエーションに理想的な環境を備えています。この島での素晴らしい食事とエンターテイメントもお見逃しなく。まるで絵画のように穏やかで静かな島は、心身ともに寛ぐ休暇にぴったりの場所です。魅力的なスチュアートの街からも便利な場所にあり、45分程のドライブで有名なパームビーチにもお出かけいただけます。 </p>
           
           <br />
           
@@ -377,7 +209,7 @@ else {
             <li>温水プール、ジャグジー、サウナ</li>
             <li>18ホールのゴルフコースと水上ゴルフ練習場</li>
             <li>テニスコート13面</li>
-            <li>フィットネス施設</li>
+            <li>フィットネス施設</li> 
             <li>ヒルトン・グランド・バケーションズが管理</li>
             <li>加盟リゾート</li>
             <li>30年間の実績</li>
@@ -388,62 +220,18 @@ else {
           
           <br />
           
+          
+          
+          <br />
+            
+        </div>
+        <div class="col-sm-4 aside">
           <h3>追加情報</h3>
           <p>チェックイン: 3 p.m.<br />チェックアウト: 10 a.m.<br />電話番号: 772-225-0074</p>
+
           
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
+   
           
-          <?php
-			}
-			else {
-		  ?>
-        
-          <h3>Overview</h3>
-          <address>329 NE Tradewind Ln, Stuart, FL 34996</address>
-          <p>Enjoy an unforgettable Florida beach vacation at this sprawling Atlantic Coast resort. Ideally located on a beautiful stretch of oceanfront property on Hutchinson Island, the Plantation Beach Club offers plentiful recreational options including swimming, beachcombing, surfing, boating and snorkeling. Fabulous dining and entertainment options also await visitors to this island getaway. The picturesque barrier island provides a serene setting that is sure to relax the body and enrich the soul. The charming town of Stuart is easily accessible and renowned Palm Beach is just a 45-minute drive from the resort.</p>
-          
-          <br />
-          
-          <h3>Accommodations</h3>
-          <ul>
-            <li>Spacious 1 and 2 bedroom suites with screened balconies</li>
-            <li>Each suite features ocean view, fully equipped kitchen, washer and dryer</li>
-            <li>Complimentary high-speed, wireless Internet access</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Resort Features</h3>
-          <ul>
-            <li>Heated swimming pool, whirlpool spa and sauna</li>
-            <li>18-hole golf course and aqua driving range</li>
-            <li>13 tennis courts</li>
-            <li>Exercise Facilities</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Additional Info</h3>
-          <p>Check In: 3 p.m.<br />Check Out: 10 a.m.<br />Phone: 772-225-0074</p>
-          
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3>Request Pricing</h3>
-          <p class="text-center"><img src="../../discover/img/request-info.jpg" alt="Request Information About Vacation Ownership with Hilton Grand Vacations" /></p>
-          <p>Discover the many benefits of vacation ownership and open up a world of Grand Vacations!</p>
-          <p><a href="<?php echo getHost(); ?>discover/" class="btn btn-primary">Learn More &raquo;</a></p>
-          
-          <?php
-			}
-		  ?>
           
         </div>
         
@@ -461,6 +249,7 @@ else {
   <script type="text/javascript">
 	$(document).ready(function(e){ 
 	  getMap(27.2088042, -80.1714187, 14);
+
     });
   </script>
 
