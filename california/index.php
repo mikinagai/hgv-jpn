@@ -45,9 +45,9 @@
             <img src="img/seapointe.jpg" alt="Carlsbad Seapointe Resort" />
           </div>
           <div class="col-sm-8">
-            <h3>Carlsbad Seapointe Resort</h3>
-            <p class="location">Carlsbad, California, USA</p>
-            <p>Carlsbad Seapointe Resort is ideally perched atop a seaside bluff overlooking the Pacific Ocean and Coastal Highway 101. After a day of sightseeing or enjoying the beach, unwind to the relaxing sound of the ocean amid stylish d&eacute;cor and comfortable amenities.</p>
+            <h3>カールスバッド・シーポイント・リゾート</h3>
+            <p class="location">アメリカ、カリフォルニア州カールスバッド</p>
+            <p>カールズバッド・シーポイント・リゾートは、南カリフォルニアの海岸線エリアで最も人気の高い観光地に位置する、素晴らしいリゾートです。観光やビーチでの一日をお楽しみいただいた後、心地よい太平洋の海を感じながら、スタイリッシュな装飾と充実したアメニティーの中でお寛ぎいただけます。</p>
             <p><a href="carlsbad-seapointe/" class="btn btn-primary">Learn More &raquo;</a></p>
           </div>
         </div>

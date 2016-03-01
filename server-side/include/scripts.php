@@ -3,6 +3,10 @@
 <script type="text/javascript" src="<?php echo getHost(); ?>js/bootstrap.min.js"></script>
 <script type="text/javascript" src="<?php echo getHost(); ?>js/lazyloader.js"></script>
 <script type="text/javascript" src="<?php echo getHost(); ?>js/script.js"></script>
+<script type="text/javascript" src="<?php echo getHost(); ?>js/wow.min.js"></script>
+<script type="text/javascript" src="<?php echo getHost(); ?>js/jquery.mixitup.min.js"></script>
+<script type="text/javascript" src="<?php echo getHost(); ?>js/filter.js"></script>
+<script type="text/javascript" src="<?php echo getHost(); ?>js/jquery.magnific-popup.min.js"></script>
   
 <script type="text/javascript">
 

@@ -4,6 +4,8 @@
 <link type="text/css" rel="stylesheet" href="<?php echo getHost(); ?>css/bootstrap.min.css" />
 <link type="text/css" rel="stylesheet" href="<?php echo getHost(); ?>css/default.css" />
 <link type="text/css" rel="stylesheet" href="<?php echo getHost(); ?>css/font-awesome.min.css" />
+<link type="text/css" rel="stylesheet" href="<?php echo getHost(); ?>css/animate.css" />
+<link type="text/css" rel="stylesheet" href="<?php echo getHost(); ?>css/magnific-popup.css" />
 <link type="image/x-icon" rel="shortcut icon" href="<?php echo getHost(); ?>img/favicon_HI.ico" />
 <!--[if lt IE 9]>
   <script type="text/javascript" src="<?php echo getHost(); ?>js/html5shiv.min.js"></script>
