@@ -334,6 +334,16 @@ $(document).ready(function(e){
     hideShowSubPages(type);
   });
 
+  $('.testimonial-popup').magnificPopup({
+    type: 'ajax',
+    alignTop: true,
+    overflowY: 'scroll' // as we know that popup content is tall we set scroll overflow by default to avoid jump
+  });
+
+  $('.simple-ajax-popup').magnificPopup({
+    type: 'ajax'
+  });
+
   $('.link-list li a').on('click', function(e){
     e.preventDefault();
     var href = $(this).attr('href');
