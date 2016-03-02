@@ -9,21 +9,35 @@ $(document).ready(function() {
     fixedContentPos: false
   });
 
-  $(".form-click-to-show").click(function(){
+  $(".martial-status .form-click-to-show").click(function(){
     if($(this).val() === "Married"){
       $(".show-onclick-marital-status").show("fast");    
     } else {
       $(".show-onclick-marital-status").hide("fast");
     }
+  });
+
+  $(".promo-code .form-click-to-show").click(function(){
     if($(this).val() === "Yes"){
       $(".show-onclick-promocode").show("fast");    
     } else {
       $(".show-onclick-promocode").hide("fast");
     }
+  });
+
+  $(".request-info .form-click-to-show").click(function(){
     if($(this).val() === "Catalogue"){
       $(".show-onclick-catalogue").show("fast");    
     } else {
       $(".show-onclick-catalogue").hide("fast");
+    }
+  });
+
+  $(".booking-info .form-click-to-show").click(function(){
+    if($(this).val() === "1"){
+      $(".show-onclick-booking-info").show("fast");    
+    } else {
+      $(".show-onclick-booking-info").hide("fast");
     }
   });
 
@@ -34,137 +48,137 @@ $(document).ready(function() {
     document.getElementById("search").addEventListener("click", geoApiSearchByPostal);
     geoApiInitialize();
 
-    //debugger;
-            // $('#Japan-tour-form, #exampleForm2')
-            //     .formValidation({
-            //         framework: 'bootstrap',
-            //         icon: {
-            //             valid: 'glyphicon glyphicon-ok',
-            //             invalid: 'glyphicon glyphicon-remove'
-            //         },
-            //         fields: {
-            //             '00N9000000DrpdY': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '10桁のANAマイレージ番号を入力してください'
-            //                     }
-            //                 }
-            //             },
-            //             'last_name': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '姓を入力してください'
-            //                     }
-            //                 }
-            //             },
-            //             'first_name': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '名前を入力してください'
-            //                     }
-            //                 }
-            //             },
-            //             // roman last name
-            //             '00N70000001wI2h': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '姓をローマ字入力してください'
-            //                     }
-            //                 }
-            //             },
-            //             // roman first name
-            //             '00N70000001wI2w': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '名前をローマ字入力してください'
-            //                     }
-            //                 }
-            //             },
-            //             // Income
-            //             '00N70000001hDUD': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: 'お選びください'
-            //                     }
-            //                 }
-            //             },
-            //             'geoapi-postal-3': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '郵便番号を入力してください'
-            //                     }
-            //                 }
-            //             },
-            //             'geoapi-postal-4': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: ''
-            //                     }
-            //                 }
-            //             },
-            //             'phone': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '電話番号をハイフンなしで番号のみ入力してください'
-            //                     }
-            //                 }
-            //             },
-            //             /*'email': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: 'Eメールアドレスを入力してください'
-            //                     },
-            //                     identical: {
-            //                         field: 'confirm_email',
-            //                         message: 'Eメールアドレスを確認してください'
-            //                     }
-            //                 }
-            //             },
-            //             'confirm_email': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '確認の為再度Eメールアドレスを入力してください'
-            //                     },
-            //                     identical: {
-            //                         field: 'email',
-            //                         message: ''
-            //                     }
-            //                 }
-            //             },*/
-            //             // tour location
-            //             '00N9000000EaMff': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: 'ご希望の場所をお選びください'
-            //                     }
-            //                 }
-            //             },
-            //             // tour date
-            //             '00N9000000EaMfe': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: 'ご希望の日をお選びください'
-            //                     }
-            //                 }
-            //             },
-            //             // tour time
-            //             '00N9000000EaMfd': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: 'ご希望の時間をお選びください'
-            //                     }
-            //                 }
-            //             }
-            //             // opt in
-            //             /*'00N70000001wkiv': {
-            //                 validators: {
-            //                     notEmpty: {
-            //                         message: '必須項目です'
-            //                     }
-            //                 }
-            //             }*/
-            //         }
-            //     })
+    debugger;
+            $('#Japan-tour-form, #exampleForm2')
+                .formValidation({
+                    framework: 'bootstrap',
+                    icon: {
+                        valid: 'glyphicon glyphicon-ok',
+                        invalid: 'glyphicon glyphicon-remove'
+                    },
+                    fields: {
+                        '00N9000000DrpdY': {
+                            validators: {
+                                notEmpty: {
+                                    message: '10桁のANAマイレージ番号を入力してください'
+                                }
+                            }
+                        },
+                        'last_name': {
+                            validators: {
+                                notEmpty: {
+                                    message: '姓を入力してください'
+                                }
+                            }
+                        },
+                        'first_name': {
+                            validators: {
+                                notEmpty: {
+                                    message: '名前を入力してください'
+                                }
+                            }
+                        },
+                        // roman last name
+                        '00N70000001wI2h': {
+                            validators: {
+                                notEmpty: {
+                                    message: '姓をローマ字入力してください'
+                                }
+                            }
+                        },
+                        // roman first name
+                        '00N70000001wI2w': {
+                            validators: {
+                                notEmpty: {
+                                    message: '名前をローマ字入力してください'
+                                }
+                            }
+                        },
+                        // Income
+                        '00N70000001hDUD': {
+                            validators: {
+                                notEmpty: {
+                                    message: 'お選びください'
+                                }
+                            }
+                        },
+                        'geoapi-postal-3': {
+                            validators: {
+                                notEmpty: {
+                                    message: '郵便番号を入力してください'
+                                }
+                            }
+                        },
+                        'geoapi-postal-4': {
+                            validators: {
+                                notEmpty: {
+                                    message: ''
+                                }
+                            }
+                        },
+                        'phone': {
+                            validators: {
+                                notEmpty: {
+                                    message: '電話番号をハイフンなしで番号のみ入力してください'
+                                }
+                            }
+                        },
+                        /*'email': {
+                            validators: {
+                                notEmpty: {
+                                    message: 'Eメールアドレスを入力してください'
+                                },
+                                identical: {
+                                    field: 'confirm_email',
+                                    message: 'Eメールアドレスを確認してください'
+                                }
+                            }
+                        },
+                        'confirm_email': {
+                            validators: {
+                                notEmpty: {
+                                    message: '確認の為再度Eメールアドレスを入力してください'
+                                },
+                                identical: {
+                                    field: 'email',
+                                    message: ''
+                                }
+                            }
+                        },*/
+                        // tour location
+                        '00N9000000EaMff': {
+                            validators: {
+                                notEmpty: {
+                                    message: 'ご希望の場所をお選びください'
+                                }
+                            }
+                        },
+                        // tour date
+                        '00N9000000EaMfe': {
+                            validators: {
+                                notEmpty: {
+                                    message: 'ご希望の日をお選びください'
+                                }
+                            }
+                        },
+                        // tour time
+                        '00N9000000EaMfd': {
+                            validators: {
+                                notEmpty: {
+                                    message: 'ご希望の時間をお選びください'
+                                }
+                            }
+                        }
+                        // opt in
+                        /*'00N70000001wkiv': {
+                            validators: {
+                                notEmpty: {
+                                    message: '必須項目です'
+                                }
+                            }
+                        }*/
+                    }
+                })
   }
 
 });
