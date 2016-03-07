@@ -86,7 +86,10 @@ img.mobile-show{
 
 }
 
-
+a.h_question{
+	cursor: default;
+	text-decoration: none;
+}
 
 .quote{
 	display: block;

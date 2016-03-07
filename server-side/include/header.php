@@ -79,7 +79,7 @@
 
       <div class="row">
         <div class="col-sm-12 explore-all-cta">
-          <a href="http://www.hiltongrandvacations.com/explore/" class="">全てのリゾートを見る</a>
+          <a href="<?php echo getHost(); ?>explore/" class="">全てのリゾートを見る</a>
         </div>
       </div>
 
