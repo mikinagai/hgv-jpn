@@ -348,6 +348,7 @@ nav.btn-group .btn-primary {
 nav ul {
 	list-style-type: none;
 	text-align: right;
+	padding: 0;
 }
 nav ul li {
 	display: inline-block;
@@ -512,6 +513,21 @@ nav ul li.active a, nav ul li a:hover {
             box-shadow: 0 2px 4px -2px #888;
 }
 
+#contactus-menu{
+	left:0px;
+    right:  -1030px;
+    margin: auto;
+	position: absolute; 
+	width: 100%;
+	max-width: 222px;
+	background-color: #fff; 
+	z-index: 200;
+	display: none;
+	border-bottom: 1px solid #ccc;
+	-webkit-box-shadow: 0 2px 4px -2px #888;
+       -moz-box-shadow: 0 2px 4px -2px #888;
+            box-shadow: 0 2px 4px -2px #888;
+}
 
 
 
@@ -955,12 +971,6 @@ a.next-step-resorts{
 
 
 /*//////////////////////////////////*/
-
-/*/////// SALES PREVIEW /////////*/
-
-.card h3{
-
-}
 
 
 
@@ -1832,6 +1842,12 @@ p.location i{
 
 .card_cell {
     padding: 22px;
+}
+
+@media only screen and (max-width: 1092px) {
+  .card{
+  	min-width: auto;
+  }
 }
 
 .l_cell{
