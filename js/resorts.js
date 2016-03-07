@@ -101,9 +101,9 @@ $("#resorts-options ul li a").click(function(e){
   
 });
 
-$(".floorplan").live("click", function(e){
-  $(this).addClass("active");
+$("body").on("click", '.floorplan', function(e){
+  $(this).addClass("active");
 });
-$(".floorplan.active").live("click", function(e){
-  $(this).removeClass("active");
+$("body").on("click", '.floorplan.active', function(e){
+  $(this).removeClass("active");
 });
