@@ -81,7 +81,7 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-01.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-01.html"><img src="img/hawaii/hawaii-01.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">娘のウェディング</span>
                       <span class="testimonial-name">千葉県在住／浅倉様</span>
@@ -89,7 +89,7 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-02.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-02.html"><img src="img/hawaii/hawaii-02.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">初めての家族旅行</span>
                       <span class="testimonial-name">沖縄県在住／森田様</span>
@@ -97,7 +97,7 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-03.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-03.html"><img src="img/hawaii/hawaii-03.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">我が家のタイムシェアデビュー！</span>
                       <span class="testimonial-name">愛知県在住／村田様</span>
@@ -105,7 +105,7 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-04.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-04.html"><img src="img/hawaii/hawaii-04.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">ハワイから広がる友達の輪</span>
                       <span class="testimonial-name">兵庫県在住／新井様</span>
@@ -119,7 +119,8 @@
 
 
                 <li class="mix pics-other testimonial-link">
-                  <a href="#"><img src="img/other/other-02.jpg" />
+                  <a class="testimonial-popup" href="details/other-02.html">
+                      <img src="img/other/other-02.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">タイムシェアを購入して早８年...</span>
                       <span class="testimonial-name">大阪府在住／稲泉様</span>
@@ -127,7 +128,7 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-05.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-05.html"><img src="img/hawaii/hawaii-05.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">愛のキューピット</span>
                       <span class="testimonial-name">三重県在住／水野様</span>
@@ -135,7 +136,7 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-06.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-06.html"><img src="img/hawaii/hawaii-06.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">モノより思い出</span>
                       <span class="testimonial-name">神奈川県在住／高橋様</span>
@@ -143,7 +144,7 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-07.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-07.html"><img src="img/hawaii/hawaii-07.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">素晴らしかった初めての<br />タイムシェア・リゾート利用体験</span>
                       <span class="testimonial-name">東京都在住／福田様</span>
@@ -151,7 +152,8 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-08.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-08.html">
+                      <img src="img/hawaii/hawaii-08.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">家族のバトンリレー</span>
                       <span class="testimonial-name">神奈川県在住／植木様</span>
@@ -159,7 +161,8 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-09.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-09.html">
+                      <img src="img/hawaii/hawaii-09.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">やっぱりハワイは最高です！</span>
                       <span class="testimonial-name">神奈川県在住／川口様</span>
@@ -167,7 +170,8 @@
                   </a>
                 </li>
                 <li class="mix pics-other testimonial-link">
-                  <a href="#"><img src="img/other/other-03.jpg" />
+                  <a class="testimonial-popup" href="details/other-03.html">
+                      <img src="img/other/other-03.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">娘との再会をNYで</span>
                       <span class="testimonial-name">静岡県在住／広田様</span>
@@ -175,7 +179,8 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-10.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-10.html">
+                      <img src="img/hawaii/hawaii-10.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">素晴らしい４世代旅行の実現！</span>
                       <span class="testimonial-name">静岡県在住／松浦様</span>
@@ -183,7 +188,8 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-11.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-11.html">
+                      <img src="img/hawaii/hawaii-11.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">念願の三世代ハワイ旅行</span>
                       <span class="testimonial-name">東京都在住／堀様</span>
@@ -191,7 +197,8 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-12.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-12.html">
+                      <img src="img/hawaii/hawaii-12.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">次回は長期滞在をしたい</span>
                       <span class="testimonial-name">兵庫県在住／江崎様</span>
@@ -199,7 +206,8 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-13.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-13.html">
+                      <img src="img/hawaii/hawaii-13.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">Honolulu Century Rideに参加して</span>
                       <span class="testimonial-name">東京都在住／堀様</span>
@@ -207,7 +215,8 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-14.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-14.html">
+                      <img src="img/hawaii/hawaii-14.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">恋しくて</span>
                       <span class="testimonial-name">愛知県在住／小林様</span>
@@ -215,13 +224,50 @@
                   </a>
                 </li>
                 <li class="mix pics-hawaii testimonial-link">
-                  <a href="#"><img src="img/hawaii/hawaii-15.jpg" />
+                  <a class="testimonial-popup" href="details/hawaii-15.html">
+                      <img src="img/hawaii/hawaii-15.jpg" />
                     <div class="testimonial-details">
                       <span class="testimonial-title">キングス・ランド　グランドオープン!!</span>
                       <span class="testimonial-name">神奈川県在住／南雲様</span>
                     </div>
                   </a>
                 </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a class="testimonial-popup" href="details/hawaii-16.html">
+                      <img src="img/hawaii/hawaii-16.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">父とハワイ</span>
+                      <span class="testimonial-name">大阪府在住／坂本様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a class="testimonial-popup" href="details/hawaii-17.html">
+                      <img src="img/hawaii/hawaii-17.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">長女・念願のハワイアン・ウェディング</span>
+                      <span class="testimonial-name">東京都在住／近藤様</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="mix pics-hawaii testimonial-link">
+                  <a class="testimonial-popup" href="details/hawaii-18.html">
+                      <img src="img/hawaii/hawaii-18.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">ハワイ島での素晴らしいバケーション</span>
+                      <span class="testimonial-name">岩手県在住/尾形様</span>
+                    </div>
+                  </a>
+                </li>
+                  <li class="mix pics-japan testimonial-link">
+                  <a class="testimonial-popup" href="details/japan-01.html"><img src="img/other/japan-01.jpg" />
+                    <div class="testimonial-details">
+                      <span class="testimonial-title">残りポイントの活用法の一例</span>
+                      <span class="testimonial-name">神奈川県在住／ 木村様</span>
+                    </div>
+                  </a>
+                </li>
+                  
                 <li class="gap"></li>
               </ul>
               <div class="cd-fail-message">No results found</div>
