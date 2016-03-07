@@ -131,10 +131,6 @@
               </li>
             </ul>
         </div>
-        <!--div class="col-sm-3">
-          <h4>Recently Viewed</h4>
-          <br class="visible-xs" />
-        </div-->
       </div>
     </div>
   </div>

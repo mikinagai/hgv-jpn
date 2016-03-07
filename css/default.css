@@ -741,6 +741,14 @@ nav ul li.active a, nav ul li a:hover {
     #destinationslideshow #myCarousel .item {
     height: 300px;
 	}
+
+	.s_content-item-wrapper,.m_content-item-wrapper,.sweep_content-item-wrapper{
+	margin-bottom: 10px !important;
+	min-height:auto !important;
+	}
+	#homecontent .col-sm-4 {
+    	border-right: none !important;
+	}
 	
 }
 
@@ -751,7 +759,7 @@ nav ul li.active a, nav ul li a:hover {
 
 .s_content-item-wrapper{
 	min-height: 390px;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 	padding: 10px;
 }
 
@@ -763,16 +771,17 @@ nav ul li.active a, nav ul li a:hover {
 
 .sweep_content-item-wrapper{
 	min-height: 430px;
-	margin-bottom: 69px;
+	margin-bottom: 63px;
 	padding: 10px;
 }
 
+h2.home-col-header{
+	margin-top: 5px;
+}
 
 .content-news-wrapper{
 	min-height: 430px;
 	margin-bottom: 35px;
-	background: url("../img/news-bg-pattern.png") repeat-x;
-	/*background: rgba(50,154,183,0.5);*/
 	padding: 3px 15px;
 }
 

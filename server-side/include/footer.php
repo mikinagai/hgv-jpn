@@ -7,48 +7,39 @@
                   <a class="footer-links-title" href="#">新着情報</a>
                 </div>
                 <div class="footer-col-section-item">
-                  <a class="footer-links-title" href="#">タイムシェア・プログラム</a>
+                  <a class="footer-links-title" href="<?php echo getHost(); ?>timeshare/?index=timeshare-program">タイムシェア・プログラム</a>
                   <ul>
-                    <li><a href="#">タイムシェアとホテル滞在の違い</a></li>
-                    <li><a href="#">ヒルトン・グランド・バケーションズの特長</a></li>
-                    <li><a href="#">ご購入までの流れ</a></li>
+                    <li><a href="<?php echo getHost(); ?>timeshare/?index=how-to-purchase">ご購入までの流れ</a></li>
+                    <li><a href="<?php echo getHost(); ?>timeshare/?index=for-business">法人のお客様へ</a></li>
                   </ul>
                 </div>
 
                 <div class="footer-col-section-item">
-                  <a class="footer-links-title" href="#">法人のお客様へ</a>
+                  <a class="footer-links-title" href="<?php echo getHost(); ?>/testimonials">オーナーの声</a>
                 </div>
 
-                <div class="footer-col-section-item">
-                  <a class="footer-links-title" href="#">オーナーの声</a>
-                    <ul>
-                      <li><a href="#">ハワイで楽しむ</a></li>
-                      <li><a href="#">国内で楽しむ</a></li>
-                      <li><a href="#">世界で楽しむ</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
 
         <div class="col-sm-4">
             <div class="footer-col-section">
               <div class="footer-col-section-item">
-                <a class="footer-links-title" href="#">タイムシェア販売説明会</a>
+                <a class="footer-links-title" href="<?php echo getHost(); ?>sales-preview/?index=sales-preview">タイムシェア販売説明会</a>
                 <ul>
-                  <li><a href="#">販売説明会の流れ</a></li>
-                  <li><a href="#">開催地・日程</a></li>
-                  <li><a href="#">来場ご予約（国内）</a></li>
-                  <li><a href="#">来場ご予約（ハワイ）</a></li>
+                  <li><a href="<?php echo getHost(); ?>sales-preview/?index=sales-tower-flow">販売説明会の流れ</a></li>
+                  <li><a href="<?php echo getHost(); ?>sales-preview/?index=tour-location">開催地・日程</a></li>
+                  <li><a href="<?php echo getHost(); ?>sales-preview/?index=booking-form-japan">来場ご予約（国内）</a></li>
+                  <li><a href="<?php echo getHost(); ?>sales-preview/?index=booking-form-hawaii">来場ご予約（ハワイ）</a></li>
                 </ul>
               </div>
 
               <div class="footer-col-section-item">
-                <a class="footer-links-title" href="#">リゾート宿泊プラン</a>
+                <a class="footer-links-title" href="<?php echo getHost(); ?>vacation-packages/?index=vacation-packages">リゾート宿泊プラン</a>
                 <ul>
-                  <li><a href="#">宿泊プラン</a></li>
-                  <li><a href="#">ホテルルーム宿泊プラン</a></li>
-                  <li><a href="#">ご検討中の方へ</a></li>
-                  <li><a href="#">航空券手配</a></li>
+                  <li><a href="<?php echo getHost(); ?>vacation-packages/?index=oahu-pkgs">オアフ島プラン</a></li>
+                  <li><a href="<?php echo getHost(); ?>vacation-packages/?index=hawaii-pkgs">ハワイ島プラン</a></li>
+                  <li><a href="<?php echo getHost(); ?>vacation-packages/?index=wisland-pkgs">Wアイランド・プラン</a></li>
+                  <li><a href="<?php echo getHost(); ?>vacation-packages/?index=vacation-pkgs-forms">お申し込みフォーム</a></li>
                 </ul>
               </div>
             </div>
@@ -57,21 +48,21 @@
             <div class="footer-col-section">
 
               <div class="footer-col-section-item">
-                <a class="footer-links-title" href="#">よくあるご質問</a>
+                <a class="footer-links-title" href="<?php echo getHost(); ?>/faq/?index=fq_timeshare-program">よくあるご質問</a>
                 <ul>
-                  <li><a href="#">タイムシェアについて</a></li>
-                  <li><a href="#">オーナーになったら</a></li>
-                  <li><a href="#">各リゾートについて</a></li>
-                  <li><a href="#">販売説明会について</a></li>
-                  <li><a href="#">リゾート宿泊プランについて</a></li>
+                  <li><a href="<?php echo getHost(); ?>faq/?index=fq_timeshare-program">タイムシェアについて</a></li>
+                  <li><a href="<?php echo getHost(); ?>faq/?index=fq_become-owner">オーナーになったら</a></li>
+                  <li><a href="<?php echo getHost(); ?>faq/?index=fq_each-resort">各リゾートについて</a></li>
+                  <li><a href="<?php echo getHost(); ?>faq/?index=fq_sales-preview">販売説明会について</a></li>
+                  <li><a href="<?php echo getHost(); ?>faq/?index=fq_resort-plans">リゾート宿泊プランについて</a></li>
                 </ul>
               </div>
 
               <div class="footer-col-section-item">
-                <a class="footer-links-title" href="#">お問い合わせ</a>
+                <a class="footer-links-title" href="<?php echo getHost(); ?>/contact/">お問い合わせ</a>
                 <ul>
-                  <li><a href="#">資料請求・ダウンロード</a></li>
-                  <li><a href="#">タイムシェア購入に関するお問い合わせ</a></li>
+                  <li><a href="<?php echo getHost(); ?>contact/sidebar.php?index=request-dvd">資料請求・ダウンロード</a></li>
+                  <li><a href="<?php echo getHost(); ?>contact/sidebar.php?index=purchase-on-phone">タイムシェア購入に関するお問い合わせ</a></li>
                 </ul>
               </div>
 
