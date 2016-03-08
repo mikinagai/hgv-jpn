@@ -196,7 +196,7 @@
                         </div>
 
                         <div class="col-sm-12">
-                            <div class="radio-wrap row__form">
+                            <div class="radio-wrap row__form martial-status">
                                 <label class="radio-inline formText">
                                     <input type="radio" class="form-click-to-show" name="00N70000001hDUg" id="00N70000001hDUg" value="Married"> &nbsp; &nbsp; はい
                                 </label>

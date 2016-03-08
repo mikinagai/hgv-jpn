@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="col-sm-12">
-                            <div class="radio-wrap row__form">
+                            <div class="radio-wrap row__form promo-code">
                                 <label class="radio-inline formText">
                                     <input type="radio" class="form-click-to-show" name="00N70000001hDUg" id="00N70000001hDUg" value="Yes"> &nbsp; &nbsp; はい
                                 </label>
