@@ -28,6 +28,23 @@
             <h1>お問い合わせ</h1>
 
             <div class="row">
+              <div class="col-s-12 col-sm-12">
+                <div class="card">
+                  <div class="card_cell">
+                    <h5>資料請求</h5>
+                    <hr>
+                    <p class="phone-number"><img class="freedial" src="img/freedial.png" />0120-805-817
+                      <span class="hours">(月〜土・祝 9:30am 〜 6:00 pm 日曜休)</span></p>
+                    <p>タイムシェアの魅力をご紹介したDVD付きのパンフレットをお送りさせていただきます。
+                      Webフォームよりお問い合わせ頂いた方はDVD付きのパンフレットを閲覧、ダウンロードしていただけます。</p>
+                    <!-- <p class="e-address"><i class="fa fa-envelope-o"></i>accesstokyo@hgvc.com</p> -->
+                    <p><a href="<?php echo getHost(); ?>/contact/sidebar.php?index=request-dvd" class="btn btn-primary btns">資料請求フォーム</a><a href="mailto:accesstokyo@hgvc.com" class="btn btn-secondary"><i class="fa fa-envelope-o"></i>Email</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
               <div class="col-s-12 col-sm-6">
                 <div class="card">
                   <div class="card_cell">
@@ -35,7 +52,7 @@
                     <hr>
                     <p class="phone-number"><img class="freedial" src="img/freedial.png" />0120-805-817
                       <span class="hours">(月〜土・祝 9:30am 〜 6:00 pm 日曜休)</span></p>
-                    <p>タイムシェアの魅力をご紹介したDVD付きのパンフレットをお送りさせていただきます。Webフォームよりお問い合わせ頂いた方はDVD付きのパンフレットを閲覧、ダウンロードしていただけます。</p>
+                    <p>タイムシェアの魅力や仕組みをわかりやすくご説明いたします。<br />是非、ご参加ください。</p>
                     <!-- <p class="e-address"><i class="fa fa-envelope-o"></i>accesstokyo@hgvc.com</p> -->
                     <p><a href="<?php echo getHost(); ?>/contact/sidebar.php?index=booking-form-japan" class="btn btn-primary btns">国内ご予約フォーム</a><a href="mailto:accesstokyo@hgvc.com" class="btn btn-secondary"><i class="fa fa-envelope-o"></i>Email</a></p>
                   </div>
@@ -48,7 +65,7 @@
                     <hr>
                     <p class="phone-number"><img class="freedial" src="img/freedial.png" />0120-805-824
                       <span class="hours">(月〜土・祝 9:00am 〜 7:00 pm 日曜休、土・祝のみ6:30 pmまで営業)</span></p>
-                    <p>タイムシェアの魅力をご紹介したDVD付きのパンフレットをお送りさせていただきます。Webフォームよりお問い合わせ頂いた方はDVD付きのパンフレットを閲覧、ダウンロードしていただけます。</p>
+                    <p>タイムシェアの魅力や仕組みをわかりやすくご説明いたします。<br />是非、ご参加ください。</p>
                     <p><a href="<?php echo getHost(); ?>/contact/sidebar.php?index=booking-form-hawaii" class="btn btn-primary btns">ハワイご予約フォーム</a><a href="mailto:hawaiijpn@hgvc.com" class="btn btn-secondary"><i class="fa fa-envelope-o"></i>Email</a></p>
                   </div>
                 </div>
@@ -90,8 +107,11 @@
                     <hr>
                     <p class="phone-number"><img class="freedial" src="img/freedial.png" />0120-805-811
                       <span class="hours">(月〜土 9:00am 〜 6:00 pm 日曜・祝日休)</span></p>
-                    <p>タイムシェアの魅力をご紹介したDVD付きのパンフレットをお送りさせていただきます。Webフォームよりお問い合わせ頂いた方はDVD付きのパンフレットを閲覧、ダウンロードしていただけます。</p>
-                    <p><a href="<?php echo getHost(); ?>/contact/?sidebar.php=booking-form-japan" class="btn btn-primary btns">国内ご予約フォーム</a><a href="mailto:japands@hgvc.com" class="btn btn-secondary"><i class="fa fa-envelope-o"></i>Email</a></p>
+
+                    <p class="phone-number"><i class="fa fa-mobile fa-fw"></i>03-6866-4900
+                      <span class="hours">(月〜土 9:00am 〜 6:00 pm 日曜・祝日休)</span></p>
+
+                    <p><a href="https://www.hgvclub.com/login_jp.php" target="_blank" class="btn btn-primary btns">クラブメンバーサイト</a></p>
                   </div>
                 </div>
               </div>

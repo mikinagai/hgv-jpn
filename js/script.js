@@ -209,11 +209,11 @@ $(document).ready(function(e){
       $(selector).addClass('active');
     }
     if (form){
-      $('#form-success').show();
-      $('.pre-form').hide();
+      $('.sub-content.active #form-success').show();
+      $('.sub-content.active .pre-form').hide();
     } else{
-      $('#form-success').hide();
-      $('.pre-form').show();
+      $('.sub-content.active #form-success').hide();
+      $('.sub-content.active .pre-form').show();
     }
   }
 
@@ -247,6 +247,17 @@ $(document).ready(function(e){
     } else{
       parseJapaneseNavigation(type);
     }
+    toggleActiveContainer();
+  }
+
+  function toggleActiveContainer(){
+    $('.sub-content').removeClass('active');
+    $('.sub-content').each(function(){
+      if ($(this).is(':visible')){
+        var selector = '#' + $(this).attr('id');
+        $(selector).addClass('active');
+      }
+    });
   }
 
   function parseJapaneseNavigation(type){

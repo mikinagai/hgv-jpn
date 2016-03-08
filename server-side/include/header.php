@@ -15,8 +15,7 @@
           <li class="nav-main"><a href="<?php echo getHost(); ?>vacation-packages/?index=vacation-packages" id="resort-pln">リゾート宿泊プラン<span class="caret"></span></a></li>
           <li class="nav-main"><a href="<?php echo getHost(); ?>/testimonials">オーナーの声</a></li>
           <li class="nav-main"><a href="<?php echo getHost(); ?>/faq/?index=fq_timeshare-program" id="f_a_q">よくある質問<span class="caret"></span></a></li>
-          <li class="nav-main"><a href="<?php echo getHost(); ?>/contact/">お問い合わせ</a></li>
-          <!-- <li><a href="http://www.hgvclub.com/" target="_blank">Log In</a></li> -->
+          <li class="nav-main"><a href="<?php echo getHost(); ?>/contact/" id="contactus">お問い合わせ<span class="caret"></a></li>
         </ul>
       </nav>
     </div>
@@ -80,7 +79,7 @@
 
       <div class="row">
         <div class="col-sm-12 explore-all-cta">
-          <a href="http://www.hiltongrandvacations.com/explore/" class="">全てのリゾートを見る</a>
+          <a href="<?php echo getHost(); ?>explore/" class="">全てのリゾートを見る</a>
         </div>
       </div>
 
@@ -89,65 +88,6 @@
   </div>
 </div>
 
-
-
-<!-- <div style="position: relative; width: 100%;">
-  <div id="explore-menu" class="nav-dropdown-menu">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="row">
-            <div class="col-sm-6">
-              <h4>アメリカ</h4>
-              <p><a href="<?php echo getHost(); ?>california/">カリフォルニア</a></p>
-              <p><a href="<?php echo getHost(); ?>colorado/">コロラド</a></p>
-              <p><a href="<?php echo getHost(); ?>florida-atlantic/">フロリダ &ndash; Atlantic</a></p>
-              <p><a href="<?php echo getHost(); ?>florida-central/">フロリダ &ndash; 中央部</a></p>
-              <p><a href="<?php echo getHost(); ?>florida-gulf/">フロリダ &ndash; Gulf</a></p>
-              <p><a href="<?php echo getHost(); ?>florida-panhandle/">フロリダ &ndash; Panhandle</a></p>
-              <p><a href="<?php echo getHost(); ?>hawaii/">オアフ島</a></p>
-              <p><a href="<?php echo getHost(); ?>hawaii/">ハワイ島</a></p>
-              <p><a href="<?php echo getHost(); ?>nevada/">ネバダ</a></p>
-              <p><a href="<?php echo getHost(); ?>new-york/">ニューヨーク</a></p>
-              <p><a href="<?php echo getHost(); ?>south-carolina/">サウス・カロライナ</a></p>
-              <p><a href="<?php echo getHost(); ?>utah/">ユタ</a></p>
-              <br class="visible-xs" />
-            </div>
-            <div class="col-sm-6">
-              <h4>その他地域</h4>
-              <p><a href="<?php echo getHost(); ?>canada/">カナダ</a></p>
-              <p><a href="<?php echo getHost(); ?>indonesia/">インドネシア</a></p>
-              <p><a href="<?php echo getHost(); ?>italy/">イタリア</a></p>
-              <p><a href="<?php echo getHost(); ?>mexico/">メキシコ</a></p>
-              <p><a href="<?php echo getHost(); ?>new-zealand/">ニュージーランド</a></p>
-              <p><a href="<?php echo getHost(); ?>portugal/">ポルトガル</a></p>
-              <p><a href="<?php echo getHost(); ?>scotland/">スコットランド</a></p>
-              <p><a href="<?php echo getHost(); ?>thailand/">タイ</a></p>
-              <br class="visible-xs" />
-            </div>
-          </div>
-          <p class="text-center btn-container"><a href="<?php echo getHost(); ?>explore/" class="btn btn-info btn-full">全てのリゾートを見る</a></p>
-        </div>
-        <div class="col-sm-6 hidden-xs">
-          <h4>Featured Resort</h4>
-          <div class="row featured">
-            <div class="col-sm-12">
-              <div class="featured-resort">
-                <a href="<?php echo getHost(); ?>utah/sunrise-lodge-hgvc/">
-                  <img src="<?php echo getHost(); ?>img/featured.jpg" alt="" />
-                  <div class="caption">Sunrise Lodge by Hilton Grand Vacations</div>
-                </a>
-              </div>
-              <div class="subpara">
-                <p>PARK CITY, UTAH &ndash; This ski-in mountain lodge located at the base of the Sunrise lift at Canyons Resort, puts you in the heart of Park City's signatcure treasures. <a href="<?php echo getHost(); ?>utah/sunrise-lodge-hgvc/">Learn More &raquo;</a></p>
-              </div>
-            </div>
-          </div>
-        </div> 
-      </div>
-    </div>
-  </div>
-</div> -->
 
 <div style="position: relative; width: 100%;">
   <div id="timeshare-menu" class="nav-dropdown-menu">
@@ -166,10 +106,6 @@
               </li>
             </ul>
         </div>
-        <!--div class="col-sm-3">
-          <h4>Recently Viewed</h4>
-          <br class="visible-xs" />
-        </div-->
       </div>
     </div>
   </div>
@@ -195,10 +131,6 @@
               </li>
             </ul>
         </div>
-        <!--div class="col-sm-3">
-          <h4>Recently Viewed</h4>
-          <br class="visible-xs" />
-        </div-->
       </div>
     </div>
   </div>
@@ -224,10 +156,6 @@
               </li>
             </ul>
         </div>
-        <!--div class="col-sm-3">
-          <h4>Recently Viewed</h4>
-          <br class="visible-xs" />
-        </div-->
       </div>
     </div>
   </div>
@@ -257,10 +185,33 @@
               </li>
             </ul>
         </div>
-        <!--div class="col-sm-3">
-          <h4>Recently Viewed</h4>
-          <br class="visible-xs" />
-        </div-->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div style="position: relative; width: 100%;">
+  <div id="contactus-menu" class="nav-dropdown-menu">
+    <div class="container-fluid-subnav">
+      <div class="row">
+        <div class="col-sm-12">
+            <ul class="main-menu-sub">
+              <li>
+                <a href="<?php echo getHost(); ?>contact/sidebar.php?index=request-dvd" tabindex="-1">資料請求</a>
+              </li>
+              <li>
+                <a href="<?php echo getHost(); ?>contact/sidebar.php?index=booking-form-japan" tabindex="-1">来場ご予約（国内）</a>
+              </li>
+              <li>
+                <a href="<?php echo getHost(); ?>contact/sidebar.php?index=booking-form-hawaii" tabindex="-1">来場ご予約（ハワイ）</a>
+              </li>
+              <li>
+                <a href="<?php echo getHost(); ?>contact/sidebar.php?index=purchase-on-phone" tabindex="-1">タイムシェア新規購入</a>
+              </li>
+            </ul>
+        </div>
       </div>
     </div>
   </div>
