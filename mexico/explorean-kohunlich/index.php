@@ -1,11 +1,4 @@
-<?php include("../../server-side/library.php");
-if(isset($_GET["lang"])){
-  $lang = $_GET["lang"];
-}
-else {
-  $lang = "eng";	
-}
-?>
+<?php include("../../server-side/library.php");?>
 <!doctype html>
 <html>
 <head>
@@ -20,39 +13,48 @@ else {
     <?php addHeader(); ?>
     
     <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="The Exterior of the Explorean Kohunlich in Mexico" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="The Exterior of the Explorean Kohunlich in Mexico" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/03.jpg" alt="The Exterior of the Explorean Kohunlich in Mexico" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/04.jpg" alt="The Exterior of the Explorean Kohunlich in Mexico" />
-          </div>
-          
+
+      <div class="container-max">
+        <div id="resorts-options" class="hidden-xs">
+          <ul>
+            <li><a href="#" id="photos-link" class="active">写真</a></li>
+<!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+            <li><a href="#" id="points-link">必要ポイント数</a></li>
+            <li><a href="#" id="map-link">地図</a></li>
+          </ul>
         </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
       </div>
+    
+       <div id="homeslideshow"> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active" id="slide1" style="background-image: url('img/banner01-s.jpg');"></div>
+              <div class="item" id="slide2" style="background-image: url('img/banner02-s.jpg');"></div>
+              <div class="item" id="slide3" style="background-image: url('img/banner03-s.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner04-s.jpg');"></div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+      </div><!-- destinationslideshow -->
+<!--start floorplans -->
+<!-- floorplan-container -->
       
       <div id="points-container">
-        <?php
-		  if($lang == "jpn"){
-		?>  
         <div class="row">
         
           <div class="col-sm-6">
-          
+        
             <div class="table-responsive">
               <table class="table table-hover gold">
                 <thead>
@@ -80,7 +82,7 @@ else {
           </div>
         
           <div class="col-sm-6">
-        
+          
             <div class="table-responsive">
               <table class="table table-hover platinum">
                 <thead>
@@ -107,152 +109,34 @@ else {
             
           </div>
           
-        </div> 
-          <!-- <div class="row">
-            <div class="col-sm-12 text-center">
-              <p><img src="img/points-jpn.jpg" alt="" /></p>
-            </div>
-          </div> -->
-        <?php
-		  }
-		  else {
-		?>	
-        <div class="row">
-        
-          <div class="col-sm-6">
-          
-            <div class="table-responsive">
-              <table class="table table-hover gold">
-                <thead>
-                  <tr>
-                    <th colspan="4"><img src="../../img/gold.gif" alt="" class="level"> Gold: Weeks 1 &ndash; 11, 15 &ndash; 26, 34 &ndash; 50</th>
-                  </tr>
-                  <tr>
-                    <th>Unit Size</th>
-                    <th>Mon &ndash; Thurs</th>
-                    <th>Fri &ndash; Sun</th>
-                    <th>7 Night</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Bungalow</td>
-                    <td>340</td>
-                    <td>680</td>
-                    <td>3,400</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            
-          </div>
-        
-          <div class="col-sm-6">
-        
-            <div class="table-responsive">
-              <table class="table table-hover platinum">
-                <thead>
-                  <tr>
-                    <th colspan="4"><img src="../../img/platinum.gif" alt="" class="level"> Platinum: Weeks 12, 13, 27 &ndash; 33, 51, 52</th>
-                  </tr>
-                  <tr>
-                    <th>Unit Size</th>
-                    <th>Mon &ndash; Thurs</th>
-                    <th>Fri &ndash; Sun</th>
-                    <th>7 Night</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Bungalow</td>
-                    <td>480</td>
-                    <td>960</td>
-                    <td>4,800</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            
-          </div>
-          
-        </div> 
-        <?php
-		  }
-		?>
+        </div> <!-- row -->
       </div>
       
       <div id="map-container">
         <div id="map"></div>
       </div>
-      
-      <?php
-		if($lang == "jpn"){
-	  ?>
+    
       
       <div class="banner-caption resort-title">
         <h1>ザ・エクスプロリアン・コフンリッチ</h1>
       </div>
       
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="points-link">必要ポイント数</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
+    </div> <!-- subbanner -->
     
+
     <div id="subtitle">
       <h2>メキシコ、ユカタン半島チェトゥマル</h2>
     </div>
     
-      <?php
-		}
-		else {
-	  ?>
-      
-      <div class="banner-caption resort-title">
-        <h1>The Explorean Kohunlich</h1>
-      </div>
-      
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">Photos (<span id="photo-count"></span>)</a></li>
-          <li><a href="#" id="points-link">Points Chart</a></li>
-          <li><a href="#" id="map-link">Map</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    
-    <div id="subtitle">
-      <h2>Chetumal, Yucatan Peninsula, Mexico</h2>
-    </div>
-    
-      <?php
-		}
-	  ?>
-    
+
+
     <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
-        </div>
-      </div>
     
       <div class="row">
       
         <div class="col-sm-8 main-column">
-        
-          <?php
-			if($lang == "jpn"){
-		  ?>
-          
-          <h3>概要</h3>
+
+       <h3>概要</h3>
           <address>KM. 5.6 Desviaci&Oacute;n A Ruinas De Kohunlich, Chetumal, Yucatan Peninsula, Mexico</address>
           <p>ユカタン半島のジャングルに位置するザ・エクスプロリアン・コフンリッチでは素晴らしい自然環境の下、贅沢で快適な最高のサービスを提供します。プライベートなバンガローから、のどかな熱帯風景に耳を澄ますと、野生動物の鳴き声が聞こえてきます。リゾート内のレストランで美味しい地元の料理をご堪能ください。付近にはコフンリッチ遺跡もあり、心からのリラクゼーションはもちろん、自転車ツアー、ハイキング、セーリング、カヤック、ラッペリングといった、ユニークで爽快な思い出に残るアウトドアのオプショナルツアーも用意されています。</p>
           
@@ -280,62 +164,19 @@ else {
           
           <br />
           
+          
+          
+          <br />
+            
+        </div>
+        <div class="col-sm-4 aside">
           <h3>追加情報</h3>
           <p>チェックイン: 3 p.m.<br />チェックアウト: 11 a.m.<br />電話番号: +52-55-52-01-83500</p>
+
+
           
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
+   
           
-          <?php
-			}
-			else {
-		  ?>
-        
-          <h3>Overview</h3>
-          <address>KM. 5.6 Desviaci&Oacute;n A Ruinas De Kohunlich, Chetumal, Yucatan Peninsula, Mexico</address>
-          <p>Located in the heart of the Yucatan Peninsula jungle, The Explorean Kohunlich combines luxury, comfort and superb service amid spectacular natural surroundings. From the privacy of your bungalow, hear the sound of wild fauna as you immerse yourself in the tranquil tropical scenery. At mealtimes, indulge in delicious regional cuisine at the resort's on-site restaurant. Secluded near the archaeological site of Kohunlich, this exclusive getaway delivers complete relaxation as well as the option to participate in uniquely invigorating and unforgettable excursions into the wilderness, including bike tours, hiking, sailing, kayaking and rappelling.</p>
-          
-          <br />
-          
-          <h3>Accommodations</h3>
-          <ul>
-            <li>Private bungalows with two double beds or one king bed, reading sofa, bathroom, small porch and hammock</li>
-            <li>Air conditioning</li>
-            <li>No television (to inspire more complete immersion in the natural surroundings)</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Resort Features</h3>
-          <ul>
-            <li>Swimming pool and Jacuzzi</li>
-            <li>On-property restaurant, lobby bar</li>
-            <li>Spa and boutique</li>
-            <li>Laundry facilities</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Additional Info</h3>
-          <p>Check In: 3 p.m.<br />Check Out: 11 a.m.<br />Phone: +52 55 52 01 8350</p>
-          
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3>Request Pricing</h3>
-          <p class="text-center"><img src="../../discover/img/request-info.jpg" alt="Request Information About Vacation Ownership with Hilton Grand Vacations" /></p>
-          <p>Discover the many benefits of vacation ownership and open up a world of Grand Vacations!</p>
-          <p><a href="<?php echo getHost(); ?>discover/" class="btn btn-primary">Learn More &raquo;</a></p>
-          
-          <?php
-			}
-		  ?>
           
         </div>
         
@@ -353,6 +194,7 @@ else {
   <script type="text/javascript">
 	$(document).ready(function(e){ 
 	  getMap(18.4305, -88.8119, 9);
+
     });
   </script>
 
