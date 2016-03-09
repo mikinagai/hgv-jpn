@@ -309,7 +309,7 @@
 
           <!-- #5 来場ご予約（国内） -->
           <div id="booking-form-japan" class="col-sm-8 main-column sub-content" style="display:none;">
-            <?php include 'forms/form-success.php' ?>
+            <?php include '../forms/form-success.php' ?>
             <div class="pre-form">
               <h1>国内販売説明会・来場ご予約フォーム</h1>
               <?php include '../forms/tour_japan.php' ?>
@@ -319,7 +319,7 @@
 
           <!-- #4 来場ご予約（ハワイ） -->
           <div id="booking-form-hawaii" class="col-sm-8 main-column sub-content" style="display:none;">
-            <?php include 'forms/form-success.php' ?>
+            <?php include '../forms/form-success.php' ?>
             <div class="pre-form">
               <h1>ハワイ販売説明会・来場ご予約フォーム</h1>
               <?php include '../forms/tour_hawaii.php' ?>

@@ -293,7 +293,7 @@
 
           <!-- #6 Forms -->
           <div id="vacation-pkgs-forms" class="col-sm-8 main-column sub-content" style="display:none;">
-            <?php include 'forms/form-success.php' ?>
+            <?php include '../forms/form-success.php' ?>
             <div class="pre-form">
               <h1>お申し込みフォーム</h1>
               <?php include '../forms/booking.php' ?>
