@@ -94,192 +94,178 @@
           <!-- #2 オアフ島プラン -->
           <div id="oahu-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
 
-            <div class="row content-wrapper">
-              <h1>オアフリゾート宿泊プラン</h1>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <h1>オアフ島リゾート宿泊プラン</h1>
+
+            <div class="row">
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>リゾート宿泊プラン</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>ホクラニ・ワイキキ・バイ・ヒルトン・グランド・バケーションズ・クラブ</p>
+                    <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>1ベッドルーム（キチネットつき）</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊最大人数：</span>大人４名</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊数：</span>4〜8泊まで</p>
+                    <p class="pkgs-list"><span class="pkgs-label">料金：</span>4泊1室　$599（税込）～</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
+                    <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
+                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-pink" style="width:100%;">ご予約・お問い合わせ</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>ホテル宿泊プラン</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート</p>
+                    <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>ホテルルーム（キッチンなし）</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊最大人数：</span>大人3名、子ども（18歳未満）1名</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊数：</span>4〜8泊まで</p>
+                    <p class="pkgs-list"><span class="pkgs-label">料金：</span>4泊1室　$499（税込）～</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
+                    <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
+                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-pink" style="width:100%;">ご予約・お問い合わせ</a></p>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+            <h1>オアフ島のオプショナルツアーを2名様分プレゼント</h1>
+            <div class="row">
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>ヒルトン・ワイキキ<br />スターライト・ルアウ</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="bold">開催日：</span>日〜木</p>
+                    <p class="pkgs-list">ヒルトン・ハワイアン・ヴィレッジ内で開催されるハワイの伝統的食材を使ったディナーを楽しみながら、フラダンスなどのポリネシアンダンス、ライブミュージック、ファイヤーダンスを交えたエンターティメントショーをご満喫いただけます。</p>
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-8">
-                <h3>リゾート宿泊プラン</h3>
-                <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
-                <p>選べるアクティビティ付き</p>
-                <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
-              </div>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>リゾート宿泊プラン</h3>
-                <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
-                <p>選べるアクティビティ付き</p>
-                <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
-              </div>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>ホテル宿泊プラン</h3>
-                <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
-                <p>選べるアクティビティ付き</p>
-                <p><a href="#" class="btn btn-primary btns">予約・お問い合わせ</a></p>
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>ノースショア半日観光 + <br />クアアイナのアボカドバーガー</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="bold">滞在日２日目にご参加いただけます。</span></p>
+                    <p class="pkgs-list">ノースショア観光と、クアアイナで一番人気のアボカドバーガーをお楽しみいただけるツアーです。日本語ガイド兼ドライバー付き。この木何の木 &#8594; パイナップルパビリオン &#8594; ノースショア &#8594; ハレイワタウン (自由行動) &#8594; アリイビーチ &#8594; マツモトシェイブアイス</p>
+                  </div>
+                </div>
               </div>
             </div>
 
+            <p>【注意事項】 </p>
+            <p>ツアーは予告なく変更になる場合がございますこと、ご了承ください。 ３名様以上でお申込みの場合は追加代金を申し受け、手配いたします。 催行会社が天候、交通等の事情により当日内容を変更や中止する場合がございます。</p>
             
-
-
           </div> <!-- col-sm-8 -->
 
 
           <!-- #3 ハワイ島プラン -->
           <div id="hawaii-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
-            <div class="row content-wrapper">
-              <h1>ハワイ島プラン</h1>
-              <p>お客様のご旅行スタイル、これからのバケーションプランなどを伺いながら、タイムシェアの概要や仕組みを専任のスタッフが丁寧にご説明します。販売説明会は、日本各地、そしてハワイでほぼ毎日開催。開催地につきまして、以下をご覧ください。</p>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+            
+            <h1>ハワイ島リゾート宿泊プラン</h1>
+            
+            <div class="row">
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>リゾート宿泊プラン</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>キングス・ランド・バイ<br />ヒルトン・グランド・バケーションズ・クラブ</p>
+                    <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>1ベッドルーム（キチネットつき）</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊最大人数：</span>大人４名</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊数：</span>4〜8泊まで</p>
+                    <p class="pkgs-list"><span class="pkgs-label">料金：</span>4泊1室　$599（税込）～</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
+                    <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
+                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-primary" style="width:100%;">ご予約・お問い合わせ</a></p>
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-8">
-                <h3>日比谷バケーション・ギャラリー</h3>
-                <p>〒100-0006　東京都千代田区有楽町1-5-1<br />日比谷マリンビル９階</p>
-                <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
-              </div>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>新宿バケーション・ギャラリー</h3>
-                <p>〒160-0023　東京都新宿区西新宿6-6-2<br />ヒルトン東京地下１階ショップ＆レストラン「ヒルトピア」内</p>
-                <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
-              </div>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>横浜バケーション・ギャラリー</h3>
-                <p>〒220-8124　神奈川県横浜市西区みなとみらい2-2-1<br />横浜ランドマークタワー24階　2405号室</p>
-                <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
-              </div>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>名古屋バケーション・ギャラリー</h3>
-                <p>〒460-0008　愛知県名古屋市中区栄1-3-3<br />ヒルトン名古屋 ２階</p>
-                <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>ホテル宿泊プラン</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>ヒルトン・ワイコロア<br />ビレッジ</p>
+                    <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>ホテルルーム（キッチンなし）</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊最大人数：</span>大人3名、子ども（18歳未満）1名</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊数：</span>4〜8泊まで</p>
+                    <p class="pkgs-list"><span class="pkgs-label">料金：</span>4泊1室　$499（税込）～</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
+                    <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
+                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-primary" style="width:100%;">ご予約・お問い合わせ</a></p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+            <h1>オアフ島のオプショナルツアーを2名様分プレゼント</h1>
+            <div class="row">
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>レジェンズ・オブ・ルアウ</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="bold">開催日：</span>火・金・日</p>
+                    <p class="pkgs-list">ヒルトン・ワイコロア・ヴィレッジ内で開催されるハワイの伝統的食材を使ったディナーを楽しみながら、フラダンスなどのポリネシアンダンス、ライブミュージック、ファイヤーダンスを交えたエンターティメントショーをご満喫いただけます。</p>
+                  </div>
+                </div>
               </div>
-              <div class="col-sm-8">
-                <h3>大阪バケーション・ギャラリー</h3>
-                <p>〒530-0001　大阪府大阪市北区梅田1-8-8<br />ヒルトン大阪２階</p>
-                <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
-              </div>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>福岡バケーション・ギャラリー</h3>
-                <p>〒810-8650　福岡県福岡市中央区地行浜2-2-3<br />ヒルトン福岡シーホーク４階</p>
-                <p>定休日：火・水曜</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
-              </div>
-            </div>
-
-            <h1>特別開催地</h1>
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>ヒルトン東京ベイ</h3>
-                <p>〒279-0031 千葉県浦安市舞浜 1-8</p>
-                <p>1月1日（金）〜3月6日（日）</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>南の島の星空観測ツアー</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="bold">滞在日２日目にご参加いただけます。</span></p>
+                    <p class="pkgs-list">マウナケア山頂付近以外でもっとも晴天率の高いトロピカルな観測地を選びました。広大な敷地なので誰にも邪魔されることなく、ハワイらしい気候の下で静かにじっくりと星空観測をお楽しみいただきます。『もう寒い星空はたくさん』というお客様にお勧めです。防寒着の必要はありません。</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ツアーに含まれるもの：</span> 大人：ハワイ産100％ビーフハンバーガー&amp;チップス 子供：子供用ハンバーガー(2歳〜11歳)&チップス ※2歳未満のお子様のお食事はつきません。 共通：ソフトドリンク、ボトル水、ヨガマット</p>
+                    <p>2016年4月1日より内容に変更がございますので、お問い合わせください。</p>
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>ホテルグランヴィア広島</h3>
-                <p>〒732-0822 広島県広島市南区松原町 1-5</p>
-                <p>1月1日（金）〜3月6日（日）</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
-              </div>
-            </div>
+            <p>【注意事項】 </p>
+            <p>ツアーは予告なく変更になる場合がございますこと、ご了承ください。 ３名様以上でお申込みの場合は追加代金を申し受け、手配いたします。 催行会社が天候、交通等の事情により当日内容を変更や中止する場合がございます。 ツアー内容によってはお子様の年齢制限があるものがございます。</p>
 
-            <h1>ハワイ開催地</h1>
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>ヒルトン・ハワイアン・ビレッジ</h3>
-                <p>2003 Kalia Road, Honolulu, Hawaii 96815</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a></p>
-              </div>
-            </div>
-
-            <div class="row block">
-              <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
-              </div>
-              <div class="col-sm-8">
-                <h3>ヒルトン・ワイコロア・ビレッジ</h3>
-                <p>425 Waikoloa Beach Drive, Waikoloa, Hawaii 96738</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a></p>
-              </div>
-            </div>
 
 
 
@@ -288,6 +274,50 @@
           <!-- #5 Wアイランド・プラン -->
           <div id="wisland-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
             <h1>Wアイランド・プラン</h1>
+            <div class="row">
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>リゾート宿泊プラン</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>キングス・ランド・バイ<br />ヒルトン・グランド・バケーションズ・クラブ</p>
+                    <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>1ベッドルーム（キチネットつき）</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊最大人数：</span>大人４名</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊数：</span>4〜8泊まで</p>
+                    <p class="pkgs-list"><span class="pkgs-label">料金：</span>4泊1室　$599（税込）～</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
+                    <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
+                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-green" style="width:100%;">ご予約・お問い合わせ</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-s-12 col-sm-6">
+                <div class="packages-wrapper">
+                  <div class="card_cell">
+                    <h5>ホテル宿泊プラン</h5>
+                    <hr>
+                    <div class="resort-thumb">
+                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show">
+                    </div>
+                    <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>ヒルトン・ワイコロア<br />ビレッジ</p>
+                    <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>ホテルルーム（キッチンなし）</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊最大人数：</span>大人3名、子ども（18歳未満）1名</p>
+                    <p class="pkgs-list"><span class="pkgs-label">宿泊数：</span>4〜8泊まで</p>
+                    <p class="pkgs-list"><span class="pkgs-label">料金：</span>4泊1室　$499（税込）～</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
+                    <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
+                    <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
+                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-green" style="width:100%;">ご予約・お問い合わせ</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </div> <!-- col-sm-8 -->
 

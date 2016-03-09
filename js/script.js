@@ -326,7 +326,7 @@ $(document).ready(function(e){
       case 'Wアイランド・プラン':
         $('#wisland-pkgs').show();
         break;
-      case 'お申し込みフォーム':å
+      case 'お申し込みフォーム':
         $('#vacation-pkgs-forms').show();
         break;
       case '資料請求':

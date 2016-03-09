@@ -146,6 +146,8 @@ h4{
     line-height: 25px;
 }
 
+h5{line-height: 21px;}
+
 h6{ 
 	font-size: 13px;
     font-weight: 500;
@@ -1852,6 +1854,16 @@ p.location i{
 	min-width: 515px;
 }
 
+.packages-wrapper{
+	box-shadow: inset 0 0 0 1px #e7e7e7;
+	background-color: #fff;
+	border-radius: 3px;
+	position: relative;
+    overflow: hidden;
+	margin-bottom: 20px;
+	display: table;
+}
+
 .card_cell {
     padding: 22px;
 }
@@ -3284,3 +3296,21 @@ clear: left;
 .mfp-content {
     top: 50px;
 }
+
+
+/* -------------------------------- 
+
+vacations pks
+
+-------------------------------- */
+span.pkgs-label{
+	font-weight:600;
+	display: block;
+}
+
+p.pkgs-list i{
+	margin-right: 4px;
+	color:#bbb0a6;
+}
+
+.packages-wrapper h5{margin:0;}
