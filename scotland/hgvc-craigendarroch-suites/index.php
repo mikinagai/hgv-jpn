@@ -1,11 +1,4 @@
-<?php include("../../server-side/library.php");
-if(isset($_GET["lang"])){
-  $lang = $_GET["lang"];
-}
-else {
-  $lang = "eng";	
-}
-?>
+<?php include("../../server-side/library.php");?>
 <!doctype html>
 <html>
 <head>
@@ -20,43 +13,46 @@ else {
     <?php addHeader(); ?>
     
     <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="The Exterior at Hilton Grand Vacations Club at Craigendarroch Suites in Royal Deeside, Scotland" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="The Exterior at Hilton Grand Vacations Club at Craigendarroch Suites in Royal Deeside, Scotland" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/03.jpg" alt="The Living Area at Hilton Grand Vacations Club at Craigendarroch Suites in Royal Deeside, Scotland" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/04.jpg" alt="The Bedroom at Hilton Grand Vacations Club at Craigendarroch Suites in Royal Deeside, Scotland" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/05.jpg" alt="The Bathroom at Hilton Grand Vacations Club at Craigendarroch Suites in Royal Deeside, Scotland" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/06.jpg" alt="The Pool at Hilton Grand Vacations Club at Craigendarroch Suites in Royal Deeside, Scotland" />
-          </div>
-          
+
+      <div class="container-max">
+        <div id="resorts-options" class="hidden-xs">
+          <ul>
+            <li><a href="#" id="photos-link" class="active">写真</a></li>
+<!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+            <li><a href="#" id="points-link">必要ポイント数</a></li>
+            <li><a href="#" id="map-link">地図</a></li>
+          </ul>
         </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
       </div>
+    
+       <div id="homeslideshow"> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active" id="slide1" style="background-image: url('img/banner01-s.jpg');"></div>
+              <div class="item" id="slide2" style="background-image: url('img/banner02-s.jpg');"></div>
+              <div class="item" id="slide3" style="background-image: url('img/banner03-s.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner04-s.jpg');"></div>
+              <div class="item" id="slide5" style="background-image: url('img/banner05-s.jpg');"></div>
+              <div class="item" id="slide6" style="background-image: url('img/banner06-s.jpg');"></div> 
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+      </div><!-- destinationslideshow -->
+<!--start floorplans -->
+<!-- floorplan-container -->
       
       <div id="points-container">
-        <?php
-		  if($lang == "jpn"){
-		?>
         <div class="row">
         
           <div class="col-sm-6">
@@ -130,15 +126,9 @@ else {
             </div>
             
           </div>
+            
+                      <div class="col-sm-6">
           
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
-          <div class="col-sm-6">
-        
             <div class="table-responsive">
               <table class="table table-hover platinum">
                 <thead>
@@ -170,206 +160,39 @@ else {
                 </tbody>
               </table>
             </div>
-                 
-          </div>
-        </div> 
-
-        <?php
-		  }
-		  else {
-		?>
-        <div class="row">
-        
-          <div class="col-sm-6">
-        
-            <div class="table-responsive">
-              <table class="table table-hover bronze">
-                <thead>
-                  <tr>
-                    <th colspan="4"><img src="../../img/silver.gif" alt="" class="level" /> Silver: Weeks 2 &ndash; 6, 44 &ndash; 51</th>
-                  </tr>
-                  <tr>
-                    <th>Unit Size</th>
-                    <th>7 Night</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Studio</td>
-                    <td>1,700</td>
-                  </tr>
-                  <tr>
-                    <td>Studio Plus</td>
-                    <td>3,000</td>
-                  </tr>
-                  <tr>
-                    <td>1-Bedroom Premier</td>
-                    <td>4,100</td>
-                  </tr>
-                  <tr>
-                    <td>2-Bedroom Premier</td>
-                    <td>4,800</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            
-          </div>
-        
-          <div class="col-sm-6">
-          
-            <div class="table-responsive">
-              <table class="table table-hover silver">
-                <thead>
-                  <tr>
-                    <th colspan="4"><img src="../../img/gold.gif" alt="" class="level" /> Gold: Weeks 7 &ndash; 13, 16 &ndash; 20</th>
-                  </tr>
-                  <tr>
-                    <th>Unit Size</th>
-                    <th>7 Night</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Studio</td>
-                    <td>2,500</td>
-                  </tr>
-                  <tr>
-                    <td>Studio Plus</td>
-                    <td>4,200</td>
-                  </tr>
-                  <tr>
-                    <td>1-Bedroom Premier</td>
-                    <td>5,800</td>
-                  </tr>
-                  <tr>
-                    <td>2-Bedroom Premier</td>
-                    <td>7,000</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
             
           </div>
           
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
-          <div class="col-sm-6">
-        
-            <div class="table-responsive">
-              <table class="table table-hover gold">
-                <thead>
-                  <tr>
-                    <th colspan="4"><img src="../../img/platinum.gif" alt="" class="level" /> Platinum: Weeks 1, 14 &ndash; 15, 21 &ndash; 43, 52</th>
-                  </tr>
-                  <tr>
-                    <th>Unit Size</th>
-                    <th>7 Night</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Studio</td>
-                    <td>3,500</td>
-                  </tr>
-                  <tr>
-                    <td>Studio Plus</td>
-                    <td>6,200</td>
-                  </tr>
-                  <tr>
-                    <td>1-Bedroom Premier</td>
-                    <td>8,400</td>
-                  </tr>
-                  <tr>
-                    <td>2-Bedroom Premier</td>
-                    <td>9,600</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-                 
-          </div>
-        </div> 
-        <?php
-		  }
-		?>
+        </div> <!-- row -->
+          <div class="row">
+          &nbsp;</div>
       </div>
+      
       <div id="map-container">
         <div id="map"></div>
       </div>
-      
-      <?php
-		if($lang == "jpn"){
-	  ?>
+    
       
       <div class="banner-caption resort-title">
-        <h1>ヒルトン・グランド・バケーションズ・アット・<br/>クレイゲンダロック・スイーツ</h1>
+        <h1>ヒルトン・グランド・バケーションズ・アット・<br/>クレイゲンダロック・ロッジズ</h1>
       </div>
       
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="points-link">必要ポイント数</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
+    </div> <!-- subbanner -->
     
+
     <div id="subtitle">
       <h2>スコットランド、ロイヤル·ディーサイド、バラター</h2>
     </div>
     
-      <?php
-		}
-		else {
-	  ?>
-      
-      <div class="banner-caption resort-title">
-        <h1>Hilton Grand Vacations Club at Craigendarroch Suites</h1>
-      </div>
-      
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">Photos (<span id="photo-count"></span>)</a></li>
-          <li><a href="#" id="points-link">Points Chart</a></li>
-          <li><a href="#" id="map-link">Map</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    
-    <div id="subtitle">
-      <h2>Ballater, Royal Deeside, Scotland</h2>
-    </div>
-    
-      <?php
-		}
-	  ?>
-    
+
+
     <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
-        </div>
-      </div>
     
       <div class="row">
       
         <div class="col-sm-8 main-column">
-        
-          <?php
-			if($lang == "jpn"){
-		  ?>
-          
-          <address>Braemar Rd, Ballater AB35 5XA, Scotland</address>
+
+       <address>Braemar Rd, Ballater AB35 5XA, Scotland</address>
           
           <h3>宿泊施設</h3>
           <ul>
@@ -392,64 +215,20 @@ else {
           
           <br />
           
+          
+          
+          <br />
+            
+        </div>
+        <div class="col-sm-4 aside">
           <h3>追加情報</h3>
           <p>チェックイン: 4 p.m.<br />チェックアウト: 10 a.m.<br />電話番号 :+44 (0) 13397 55558</p>
+
+
+
           
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
+   
           
-          <?php
-			}
-			else {
-		  ?>
-        
-          <h3>Overview</h3>
-          <address>Braemar Rd, Ballater AB35 5XA, Scotland</address>
-          <p>Nestled near the banks of the River Dee on the outskirts of the city of Ballater, this elegantly appointed resort provides a taste of luxury steeped in cultural tradition. Once a Victorian country house, the property sits on a spectacular private estate within the bounds of the Cairngorms National Park and just a few miles from Balmoral Castle. Plentiful on-site amenities are complemented by nearby golf, fishing, horseback riding and skiing… all contributing to the spirit of a quintessential Scottish holiday. For hundreds of years, Royal Deeside has been one of Scotland's most revered treasures, featuring lush countryside that for generations has served as a favorite retreat of the Royal Family.</p>
-          
-          <br />
-          
-          <h3>Accommodations</h3>
-          <ul>
-            <li>Spacious Studios, plus 1- and 2-bedroom suites</li>
-            <li>Studios and 1-bedroom suites feature kitchenettes, 2-bedroom suites include well-equipped kitchens</li>
-            <li>Complimentary wireless Internet access</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Resort Features</h3>
-          <ul>
-            <li>Indoor swimming pool, whirlpool spa, sauna</li>
-            <li>Squash and tennis courts</li>
-            <li>Restaurant, lounge bar</li>
-            <li>Health and beauty suite</li>
-            <li>Supervised seasonal children's recreation programs</li>
-            <li>Exercise Facilities</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Additional Info</h3>
-          <p>Check In: 4 p.m.<br />Check Out: 10 a.m.<br />Phone: +44 (0) 13397 55558</p>
-          
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3>Request Pricing</h3>
-          <p class="text-center"><img src="../../discover/img/request-info.jpg" alt="Request Information About Vacation Ownership with Hilton Grand Vacations" /></p>
-          <p>Discover the many benefits of vacation ownership and open up a world of Grand Vacations!</p>
-          <p><a href="<?php echo getHost(); ?>discover/" class="btn btn-primary">Learn More &raquo;</a></p>
-          
-          <?php
-			}
-		  ?>
           
         </div>
         
@@ -467,6 +246,7 @@ else {
   <script type="text/javascript">
 	$(document).ready(function(e){ 
 	  getMap(57.055786, -3.056001, 14);
+
     });
   </script>
 
