@@ -1854,8 +1854,8 @@ p.location i{
 	position: relative;
     overflow: hidden;
 	margin-bottom: 20px;
-	display: table;
-	min-width: 515px;
+	display: block;
+	/*min-width: 515px;*/
 }
 
 .packages-wrapper{
@@ -1870,12 +1870,6 @@ p.location i{
 
 .card_cell {
     padding: 22px;
-}
-
-@media only screen and (max-width: 1092px) {
-  .card{
-  	min-width: auto;
-  }
 }
 
 .l_cell{

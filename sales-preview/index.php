@@ -117,7 +117,7 @@
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="img/1-sales-center.jpg" class="mobile-hide" style="display: inline;">
                 <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
@@ -129,8 +129,8 @@
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
-              <img src="http://placehold.it/767x300" class="mobile-show">
+                <img src="img/2-sales-center.jpg" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>STEP 2 : 専用スタッフのご紹介</h3>
@@ -141,8 +141,8 @@
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
-              <img src="http://placehold.it/767x300" class="mobile-show">
+                <img src="img/3-sales-center.jpg" class="mobile-hide" style="display: inline;">
+                <img src="img/sales-prev-japan-lg.jpg" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>STEP 3 : タイムシェア・プログラムについてご案内</h3>
@@ -153,8 +153,8 @@
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
-              <img src="http://placehold.it/767x300" class="mobile-show">
+                <img src="img/4-sales-center.jpg" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>STEP 4 : 終了</h3>
@@ -174,131 +174,131 @@
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>日比谷バケーション・ギャラリー</h3>
                 <p>〒100-0006　東京都千代田区有楽町1-5-1<br />日比谷マリンビル９階</p>
                 <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約</a><a href="pdf/map_hibiya.pdf" target="_blank" class="btn btn-secondary">MAP</a></p>
               </div>
             </div>
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>新宿バケーション・ギャラリー</h3>
                 <p>〒160-0023　東京都新宿区西新宿6-6-2<br />ヒルトン東京地下１階ショップ＆レストラン「ヒルトピア」内</p>
                 <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約</a><a href="pdf/map_shinjuku.pdf" target="_blank" class="btn btn-secondary">MAP</a></p>
               </div>
             </div>
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>横浜バケーション・ギャラリー</h3>
                 <p>〒220-8124　神奈川県横浜市西区みなとみらい2-2-1<br />横浜ランドマークタワー24階　2405号室</p>
                 <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約</a><a href="pdf/map_yokohama.pdf" target="_blank" class="btn btn-secondary">MAP</a></p>
               </div>
             </div>
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>名古屋バケーション・ギャラリー</h3>
                 <p>〒460-0008　愛知県名古屋市中区栄1-3-3<br />ヒルトン名古屋 ２階</p>
                 <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約</a><a href="pdf/map_nagoya.pdf" target="_blank" class="btn btn-secondary">MAP</a></p>
               </div>
             </div>
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>大阪バケーション・ギャラリー</h3>
                 <p>〒530-0001　大阪府大阪市北区梅田1-8-8<br />ヒルトン大阪２階</p>
                 <p>定休日：なし</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約</a><a href="pdf/map_osaka.pdf" target="_blank" class="btn btn-secondary">MAP</a></p>
               </div>
             </div>
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>福岡バケーション・ギャラリー</h3>
                 <p>〒810-8650　福岡県福岡市中央区地行浜2-2-3<br />ヒルトン福岡シーホーク４階</p>
                 <p>定休日：火・水曜</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約</a><a href="pdf/map_fukuoka.pdf" target="_blank" class="btn btn-secondary">MAP</a></p>
               </div>
             </div>
 
             <h1>特別開催地</h1>
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>ヒルトン東京ベイ</h3>
                 <p>〒279-0031 千葉県浦安市舞浜 1-8</p>
                 <p>1月1日（金）〜3月6日（日）</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約</a><a href="pdf/map_tokyobay_1f.pdf" target="_blank" class="btn btn-secondary">MAP</a></p>
               </div>
             </div>
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>ホテルグランヴィア広島</h3>
                 <p>〒732-0822 広島県広島市南区松原町 1-5</p>
                 <p>1月1日（金）〜3月6日（日）</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a><a href="#" class="btn btn-secondary">MAP</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約</a><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-secondary">MAP</a></p>
               </div>
             </div>
 
             <h1>ハワイ開催地</h1>
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>ヒルトン・ハワイアン・ビレッジ</h3>
                 <p>2003 Kalia Road, Honolulu, Hawaii 96815</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-hawaii" class="btn btn-primary btns">来場ご予約</a></p>
               </div>
             </div>
 
             <div class="row block">
               <div class="col-sm-4 text-center">
-                <img src="http://placehold.it/230x230" class="mobile-hide" src="http://placehold.it/230x230" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show" src="http://placehold.it/767x300">
+                <img src="http://placehold.it/230x230" class="mobile-hide" style="display: inline;">
+                <img src="http://placehold.it/767x300" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>ヒルトン・ワイコロア・ビレッジ</h3>
                 <p>425 Waikoloa Beach Drive, Waikoloa, Hawaii 96738</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-hawaii" class="btn btn-primary btns">来場ご予約</a></p>
               </div>
             </div>
 
