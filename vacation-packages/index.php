@@ -47,8 +47,8 @@
 
               <div class="row block" style="background-image: url('img/hula-girls.jpg');background-repeat: no-repeat;background-position: right bottom;">
                 <div class="col-sm-4 text-center">
-                  <img src="img/pkg-oahu-thumb-sm.jpg" class="mobile-hide" />
-                  <img src="img/pkg-oahu-thumb-lg.jpg" class="mobile-show" />
+                  <img src="img/pkg-oahu-thumb-sm.jpg" class="mobile-hide-md" />
+                  <img src="img/pkg-oahu-thumb-lg.jpg" class="mobile-show-md" />
                 </div>
                 <div class="col-sm-8">
                   <h3 class="pink">オアフ島プラン</h3>
@@ -60,8 +60,8 @@
 
               <div class="row block" style="background-image: url('img/turtles.jpg');background-repeat: no-repeat;background-position: right bottom;">
                 <div class="col-sm-4 text-center">
-                  <img src="img/pkg-hawaii-thumb-sm.jpg" class="mobile-hide" />
-                  <img src="img/pkg-hawaii-thumb-lg.jpg" class="mobile-show" />
+                  <img src="img/pkg-hawaii-thumb-sm.jpg" class="mobile-hide-md" />
+                  <img src="img/pkg-hawaii-thumb-lg.jpg" class="mobile-show-md" />
                 </div>
                 <div class="col-sm-8">
                   <h3 class="blue">ハワイ島プラン</h3>
@@ -73,8 +73,8 @@
 
               <div class="row block" style="background-image: url('img/lizard.jpg');background-repeat: no-repeat;background-position: right bottom;">
                 <div class="col-sm-4 text-center">
-                  <img src="img/pkg-w-thumb-sm.jpg" class="mobile-hide" />
-                  <img src="img/pkg-w-thumb-lg.jpg" class="mobile-show" />
+                  <img src="img/pkg-w-thumb-sm.jpg" class="mobile-hide-md" />
+                  <img src="img/pkg-w-thumb-lg.jpg" class="mobile-show-md" />
                 </div>
                 <div class="col-sm-8">
                   <h3 class="green">Wアイランド・プラン</h3>
@@ -93,18 +93,19 @@
 
           <!-- #2 オアフ島プラン -->
           <div id="oahu-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
+            <div class="bg-illustrations"><img src="img/hula-girls.png" /></div>
 
             <h1>オアフ島リゾート宿泊プラン</h1>
 
             <div class="row">
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>リゾート宿泊プラン</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>ホクラニ・ワイキキ・バイ・ヒルトン・グランド・バケーションズ・クラブ</p>
                     <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>1ベッドルーム（キチネットつき）</p>
@@ -118,14 +119,14 @@
                   </div>
                 </div>
               </div>
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>ホテル宿泊プラン</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>ヒルトン・ハワイアン・ビレッジ・ワイキキ・ビーチ・リゾート</p>
                     <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>ホテルルーム（キッチンなし）</p>
@@ -143,28 +144,28 @@
 
             <h1>オアフ島のオプショナルツアーを2名様分プレゼント</h1>
             <div class="row">
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>ヒルトン・ワイキキ<br />スターライト・ルアウ</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="bold">開催日：</span>日〜木</p>
                     <p class="pkgs-list">ヒルトン・ハワイアン・ヴィレッジ内で開催されるハワイの伝統的食材を使ったディナーを楽しみながら、フラダンスなどのポリネシアンダンス、ライブミュージック、ファイヤーダンスを交えたエンターティメントショーをご満喫いただけます。</p>
                   </div>
                 </div>
               </div>
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>ノースショア半日観光 + <br />クアアイナのアボカドバーガー</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="bold">滞在日２日目にご参加いただけます。</span></p>
                     <p class="pkgs-list">ノースショア観光と、クアアイナで一番人気のアボカドバーガーをお楽しみいただけるツアーです。日本語ガイド兼ドライバー付き。この木何の木 &#8594; パイナップルパビリオン &#8594; ノースショア &#8594; ハレイワタウン (自由行動) &#8594; アリイビーチ &#8594; マツモトシェイブアイス</p>
@@ -181,18 +182,18 @@
 
           <!-- #3 ハワイ島プラン -->
           <div id="hawaii-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
-            
+            <div class="bg-illustrations"><img src="img/hawaiian-turtles.png" /></div>  
             <h1>ハワイ島リゾート宿泊プラン</h1>
             
             <div class="row">
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>リゾート宿泊プラン</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>キングス・ランド・バイ<br />ヒルトン・グランド・バケーションズ・クラブ</p>
                     <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>1ベッドルーム（キチネットつき）</p>
@@ -206,14 +207,14 @@
                   </div>
                 </div>
               </div>
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>ホテル宿泊プラン</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>ヒルトン・ワイコロア<br />ビレッジ</p>
                     <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>ホテルルーム（キッチンなし）</p>
@@ -229,30 +230,30 @@
               </div>
             </div>
 
-            <h1>オアフ島のオプショナルツアーを2名様分プレゼント</h1>
+            <h1>ハワイ島のオプショナルツアーを2名様分プレゼント</h1>
             <div class="row">
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>レジェンズ・オブ・ルアウ</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="bold">開催日：</span>火・金・日</p>
                     <p class="pkgs-list">ヒルトン・ワイコロア・ヴィレッジ内で開催されるハワイの伝統的食材を使ったディナーを楽しみながら、フラダンスなどのポリネシアンダンス、ライブミュージック、ファイヤーダンスを交えたエンターティメントショーをご満喫いただけます。</p>
                   </div>
                 </div>
               </div>
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>南の島の星空観測ツアー</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="bold">滞在日２日目にご参加いただけます。</span></p>
                     <p class="pkgs-list">マウナケア山頂付近以外でもっとも晴天率の高いトロピカルな観測地を選びました。広大な敷地なので誰にも邪魔されることなく、ハワイらしい気候の下で静かにじっくりと星空観測をお楽しみいただきます。『もう寒い星空はたくさん』というお客様にお勧めです。防寒着の必要はありません。</p>
@@ -273,16 +274,17 @@
 
           <!-- #5 Wアイランド・プラン -->
           <div id="wisland-pkgs" class="col-sm-8 main-column sub-content" style="display:none;">
+            <div class="bg-illustrations"><img src="img/lizard.png" /></div>  
             <h1>Wアイランド・プラン</h1>
             <div class="row">
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>リゾート宿泊プラン</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>キングス・ランド・バイ<br />ヒルトン・グランド・バケーションズ・クラブ</p>
                     <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>1ベッドルーム（キチネットつき）</p>
@@ -296,14 +298,14 @@
                   </div>
                 </div>
               </div>
-              <div class="col-s-12 col-sm-6">
+              <div class="col-s-12 col-md-6">
                 <div class="packages-wrapper">
                   <div class="card_cell">
                     <h5>ホテル宿泊プラン</h5>
                     <hr>
                     <div class="resort-thumb">
-                      <img src="http://placehold.it/300x200" class="mobile-hide" style="display: inline;">
-                      <img src="http://placehold.it/767x300" class="mobile-show">
+                      <img src="http://placehold.it/300x200" class="mobile-hide-md" style="display: inline;">
+                      <img src="http://placehold.it/767x300" class="mobile-show-md">
                     </div>
                     <p class="pkgs-list"><span class="pkgs-label">滞在先：</span>ヒルトン・ワイコロア<br />ビレッジ</p>
                     <p class="pkgs-list"><span class="pkgs-label">部屋タイプ：</span>ホテルルーム（キッチンなし）</p>

@@ -51,6 +51,10 @@ img.mobile-show{
 		display: none;
 	}
 
+img.mobile-show-md{
+		display: none;
+	}
+
 .bold{
 	font-weight:600;
 }
@@ -3303,6 +3307,10 @@ clear: left;
 vacations pks
 
 -------------------------------- */
+#oahu-pkgs h1, #hawaii-pkgs h1, #wisland-pkgs h1{
+	margin-top:20px;
+}
+
 span.pkgs-label{
 	font-weight:600;
 	display: block;
@@ -3314,3 +3322,38 @@ p.pkgs-list i{
 }
 
 .packages-wrapper h5{margin:0;}
+
+@media only screen and (max-width: 991px) {
+  .packages-wrapper{
+  	display: block;
+  }
+  img.mobile-hide-md{
+		display: none !important;
+	}
+
+	img.mobile-show-md{
+		display: block !important;
+	}
+}
+
+div.bg-illustrations, div#hawaii-pkgs div.bg-illustrations{
+	display: inline-block;
+    position: absolute;
+    z-index: 1;
+    right:0;
+}
+
+div#wisland-pkgs div.bg-illustrations{
+	display: inline-block;
+    position: absolute;
+    z-index: 1;
+    right:0;
+    top: -25px;
+}
+
+@media only screen and (max-width: 767px) {
+  div.bg-illustrations img{
+  	display: none;
+  }
+  	
+}
