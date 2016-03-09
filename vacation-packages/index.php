@@ -31,6 +31,15 @@
               <li><a menu="wisland-pkgs" href="#">Wアイランド・プラン</a></li>
               <li><a menu="vacation-pkgs-forms" href="#">お申し込みフォーム</a></li>
             </ul>
+
+            <select class="form-control nav-mobile">
+              <option value="リゾート宿泊プラン">リゾート宿泊プラン</option>
+              <option value="オアフ島プラン">オアフ島プラン</option>
+              <option value="ハワイ島プラン">ハワイ島プラン</option>
+              <option value="Wアイランド・プラン">Wアイランド・プラン</option>
+              <option value="お申し込みフォーム">お申し込みフォーム</option>
+            </select>
+            
           </div>
 
 
@@ -54,7 +63,7 @@
                   <h3 class="pink">オアフ島プラン</h3>
                   <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="#" class="btn btn-pink">予約・お問い合わせ</a></p>
+                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=oahu-pkgs" class="btn btn-pink">予約・お問い合わせ</a></p>
                 </div>
               </div>
 
@@ -67,7 +76,7 @@
                   <h3 class="blue">ハワイ島プラン</h3>
                   <p>一度は訪れてみたい、ハワイ島ワイコロア・ビーチ・リゾート内「キングス･ランド」に滞在する「ハワイ島スイートルーム・プラン」です。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="#" class="btn btn-primary">予約・お問い合わせ</a></p>
+                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=hawaii-pkgs" class="btn btn-primary">予約・お問い合わせ</a></p>
                 </div>
               </div>
 
@@ -80,7 +89,7 @@
                   <h3 class="green">Wアイランド・プラン</h3>
                   <p>オアフ島ワイキキ中心部に2013年12月末にオープンした「ホクラニ・ワイキキ」と、ハワイ島ワイコロア・ビーチ・リゾート内「キングス・ランド」に滞在いただける欲張りプラン。両方の島を満喫できるお得なプランです。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="#" class="btn btn-green">予約・お問い合わせ</a></p>
+                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=wisland-pkgs" class="btn btn-green">予約・お問い合わせ</a></p>
                 </div>
               </div>
 
@@ -115,7 +124,7 @@
                     <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
                     <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
                     <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
-                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-pink" style="width:100%;">ご予約・お問い合わせ</a></p>
+                    <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-pink" style="width:100%;">ご予約・お問い合わせ</a></p>
                   </div>
                 </div>
               </div>
@@ -136,7 +145,7 @@
                     <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
                     <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
                     <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
-                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-pink" style="width:100%;">ご予約・お問い合わせ</a></p>
+                    <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-pink" style="width:100%;">ご予約・お問い合わせ</a></p>
                   </div>
                 </div>
               </div>
@@ -203,7 +212,7 @@
                     <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
                     <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
                     <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
-                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-primary" style="width:100%;">ご予約・お問い合わせ</a></p>
+                    <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-primary" style="width:100%;">ご予約・お問い合わせ</a></p>
                   </div>
                 </div>
               </div>
@@ -224,7 +233,7 @@
                     <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
                     <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
                     <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
-                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-primary" style="width:100%;">ご予約・お問い合わせ</a></p>
+                    <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-primary" style="width:100%;">ご予約・お問い合わせ</a></p>
                   </div>
                 </div>
               </div>
@@ -294,7 +303,7 @@
                     <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
                     <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
                     <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
-                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-green" style="width:100%;">ご予約・お問い合わせ</a></p>
+                    <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-green" style="width:100%;">ご予約・お問い合わせ</a></p>
                   </div>
                 </div>
               </div>
@@ -315,7 +324,7 @@
                     <p class="pkgs-list"><span class="pkgs-label">ご予約期限：</span>2016年3月31日</p>
                     <p class="pkgs-list"><span class="pkgs-label">ご宿泊期限：</span>2016年12月18日</p>
                     <p class="pkgs-list">オプショナルツアーをお選びいただけます。</p>
-                    <p><a href="http://localhost:8888/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-green" style="width:100%;">ご予約・お問い合わせ</a></p>
+                    <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=vacation-pkgs-forms" class="btn btn-green" style="width:100%;">ご予約・お問い合わせ</a></p>
                   </div>
                 </div>
               </div>

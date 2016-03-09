@@ -244,11 +244,12 @@ $(document).ready(function(e){
     });
   }
 
-  function hideShowSubPages(type){ 
+
+function hideShowSubPages(type){
     $('.sub-content').hide();
-    var english = /^[A-Za-z0-9]/;
+    var japanese = /[\u3000-\u303F]|[\u3040-\u309F]|[\u30A0-\u30FF]|[\uFF00-\uFFEF]|[\u4E00-\u9FAF]|[\u2605-\u2606]|[\u2190-\u2195]|\u203B/g;
     var letters = type.replace('-', '');
-    if (english.test(letters ? letters : type)){
+    if (!japanese.test(letters ? letters : type)){
       var selector = "#" + type;
       $(selector).show();
     } else{
@@ -256,6 +257,20 @@ $(document).ready(function(e){
     }
     toggleActiveContainer();
   }
+
+
+  // function hideShowSubPages(type){ 
+  //   $('.sub-content').hide();
+  //   var english = /^[A-Za-z0-9]/;
+  //   var letters = type.replace('-', '');
+  //   if (english.test(letters ? letters : type)){
+  //     var selector = "#" + type;
+  //     $(selector).show();
+  //   } else{
+  //     parseJapaneseNavigation(type);
+  //   }
+  //   toggleActiveContainer();
+  // }
 
   function toggleActiveContainer(){
     $('.sub-content').removeClass('active');
@@ -488,6 +503,21 @@ $(document).ready(function(e){
         break;
       case 'その他':
         $('#other-contact').show();
+        break;
+      case 'リゾート宿泊プラン':
+        $('#vacation-packages').show();
+        break;
+      case 'オアフ島プラン':
+        $('#oahu-pkgs').show();
+        break;
+      case 'ハワイ島プラン':
+        $('#hawaii-pkgs').show();
+        break;
+      case 'Wアイランド・プラン':
+        $('#wisland-pkgs').show();
+        break;
+      case 'お申し込みフォーム':
+        $('#vacation-pkgs-forms').show();
         break;
     }
   });
