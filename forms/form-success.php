@@ -1,4 +1,4 @@
-<div id="form-success">
+<div id="form-success" style="display: none;">
   <h1>お申込み完了しました</h1>
 
   <img src="http://placehold.it/700x230" class="mobile-hide" style="display: inline;">

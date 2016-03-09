@@ -1,11 +1,4 @@
-<?php include("../../server-side/library.php");
-if(isset($_GET["lang"])){
-  $lang = $_GET["lang"];
-}
-else {
-  $lang = "eng";	
-}
-?>
+<?php include("../../server-side/library.php");?>
 <!doctype html>
 <html>
 <head>
@@ -20,37 +13,44 @@ else {
     <?php addHeader(); ?>
     
     <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="The Exterior of Club Intrawest &ndash; Whistler in British Columbia, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="The Lobby of Club Intrawest &ndash; Whistler in British Columbia, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/03.jpg" alt="The Living Area of Club Intrawest &ndash; Whistler in British Columbia, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/04.jpg" alt="The Bedroom of Club Intrawest &ndash; Whistler in British Columbia, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/05.jpg" alt="The Lounge of Club Intrawest &ndash; Whistler in British Columbia, Canada" />
-          </div>
-          
+
+      <div class="container-max">
+        <div id="resorts-options" class="hidden-xs">
+          <ul>
+            <li><a href="#" id="photos-link" class="active">写真</a></li>
+<!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+            <li><a href="#" id="points-link">必要ポイント数</a></li>
+            <li><a href="#" id="map-link">地図</a></li>
+          </ul>
         </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
       </div>
+    
+       <div id="homeslideshow"> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active" id="slide1" style="background-image: url('img/banner01-s.jpg');"></div>
+              <div class="item" id="slide2" style="background-image: url('img/banner02-s.jpg');"></div>
+              <div class="item" id="slide3" style="background-image: url('img/banner03-s.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner04-s.jpg');"></div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+      </div><!-- destinationslideshow -->
+      
+ <!-- floorplan-container -->
       
       <div id="points-container">
-      
         <div class="row">
         
           <div class="col-sm-6">
@@ -127,11 +127,9 @@ else {
             
           </div>
           
-        </div>
-        
-        <br />
-        
-        <div class="row">
+        </div> <!-- row -->
+          
+          <div class="row">
         
           <div class="col-sm-6">
         
@@ -169,9 +167,9 @@ else {
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-          
+              
+              <div class="col-sm-6">
+<!--table #4-->
             <div class="table-responsive">
               <table class="table table-hover platinum">
                 <thead>
@@ -206,13 +204,12 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
+          </div>
+          <
+            
+            
+            <div class="row">
+<!--        table 5-->
           <div class="col-sm-6">
         
             <div class="table-responsive">
@@ -249,9 +246,9 @@ else {
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-          
+              
+              <div class="col-sm-6">
+<!--table #6-->
             <div class="table-responsive">
               <table class="table table-hover mixed">
                 <thead>
@@ -286,13 +283,12 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
+          </div>
+            
+<!--            4th  row-->
+            
+            <div class="row">
+<!--        table 7-->
           <div class="col-sm-6">
         
             <div class="table-responsive">
@@ -329,88 +325,41 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
+            
       </div>
-      
+      </div>
       <div id="map-container">
         <div id="map"></div>
       </div>
-      
-      <?php
-		if($lang == "jpn"){
-	  ?>
+    
       
       <div class="banner-caption resort-title">
         <h1>クラブ・イントラウエスト – ウィスラー</h1>
       </div>
       
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
+    </div> <!-- subbanner -->
     
+
     <div id="subtitle">
       <h2>カナダ、ブリティッシュコロンビア州ウィスラー</h2>
     </div>
     
-      <?php
-		}
-		else {
-	  ?>
-      
-      <div class="banner-caption resort-title">
-        <h1>Club Intrawest &ndash; Whistler</h1>
-      </div>
-      
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">Photos (<span id="photo-count"></span>)</a></li>
-          <li><a href="#" id="points-link">Points Chart</a></li>
-          <li><a href="#" id="map-link">Map</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    
-    <div id="subtitle">
-      <h2>Whistler, British Columbia, Canada</h2>
-    </div>
-    
-      <?php
-		}
-	  ?>
-    
+
+
     <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
-        </div>
-      </div>
     
       <div class="row">
       
         <div class="col-sm-8 main-column">
-        
-          <?php
-			if($lang == "jpn"){
-		  ?>
-          
+
           <h3>概要</h3>
-          <address>4580 Chateau Blvd, Whistler, British Columbia, Canada</address>
-          <p>北米随一の規模を誇るウィスラーは、ブラッコム山とウィスラー山の２つの山からなる大型スキーリゾートです。世界中のスキーヤーを惹きつける多彩なコースを完備したゲレンデに、壮大なフェアウェイを誇るチャンピオンシップコースのゴルフ場。美しく澄んだ湖での遊泳や、野生動物や高山植物とのふれあいで貴重な体験をした後は、素朴さと優雅さを兼備した上品なスキーロッジでお寛ぎください。活気ある街の中心部では、買い物や華やかなナイトライフを満喫いただけます。贅沢な食事もお見逃しなく。バンクーバーから景色の美しいシートゥースカイ・ハイウェイを通って約2時間のドライブで到着します。他に類を見ないバケーションをお楽しみください。</p>
+          <address>200 Chemin Des Saisons, Mont Tremblant, Quebec, Canada</address>
+          <p>国際都市モントリオールから車で2時間程の距離に位置するモン・トランブランは、山が連なる<br />
+高原地帯の一角にある優雅なリゾートです。ローレンシャン高原の美しいゴルフ場沿いにあるこのリゾートは、トランブラン湖を眺望できる恵まれた環境に位置しています。カナダのフランス文化圏として長い歴史を誇り、北米東部屈指のスキーエリアとして知られていますが、夏はウォータースポーツ、ゴルフ、ハイキングなどのアウトドア、秋は紅葉の名所として、１年を通して多くの人を魅了しています。フレンチカナダ式の「人生を楽しむ」というリラックスしたバケーションスタイルを是非ご体験ください。</p>
           
           <br />
           
-          <h3>宿泊施設</h3>
+           <h3>宿泊施設</h3>
           <ul>
             <li>1～2ベッドルーム・スイート（バルコニー付き）</li>
             <li>フルキッチン、洗濯機、乾燥機、リビングルームにガス式暖炉、</li>
@@ -437,63 +386,19 @@ else {
           
           <br />
           
-          <h3>追加情報</h3>
+          
+          
+          <br />
+            
+        </div>
+        <div class="col-sm-4 aside">
+           <h3>追加情報</h3>
           <p>チェックイン: 4 p.m.<br />チェックアウト: 11 a.m.<br />電話番号: 604-938-3030</p>
+          <p><a href="#" class="btn btn-secondary">リクエストフォーム</a></p>
+
           
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
+   
           
-          <?php
-			}
-			else {
-		  ?>
-        
-          <h3>Overview</h3>
-          <address>4580 Chateau Blvd, Whistler, British Columbia, Canada</address>
-          <p>In the center of one of North America's most celebrated ski destinations, this magnificent resort blends rustic elegance with ski lodge chic. People from all over the world descend here to ski Whistler's unparalleled slopes, golf its spectacular fairways and swim its crystalline lakes. Outdoor adventures bring sightings of deer, bears and other local wildlife, while at the heart of it all is a vibrant village with shopping, elegant dining and electrifying nightlife. Visitors enjoy a perfect mix of world-class entertainment and natural splendor. Whistler is a spectacular two-hour drive from beautiful Vancouver, British Columbia, along the Sea to Sky highway.</p>
-          
-          <br />
-          
-          <h3>Accommodations</h3>
-          <ul>
-            <li>Spacious 1- and 2-bedroom suites with private balconies</li>
-            <li>Each suite features fully equipped kitchen, gas fireplace in living room, whirlpool tub in master bedroom, washer and dryer</li>
-            <li>Complimentary high-speed, wireless Internet access</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Resort Features</h3>
-          <ul>
-            <li>Adult environment has outdoor heated swimming pool and two hot tubs, open year round</li>
-            <li>Mountain Beach family environment has outdoor heated swimming pool with waterslide and hot tub, open year round</li>
-            <li>Eucalyptus steam room</li>
-            <li>Movie theater</li>
-            <li>Exercise Facilities</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Additional Info</h3>
-          <p>Check In: 4 p.m.<br />Check Out: 11 a.m.<br />Phone: 604-938-3030</p>
-          
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3>Request Pricing</h3>
-          <p class="text-center"><img src="../../discover/img/request-info.jpg" alt="Request Information About Vacation Ownership with Hilton Grand Vacations" /></p>
-          <p>Discover the many benefits of vacation ownership and open up a world of Grand Vacations!</p>
-          <p><a href="<?php echo getHost(); ?>discover/" class="btn btn-primary">Learn More &raquo;</a></p>
-          
-          <?php
-			}
-		  ?>
           
         </div>
         

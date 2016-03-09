@@ -16,7 +16,7 @@
     <form class="form-horizontal" id="Japan-tour-form" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="post">
 
         <input type="hidden" name="oid" value="00D700000008gjv">
-        <input type="hidden" name="retURL" value="http://localhost:8888/sales-preview/?index=booking-form-japan&amp;form=submit">
+        <input type="hidden" name="retURL" value="">
         <input type="hidden" name="lead_source" id="lead_source" value="Web Tour Booking Form">
         <input type="hidden" name="recordType" id="recordType" value="01290000001YZpv">
         <input type="hidden" name="00N90000003MXXY" id="00N90000003MXXY" title="Country Origin" value="JAPAN">

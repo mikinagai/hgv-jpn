@@ -1,11 +1,4 @@
-<?php include("../../server-side/library.php");
-if(isset($_GET["lang"])){
-  $lang = $_GET["lang"];
-}
-else {
-  $lang = "eng";	
-}
-?>
+<?php include("../../server-side/library.php");?>
 <!doctype html>
 <html>
 <head>
@@ -20,29 +13,46 @@ else {
     <?php addHeader(); ?>
     
     <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="Club Intrawest &ndash; Vancouver in British Columbia, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="The Living Area of Club Intrawest &ndash; Vancouver in British Columbia, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/03.jpg" alt="Club Intrawest &ndash; Vancouver in British Columbia, Canada" />
-          </div>
-          
+
+      <div class="container-max">
+        <div id="resorts-options" class="hidden-xs">
+          <ul>
+            <li><a href="#" id="photos-link" class="active">写真</a></li>
+<!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+            <li><a href="#" id="points-link">必要ポイント数</a></li>
+            <li><a href="#" id="map-link">地図</a></li>
+          </ul>
         </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
       </div>
+    
+       <div id="homeslideshow"> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active" id="slide1" style="background-image: url('img/banner01-s.jpg');"></div>
+              <div class="item" id="slide2" style="background-image: url('img/banner02-s.jpg');"></div>
+              <div class="item" id="slide3" style="background-image: url('img/banner03-s.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner04-s.jpg');"></div>
+              <div class="item" id="slide5" style="background-image: url('img/banner05-s.jpg');"></div>
+              <div class="item" id="slide6" style="background-image: url('img/banner06-s.jpg');"></div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+      </div><!-- destinationslideshow -->
+      
+ <!-- floorplan-container -->
       
       <div id="points-container">
-      
         <div class="row">
         
           <div class="col-sm-6">
@@ -119,11 +129,9 @@ else {
             
           </div>
           
-        </div>
-        
-        <br />
-        
-        <div class="row">
+        </div> <!-- row -->
+          
+          <div class="row">
         
           <div class="col-sm-6">
         
@@ -161,9 +169,9 @@ else {
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-          
+              
+              <div class="col-sm-6">
+<!--table #4-->
             <div class="table-responsive">
               <table class="table table-hover mixed">
                 <thead>
@@ -198,13 +206,11 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
+          </div>
+            
+            
+            <div class="row">
+<!--        table 5-->
           <div class="col-sm-6">
         
             <div class="table-responsive">
@@ -241,9 +247,9 @@ else {
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-          
+              
+              <div class="col-sm-6">
+<!--table #6-->
             <div class="table-responsive">
               <table class="table table-hover holiday">
                 <thead>
@@ -278,81 +284,37 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
+          </div>
+            
+            
+            
+            
       </div>
       
       <div id="map-container">
         <div id="map"></div>
       </div>
-      
-      <?php
-		if($lang == "jpn"){
-	  ?>
+    
       
       <div class="banner-caption resort-title">
         <h1>クラブ・イントラウエスト – バンクーバー</h1>
       </div>
       
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
+    </div> <!-- subbanner -->
     
+
     <div id="subtitle">
       <h2>カナダ、ブリティッシュコロンビア州バンクーバー</h2>
     </div>
     
-      <?php
-		}
-		else {
-	  ?>
-      
-      <div class="banner-caption resort-title">
-        <h1>Club Intrawest &ndash; Vancouver</h1>
-      </div>
-      
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">Photos (<span id="photo-count"></span>)</a></li>
-          <li><a href="#" id="points-link">Points Chart</a></li>
-          <li><a href="#" id="map-link">Map</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    
-    <div id="subtitle">
-      <h2>Vancouver, British Columbia, Canada</h2>
-    </div>
-    
-      <?php
-		}
-	  ?>
-    
+
+
     <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
-        </div>
-      </div>
     
       <div class="row">
       
         <div class="col-sm-8 main-column">
-        
-          <?php
-			if($lang == "jpn"){
-		  ?>
-          
+
           <h3>概要</h3>
           <address>1001 Hornby St, Vancouver, British Columbia, Canada</address>
           <p>バンクーバーは世界で最も自然な壮観で、コスモポリタンな都市のひとつです。このユニークな都市リゾートは、床から天井までの窓が配され、港、街そして山々の息を呑むような絶景を提供しています。バンクーバーのユニークな西海岸の文化は、自然の素晴らしさとシックなスタイル、アウトドア・アクティビティーとメトロポリタンのエンターテイメントが調和しています。多くの劇場やコンサートホールで生のパフォーマンスを見たり、国際的なダイニングを堪能したり、ウィンドウショッピング、またはダウンタウンを海岸線に沿ってハイキングをお楽しみいただけます。ウィスラー、ビクトリアそしてソルト・スプリング・アイランドといった人気の観光地へも車やフェリーにて簡単に足を延ばせます。</p>
@@ -385,66 +347,19 @@ else {
           
           <br />
           
+          
+          
+          <br />
+            
+        </div>
+        <div class="col-sm-4 aside">
           <h3>追加情報</h3>
           <p>チェックイン: 4 p.m.<br />チェックアウト: 11 a.m.<br />電話番号: 604-893-7444</p>
+          <p><a href="#" class="btn btn-secondary">リクエストフォーム</a></p>
+
           
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
+   
           
-          <?php
-			}
-			else {
-		  ?>
-        
-          <h3>Overview</h3>
-          <address>1001 Hornby St, Vancouver, British Columbia, Canada</address>
-          <p>Vancouver is one of the world’s most naturally spectacular and cosmopolitan cities. This unique urban resort offers floor-to-ceiling windows providing breathtaking panoramic views of the harbor, city and mountains. Vancouver’s unique west coast culture blends chic style with natural splendor, metropolitan entertainment with outdoor adventure. Catch a live performance at one of the many theatres and concert halls, indulge in international dining, explore an array of retail shops, or simply enjoy a hike along the downtown coastline. Popular destinations including Whistler, Victoria and Salt Spring Island are easily accessible by car or ferry.</p>
-          
-          <br />
-          
-          <h3>Accommodations</h3>
-          <ul>
-            <li>Spacious studios and 1-bedroom suites</li>
-            <li>Each suite features a mini-kitchen</li>
-            <li>TV, CD player in each suite</li>
-            <li>Complimentary high-speed, wireless Internet access</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Resort Features</h3>
-          <ul>
-            <li>Indoor heated pool and hot tubs</li>
-            <li>Health Club and Wellness Spa</li>
-            <li>On-site Restaurant and Bar</li>
-            <li>Business Center</li>
-            <li>On-site laundry facilities (fees apply)</li>
-            <li>Lounge</li>
-            <li>Gift Shop</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Additional Info</h3>
-          <p>Check In: 4 p.m.<br />Check Out: 11 a.m.<br />Phone: 604-893-7444</p>
-          
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3>Request Pricing</h3>
-          <p class="text-center"><img src="../../discover/img/request-info.jpg" alt="Request Information About Vacation Ownership with Hilton Grand Vacations" /></p>
-          <p>Discover the many benefits of vacation ownership and open up a world of Grand Vacations!</p>
-          <p><a href="<?php echo getHost(); ?>discover/" class="btn btn-primary">Learn More &raquo;</a></p>
-          
-          <?php
-			}
-		  ?>
           
         </div>
         

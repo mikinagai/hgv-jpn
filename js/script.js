@@ -187,6 +187,13 @@ $(document).ready(function() {
 
 $(document).ready(function(e){
   
+  function addFormReturnUrl(){
+    var location = window.location.href + '&form=submit';
+    $('input[name="retURL"]').val(location);
+  }
+
+  addFormReturnUrl();
+
   function getUrlVars() {
     var vars = [], hash;
     var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
@@ -302,13 +309,9 @@ $(document).ready(function(e){
         $('#tour-location').show();
         break;
       case '来場ご予約（ハワイ）':
-        $('#form-success-hawaii').hide();
-        $('.pre-form').show();
         $('#booking-form-hawaii').show();
         break;
       case '来場ご予約（国内）':
-        $('#form-success').hide();
-        $('.pre-form').show();
         $('#booking-form-japan').show();
         break;
       case 'リゾート宿泊プラン':
@@ -323,7 +326,7 @@ $(document).ready(function(e){
       case 'Wアイランド・プラン':
         $('#wisland-pkgs').show();
         break;
-      case 'お申し込みフォーム':
+      case 'お申し込みフォーム':å
         $('#vacation-pkgs-forms').show();
         break;
       case '資料請求':
@@ -342,6 +345,7 @@ $(document).ready(function(e){
         $('#other-contact').show();
         break;
     }
+    //toggleActiveContainer();
   }
 
   mobileMenu();

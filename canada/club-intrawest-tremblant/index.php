@@ -1,11 +1,4 @@
-<?php include("../../server-side/library.php");
-if(isset($_GET["lang"])){
-  $lang = $_GET["lang"];
-}
-else {
-  $lang = "eng";	
-}
-?>
+<?php include("../../server-side/library.php");?>
 <!doctype html>
 <html>
 <head>
@@ -20,41 +13,46 @@ else {
     <?php addHeader(); ?>
     
     <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="The Pool of Club Intrawest &ndash; Tremblant in Quebec, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="The Exterior of Club Intrawest &ndash; Tremblant in Quebec, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/03.jpg" alt="The Living / Dining Area of Club Intrawest &ndash; Tremblant in Quebec, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/04.jpg" alt="The Bedroom of Club Intrawest &ndash; Tremblant in Quebec, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/05.jpg" alt="The Bathroom of Club Intrawest &ndash; Tremblant in Quebec, Canada" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/06.jpg" alt="The Fitness Center of Club Intrawest &ndash; Tremblant in Quebec, Canada" />
-          </div>
-          
+
+      <div class="container-max">
+        <div id="resorts-options" class="hidden-xs">
+          <ul>
+            <li><a href="#" id="photos-link" class="active">写真</a></li>
+<!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+            <li><a href="#" id="points-link">必要ポイント数</a></li>
+            <li><a href="#" id="map-link">地図</a></li>
+          </ul>
         </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
       </div>
+    
+       <div id="homeslideshow"> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active" id="slide1" style="background-image: url('img/banner01-s.jpg');"></div>
+              <div class="item" id="slide2" style="background-image: url('img/banner02-s.jpg');"></div>
+              <div class="item" id="slide3" style="background-image: url('img/banner03-s.jpg');"></div>
+              <div class="item" id="slide4" style="background-image: url('img/banner04-s.jpg');"></div>
+              <div class="item" id="slide5" style="background-image: url('img/banner05-s.jpg');"></div>
+              <div class="item" id="slide6" style="background-image: url('img/banner06-s.jpg');"></div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+      </div><!-- destinationslideshow -->
+      
+ <!-- floorplan-container -->
       
       <div id="points-container">
-      
         <div class="row">
         
           <div class="col-sm-6">
@@ -97,7 +95,8 @@ else {
           <div class="col-sm-6">
           
             <div class="table-responsive">
-              <table class="table table-hover gold">
+              <table class="table table-hover silver">
+                <table class="table table-hover gold">
                 <thead>
                   <tr>
                     <th colspan="5"><img src="../../img/gold.gif" alt="" class="level" /> Gold: Weeks 1, 2, 20 &ndash; 24, 37 &ndash; 39, 49</th>
@@ -131,11 +130,9 @@ else {
             
           </div>
           
-        </div>
-        
-        <br />
-        
-        <div class="row">
+        </div> <!-- row -->
+          
+          <div class="row">
         
           <div class="col-sm-6">
         
@@ -173,9 +170,9 @@ else {
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-          
+              
+              <div class="col-sm-6">
+<!--table #4-->
             <div class="table-responsive">
               <table class="table table-hover mixed">
                 <thead>
@@ -210,13 +207,11 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
+          </div>
+            
+            
+            <div class="row">
+<!--        table 5-->
           <div class="col-sm-6">
         
             <div class="table-responsive">
@@ -253,9 +248,9 @@ else {
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-          
+              
+              <div class="col-sm-6">
+<!--table #6-->
             <div class="table-responsive">
               <table class="table table-hover mixed">
                 <thead>
@@ -290,13 +285,12 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
+          </div>
+            
+<!--            4th  row-->
+            
+            <div class="row">
+<!--        table 7-->
           <div class="col-sm-6">
         
             <div class="table-responsive">
@@ -333,9 +327,9 @@ else {
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-          
+              
+              <div class="col-sm-6">
+<!--table #8-->
             <div class="table-responsive">
               <table class="table table-hover mixed">
                 <thead>
@@ -370,13 +364,11 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
+          </div>
+<!--            5th  row-->
+            
+            <div class="row">
+<!--        table 9-->
           <div class="col-sm-6">
         
             <div class="table-responsive">
@@ -413,9 +405,9 @@ else {
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-          
+              
+              <div class="col-sm-6">
+<!--table #10-->
             <div class="table-responsive">
               <table class="table table-hover holiday">
                 <thead>
@@ -450,13 +442,13 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
-        <br />
-        
-        <div class="row">
-        
+          </div>
+            
+            
+<!--            6th  row-->
+            
+            <div class="row">
+<!--        table 11-->
           <div class="col-sm-6">
         
             <div class="table-responsive">
@@ -493,81 +485,37 @@ else {
             </div>
             
           </div>
-          
-        </div>
-        
+          </div>
+            
+            
+            
+            
       </div>
       
       <div id="map-container">
         <div id="map"></div>
       </div>
-      
-      <?php
-		if($lang == "jpn"){
-	  ?>
+    
       
       <div class="banner-caption resort-title">
         <h1>クラブ・イントラウエスト – トランブラン</h1>
       </div>
       
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
+    </div> <!-- subbanner -->
     
+
     <div id="subtitle">
       <h2>カナダ、ケベック州モントランブラン</h2>
     </div>
     
-      <?php
-		}
-		else {
-	  ?>
-      
-      <div class="banner-caption resort-title">
-        <h1>Club Intrawest &ndash; Tremblant</h1>
-      </div>
-      
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">Photos (<span id="photo-count"></span>)</a></li>
-          <li><a href="#" id="points-link">Points Chart</a></li>
-          <li><a href="#" id="map-link">Map</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    
-    <div id="subtitle">
-      <h2>Mont Tremblant, Quebec, Canada</h2>
-    </div>
-    
-      <?php
-		}
-	  ?>
-    
+
+
     <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
-        </div>
-      </div>
     
       <div class="row">
       
         <div class="col-sm-8 main-column">
-        
-          <?php
-			if($lang == "jpn"){
-		  ?>
-          
+
           <h3>概要</h3>
           <address>200 Chemin Des Saisons, Mont Tremblant, Quebec, Canada</address>
           <p>国際都市モントリオールから車で2時間程の距離に位置するモン・トランブランは、山が連なる<br />
@@ -599,63 +547,19 @@ else {
           
           <br />
           
+          
+          
+          <br />
+            
+        </div>
+        <div class="col-sm-4 aside">
           <h3>追加情報</h3>
           <p>チェックイン: 4 p.m.<br />チェックアウト: 11 a.m.<br />電話番号: 819-681-3535</p>
+          <p><a href="#" class="btn btn-secondary">リクエストフォーム</a></p>
+
           
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
+   
           
-          <?php
-			}
-			else {
-		  ?>
-        
-          <h3>Overview</h3>
-          <address>200 Chemin Des Saisons, Mont Tremblant, Quebec, Canada</address>
-          <p>Vacationers at this elegant mountain resort indulge in relaxation, active outdoor recreation and the joie de vivre of French Canada. Perched on the foothills of the Laurentian Mountains, the property is set on the picturesque Le Geant fairways overlooking the waters of Lac Tremblant. Less than a two-hour drive from cosmopolitan Montreal, Mont Tremblant is consistently recognized as a top ski destination in Eastern North America. This welcoming retreat is also a lively summer playground teeming with water sports, golf and hiking. Steeped in French-Canadian history, the region is a spectacular setting for a vacation of a lifetime.</p>
-          
-          <br />
-          
-          <h3>Accommodations</h3>
-          <ul>
-            <li>Spacious 1- and 2-bedroom suites with private balconies</li>
-            <li>Each suite features fully equipped kitchen, gas fireplace in living room, washer and dryer</li>
-            <li>Complimentary high-speed, wireless Internet access</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Resort Features</h3>
-          <ul>
-            <li>Heated swimming pool open seasonally</li>
-            <li>Outdoor and indoor hot tubs and sauna</li>
-            <li>Private Har-Tru tennis courts</li>
-            <li>Movie theater</li>
-            <li>Exercise Facilities</li>
-          </ul>
-          
-          <br />
-          
-          <h3>Additional Info</h3>
-          <p>Check In: 4 p.m.<br />Check Out: 11 a.m.<br />Phone: 819-681-3535</p>
-          
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3>Request Pricing</h3>
-          <p class="text-center"><img src="../../discover/img/request-info.jpg" alt="Request Information About Vacation Ownership with Hilton Grand Vacations" /></p>
-          <p>Discover the many benefits of vacation ownership and open up a world of Grand Vacations!</p>
-          <p><a href="<?php echo getHost(); ?>discover/" class="btn btn-primary">Learn More &raquo;</a></p>
-          
-          <?php
-			}
-		  ?>
           
         </div>
         

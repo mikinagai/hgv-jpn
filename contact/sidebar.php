@@ -48,7 +48,7 @@
 
           <!-- #1 資料請求 -->
           <div id="request-dvd" class="col-sm-8 main-column sub-content">
-            <?php include 'forms/form-success.php' ?>
+            <?php include '../forms/form-success.php' ?>
             <div class="pre-form">
               <h1>資料請求</h1>
               <?php include '../forms/request-dvd.php' ?>
@@ -57,7 +57,7 @@
 
           <!-- #2 来場ご予約（国内） -->
           <div id="booking-form-japan" class="col-sm-8 main-column sub-content" style="display:none;">
-            <?php include 'forms/form-success.php' ?>
+            <?php include '../forms/form-success.php' ?>
             <div class="pre-form">
               <h1>国内販売説明会・来場ご予約フォーム</h1>
               <?php include '../forms/tour_japan.php' ?>
@@ -66,7 +66,7 @@
 
           <!-- #3 来場ご予約（ハワイ） -->
           <div id="booking-form-hawaii" class="col-sm-8 main-column sub-content" style="display:none;">
-            <?php include 'forms/form-success.php' ?>
+            <?php include '../forms/form-success.php' ?>
             <div class="pre-form">
               <h1>ハワイ販売説明会・来場ご予約フォーム</h1>
               <?php include '../forms/tour_hawaii.php' ?>
@@ -75,7 +75,7 @@
 
           <!-- #3 タイムシェア新規購入やオーナー様の追加購入 -->
           <div id="purchase-on-phone" class="col-sm-8 main-column sub-content" style="display:none;">
-            <?php include 'forms/form-success.php' ?>
+            <?php include '../forms/form-success.php' ?>
             <div class="pre-form">
               <h1>タイムシェア新規購入やオーナー様の追加購入</h1>
               <p>タイムシェアの新規購入やオーナー様の追加購入などのご相談を時間、曜日、場所、方法をお客さまのご要望に合わせ、専任スタッフが伺い個別に賜ります。</p>
@@ -86,7 +86,7 @@
 
           <!-- #5 販売説明会宿泊プラン -->
           <div id="minivac" class="col-sm-8 main-column sub-content" style="display:none;">
-            <?php include 'forms/form-success.php' ?>
+            <?php include '../forms/form-success.php' ?>
             <div class="pre-form">
               <h1>ハワイ販売説明会・来場ご予約フォーム</h1>
               <?php include '../forms/tour_hawaii.php' ?>
