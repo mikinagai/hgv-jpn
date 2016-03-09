@@ -81,7 +81,7 @@
                     <p class="phone-number"><img class="freedial" src="img/freedial.png" />0120-015-397
                       <span class="hours">(月〜土 10:00am 〜 6:00 pm 日曜・祝日休)</span></p>
                     <p>タイムシェアの新規購入やオーナー様の追加購入などのご相談を時間、曜日、場所、方法をお客さまのご要望に合わせ、専任スタッフが伺い個別に賜ります。</p>
-                    <p><a href="<?php echo getHost(); ?>/contact/?sidebar.php=booking-form-japan" class="btn btn-primary btns">お申し込みフォーム</a><a href="mailto:japands@hgvc.com" class="btn btn-secondary"><i class="fa fa-envelope-o"></i>Email</a></p>
+                    <p><a href="<?php echo getHost(); ?>/contact/sidebar.php?index=purchase-on-phone" class="btn btn-primary btns">お申し込みフォーム</a><a href="mailto:japands@hgvc.com" class="btn btn-secondary"><i class="fa fa-envelope-o"></i>Email</a></p>
                   </div>
                 </div>
               </div>

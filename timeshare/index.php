@@ -115,15 +115,15 @@
 
                 <div class="row">
                     <div class="col-sm-4">
-                      <a class="next-step-learn" href=""><button><img src="img/icon_turtle.png" />販売説明会で学ぶ</button></a>
+                      <a class="next-step-learn" href="<?php echo getHost(); ?>/sales-preview/?index=sales-preview"><button><img src="img/icon_turtle.png" />販売説明会で学ぶ</button></a>
                     </div>
 
                     <div class="col-sm-4">
-                      <a class="next-step-experience" href=""><button><img src="img/icon_hulagirl.png" />宿泊プランで体験</button></a>
+                      <a class="next-step-experience" href="<?php echo getHost(); ?>/vacation-packages/?index=vacation-packages"><button><img src="img/icon_hulagirl.png" />宿泊プランで体験</button></a>
                     </div>
 
                     <div class="col-sm-4">
-                      <a class="next-step-resorts" href=""><button><img src="img/icon_beach.png" />リゾートの一覧</button></a>
+                      <a class="next-step-resorts" href="<?php echo getHost(); ?>/explore"><button><img src="img/icon_beach.png" />リゾートの一覧</button></a>
                     </div>
                    
                 </div> <!-- row -->
@@ -163,7 +163,7 @@
               <div class="col-sm-8">
                 <h3>STEP 1 : 資料請求</h3>
                 <p>タイムシェア・プログラムのご説明やヒルトン・グランド・バケーションズのリゾートを掲載した資料をご用意しております。インターネットやお電話でもお申し込みいただけますので、お気軽にお問い合わせください。</p>
-                <p><a href="#" class="btn btn-primary">資料請求・ダウンロード</a></p>
+                <p><a href="<?php echo getHost(); ?>/contact/sidebar.php?index=request-dvd" class="btn btn-primary">資料請求・ダウンロード</a></p>
               </div>
             </div>
 
@@ -175,7 +175,7 @@
               <div class="col-sm-8">
                 <h3>STEP 2 : 販売説明会に参加</h3>
                 <p>ヒルトン・グランド・バケーションズでは日本各地で説明会を開催しております。専任のスタッフがリゾートの詳細をはじめ、購入費用や諸経費、オーナープログラムなどについて個別にご説明させていただきます。。</p>
-                <p><a href="#" class="btn btn-primary btns">来場ご予約（国内）</a><a href="#" class="btn btn-primary">来場ご予約（ハワイ）</a></p>
+                <p><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-japan" class="btn btn-primary btns">来場ご予約（国内）</a><a href="<?php echo getHost(); ?>/sales-preview/?index=booking-form-hawaii" class="btn btn-primary">来場ご予約（ハワイ）</a></p>
                   <div class="text-sub">
                     <h6>タムシェア体験宿泊プランに参加</h6>
                     <p>「やっぱり物件を見てみたい」という方には、ハワイのモデルルームを見学できるお得な宿泊プランもご用意しております。お部屋の広さや設備、アメニティなど、直接ご覧いただけます。</p>
