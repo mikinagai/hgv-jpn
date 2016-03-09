@@ -63,7 +63,7 @@
                   <h3 class="pink">オアフ島プラン</h3>
                   <p>2013年12月末にオープンした新タイムシェア専用リゾート「ホクラニ・ワイキキ」に滞在する「オアフ島スイートルーム・プラン」です。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=oahu-pkgs" class="btn btn-pink">予約・お問い合わせ</a></p>
+                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=oahu-pkgs" class="btn btn-pink">詳細</a></p>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@
                   <h3 class="blue">ハワイ島プラン</h3>
                   <p>一度は訪れてみたい、ハワイ島ワイコロア・ビーチ・リゾート内「キングス･ランド」に滞在する「ハワイ島スイートルーム・プラン」です。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=hawaii-pkgs" class="btn btn-primary">予約・お問い合わせ</a></p>
+                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=hawaii-pkgs" class="btn btn-primary">詳細</a></p>
                 </div>
               </div>
 
@@ -89,7 +89,7 @@
                   <h3 class="green">Wアイランド・プラン</h3>
                   <p>オアフ島ワイキキ中心部に2013年12月末にオープンした「ホクラニ・ワイキキ」と、ハワイ島ワイコロア・ビーチ・リゾート内「キングス・ランド」に滞在いただける欲張りプラン。両方の島を満喫できるお得なプランです。</p>
                   <p>選べるアクティビティ付き</p>
-                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=wisland-pkgs" class="btn btn-green">予約・お問い合わせ</a></p>
+                  <p><a href="<?php echo getHost(); ?>/vacation-packages/?index=wisland-pkgs" class="btn btn-green">詳細</a></p>
                 </div>
               </div>
 

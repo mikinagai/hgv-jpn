@@ -118,7 +118,7 @@
             <div class="row block">
               <div class="col-sm-4 text-center">
                 <img src="img/1-sales-center.jpg" class="mobile-hide" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show">
+                <img src="img/1-sales-center-lg.jpg" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>STEP 1 : ご予約いただいた会場にご来場</h3>
@@ -130,7 +130,7 @@
             <div class="row block">
               <div class="col-sm-4 text-center">
                 <img src="img/2-sales-center.jpg" class="mobile-hide" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show">
+                <img src="img/2-sales-center-lg.jpg" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>STEP 2 : 専用スタッフのご紹介</h3>
@@ -154,7 +154,7 @@
             <div class="row block">
               <div class="col-sm-4 text-center">
                 <img src="img/4-sales-center.jpg" class="mobile-hide" style="display: inline;">
-                <img src="http://placehold.it/767x300" class="mobile-show">
+                <img src="img/4-sales-center-lg.jpg" class="mobile-show">
               </div>
               <div class="col-sm-8">
                 <h3>STEP 4 : 終了</h3>

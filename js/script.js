@@ -48,7 +48,7 @@ $(document).ready(function() {
     document.getElementById("search").addEventListener("click", geoApiSearchByPostal);
     geoApiInitialize();
 
-    debugger;
+    // debugger;
             $('#Japan-tour-form, #exampleForm2')
                 .formValidation({
                     framework: 'bootstrap',
@@ -123,7 +123,7 @@ $(document).ready(function() {
                                 }
                             }
                         },
-                        /*'email': {
+                        'email': {
                             validators: {
                                 notEmpty: {
                                     message: 'Eメールアドレスを入力してください'
@@ -144,7 +144,7 @@ $(document).ready(function() {
                                     message: ''
                                 }
                             }
-                        },*/
+                        },
                         // tour location
                         '00N9000000EaMff': {
                             validators: {
