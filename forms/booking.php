@@ -461,7 +461,7 @@
                         </div>
 
                         <div class="col-sm-12">
-                            <div class="radio-wrap row__form">
+                            <div class="radio-wrap row__form booking-info">
                                 <label class="radio-inline formText booking-info">
                                     <input type="radio" class="form-click-to-show" name="00N9000000EaMfY" id="00N9000000EaMfY" value="1"> &nbsp; &nbsp; はい
                                 </label>
