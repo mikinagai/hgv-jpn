@@ -23,12 +23,20 @@ function geoApiInitialize() {
     }
     geoApiInitializeCities();
     geoApiInitializeTowns();
-    $("#geoapi-address").attr("disabled", true);
-    $("#geoapi-areas").change(geoApiChangeArea);
-    $("#geoapi-prefectures").change(geoApiChangePrefecture);
-    $("#geoapi-cities").change(geoApiChangeCity);
-    $("#geoapi-towns").change(geoApiChangeTown);
-    $("#geoapi-postal-4").keyup(geoApiSearchByPostal);
+    var elem;
+    $('.formSection').each(function(){
+        if ($(this).is(':visible')){
+            elem = $(this);
+            elem.find("#geoapi-address").attr("disabled", true);
+            elem.find("#geoapi-areas").change(geoApiChangeArea);
+            elem.find("#geoapi-prefectures").change(geoApiChangePrefecture);
+            elem.find("#geoapi-cities").change(geoApiChangeCity);
+            elem.find("#geoapi-towns").change(geoApiChangeTown);
+            elem.find("#geoapi-postal-4").keyup(function(e){        
+                geoApiSearchByPostal(e, elem);
+            });
+        }
+    });
 }
 
 function geoApiSetAreas (json) {
@@ -122,26 +130,36 @@ function geoApiGetTownObject (name) {
 
 function geiApiGetAddress (addresses) {
     var town = addresses[0].town.replace(/ï¼ˆ.+|.?ä¸ç›®.*$/,"");
-    debugger;
+    // debugger;
     //$("#geoapi-address").val(addresses[0].prefecture + addresses[0].city + town);
-    var zip_3 = $("input#geoapi-postal-3").val();
-    var zip_4 = $("input#geoapi-postal-4").val();
-    $("#zip").val(zip_3 + "-" + zip_4);
-    $("#state").val(addresses[0].prefecture);
-    $("#city").val(addresses[0].city);
-    $("#street").val(town);
+    $('.formSection').each(function(){
+        if ($(this).is(':visible')){
+            var zip_3 = $(this).find("input#geoapi-postal-3").val();
+            var zip_4 = $(this).find("input#geoapi-postal-4").val();
+            $(this).find("#zip").val(zip_3 + "-" + zip_4);
+            $(this).find("#state").val(addresses[0].prefecture);
+            $(this).find("#city").val(addresses[0].city);
+            $(this).find("#street").val(town);
+        }
+    });
 }
 
 function geoApiSearchByPostal (e) {
-    var key_code = e.keyCode || event.keyCode;
-    if (key_code != 9 && key_code != 37 && key_code != 38 && key_code != 39 && key_code != 40 && $("#geoapi-postal-4").val().length == 4) {
-        var geoapi_postal_3 = $("input#geoapi-postal-3");
-        var geoapi_postal_4 = $("input#geoapi-postal-4");
-        if (!geoapi_postal_3.val() || !geoapi_postal_4.val()) {
-            return false;
+    var elem;
+    $('.formSection').each(function(){
+        if ($(this).is(':visible')){
+            elem = $(this);
+            var key_code = e.keyCode || event.keyCode;
+            if (key_code != 9 && key_code != 37 && key_code != 38 && key_code != 39 && key_code != 40 && elem.find("#geoapi-postal-4").val() && elem.find("#geoapi-postal-4").val().length == 4) {
+                var geoapi_postal_3 = elem.find("input#geoapi-postal-3");
+                var geoapi_postal_4 = elem.find("input#geoapi-postal-4");
+                if (!geoapi_postal_3.val() || !geoapi_postal_4.val()) {
+                    return false;
+                }
+                $.getJSON(geoapi_url, { "method": "searchByPostal", "postal": geoapi_postal_3.val() + geoapi_postal_4.val() }, geoapiSearchByPostalAfter);
+            }
         }
-        $.getJSON(geoapi_url, { "method": "searchByPostal", "postal": geoapi_postal_3.val() + geoapi_postal_4.val() }, geoapiSearchByPostalAfter);
-    }
+    });
 }
 
 function geoapiSearchByPostalAfter (json) {

@@ -242,7 +242,7 @@
                     <!-- address -->
                     <div class="row formSection">
                         <div class="col-sm-12">
-                            <label class="form__label" style="margin-bottom: 0;">住所 <span class="form_required">必須</span></label>
+                            <label class="form__label" style="margin-bottom: 0;">郵送先のご住所 <span class="form_required">必須</span></label>
                         </div>
                         <div class="col-sm-12">
                             <label class="form__label"><span class="form__label_sm">郵便番号 - 半角数字で入力してください</span></label>
@@ -253,24 +253,31 @@
                             <input id="zip" name="zip" type="hidden" />&nbsp; &nbsp;&nbsp;
                             <input id="search" name="search" type="button" class="btn btn-sm addressFormzip-button" value="検索する" />
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <input id="state" class="form-control characters400input row__form" name="state" type="text" placeholder="都道府県" class="formText" />
                                 </div>
                             </div> <!-- row -->
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <input id="city" class="form-control characters400input row__form" name="city" type="text" placeholder="市町村" class="formText" />
                                 </div>
                             </div> <!-- row -->
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <input id="street" class="form-control characters400input row__form" name="street" type="text" placeholder="町村名・番地" class="formText" />
+                                    <input id="street" class="form-control characters400input row__form" name="street" type="text" placeholder="町村名" class="formText" />
+                                </div>
+                            </div> <!-- row -->
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <input id="street-number" class="form-control characters400input row__form" name="street-number" type="text" placeholder="番地" class="formText" />
                                 </div>
                             </div> <!-- row -->
                         </div>

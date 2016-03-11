@@ -41,13 +41,18 @@ $(document).ready(function() {
     }
   });
 
-  
+
 
 
   $('.datepicker').datepicker();
 
   if ($('#search').length > 0){
-    document.getElementById("search").addEventListener("click", geoApiSearchByPostal);
+    $('.formSection input[name="search"]').each(function(){
+      $(this).click(function(e){
+        geoApiSearchByPostal(e);
+      });
+    });
+    //document.getElementById("search").addEventListener("click", geoApiSearchByPostal);
     geoApiInitialize();
 
     // debugger;
@@ -258,6 +263,7 @@ function hideShowSubPages(type){
       parseJapaneseNavigation(type);
     }
     toggleActiveContainer();
+    geoApiInitialize();
   }
 
 
