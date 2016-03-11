@@ -19,13 +19,13 @@
       </div>
       
       <div class="banner-caption">
-        <h1>Scotland</h1>
+        <h1>スコットランド</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resorts</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -43,10 +43,10 @@
             <img src="img/coylumbridge.jpg" alt="Hilton Grand Vacations Club at Coylumbridge" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club at Coylumbridge</h3>
-            <p class="location">Coylumbridge, Inverness-shire, Scotland</p>
-            <p>Located in the heart of Cairngorm National Park in a 65-acre woodland estate, this charming hideaway provides a relaxing retreat for guests seeking a serene Scotland holiday. The distinctive Nordic design of each lodge evoke the beauty of the surrounding countryside.</p>
-            <p><a href="hgvc-coylumbridge/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>ヒルトン・グランド・バケーションズ・クラブ・アット・コイラムブリッジ</h3>
+            <p class="location">スコットランド、インバネス・シャー</p>
+            <p>65エーカー（約0.26km²）の森に囲まれた、ケアンゴーム国立公園の中心にあるリゾート。スコットランドならではの休日をのんびりとお過ごしください。各ロッジと隣接するヒルトン・コイラムブリッジ･ホテルの建築様式は独特の北欧スタイルで、牧歌的な雰囲気と美しいケアンゴーム山の景観に調和しています。リゾート内にはサウナ付きプール、レストラン、ショップ、お子様向け広場などの施設が充実。アクティブ派の方にはスキー、ハイキング、登山、乗馬、セーリングなど、四季折々のレクリエーションをお楽しみいただけます。スコットランドの壮大な自然に囲まれて、いつまでも思い出に残る旅を満喫してください。  </p>
+            <p><a href="hgvc-coylumbridge/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -55,10 +55,10 @@
             <img src="img/craigendarrochlodges.jpg" alt="Hilton Grand Vacations Club at Craigendarroch Lodges" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club at Craigendarroch Lodges</h3>
-            <p class="location">Ballater, Royal Deeside, Scotland</p>
-            <p>Set amid the lush rolling farmland of Royal Deeside, this celebrated resort occupies a spectacular private country estate. Centuries of cultural tradition are brought to life in the property's Nordic architecture and gourmet cuisine.</p>
-            <p><a href="hgvc-craigendarroch-lodges/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>"ヒルトン・グランド・バケーションズ・クラブ・アット・<br>クレゲンダロック・ロッジズ"</h3>
+            <p class="location">スコットランド、ロイヤル·ディーサイド、バラター</p>
+            <p>風光明媚なロイヤル・ディーサイドの豊かな緑に囲まれたこのリゾートでは、田園情緒豊かで心休まる環境をお届けします。何世紀にもわたる伝統によって培われた北欧式の建築と、贅沢な食事を満喫いただけます。気さくな地元の人たちとのふれあいも、スコットランドの旅をさらに思い出深いものにしてくれることでしょう。リゾートが誇る充実した施設に加え、美しい自然の中でのゴルフ、フィッシング、乗馬、スキーなどは是非お勧めしたいアクティビティーです。ロイヤル・ディーサイドは、昔から隠れた名所のひとつとして知られています。中でもバルモラル城は、イギリス王室一家が夏の避暑地として、現在でも毎年滞在されています。</p>
+            <p><a href="hgvc-craigendarroch-lodges/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -67,10 +67,10 @@
             <img src="img/craigendarrochsuites.jpg" alt="Hilton Grand Vacations Club at Craigendarroch Suites" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club at Craigendarroch Suites</h3>
-            <p class="location">Ballater, Royal Deeside, Scotland</p>
-            <p>Nestled near the banks of the River Dee, this elegantly appointed resort provides a taste of luxury steeped in cultural tradition. This property sits on a spectacular private estate within the bounds of the Cairngorms National Park and just a few miles from Balmoral Castle.</p>
-            <p><a href="hgvc-craigendarroch-suites/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>"ヒルトン・グランド・バケーションズ・クラブ・アット・<br>クレゲンダロック・スイーツ"</h3>
+            <p class="location">スコットランド、ロイヤル·ディーサイド、バラター</p>
+            <p>バラター郊外を流れるディー川のほとり佇むヒルトン・グランド・バケーションズ・クラブ・アット・クレゲンダロック・スイーツ、文化や伝統の魅力にたっぷりと浸っていただける贅沢なリゾートです。かつてはヴィクトリア朝のカントリーハウスだったこの豪華な邸宅は、ケアンゴーム国立公園内に位置し、バルモラル城からも数キロの場所にあります。リゾートが誇る充実した設備に加え、ゴルフ、フィッシング、乗馬、スキーなどスコットランドの休日の真髄を堪能いただけることでしょう。田園情緒豊かなロイヤル・ディーサイドは、イギリス王室が避暑地として長年滞在し、何百年もの間スコットランドの宝として敬愛されています。</p>
+            <p><a href="hgvc-craigendarroch-suites/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -79,10 +79,10 @@
             <img src="img/dunkeld.jpg" alt="Hilton Grand Vacations Club at Dunkeld" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club at Dunkeld</h3>
-            <p class="location">Dunkeld, Perthshire, Scotland</p>
-            <p>Built in the Edwardian period for the seventh Duke of Atholl, Hilton Dunkeld is located in the heart of a 280-acre estate of moor and forest in Perthshire, Scotland. The resort features its own private stretch of the River Tay, with superb salmon and trout fishing year-round.</p>
-            <p><a href="hgvc-dunkeld/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>ヒルトン・グランド・バケーションズ・クラブ・アット・ダンケルド</h3>
+            <p class="location">スコットランド、パースシャー</p>
+            <p>280エーカー（約1.1km²）の美しい森に囲まれた、ヒルトン・グランド・バケーションズ・クラブ・アット・ダンケルド。その歴史はエドワード朝にさかのぼり、当時の第7代アソール公爵のために建築されました。敷地内を流れるテイ河で、年間を通じてサケ・マス釣りをお楽しみいただけるだけでなく、ヨーロッパ最高水準の射撃訓練場など、各種アウトドアの環境も抜群です。ロッジに隣接するヒルトン・ダンケルド・ホテルでも、レストラン、カクテルバーなどの各種施設と行き届いたサービスをご利用いただけます。スコットランドの見事な大自然と、寛ぎの時間をご堪能ください。</p>
+            <p><a href="hgvc-dunkeld/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
       

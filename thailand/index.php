@@ -19,13 +19,13 @@
       </div>
       
       <div class="banner-caption">
-        <h1>Thailand</h1>
+        <h1>タイ</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resorts</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -43,10 +43,10 @@
             <img src="img/bangkok.jpg" alt="Anantara Vacation Club Bangkok Sathorn" />
           </div>
           <div class="col-sm-8">
-            <h3>Anantara Vacation Club Bangkok Sathorn</h3>
-            <p class="location">Yannawa, Bangkok, Thailand</p>
-            <p>Rising proudly in a 38-floor twin tower design, this resort offers a stylish, relaxing and fulfilling urban lifestyle. Enjoy refreshing seclusion from the bustling city outside as you unwind on the sun deck and swim in the 32 metre long infinity edge swimming pool.</p>
-            <p><a href="anantara-bangkok-sathorn/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>アナンタラ・バケーション・クラブ・バンコク・サトーン</h3>
+            <p class="location">タイ、バンコク</p>
+            <p>38階建てツインタワーのアナンタラ・バケーション・クラブ・バンコク・サトーンは、スタイリッシュでリラックスできる都会のライフスタイルを提供しています。サンデッキで寛いだり、32メートルのインフィニティプールで泳いだり、都会の喧騒を忘れてリフレッシュしていただけます。</p>
+            <p><a href="anantara-bangkok-sathorn/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -55,10 +55,10 @@
             <img src="img/bophut.jpg" alt="Anantara Vacation Club, Bophut Koh Samui Resort &amp; Spa" />
           </div>
           <div class="col-sm-8">
-            <h3>Anantara Vacation Club, Bophut Koh Samui Resort &amp; Spa</h3>
-            <p class="location">Koh Samui, Surat Thani, Thailand</p>
-            <p>Enjoy water sports on the Gulf of Thailand's placid warm waters whilst residing at our elegant Samui resort. Soak in the sun by Anantara's elegant infinity edge pool or on Bophut's soft white sand.</p>
-            <p><a href="anantara-bophut-koh-samui/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>"アナンタラ・バケーション・クラブ・<br>ボープット・コー・サムイ" &amp; Spa</h3>
+            <p class="location">タイ、サムイ島</p>
+            <p>タイ湾の穏やかで温かい水の中で、ウォータースポーツを楽しみましょう。アナンタラが誇るエレガントなインフィニティ・プールのデッキやボープットのやわらかな白砂の上で、日光浴を楽しむこともできます。</p>
+            <p><a href="anantara-bophut-koh-samui/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -67,10 +67,10 @@
             <img src="img/phuket.jpg" alt="Anantara Vacation Club Phuket Mai Khao" />
           </div>
           <div class="col-sm-8">
-            <h3>Anantara Vacation Club Phuket Mai Khao</h3>
-            <p class="location">Mai Khao, Thalang, Phuket, Thailand</p>
-            <p>Just minutes away are the tranquil sun kissed sands of Mai Khao &ndash; Phuket's longest beach. While the green forest of Sirinath National Park that fringes our resort is your gateway to an impressive natural playground of sea caves, mangroves, coral reefs and dazzling islands.</p>
-            <p><a href="anantara-phuket-mai-khao/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>"アナンタラ・バケーション・クラブ・<br>プーケット・マイカオ"</h3>
+            <p class="location">タイ、プーケット島マイカオ</p>
+            <p>穏やかな太陽光が砂浜に降り注ぐ、プーケットで最長の規模を誇るマイカオビーチは、リゾートからほんの少し足を延ばしたところに位置しています。緑生い茂るサリナス国立公園がリゾートを取り囲んでおり、海蝕洞やマングローブ、サンゴ礁や魅力的な島々といった自然豊かで素晴らしい遊び場への玄関口となっています。</p>
+            <p><a href="anantara-phuket-mai-khao/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         

@@ -12,44 +12,33 @@
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
-    
-      <div id="destinationslideshow">
-        <img src="img/banner01.jpg" alt="Enjoy A Skiing Vacation in Colorado with Hilton Grand Vacations" />
-        <img src="img/banner02.jpg" alt="Enjoy A Vacation in Colorado with Hilton Grand Vacations" />
-      </div>
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
       
       <div class="banner-caption">
-        <h1>Colorado</h1>
+        <h1>コロラド州</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resort</h2>
+      <h2>私たちのリゾート</h2>
     </div>
     
     <div class="content">
     
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder"></div>
-        </div>
-      </div>
-    
-      <div id="resort-collection">
-    
-        <div class="row resort">
-          <div class="col-sm-4 text-center">
-            <img src="img/valdoro.jpg" alt="Valdoro Mountain Lodge" />
+      <div id="resort-collection" class="sub-content resort-gallery-container">
+
+        <div class="card wow fadeInUp">
+          <div class="col-sm-4 l_cell">
+            <a class="photo-tile" href="valdoro-mountain-lodge/" style="background-image: url('img/thumbnails/valdoro-mountain-lodge.jpg');"></a>
           </div>
-          <div class="col-sm-8">
-            <h3>Valdoro Mountain Lodge</h3>
-            <p class="location">Breckenridge, Colorado, USA</p>
-            <p>Nestled near the base of the vibrant Breckenridge Ski Resort, Valdoro Mountain Lodge offers visitors access to the region's year-round array of outdoor adventures including skiing, snowboarding, golfing, fly fishing, snowmobiling, horseback riding and whitewater rafting.</p>
-            <p><a href="valdoro-mountain-lodge/" class="btn btn-primary">Learn More &raquo;</a></p>
+          <div class="col-sm-8 r_cell" style="">
+            <h3>ヴァルドロ・マウンテン・ロッジ</h3>
+            <p class="location"><i class="fa fa-map-marker"></i>アメリカ、コロラド州ブリッケンリッジ</p>
+            <p>建築物としての美術性が高く評価されているヴァルドロ・マウンテン・ロッジは、賑やかなスキーリゾートの麓にあります。かつて炭鉱で栄えたブレッケンリッジの古き良き歴史を感じさせ、優雅さが程よく調和しています。国際水準のスキー場はもちろん、スノーボード、スノーモービル、ゴルフ、フライフィッシング、乗馬、ホワイトウォーター・ラフティングなど、四季を通じて、さまざまなアウトドアのアクティビティーも盛りだくさん。</p>
+            <p><a href="valdoro-mountain-lodge/" class="btn btn-primary">詳細</a></p>
           </div>
-        </div>
+        </div><!-- card -->
       
       </div>
       

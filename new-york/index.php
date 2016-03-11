@@ -12,21 +12,16 @@
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
-    
-      <div id="destinationslideshow">
-        <img src="img/banner01.jpg" alt="Enjoy A Vacation in New York with Hilton Grand Vacations" />
-        <img src="img/banner02.jpg" alt="Enjoy A Family Vacation in New York with Hilton Grand Vacations" />
-      </div>
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
       
       <div class="banner-caption">
-        <h1>New York</h1>
+        <h1>ニューヨーク</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resorts</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -37,31 +32,19 @@
         </div>
       </div>
     
-      <div id="resort-collection">
-      
-        <div class="row resort">
-          <div class="col-sm-4 text-center">
-            <img src="img/hiltonclub.jpg" alt="The Hilton Club &ndash; New York" />
+      <div id="resort-collection" class="sub-content resort-gallery-container">
+
+        <div class="card wow fadeInUp">
+          <div class="col-sm-4 l_cell">
+            <a class="photo-tile" href="west-57th-street/" style="background-image: url('img/thumbnails/west57th.jpg');"></a>
           </div>
-          <div class="col-sm-8">
-            <h3>The Hilton Club &ndash; New York</h3>
-            <p class="location">New York, New York, USA</p>
-            <p>This unique retreat in the heart of Manhattan serves as a spectacular getaway, delivering signature Hilton service and accommodations. Owners enjoy an array of amenities tailored to their distinctive expectations, including extensive dining and entertainment options.</p>
-            <p><a href="hilton-club/" class="btn btn-primary">Learn More &raquo;</a></p>
+          <div class="col-sm-8 r_cell" style="">
+            <h3>ウエスト57ストリート・バイ・ヒルトン・クラブ</h3>
+            <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ニューヨーク州マンハッタン</p>
+            <p>ニューヨーク市で初のタイムシェア物件として大きな注目を集めている、ウエスト57ストリート・バイ・ヒルトン・クラブ。28階建てのモダンなビルに贅沢を駆使したワールドクラスの施設で、この上ない快適さをお届けします。マンハッタンの中心であるプラザ・ディストリクトに位置し、リンカーンセンター、セントラルパーク、カーネギーホール、５番街の高級ショッピング街にも近い抜群のロケーション。</p>
+            <p><a href="west-57th-street/" class="btn btn-primary">詳細</a></p>
           </div>
-        </div>
-        
-        <div class="row resort">
-          <div class="col-sm-4 text-center">
-            <img src="img/west57.jpg" alt="West 57th Street by Hilton Club" />
-          </div>
-          <div class="col-sm-8">
-            <h3>West 57th Street by Hilton Club</h3>
-            <p class="location">New York, New York, USA</p>
-            <p>Located in the heart of midtown Manhattan's prestigious Plaza District, West 57 th Street by Hilton Club is close to the city's most celebrated destinations, including Lincoln Center, Central Park, Carnegie Hall and Fifth Avenue's world-famous shopping.</p>
-            <p><a href="west-57th-street/" class="btn btn-primary">Learn More &raquo;</a></p>
-          </div>
-        </div>
+        </div><!-- card -->
       
       </div>
       

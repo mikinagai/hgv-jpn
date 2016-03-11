@@ -233,7 +233,7 @@
 
       <div class="banner-caption">
 
-        <h1>Florida &ndash; Atlantic</h1>
+        <h1>フロリダ、大西洋側</h1>
 
       </div>
 
@@ -245,7 +245,7 @@
 
     <div id="subtitle">
 
-      <h2>Our Resorts</h2>
+      <h2>リゾート一覧</h2>
 
     </div>
 
@@ -281,13 +281,13 @@
 
           <div class="col-sm-8">
 
-            <h3>Hilton Grand Vacations Club at McAlpin &ndash; Ocean Plaza</h3>
+            <h3>ヒルトン・グランド・バケーションズ・クラブ・アット・マックアルピン—オーシャンプラザ</h3>
 
-            <p class="location">Miami Beach, Florida, USA</p>
+            <p class="location">アメリカ、フロリダ州マイアミビーチ</p>
 
-            <p>With a premier Ocean Drive address in the heart of South Beach, Hilton Grand Vacations Club puts you just steps away from the neighborhood’s most celebrated bistros, boutiques, art galleries and cultural venues.</p>
+            <p>オープンテラスのカフェや、アールデコ調の建物が並ぶマイアミのサウスビーチは、多様な文化が交錯する都会的で洗練された街です。ヒルトン・グランド・バケーションズ・クラブは、サウスビーチの中心、オーシャンドライブの一等地にあり、周辺は地元で評判のビストロやブティック、画廊などで賑わっています。</p>
 
-            <p><a href="hgvc-mcalpin-ocean-plaza/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <p><a href="hgvc-mcalpin-ocean-plaza/" class="btn btn-primary">詳細 &raquo;</a></p>
 
           </div>
 
@@ -305,13 +305,13 @@
 
           <div class="col-sm-8">
 
-            <h3>Plantation Beach Club at Indian River Plantation Resort</h3>
+            <h3>プランテーション・ビーチ･クラブ・アット・インディアン・リバー・プランテーション・リゾート</h3>
 
-            <p class="location">Stuart, Florida, USA</p>
+            <p class="location">アメリカ、フロリダ州スチュアート</p>
 
-            <p>Ideally located on a beautiful stretch of oceanfront property on Hutchinson Island, the Plantation Beach Club offers plentiful recreational options including swimming, beachcombing, surfing, boating and snorkeling.</p>
+            <p>大西洋に面した広大なプランテーション・ビーチ・クラブ・アット・インディアン・リバー・プランテーション・リゾートで、フロリダならではのバケーションをお楽しみください。ハッチンソン島の美しいビーチフロント沿いに位置し、自然散策、海水浴、サーフィン、セーリング、スノーケリングなど、さまざまなレクリエーションに理想的な環境を備えています。</p>
 
-            <p><a href="plantation-beach-club-indian-river/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <p><a href="plantation-beach-club-indian-river/" class="btn btn-primary">詳細 &raquo;</a></p>
 
           </div>
 

@@ -12,22 +12,16 @@
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
-    
-      <div id="destinationslideshow">
-        <img src="img/banner01.jpg" alt="Enjoy A Vacation in Park City, Utah with Hilton Grand Vacations" />
-        <img src="img/banner02.jpg" alt="Enjoy A Vacation in Park City, Utah with Hilton Grand Vacations" />
-        <img src="img/banner03.jpg" alt="Enjoy A Vacation in Park City, Utah with Hilton Grand Vacations" />
-      </div>
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
       
       <div class="banner-caption">
-        <h1>Utah</h1>
+        <h1>ユタ州</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resort</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -38,19 +32,20 @@
         </div>
       </div>
     
-      <div id="resort-collection">
-    
-        <div class="row resort">
-          <div class="col-sm-4 text-center">
-            <img src="img/sunrise.jpg" alt="Sunrise Lodge, a Hilton Grand Vacations Club" />
+      <div id="resort-collection" class="sub-content resort-gallery-container">
+
+        <div class="card wow fadeInUp">
+          <div class="col-sm-4 l_cell">
+            <a class="photo-tile" href="sunrise-lodge-hgvc/" style="background-image: url('img/thumbnails/sunrise.jpg');"></a>
           </div>
-          <div class="col-sm-8">
-            <h3>Sunrise Lodge, a Hilton Grand Vacations Club</h3>
-            <p class="location">Park City, Utah, USA</p>
-            <p>This ski-in mountain lodge located at the base of the Sunrise lift at Canyons Resort, puts you in the heart of Park City's signature treasures, with historic Park Avenue and the Utah Olympic Park just minutes away, and expansive outdoor adventures in every direction.</p>
-            <p><a href="sunrise-lodge-hgvc/" class="btn btn-primary">Learn More &raquo;</a></p>
+          <div class="col-sm-8 r_cell" style="">
+            <h3>サンライズ・ロッジ・ア・ヒルトン・グランド・バケーションズ・クラブ</h3>
+            <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ユタ州パークシティ</p>
+            <p>その自然環境とパークシティの山岳地帯の影響を受け、丸太作りの建築とモダンな優雅さが調和したサンライズ・ロッジ・ア・ヒルトン・グランド・バケーションズ・クラブは、「日常から抜け出す」本当の意味を教えてくれるバケーションを提供してくれることでしょう。このスキー・ロッジはパークシティー・マウンテン・リゾート地域にあるキャニオンズのサンライズリフト乗り場のベースに立地しています。歴史的なメインストリート、ユタ・オリンピック・パークへわずか数分の場所に位置し、豊富なアウトドアを満喫していただけます。また、パークシティはアメリカ代表スキーチームの本拠地でり、またアメリカ最大のインディペンデント映画祭であるサンダンス映画祭の開催地にもなっています。</p>
+            <p><a href="sunrise-lodge-hgvc/" class="btn btn-primary">詳細</a></p>
           </div>
-        </div>
+        </div><!-- card -->
+
       
       </div>
       

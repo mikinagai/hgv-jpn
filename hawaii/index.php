@@ -8,11 +8,11 @@
 </head>
 <body>
 
-  <div class="container resort-hawaii">
+  <div class="container">
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
 
       <div class="banner-caption">
         <h1>ハワイ島のリゾート</h1>
@@ -52,104 +52,93 @@
     
     <div id="content__wrap">
       <div class="content">
-      
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <div id="placeholder"></div>
-          </div>
-        </div>
 
         <!-- resort-collection -->
         <div id="resort-collection" class="sub-content resort-gallery-container">
 
-          <div class="row">
-            <div class="card wow fadeInUp">
-              <div class="col-sm-4 l_cell">
-                <a class="photo-tile" href="grand-waikikian-hgvc/" style="background-image: url('img/thumbnails/grandwaikikian.jpg');"></a>
-              </div>
-              <div class="col-sm-8 r_cell" style="">
-                <h3>グランド・ワイキキアン・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
-                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
-                <p>広大なヒルトン・ハワイアン・ ビレッジ&reg;・ワイキキ･ビーチ・リゾートの中心部に建設されたグランド・ワイキキアンでは、リゾートからの壮大な眺望、グランドホテルならではの高級感と行き届いたサービス、そして豪華なコンドミニアムの安らぎと利便性に至るまで、かつてない贅沢なホノルルでのバケーションを皆様に提供しています。</p>
-                <p><a href="grand-waikikian-hgvc/" class="btn btn-primary">詳細</a></p>
-              </div>
-            </div><!-- card -->
+          <div class="card wow fadeInUp">
+            <div class="col-sm-4 l_cell">
+              <a class="photo-tile" href="grand-waikikian-hgvc/" style="background-image: url('img/thumbnails/grandwaikikian.jpg');"></a>
+            </div>
+            <div class="col-sm-8 r_cell" style="">
+              <h3>グランド・ワイキキアン・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
+              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
+              <p>広大なヒルトン・ハワイアン・ ビレッジ&reg;・ワイキキ･ビーチ・リゾートの中心部に建設されたグランド・ワイキキアンでは、リゾートからの壮大な眺望、グランドホテルならではの高級感と行き届いたサービス、そして豪華なコンドミニアムの安らぎと利便性に至るまで、かつてない贅沢なホノルルでのバケーションを皆様に提供しています。</p>
+              <p><a href="grand-waikikian-hgvc/" class="btn btn-primary">詳細</a></p>
+            </div>
+          </div><!-- card -->
 
+          <div class="card wow fadeInUp">
+            <div class="col-sm-4 l_cell">
+              <a class="photo-tile" href="hokulani-waikiki-hgvc/" style="background-image: url('img/thumbnails/hokulaniwaikiki.jpg');"></a>
+            </div>
+            <div class="col-sm-8 r_cell" style="">
+              <h3>ホクラニ・ワイキキ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
+              <p>有名なワイキキ・ビーチ・ウォーク®最北端のエンターテイメント地区に位置し、ダイニング、ショッピング、エンターテイメントとワイキキで最も活気のあるワイキキ・ビーチ・ウォーク®に理想的なアクセスを提供しています。プールラウンジ、バー、プライベートカバナ、そしてダイナミックなワイキキの景観をお楽しみいただけるナラニが特徴です。</p>
+              <p><a href="hokulani-waikiki-hgvc/" class="btn btn-primary">詳細</a></p>
+            </div>
+          </div><!-- card -->
 
-            <div class="card wow fadeInUp">
-              <div class="col-sm-4 l_cell">
-                <a class="photo-tile" href="hokulani-waikiki-hgvc/" style="background-image: url('img/thumbnails/hokulaniwaikiki.jpg');"></a>
-              </div>
-              <div class="col-sm-8 r_cell" style="">
-                <h3>ホクラニ・ワイキキ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
-                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
-                <p>有名なワイキキ・ビーチ・ウォーク®最北端のエンターテイメント地区に位置し、ダイニング、ショッピング、エンターテイメントとワイキキで最も活気のあるワイキキ・ビーチ・ウォーク®に理想的なアクセスを提供しています。プールラウンジ、バー、プライベートカバナ、そしてダイナミックなワイキキの景観をお楽しみいただけるナラニが特徴です。</p>
-                <p><a href="hokulani-waikiki-hgvc/" class="btn btn-primary">詳細</a></p>
-              </div>
-            </div><!-- card -->
+          <div class="card wow fadeInUp">
+            <div class="col-sm-4 l_cell">
+              <a class="photo-tile" href="kalia-hgvc/" style="background-image: url('img/thumbnails/kalia.jpg');"></a>
+            </div>
+            <div class="col-sm-8 r_cell" style="">
+              <h3>カリア・スイーツ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
+              <p>トロピカルな雰囲気溢れるカリアタワーは、22エーカー（約0.089km²）のヒルトン・ハワイアン・ビレッジ&reg;・ワイキキ･ビーチ・リゾートの敷地内という理想的な立地条件を誇ります。カリアタワーの12階から18階にある客室から、最高のワイキキを実感いただけることでしょう。</p>
+              <p><a href="kalia-hgvc/" class="btn btn-primary">詳細</a></p>
+            </div>
+          </div><!-- card -->
 
+          <div class="card wow fadeInUp">
+            <div class="col-sm-4 l_cell">
+              <a class="photo-tile" href="kings-land-hgvc/" style="background-image: url('img/thumbnails/kingsland.jpg');"></a>
+            </div>
+            <div class="col-sm-8 r_cell" style="">
+              <h3>キングス・ランド・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
+              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
+              <p>有名なコハラ・コーストにあるヒルトン・グランド・バケーションズ・クラブの最新リゾート、キングス・ランド。美しいフェアウェイと、壮大なワイコロアの眺望をお楽しみください。溶岩原を切り開いた、112エーカー（約0.45km²）の広大な敷地を誇り、ハワイ島で最高のゴルフ場として定評のある、キングスコースとビーチコースの間に位置しています。</p>
+              <p><a href="kings-land-hgvc/" class="btn btn-primary">詳細</a></p>
+            </div>
+          </div><!-- card -->
 
-            <div class="card wow fadeInUp">
-              <div class="col-sm-4 l_cell">
-                <a class="photo-tile" href="kalia-hgvc/" style="background-image: url('img/thumbnails/kalia.jpg');"></a>
-              </div>
-              <div class="col-sm-8 r_cell" style="">
-                <h3>カリア・スイーツ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
-                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
-                <p>トロピカルな雰囲気溢れるカリアタワーは、22エーカー（約0.089km²）のヒルトン・ハワイアン・ビレッジ&reg;・ワイキキ･ビーチ・リゾートの敷地内という理想的な立地条件を誇ります。カリアタワーの12階から18階にある客室から、最高のワイキキを実感いただけることでしょう。</p>
-                <p><a href="kalia-hgvc/" class="btn btn-primary">詳細</a></p>
-              </div>
-            </div><!-- card -->
+          <div class="card wow fadeInUp">
+            <div class="col-sm-4 l_cell">
+              <a class="photo-tile" href="kohala-hgvc/" style="background-image: url('img/thumbnails/kohala.jpg');"></a>
+            </div>
+            <div class="col-sm-8 r_cell" style="">
+              <h3>コハラ・スイーツ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
+              <p>ビッグ・アイランドの澄み切ったコハラ・コーストに位置するヒルトン・グランド・バケーションズ・ クラブ・アット・ワイコロア・ビーチ・リゾートは、壮大なワイコロアの中心地として、リラックスしたオアシスを提供しています。上品な部屋には、カジュアルでエレガントなトロピカルスタイルといった独特なアメニティーと家具が調和されています。</p>
+              <p><a href="kohala-hgvc/" class="btn btn-primary">詳細</a></p>
+            </div>
+          </div><!-- card -->
 
-            <div class="card wow fadeInUp">
-              <div class="col-sm-4 l_cell">
-                <a class="photo-tile" href="kings-land-hgvc/" style="background-image: url('img/thumbnails/kingsland.jpg');"></a>
-              </div>
-              <div class="col-sm-8 r_cell" style="">
-                <h3>キングス・ランド・バイ・ヒルトン･グランド・バケーションズ・クラブ</h3>
-                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ホノルル</p>
-                <p>有名なコハラ・コーストにあるヒルトン・グランド・バケーションズ・クラブの最新リゾート、キングス・ランド。美しいフェアウェイと、壮大なワイコロアの眺望をお楽しみください。溶岩原を切り開いた、112エーカー（約0.45km²）の広大な敷地を誇り、ハワイ島で最高のゴルフ場として定評のある、キングスコースとビーチコースの間に位置しています。</p>
-                <p><a href="kings-land-hgvc/" class="btn btn-primary">詳細</a></p>
-              </div>
-            </div><!-- card -->
+          <div class="card wow fadeInUp">
+            <div class="col-sm-4 l_cell">
+              <a class="photo-tile" href="lagoon-tower-hgvc/" style="background-image: url('img/thumbnails/lagoon.jpg');"></a>
+            </div>
+            <div class="col-sm-8 r_cell" style="">
+              <h3>ラグーン・タワー・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
+              <p>美しい南国の自然を背景にしたホノルルのヒルトン・ハワイアン・ビレッジ®・ワイキキ・ビーチ・リゾートは、まさにパラダイスの中心。絶好のロケーションに、最高水準のアメニティーが整っています。ワイキキ屈指の有名な白浜に隣接しており、ヒルトン・ハワイアン・ビレッジ内では、心ゆくまでショッピングやお食事、そして各種エンターテイメントをお楽しみいただけるほか、トロピカルな植物や、水のきらめくプール、まばゆい滝などの演出で、楽園ムード漂うバケーションが皆様をお待ちしています。</p>
+              <p><a href="lagoon-tower-hgvc/" class="btn btn-primary">詳細</a></p>
+            </div>
+          </div><!-- card -->
 
-            <div class="card wow fadeInUp">
-              <div class="col-sm-4 l_cell">
-                <a class="photo-tile" href="kohala-hgvc/" style="background-image: url('img/thumbnails/kohala.jpg');"></a>
-              </div>
-              <div class="col-sm-8 r_cell" style="">
-                <h3>コハラ・スイーツ・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
-                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
-                <p>ビッグ・アイランドの澄み切ったコハラ・コーストに位置するヒルトン・グランド・バケーションズ・ クラブ・アット・ワイコロア・ビーチ・リゾートは、壮大なワイコロアの中心地として、リラックスしたオアシスを提供しています。上品な部屋には、カジュアルでエレガントなトロピカルスタイルといった独特なアメニティーと家具が調和されています。</p>
-                <p><a href="kohala-hgvc/" class="btn btn-primary">詳細</a></p>
-              </div>
-            </div><!-- card -->
-
-            <div class="card wow fadeInUp">
-              <div class="col-sm-4 l_cell">
-                <a class="photo-tile" href="lagoon-tower-hgvc/" style="background-image: url('img/thumbnails/lagoon.jpg');"></a>
-              </div>
-              <div class="col-sm-8 r_cell" style="">
-                <h3>ラグーン・タワー・バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
-                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
-                <p>美しい南国の自然を背景にしたホノルルのヒルトン・ハワイアン・ビレッジ®・ワイキキ・ビーチ・リゾートは、まさにパラダイスの中心。絶好のロケーションに、最高水準のアメニティーが整っています。ワイキキ屈指の有名な白浜に隣接しており、ヒルトン・ハワイアン・ビレッジ内では、心ゆくまでショッピングやお食事、そして各種エンターテイメントをお楽しみいただけるほか、トロピカルな植物や、水のきらめくプール、まばゆい滝などの演出で、楽園ムード漂うバケーションが皆様をお待ちしています。</p>
-                <p><a href="lagoon-tower-hgvc/" class="btn btn-primary">詳細</a></p>
-              </div>
-            </div><!-- card -->
-
-            <div class="card wow fadeInUp">
-              <div class="col-sm-4 l_cell">
-                <a class="photo-tile" href="bay-club-waikoloa-beach/" style="background-image: url('img/thumbnails/bayclub.jpg');"></a>
-              </div>
-              <div class="col-sm-8 r_cell" style="">
-                <h3>ザ・ベイクラブ・アット・ワイコロア・ビーチ・リゾート</h3>
-                <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
-                <p>入り組んだ秘境の渓谷や、燃え立つ溶岩など自然の驚異をヘリコプター・ツアーから望む雄大な光景は、ハワイ島ならではの醍醐味です。コハラコーストの散策でも、手つかずの自然を間近に感じられます。2つのダイナミックなゴルフコースに囲まれたこのリゾートは、太陽が降り注ぐのどかで美しい環境に位置します。</p>
-                <p><a href="bay-club-waikoloa-beach/" class="btn btn-primary">詳細</a></p>
-              </div>
-            </div><!-- card -->
-
-          </div> <!-- row -->
+          <div class="card wow fadeInUp">
+            <div class="col-sm-4 l_cell">
+              <a class="photo-tile" href="bay-club-waikoloa-beach/" style="background-image: url('img/thumbnails/bayclub.jpg');"></a>
+            </div>
+            <div class="col-sm-8 r_cell" style="">
+              <h3>ザ・ベイクラブ・アット・ワイコロア・ビーチ・リゾート</h3>
+              <p class="location"><i class="fa fa-map-marker"></i>ハワイ州、ワイコロア</p>
+              <p>入り組んだ秘境の渓谷や、燃え立つ溶岩など自然の驚異をヘリコプター・ツアーから望む雄大な光景は、ハワイ島ならではの醍醐味です。コハラコーストの散策でも、手つかずの自然を間近に感じられます。2つのダイナミックなゴルフコースに囲まれたこのリゾートは、太陽が降り注ぐのどかで美しい環境に位置します。</p>
+              <p><a href="bay-club-waikoloa-beach/" class="btn btn-primary">詳細</a></p>
+            </div>
+          </div><!-- card -->
         
         </div> <!-- resort-collection -->
 

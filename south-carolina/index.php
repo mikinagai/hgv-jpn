@@ -12,22 +12,16 @@
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
-    
-      <div id="destinationslideshow">
-        <img src="img/banner01.jpg" alt="Enjoy A Vacation in Myrtle Beach, South Carolina with Hilton Grand Vacations" />
-        <img src="img/banner02.jpg" alt="Enjoy A Vacation in Myrtle Beach, South Carolina with Hilton Grand Vacations" />
-        <img src="img/banner03.jpg" alt="Enjoy A Vacation in Myrtle Beach, South Carolina with Hilton Grand Vacations" />
-      </div>
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
       
       <div class="banner-caption">
-        <h1>South Carolina</h1>
+        <h1>サウスカロライナ州</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resort</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -38,31 +32,31 @@
         </div>
       </div>
     
-      <div id="resort-collection">
-    
-        <div class="row resort">
-          <div class="col-sm-4 text-center">
-            <img src="img/anderson.jpg" alt="Hilton Grand Vacations Club at Anderson Ocean Club" />
+      <div id="resort-collection" class="sub-content resort-gallery-container">
+
+        <div class="card wow fadeInUp">
+          <div class="col-sm-4 l_cell">
+            <a class="photo-tile" href="hgvc-anderson-ocean-club/" style="background-image: url('img/thumbnails/anderson.jpg');"></a>
           </div>
-          <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club at Anderson Ocean Club</h3>
-            <p class="location">Myrtle Beach, South Carolina, USA</p>
-            <p>Ideally situated in the heart of the Grand Strand on magnificent Myrtle Beach, Hilton Grand Vacations Club at Anderson Ocean Club offers a spectacular vacation setting featuring elegantly appointed ocean view and oceanfront suites.</p>
-            <p><a href="hgvc-anderson-ocean-club/" class="btn btn-primary">Learn More &raquo;</a></p>
+          <div class="col-sm-8 r_cell" style="">
+            <h3>ヒルトン・グランド・バケーションズ・クラブ・アット・<br>アンダーソン・オーシャン・クラブ</h3>
+            <p class="location"><i class="fa fa-map-marker"></i>アメリカ、サウス・カロライナ州マートルビーチ</p>
+            <p>グランド・ストランドの中心部に位置するヒルトン・グランド・バケーションズ・クラブ・アット・アンダーソン・オーシャン・クラブは、皆様に最上級のバケーションを提供します。エレガントに装飾されたパティオ付きのオーシャンビューとオーシャンフロントのスイートは、我が家で過ごすような快適さを備えています。また、リゾートの周辺のチャンピオンシップ・ゴルフコース、バラエティーに富んだ数々のレストラン、ショッピングやエンターテイメントがお楽しみいただける場所へのアクセスも便利です。</p>
+            <p><a href="hgvc-anderson-ocean-club/" class="btn btn-primary">詳細</a></p>
           </div>
-        </div>
-        
-        <div class="row resort">
-          <div class="col-sm-4 text-center">
-            <img src="img/ocean22.jpg" alt="Ocean 22 by Hilton Grand Vacations Club" />
+        </div><!-- card -->
+
+        <div class="card wow fadeInUp">
+          <div class="col-sm-4 l_cell">
+            <a class="photo-tile" href="hgvc-ocean22/" style="background-image: url('img/thumbnails/ocean22.jpg');"></a>
           </div>
-          <div class="col-sm-8">
-            <h3>Ocean 22 by Hilton Grand Vacations Club</h3>
-            <p class="location">Myrtle Beach, South Carolina, USA</p>
-            <p>Ocean 22 by Hilton Grand Vacations Club provides the ideal setting to savor the sand, surf and southern charm of one of the most beloved beach towns in America. Located directly on Myrtle Beach, with access from the famed Ocean Boulevard, this 22-story tower provides all the comforts and conveniences of home, complimented by a splendid collection of resort-style amenities. </p>
-            <p><a href="hgvc-ocean22/" class="btn btn-primary">Learn More &raquo;</a></p>
+          <div class="col-sm-8 r_cell" style="">
+            <h3>オーシャン22バイ・ヒルトン・グランド・バケーションズ・クラブ</h3>
+            <p class="location"><i class="fa fa-map-marker"></i>アメリカ、サウス・カロライナ州マートルビーチ</p>
+            <p>オーシャン22バイ・ヒルトン・グランド・バケーションズ・クラブは砂浜と波、そしてアメリカで多くの人から愛されているこのビーチタウンが持つアメリカ南部独特の魅力を満喫できる理想的なリゾートです。マートルビーチ沿いに建ち、有名なオーシャン・ブルバードからアクセス可能な22階建てのタワーは、我が家で暮らすような快適さと便利さを提供し、リゾートスタイルの充実したアメニティで贅沢な時間を過ごしていただけます。</p>
+            <p><a href="hgvc-ocean22/" class="btn btn-primary">詳細</a></p>
           </div>
-        </div>
+        </div><!-- card -->
       
       </div>
       

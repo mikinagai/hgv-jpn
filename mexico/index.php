@@ -19,13 +19,13 @@
       </div>
       
       <div class="banner-caption">
-        <h1>Mexico</h1>
+        <h1>メキシコ</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resorts</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -43,10 +43,10 @@
             <img src="img/zihuatanejo.jpg" alt="Club Intrawest &ndash; Zihuatanejo" />
           </div>
           <div class="col-sm-8">
-            <h3>Club Intrawest &ndash; Zihuatanejo</h3>
-            <p class="location">Zihuatanejo, Pacific Coast, Mexico</p>
-            <p>Carved out of the sloping mountainside overlooking Playa La Ropa, this resort provides a tranquil oceanfront retreat with old-world charm. Reflecting the dramatic landscape, interiors blend seamlessly with private outdoor spaces and magnificent views of the Pacific Ocean.</p>
-            <p><a href="club-intrawest-zihuatanejo/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>クラブ・イントラウエスト – シワタネホ</h3>
+            <p class="location">メキシコ、大西洋側シワタネホ</p>
+            <p>プラヤ・ラ・ロパを見下ろし、傾斜する山腹に彫ったように佇むクラブ・イントラウエスト – シワタネホは、太古の魅力を感じさせる静穏なオーシャンフロントのリゾートです。ドラマチックな外観に反して、インテリアはプライベートなアウトドアへの空間と、この上ない太平洋の美しい景色とが調和しています。元漁村のシワタネホの魅力は、手作りのタイル、わらぶき屋根と鮮やかな織物を含む特有な装飾が挙げられます。</p>
+            <p><a href="club-intrawest-zihuatanejo/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -55,10 +55,10 @@
             <img src="img/acapulco.jpg" alt="Fiesta Americana Villas Acapulco" />
           </div>
           <div class="col-sm-8">
-            <h3>Fiesta Americana Villas Acapulco</h3>
-            <p class="location">Acapulco Guerrero, Pacific Coast, Mexico</p>
-            <p>On the southern shores of the Mexican Pacific, Fiesta Americana Villas Acapulco puts guests in the heart of a thriving entertainment and restaurant district. Located on spectacular Condesa Beach, this resort provides a vibrant setting for an unforgettable vacation in Mexico.</p>
-            <p><a href="fiesta-americana-villas-acapulco/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>フィエスタ・アメリカーナ・ヴィラ・アカプルコ</h3>
+            <p class="location">メキシコ、太平洋側アカプルコ</p>
+            <p>メキシコの南沿岸、コンデサ・ビーチに位置する、フィエスタ・アメリカーナ・ヴィラ・アカプルコ。各種エンターテイメントやレストランも充実しています。温かいおもてなし、素晴らしい施設、豊富なレクリエーションの数々を、心ゆくまでお楽しみください。</p>
+            <p><a href="fiesta-americana-villas-acapulco/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -67,10 +67,10 @@
             <img src="img/cancun.jpg" alt="Fiesta Americana Villas Cancun" />
           </div>
           <div class="col-sm-8">
-            <h3>Fiesta Americana Villas Cancun</h3>
-            <p class="location">Cancun, Gulf of Mexico, Mexico</p>
-            <p>Fiesta Americana Villas Cancun delivers all the standards of excellence that guests have come to expect from the Fiesta Americana brand. This cozy resort offers a welcome haven of hospitality, ideal for those who prefer a relaxing and calming vacation experience.</p>
-            <p><a href="fiesta-americana-villas-cancun/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>フィエスタ・アメリカーナ・ヴィラ・カンクーン</h3>
+            <p class="location">メキシコ、メキシコ湾側カンクーン</p>
+            <p>色鮮やかに塗り分けられた壁が印象的なフィエスタ・アメリカーナ・ヴィラ・カンクーンは、伝統的なメキシコ風建築を特徴としています。フィエスタ・アメリカーナならではの贅沢なリゾートで、温かいおもてなしと、カリブ海の美しい眺望に是非ご期待ください。</p>
+            <p><a href="fiesta-americana-villas-cancun/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -79,10 +79,10 @@
             <img src="img/loscabos.jpg" alt="Fiesta Americana Villas Los Cabos" />
           </div>
           <div class="col-sm-8">
-            <h3>Fiesta Americana Villas Los Cabos</h3>
-            <p class="location">Cabo San Lucas, Pacific Coast, Mexico</p>
-            <p>This flagship Fiesta Americana Vacation Club resort offers a sprawling all-inclusive retreat atop dramatic hillside and oceanfront property in the exclusive Cabo del Sol area of Los Cabos, at the southern tip of the Baja Peninsula.</p>
-            <p><a href="fiesta-americana-villas-los-cabos/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>フィエスタ・アメリカーナ・ヴィラ・ロスカボス</h3>
+            <p class="location">メキシコ、太平洋側カボサンルーカス</p>
+            <p>フィエスタ・アメリカーナ・バケーション・クラブの本拠地でもあるロスカボスは、バハ半島の高級リゾート地、カボ・デル・ソルに位置し、丘の中腹からは壮観な海の眺めが楽しめます。リゾート内の充実した施設に加え、カボ・デル・ソルにある、ジャック・ニクラウス設計の18ホール・ゴルフコースでは、予約状況により優待制度もご利用いただけます。</p>
+            <p><a href="fiesta-americana-villas-los-cabos/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -91,10 +91,10 @@
             <img src="img/explorean.jpg" alt="The Explorean Kohunlich" />
           </div>
           <div class="col-sm-8">
-            <h3>The Explorean Kohunlich</h3>
-            <p class="location">Chetumal, Yucatan Peninsula, Mexico</p>
-            <p>Located in the heart of the Yucatan Peninsula jungle, this resort combines luxury and comfort amid spectacular natural surroundings. From the privacy of your bungalow, hear the sound of wild fauna as you immerse yourself in the tranquil tropical scenery.</p>
-            <p><a href="explorean-kohunlich/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>ザ・エクスプロリアン・コフンリッチ</h3>
+            <p class="location">メキシコ、ユカタン半島チェトゥマル</p>
+            <p>ユカタン半島のジャングルに位置するザ・エクスプロリアン・コフンリッチでは素晴らしい自然環境の下、贅沢で快適な最高のサービスを提供します。プライベートなバンガローから、のどかな熱帯風景に耳を澄ますと、野生動物の鳴き声が聞こえてきます。リゾート内のレストランで美味しい地元の料理をご堪能ください。</p>
+            <p><a href="explorean-kohunlich/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         

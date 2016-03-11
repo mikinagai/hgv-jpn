@@ -19,13 +19,13 @@
       </div>
       
       <div class="banner-caption">
-        <h1>Indonesia</h1>
+        <h1>インドネシア</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resort</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -43,10 +43,10 @@
             <img src="img/bali.jpg" alt="Anantara Vacation Club Bali Seminyak" />
           </div>
           <div class="col-sm-8">
-            <h3>Anantara Vacation Club Bali Seminyak</h3>
-            <p class="location">Seminyak, Bali, Indonesia</p>
-            <p>Discover one of the island's most sought after destinations, characterised by a charming laid back vibe, great restaurants, chic bars and designer shops. Your Seminyak escape can also be combined with exploration of the island's rich artistic scenes and endless stunning beaches.</p>
-            <p><a href="anantara-bali-seminyak/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>サンライズ・ロッジ・<br>ア・ヒルトン・グランド・バケーションズ・クラブ</h3>
+            <p class="location">インドネシア、バリ島スミニャック</p>
+            <p>バリ島で最も人気があるエリアの１つで、魅力的で寛げるレストランやカフェ、シックなバーやデザイナーショップが特徴的なスミニャックの魅力を是非発見してください。セレブや著名人が好んで訪れる場所にとどまらず、スタイリッシュなスミニャックの滞在は、豊かな芸術の世界や癒しの地、伝統的な農村文化の探求、そして果てしなく続く美しいビーチを容易に組み合わせることができます。</p>
+            <p><a href="anantara-bali-seminyak/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
       

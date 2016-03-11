@@ -12,21 +12,16 @@
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
-    
-      <div id="destinationslideshow">
-        <img src="img/banner01.jpg" alt="Enjoy A Family Vacation in the Florida Panhandle with Hilton Grand Vacations" />
-        <img src="img/banner02.jpg" alt="Enjoy A Romantic Vacation in the Florida Panhandle with Hilton Grand Vacations" />
-      </div>
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
       
       <div class="banner-caption">
-        <h1>Florida &ndash; Panhandle</h1>
+        <h1>フロリダ  &ndash; Panhandle</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resort</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -37,19 +32,19 @@
         </div>
       </div>
     
-      <div id="resort-collection">
-      
-        <div class="row resort">
-          <div class="col-sm-4 text-center">
-            <img src="img/sandestin.jpg" alt="Club Intrawest &ndash; Sandestin" />
+      <div id="resort-collection" class="sub-content resort-gallery-container">
+        
+        <div class="card wow fadeInUp">
+          <div class="col-sm-4 l_cell">
+            <a class="photo-tile" href="club-intrawest-sandestin/" style="background-image: url('img/thumbnails/sandestin.jpg');"></a>
           </div>
-          <div class="col-sm-8">
-            <h3>Club Intrawest &ndash; Sandestin</h3>
-            <p class="location">Sandestin, Florida, USA</p>
-            <p>Nestled between the Emerald Coast and the Choctawhatchee Bay, Club Intrawest – Sandestin offers a stunning setting for warm-weather fun. Indulge in the casual elegance of this distinctive resort.</p>
-            <p><a href="club-intrawest-sandestin/" class="btn btn-primary">Learn More &raquo;</a></p>
+          <div class="col-sm-8 r_cell" style="">
+            <h3>クラブ・イントラウエスト ー サンデスティン</h3>
+            <p class="location"><i class="fa fa-map-marker"></i>アメリカ、フロリダ州サンデスティン</p>
+            <p>エメラルドコーストとチョクトハチー湾の間に位置し、自然のままの白い砂浜がどこまでも続く海辺のリゾートです。月明かりが美しい夜にテラスで寛ぎながら、マリーナのボートが静かに揺れる音に耳を澄ませ、海辺の情緒に浸ってみませんか。</p>
+            <p><a href="club-intrawest-sandestin/" class="btn btn-primary">詳細</a></p>
           </div>
-        </div>
+        </div><!-- card -->
       
       </div>
       

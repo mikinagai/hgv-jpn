@@ -135,6 +135,7 @@ h2 {
 h3 {
 	font-size: 18px;
 	color: #00a8cb;
+	line-height: 24px;
 	 font-weight: 500;	
 }
 
@@ -914,14 +915,6 @@ a.read-more-show{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-
-.resort-hawaii #subbanner{
-	background: url('../hawaii/img/banner.jpg') no-repeat;
-	/*background-position-y: -168px;*/
-	background-position: center;
-	background-size: cover;
 }
 
 
@@ -1763,10 +1756,10 @@ label.error {
 	padding: 15px 0;
 }
 
-/*#resort-collection {
-	padding: 15px 0;
+#resort-collection {
+	/*margin-top: 20px;*/
 }
-*/
+
 
 #resort-collection .resort {
 	padding: 25px 0;

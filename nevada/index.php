@@ -12,22 +12,16 @@
   
     <?php addHeader(); ?>
     
-    <div id="subbanner">
-    
-      <div id="destinationslideshow">
-        <img src="img/banner01.jpg" alt="Enjoy A Vacation in Las Vegas, Nevada with Hilton Grand Vacations" />
-        <img src="img/banner02.jpg" alt="Enjoy A Couple's Vacation in Las Vegas, Nevada with Hilton Grand Vacations" />
-        <img src="img/banner03.jpg" alt="Enjoy A Casino Vacation in Las Vegas, Nevada with Hilton Grand Vacations" />
-      </div>
+    <div id="subbanner" style="background-image: url('img/banner.jpg');">
       
       <div class="banner-caption">
-        <h1>Nevada</h1>
+        <h1>ネバダ</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resorts</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -38,29 +32,31 @@
         </div>
       </div>
     
-      <div id="resort-collection">
+      <div id="resort-collection" class="sub-content resort-gallery-container">
+
+        <div class="card wow fadeInUp">
+          <div class="col-sm-4 l_cell">
+            <a class="photo-tile" href="elara-hgvc/" style="background-image: url('img/thumbnails/elara.jpg');"></a>
+          </div>
+          <div class="col-sm-8 r_cell" style="">
+            <h3>エララ・ア・ヒルトン・グランド・バケーションズ・クラブ</h3>
+            <p class="location"><i class="fa fa-map-marker"></i>アメリカ、ネバダ州ラスベガス</p>
+            <p>洗練された52階建てのエララは、ストリップ中心のロケーションを誇っています。この壮大なリゾートは、ミラクルマイル・ショップスに直結し、有名なカジノ、9つのレストラン、マンダラ・スパがあるプラネット・ハリウッド・リゾート・アンド・カジノ・コンプレックスと隣接しています。</p>
+            <p><a href="elara-hgvc/" class="btn btn-primary">詳細</a></p>
+          </div>
+        </div><!-- card -->
     
-        <div class="row resort">
-          <div class="col-sm-4 text-center">
-            <img src="img/elara.jpg" alt="Elara, a Hilton Grand Vacations Club" />
-          </div>
-          <div class="col-sm-8">
-            <h3>Elara, a Hilton Grand Vacations Club</h3>
-            <p class="location">Las Vegas, Nevada, USA</p>
-            <p>The sleek, 52-story Elara resort boasts a premier Center Strip location. This property offers adjoining access to the Miracle Mile, which has restaurants, bars and retail shops, and is adjacent to the Planet Hollywood Resort &amp; Casino complex featuring a renowned casino.</p>
-            <p><a href="elara-hgvc/" class="btn btn-primary">Learn More &raquo;</a></p>
-          </div>
-        </div>
+        
       
         <div class="row resort">
           <div class="col-sm-4 text-center">
             <img src="img/flamingo.jpg" alt="Hilton Grand Vacations Club at the Flamingo" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club at the Flamingo</h3>
-            <p class="location">Las Vegas, Nevada, USA</p>
-            <p>Revel in the thrills of Las Vegas from the magnificent grandeur of Hilton Grand Vacations' flagship vacation ownership resort. Superbly situated, this resort is just steps away from the spectacle of sights and sounds that can only be found on the Las Vegas Strip.</p>
-            <p><a href="hgvc-flamingo/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>ヒルトン・グランド・バケーションズ・クラブ・アット・ザ・フラミンゴ</h3>
+            <p class="location">アメリカ、ネバダ州ラスベガス</p>
+            <p>フラミンゴは、ヒルトン・グランド・バケーションズ・クラブを代表する豪華で壮大なリゾートです。15エーカー（約0.06km²）の敷地を誇るリゾートの周りには、ラスベガスならではのアトラクションが盛りだくさん。</p>
+            <p><a href="hgvc-flamingo/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -69,10 +65,10 @@
             <img src="img/trump.jpg" alt="Hilton Grand Vacations Club at Trump International Hotel Las Vegas" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club at Trump International Hotel Las Vegas</h3>
-            <p class="location">Las Vegas, Nevada, USA</p>
-            <p>Hilton Grand Vacations Club at Trump International Hotel provides a spectacular experience that is uniquely sophisticated and completely luxurious. This exclusive property offers extensive amenities and an iconic Las Vegas setting.</p>
-            <p><a href="hgvc-trump/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>"ヒルトン・グランド・バケーションズ・クラブ・アット・<br>トランプ･インターナショナル・ホテル・ラスベガス"</h3>
+            <p class="location">アメリカ、ネバダ州ラスベガス</p>
+            <p>"ヒルトン・グランド・バケーションズ・クラブ・アット・トランプ・インターナショナル・ホテル・ラスベガスは、洗練された完璧で豪華な素晴らしい体験を提供します。<br>トランプ・ポートフォリオの宝の一つとして、充実した設備と理想的なロケーションを提供し、ファッション・ショー・モールと全てのラスベガスのアトラクションへ徒歩圏内です。"</p>
+            <p><a href="hgvc-trump/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -81,10 +77,10 @@
             <img src="img/paradise.jpg" alt="Hilton Grand Vacations Club on Paradise" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club on Paradise</h3>
-            <p class="location">Las Vegas, Nevada, USA</p>
-            <p>The spectacular allure of the Las Vegas Strip delivers a one-of-a-kind vacation experience. The relaxing setting of Hilton Grand Vacations Club provides a serene oasis within easy access to the best of Las Vegas.</p>
-            <p><a href="hgvc-paradise/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>ヒルトン・グランド・バケーションズ・クラブ・オン・パラダイス</h3>
+            <p class="location">アメリカ、ネバダ州ラスベガス</p>
+            <p>目を見張るほど豪華できらびやかなラスベガス・ストリップ街と、壮大で美しい自然に恵まれたラスベガスのバケーションは格別です。ヒルトン・グランド・バケーションズ・クラブは、中心街の近くにありながら、静かにゆったり寛げる環境をお届けします。グランドキャニオン、ミード湖、フーバー・ダムなど数多くの名所に加え、年間を通じてゴルフ、テニス、ボートなどをお楽しみいただけます。</p>
+            <p><a href="hgvc-paradise/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -93,10 +89,10 @@
             <img src="img/boulevard.jpg" alt="Hilton Grand Vacations Club on the Boulevard" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club on the Boulevard</h3>
-            <p class="location">Las Vegas, Nevada, USA</p>
-            <p>Situated at the northern end of the Las Vegas Strip, this elegant resort combines the comforts of a luxurious home with ideal access to the city's signature attractions. Among the upscale collection of amenities is the eforea Spa, offering an enticing collection of spa treatments.</p>
-            <p><a href="hgvc-boulevard/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>ヒルトン・グランド・バケーションズ・クラブ・オン・ザ・ブルバード</h3>
+            <p class="location">アメリカ、ネバダ州ラスベガス</p>
+            <p>ラスベガス目抜き通りのストリップの北端に位置する優雅なリゾートで、豪邸のような快適さと街の賑わいを同時に満喫することができます。高層建築の隅々まで、「砂漠のアールデコ」をテーマにしたドラマチックな雰囲気を漂わせるこのリゾートは、さまざまなトリートメントをお届けするヒルトン･グランド･バケーションズのリゾート直営で初登場となるグランド・バケーションスパをはじめ、その他の設備も充実しています。</p>
+            <p><a href="hgvc-boulevard/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
       

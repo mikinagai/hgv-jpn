@@ -19,13 +19,13 @@
       </div>
       
       <div class="banner-caption">
-        <h1>New Zealand</h1>
+        <h1>ニュージーランド</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resort</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -43,10 +43,10 @@
             <img src="img/oakshores.jpg" alt="Anantara Vacation Club at Oaks Shores" />
           </div>
           <div class="col-sm-8">
-            <h3>Anantara Vacation Club at Oaks Shores</h3>
-            <p class="location">Queenstown, New Zealand</p>
-            <p>Discover the adventure capital of the southern hemisphere and New Zealand's most popular ski resort town from Oaks Shores' comfortable year round retreat. The resort is edging vast Lake Wakatipu in Queenstown and boasting breathtaking waterfront and mountain views.</p>
-            <p><a href="anantara-oaks-shores/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>アナンタラ・バケーション・クラブ・アット・オークス・ショアーズ</h3>
+            <p class="location">ニュージーランド、クイーンズタウン</p>
+            <p>年間を通して快適な南半球のニュージーランドで最も人気のあるスキーリゾート「オークス･ショアーズ」のアドベンチャーライフをお楽しみください。広大なクイーンズタウンのワカティプ湖、絶景のウォーターフロントと山岳を誇るオークス・ショアーズは、空港からわずか15分の距離に位置し、タウンセンターとコンベンション事務局へは徒歩30分、そしてアロータウン、ミルブルック、リマーカブルズ、コロネット・ピークとカードローナ行きのバスへ直接アクセスいただけます。 クイーンズタウンは、四季折々の湖とアルパインの目的地として一年中豊富なアクティビティに恵まれ、水、空、地と遊びにはこと欠きません。オークス・ショアーズの滞在では、ゆったりと湖の周りを散歩、ワールドクラスのスキー場、ゴルフコース、ワイナリー巡り、ドキドキするような冒険を手軽にお楽しみいただけます。</p>
+            <p><a href="anantara-oaks-shores/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
       

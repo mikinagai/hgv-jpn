@@ -19,13 +19,13 @@
       </div>
       
       <div class="banner-caption">
-        <h1>Canada</h1>
+        <h1>カナダ</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resorts</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -43,10 +43,10 @@
             <img src="img/bluemountain.jpg" alt="Club Intrawest &ndash; Blue Mountain" />
           </div>
           <div class="col-sm-8">
-            <h3>Club Intrawest &ndash; Blue Mountain</h3>
-            <p class="location">Blue Mountain, Ontario, Canada</p>
-            <p>A picturesque wonderland in the winter and a recreational haven in the summer, Blue Mountain is Ontario's new cottage country. Less than a two-hour drive from Toronto, Ontario, Club Intrawest &ndash; Blue Mountain is a complete escape from the hustle of urban life.</p>
-            <p><a href="club-intrawest-blue-mountain/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>クラブ・イントラウエスト – ブルーマウンテン</h3>
+            <p class="location">カナダ、オンタリオ州ブルーマウンテン</p>
+            <p>車で2時間以内でたどり着くオンタリオ州の新しい別荘地です。クラブ・イントラウエスト - ブルーマウンテンは、都会の忙しない生活から完全に逃避させてくれます。オンタリオ州最大のマウンテン・リゾートとして、スキー、ゴルフ、水泳、セーリングそしてハイキングに最適な旅行地です。</p>
+            <p><a href="club-intrawest-blue-mountain/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -55,10 +55,10 @@
             <img src="img/tremblant.jpg" alt="Club Intrawest &ndash; Tremblant" />
           </div>
           <div class="col-sm-8">
-            <h3>Club Intrawest &ndash; Tremblant</h3>
-            <p class="location">Mont Tremblant, Quebec, Canada</p>
-            <p>Vacationers at this elegant mountain resort indulge in relaxation, outdoor recreation and the joie de vivre of French Canada. Perched on the foothills of the Laurentian Mountains, the property is set on the picturesque Le Geant fairways overlooking the waters of Lac Tremblant.</p>
-            <p><a href="club-intrawest-tremblant/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>クラブ・イントラウエスト – トランブラン</h3>
+            <p class="location">カナダ、ケベック州モントランブラン</p>
+            <p>国際都市モントリオールから車で2時間程の距離に位置するモン・トランブランは、山が連なる高原地帯の一角にある優雅なリゾートです。ローレンシャン高原の美しいゴルフ場沿いにあるこのリゾートは、トランブラン湖を眺望できる恵まれた環境に位置しています。カナダのフランス文化圏として長い歴史を誇り、北米東部屈指のスキーエリアとして知られていますが、夏はウォータースポーツ、ゴルフ、ハイキングなどのアウトドア、秋は紅葉の名所として、１年を通して多くの人を魅了しています。フレンチカナダ式の「人生を楽しむ」というリラックスしたバケーションスタイルを是非ご体験ください。.</p>
+            <p><a href="club-intrawest-tremblant/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -67,10 +67,10 @@
             <img src="img/vancouver.jpg" alt="Club Intrawest &ndash; Vancouver" />
           </div>
           <div class="col-sm-8">
-            <h3>Club Intrawest &ndash; Vancouver</h3>
-            <p class="location">Vancouver, British Columbia, Canada</p>
-            <p>Vancouver is one of the world’s most naturally spectacular and cosmopolitan cities. This unique urban resort offers floor-to-ceiling windows providing breathtaking panoramic views of the harbor, city and mountains.</p>
-            <p><a href="club-intrawest-vancouver/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>クラブ・イントラウエスト – バンクーバー</h3>
+            <p class="location">カナダ、ブリティッシュコロンビア州バンクーバー</p>
+            <p>バンクーバーは世界で最も自然な壮観で、コスモポリタンな都市のひとつです。このユニークな都市リゾートは、床から天井までの窓が配され、港、街そして山々の息を呑むような絶景を提供しています。</p>
+            <p><a href="club-intrawest-vancouver/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
         
@@ -79,10 +79,10 @@
             <img src="img/whistler.jpg" alt="Club Intrawest &ndash; Whistler" />
           </div>
           <div class="col-sm-8">
-            <h3>Club Intrawest &ndash; Whistler</h3>
-            <p class="location">Whistler, British Columbia, Canada</p>
-            <p>In the center of one of North America's most celebrated ski destinations, this magnificent resort blends rustic elegance with ski lodge chic. People from all over the world descend here to ski Whistler's unparalleled slopes.</p>
-            <p><a href="club-intrawest-whistler/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>クラブ・イントラウエスト – ウィスラー</h3>
+            <p class="location">カナダ、ブリティッシュコロンビア州ウィスラー</p>
+            <p>北米随一の規模を誇るウィスラーは、ブラッコム山とウィスラー山の２つの山からなる大型スキーリゾートです。世界中のスキーヤーを惹きつける多彩なコースを完備したゲレンデに、壮大なフェアウェイを誇るチャンピオンシップコースのゴルフ場。美しく澄んだ湖での遊泳や、野生動物や高山植物とのふれあいで貴重な体験をした後は、素朴さと優雅さを兼備した上品なスキーロッジでお寛ぎください。活気ある街の中心部では、買い物や華やかなナイトライフを満喫いただけます</p>
+            <p><a href="club-intrawest-whistler/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
       

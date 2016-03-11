@@ -19,13 +19,13 @@
       </div>
       
       <div class="banner-caption">
-        <h1>Italy</h1>
+        <h1>イタリア</h1>
       </div>
       
     </div>
     
     <div id="subtitle">
-      <h2>Our Resort</h2>
+      <h2>リゾート一覧</h2>
     </div>
     
     <div class="content">
@@ -43,10 +43,10 @@
             <img src="img/borgo.jpg" alt="Hilton Grand Vacations Club at Borgo alle Vigne" />
           </div>
           <div class="col-sm-8">
-            <h3>Hilton Grand Vacations Club at Borgo alle Vigne</h3>
-            <p class="location">Selvatelle, Terricciola, Italy</p>
-            <p>Located in the heart of Tuscany, Italy, Hilton Grand Vacations Club at Borgo alle Vigne provides a truly authentic Italian experience. This unique property offers the ideal haven of tranquility in one of the world's most picturesque vacation destinations.</p>
-            <p><a href="hgvc-borgo-alle-vigne/" class="btn btn-primary">Learn More &raquo;</a></p>
+            <h3>"ヒルトン・グランド・バケーションズ・クラブ・アット・<br>ボルゴ・アレ・ヴィ二ェ"</h3>
+            <p class="location">イタリア、トスカーナ州テッリッチョーラ</p>
+            <p>ヒルトン・グランド・バケーションズ・クラブ・アット・アレ・ヴィニェは、イタリア、タスカニーの中央に位置し、本物のイタリアを体験いただけます。世界で最も絵になる素晴らしいこの地の静寂に包まれた趣きあるリゾートで存分にお寛ぎください。</p>
+            <p><a href="hgvc-borgo-alle-vigne/" class="btn btn-primary">詳細 &raquo;</a></p>
           </div>
         </div>
       
