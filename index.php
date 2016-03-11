@@ -39,21 +39,21 @@
       <h2 class="text-center">ヒルトン・グランド・バケーションズのリゾート一覧</h2>
       <div id="slide">
         <ul class="bxslider">
-          <li><a href="nevada/elara-hgvc/"><img src="img/homethumbnails/elara.jpg" alt="Elara, A Hilton Grand Vacations Club in Las Vegas, Nevada" title="Elara" /></a></li>
-          <li><a href="nevada/hgvc-trump/"><img src="img/homethumbnails/trump.jpg" alt="Hilton Grand Vacations Club at Trump International Hotel in Las Vegas, Nevada" title="Trump International Hotel" /></a></li>
-          <li><a href="scotland/hgvc-craigendarroch-suites/"><img src="img/homethumbnails/craigendarroch.jpg" alt="Hilton Grand Vacations Club at Craigendarroch Suites in Scotland" title="Craigendarroch Suites" /></a></li>
-          <li><a href="italy/hgvc-borgo-alle-vigne/"><img src="img/homethumbnails/borgo.jpg" alt="Hilton Grand Vacations Club at Borgo alle Vigne in Italy" title="Borgo alle Vigne" /></a></li>
-          <li><a href="utah/sunrise-lodge-hgvc/"><img src="img/homethumbnails/sunrise.jpg" alt="Sunrise Lodge, a Hilton Grand Vacations Club in Park City, Utah" title="Sunrise Lodge" /></a></li>
-          <li><a href="florida-central/parc-soleil-hgvc/"><img src="img/homethumbnails/parcsoleil.jpg" alt="Parc Soleil by Hilton Grand Vacations Club in Orlando, Florida" title="Parc Soleil" /></a></li>
-          <li><a href="hawaii/grand-waikikian-hgvc/"><img src="img/homethumbnails/grandwaikikian.jpg" alt="Grand Waikikian by Hilton Grand Vacations Club in Honolulu, Hawaii" title="Grand Waikikian" /></a></li>
-          <li><a href="hawaii/kings-land-hgvc/"><img src="img/homethumbnails/kingsland.jpg" alt="Kings' Land by Hilton Grand Vacations Club in Waikoloa, Hawaii" title="Kings' Land" /></a></li>
-          <li><a href="hawaii/hokulani-waikiki-hgvc/"><img src="img/homethumbnails/hokulani.jpg" alt="Hokulani Waikiki by Hilton Grand Vacations Club in Honolulu, Hawaii" title="Hokulani Waikiki" /></a></li>
-          <li><a href="new-york/west-57th-street/"><img src="img/homethumbnails/west57.jpg" alt="West 57th Street by Hilton Club in New York" title="West 57th" /></a></li>
-          <li><a href="colorado/valdoro-mountain-lodge/"><img src="img/homethumbnails/valdoro.jpg" alt="Valdoro Mountain Lodge in Breckenridge, Colorado" title="Valdoro" /></a></li>
-          <li><a href="mexico/fiesta-americana-villas-cancun/"><img src="img/homethumbnails/fiestacancun.jpg" alt="Fiesta Americana Villas Cancun in Mexico" title="Fiesta Americana Cancun" /></a></li>
-          <li><a href="mexico/explorean-kohunlich/"><img src="img/homethumbnails/explorean.jpg" alt="Explorean Kohunlich in Mexico" title="Explorean Kohunlich" /></a></li>
-          <li><a href="canada/club-intrawest-whistler/"><img src="img/homethumbnails/whistler.jpg" alt="Club Intrawest Whistler in Canada" title="Club Intrawest Whistler" /></a></li>
-          <li><a href="canada/club-intrawest-tremblant/"><img src="img/homethumbnails/tremblant.jpg" alt="Club Intrawest Tremblant in Canada" title="Club Intrawest Tremblant" /></a></li>
+          <li><a href="nevada/elara-hgvc/"><img src="img/homethumbnails/elara.jpg" alt="Elara, A Hilton Grand Vacations Club in Las Vegas, Nevada" title="エララ" /></a></li>
+          <li><a href="nevada/hgvc-trump/"><img src="img/homethumbnails/trump.jpg" alt="Hilton Grand Vacations Club at Trump International Hotel in Las Vegas, Nevada" title="トランプ･インターナショナル・ホテル" /></a></li>
+          <li><a href="scotland/hgvc-craigendarroch-suites/"><img src="img/homethumbnails/craigendarroch.jpg" alt="Hilton Grand Vacations Club at Craigendarroch Suites in Scotland" title="クレイゲンダロック・ロッジズ" /></a></li>
+          <li><a href="italy/hgvc-borgo-alle-vigne/"><img src="img/homethumbnails/borgo.jpg" alt="Hilton Grand Vacations Club at Borgo alle Vigne in Italy" title="ボルゴ・アレ・ヴィ二ェ" /></a></li>
+          <li><a href="utah/sunrise-lodge-hgvc/"><img src="img/homethumbnails/sunrise.jpg" alt="Sunrise Lodge, a Hilton Grand Vacations Club in Park City, Utah" title="サンライズ・ロッジ" /></a></li>
+          <li><a href="florida-central/parc-soleil-hgvc/"><img src="img/homethumbnails/parcsoleil.jpg" alt="Parc Soleil by Hilton Grand Vacations Club in Orlando, Florida" title="パーク・ソレイユ" /></a></li>
+          <li><a href="hawaii/grand-waikikian-hgvc/"><img src="img/homethumbnails/grandwaikikian.jpg" alt="Grand Waikikian by Hilton Grand Vacations Club in Honolulu, Hawaii" title="グランド・ワイキキアン" /></a></li>
+          <li><a href="hawaii/kings-land-hgvc/"><img src="img/homethumbnails/kingsland.jpg" alt="Kings' Land by Hilton Grand Vacations Club in Waikoloa, Hawaii" title="キングス・ランド" /></a></li>
+          <li><a href="hawaii/hokulani-waikiki-hgvc/"><img src="img/homethumbnails/hokulani.jpg" alt="Hokulani Waikiki by Hilton Grand Vacations Club in Honolulu, Hawaii" title="ホクラニ・ワイキキ" /></a></li>
+          <li><a href="new-york/west-57th-street/"><img src="img/homethumbnails/west57.jpg" alt="West 57th Street by Hilton Club in New York" title="ウエスト57" /></a></li>
+          <li><a href="colorado/valdoro-mountain-lodge/"><img src="img/homethumbnails/valdoro.jpg" alt="Valdoro Mountain Lodge in Breckenridge, Colorado" title="ヴァルドロ・マウンテン・ロッジ" /></a></li>
+          <li><a href="mexico/fiesta-americana-villas-cancun/"><img src="img/homethumbnails/fiestacancun.jpg" alt="Fiesta Americana Villas Cancun in Mexico" title="フィエスタ・アメリカーナ" /></a></li>
+          <li><a href="mexico/explorean-kohunlich/"><img src="img/homethumbnails/explorean.jpg" alt="Explorean Kohunlich in Mexico" title="エクスプロリアン・コフンリッチ" /></a></li>
+          <li><a href="canada/club-intrawest-whistler/"><img src="img/homethumbnails/whistler.jpg" alt="Club Intrawest Whistler in Canada" title="クラブ・イントラウエスト – ウィスラー" /></a></li>
+          <li><a href="canada/club-intrawest-tremblant/"><img src="img/homethumbnails/tremblant.jpg" alt="Club Intrawest Tremblant in Canada" title="クラブ・イントラウエスト – トランブラン" /></a></li>
   	    </ul>
       </div>
     </div>
