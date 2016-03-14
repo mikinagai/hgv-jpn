@@ -415,6 +415,9 @@ function hideShowSubPages(type){
       case 'ハワイの１週間':
       $('#sample-week').show();
       break;
+      case 'オアフの１週間':
+      $('#sample-week').show();
+      break;
       case 'イベント':
       $('#events').show();
       break;
@@ -441,6 +444,9 @@ function hideShowSubPages(type){
       $('#resort-collection').show();
       break;
       case 'ハワイの１週間':
+      $('#sample-week').show();
+      break;
+      case 'オアフの１週間':
       $('#sample-week').show();
       break;
       case 'イベント':

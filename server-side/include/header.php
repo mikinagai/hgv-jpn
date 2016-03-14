@@ -39,7 +39,7 @@
           </div>
           
           <div class="col-sm-6" style="padding: 0;">
-              <p><a href="<?php echo getHost(); ?>hawaii/">オアフ島</a></p>
+              <p><a href="<?php echo getHost(); ?>oahu/">オアフ島</a></p>
               <p><a href="<?php echo getHost(); ?>hawaii/">ハワイ島</a></p>
               <p><a href="<?php echo getHost(); ?>nevada/">ネバダ</a></p>
               <p><a href="<?php echo getHost(); ?>new-york/">ニューヨーク</a></p>

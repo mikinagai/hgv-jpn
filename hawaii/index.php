@@ -46,6 +46,9 @@
           <option value="ハワイの１週間">ハワイの１週間</option>
           <option value="イベント">イベント</option>
           <option value="アクティビティ">アクティビティ</option>
+          <option value="ナイトライフ">ナイトライフ</option>
+          <option value="ダイニング">ダイニング</option>
+          <option value="ショッピング">ショッピング</option>
         </select>
 
     </nav>
@@ -251,7 +254,7 @@
         <div id="events" class="sub-content resort-gallery-container activities-list" style="display: none;">
 
           <h1>イベント</h1>
-
+          
           <!-- <div class="row block">
             <div class="col-sm-4">
                 <img src="http://placehold.it/350x220" class="mobile-hide" style="display: inline;">
