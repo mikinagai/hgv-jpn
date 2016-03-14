@@ -15,7 +15,7 @@
     <div id="subbanner" style="background-image: url('img/banner.jpg');">
       
       <div class="banner-caption">
-        <h1>フロリダ  &ndash; Panhandle</h1>
+        <h1>フロリダ  &ndash; 北西部</h1>
       </div>
       
     </div>

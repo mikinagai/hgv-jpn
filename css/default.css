@@ -133,7 +133,7 @@ h2 {
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 17px;
 	color: #00a8cb;
 	line-height: 24px;
 	 font-weight: 500;	
@@ -1800,10 +1800,11 @@ label.error {
 p.location{
     margin: 0;
     font-weight: 400;
+    color: gray;
 }
 
 p.location i{
-	margin-right: 3px;
+	margin-right: 6px;
 }
 
 .block {
@@ -3366,4 +3367,6 @@ div#wisland-pkgs div.bg-illustrations{
   	
 }
 
-
+.activities-list h3{
+	font-size: 16px;    margin-top: 10px;
+}

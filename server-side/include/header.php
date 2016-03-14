@@ -35,7 +35,7 @@
               <p><a href="<?php echo getHost(); ?>florida-atlantic/">フロリダ (大西洋側)</a></p>
               <p><a href="<?php echo getHost(); ?>florida-central/">フロリダ (中央部)</a></p>
               <p><a href="<?php echo getHost(); ?>florida-gulf/">フロリダ (メキシコ湾)</a></p>
-              <p><a href="<?php echo getHost(); ?>florida-panhandle/">フロリダ (panhandle)</a></p>
+              <p><a href="<?php echo getHost(); ?>florida-panhandle/">フロリダ (北西部)</a></p>
           </div>
           
           <div class="col-sm-6" style="padding: 0;">
