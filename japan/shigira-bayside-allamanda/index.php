@@ -1,52 +1,80 @@
-<?php include("../../server-side/library.php"); ?>
-<!doctype html>
-<html>
-<head>
-  <meta name="description" content="" />
-  <title>シギラベイサイドスイートアラマンダ</title>
-  <?php addStyles(); ?>
-</head>
-<body>
+<?php include("../../server-side/library.php");?>
+    <!doctype html>
+    <html>
 
-  <div class="container">
-  
-    <?php addHeader(); ?>
-    
-    <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/03.jpg" alt="" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/04.jpg" alt="" />
-          </div>
-          
-        </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
-      </div>
-      
-      <div id="points-container">
+    <head>
+        <meta name="description" content="" />
+        <title>シギラベイサイドスイートアラマンダ</title>
+        <?php addStyles(); ?>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <?php addHeader(); ?>
+
+                <div id="subbanner">
+
+                    <div class="container-max">
+                        <div id="resorts-options" class="hidden-xs">
+                            <ul>
+                                <li><a href="#" id="photos-link" class="active">写真</a></li>
+                                <!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+                                <li><a href="#" id="points-link">必要ポイント数</a></li>
+
+                                <li><a href="#" id="map-link">地図</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="homeslideshow">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active" id="slide1" style="background-image: url('img/banner01-s.jpg');"></div>
+                                <div class="item" id="slide2" style="background-image: url('img/banner02-s.jpg');"></div>
+                                <div class="item" id="slide3" style="background-image: url('img/banner03-s.jpg');"></div>
+                                <div class="item" id="slide4" style="background-image: url('img/banner04-s.jpg');"></div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div>
+                    </div>
+                    <!-- destinationslideshow -->
+
+                    <div id="floorplan-container">
+
+                        <div class="row">
+                            <div class="col-sm-3 text-center">
+                                <div class="floorplan">
+                                    <p class="small"><img src="floorplans/suites-t.jpg" alt="" /></p>
+                                    <p class="large"><img src="floorplans/suites.jpg" alt="" /></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
-        <div class="row">
-        
-          <div class="col-sm-6">
-          
-            <div class="table-responsive">
-              <table class="table table-hover gold">
+                    <!-- floorplan-container -->
+
+                    <div id="points-container">
+                        <div class="row">
+
+                            <div class="col-sm-6">
+
+                                <div class="table-responsive">
+            <table class="table table-hover gold">
                 <thead>
                   <tr>
                     <th colspan="3"><img src="../../img/gold.gif" alt="" class="level"> ロー: 1/5 &ndash; 4/24, 5/6 &ndash; 6/30, 10/1 &ndash; 12/27</th>
@@ -73,9 +101,11 @@
             </div>
             
           </div>
-        
-          <div class="col-sm-6">
-        
+                            
+                            
+                            
+           
+           <div class="col-sm-6"> 
             <div class="table-responsive">
               <table class="table table-hover platinum">
                 <thead>
@@ -102,52 +132,38 @@
                 </tbody>
               </table>
             </div>
-            
           </div>
-          
-        </div> 
-          <!-- <div class="row">
-            <div class="col-sm-12 text-center">
-              <p><img src="img/points-jpn.jpg" alt="" /></p>
-            </div>
-          </div> -->
-      </div>
-      
-      <div id="map-container">
-        <div id="map"></div>
-      </div>
-      
-      <div class="banner-caption resort-title">
-        <h1>シギラベイサイドスイートアラマンダ</h1>
-      </div>
-      
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="points-link">必要ポイント数</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    
-    <div id="subtitle">
-      <h2>沖縄県宮古島</h2>
-    </div>
-    
-    <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
+                            
+                            
         </div>
+        <br/>
+        
       </div>
-    
-      <div class="row">
-      
-        <div class="col-sm-8 main-column">
+
+                    <div id="map-container">
+                        <div id="map"></div>
+                    </div>
+
+
+                    <div class="banner-caption resort-title">
+                        <h1>シギラベイサイドスイートアラマンダ</h1>
+                    </div>
+
+                </div>
+                <!-- subbanner -->
+
+
+                <div id="subtitle">
+                    <h2>沖縄県宮古島</h2>
+                </div>
+
+
+
+                <div id="subcontent" class="content">
+
+                    <div class="row">
+
+                        <div class="col-sm-8 main-column">
 
           <h3>概要</h3>
           <address>沖縄県宮古島市上野字新里926-25</address>
@@ -167,36 +183,39 @@
           <h3>リゾート設備</h3>
           <p>洗練された大人にふさわしい全室スイートのプレミアム・プライベートホテル。ご宿泊のお部屋でトリートメントを行うインルームスパ。リゾートステイの楽しみのひとつ、地元食材を使った美食の数々。解放感あふれるダイニング、くつろぎの個室、海を望むテラスなど、ロケーションもさまざまで、その日の気分で選ぶことができます。</p>
           
-          <br />
-          
-          <h3>追加情報</h3>
+
+
+                            <br />
+
+                        </div>
+                        <div class="col-sm-4 aside">
+                             <h3>追加情報</h3>
           <p>チェックイン: 2 p.m.<br />チェックアウト: 11 a.m.<br />電話番号: 0980-74-7100</p>
-          
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
- 
-        </div>
-        
-      </div>
-    </div>
-    
-    <?php addFooter(); ?>
-    
-  </div>
+                            <p><a href="../../contact/" class="btn btn-secondary">リクエストフォーム</a></p>
 
-  <?php addScripts(); ?>
-  <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
-  <script type="text/javascript" src="../../js/swipe.js"></script>
-  <script type="text/javascript" src="../../js/resorts.js"></script>
-  <script type="text/javascript">
-	$(document).ready(function(e){ 
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <?php addFooter(); ?>
+
+        </div>
+
+        <?php addScripts(); ?>
+            <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+            <script type="text/javascript" src="../../js/swipe.js"></script>
+            <script type="text/javascript" src="../../js/resorts.js"></script>
+            <script type="text/javascript">
+          $(document).ready(function(e){ 
 	  getMap(24.72322, 125.336685, 14);
-    });
-  </script>
+                });
+            </script>
 
-</body>
-</html>
+    </body>
+
+    </html>

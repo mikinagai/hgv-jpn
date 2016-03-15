@@ -1,43 +1,80 @@
-<?php include("../../server-side/library.php"); ?>
-<!doctype html>
-<html>
-<head>
-  <meta name="description" content="" />
-  <title>サホロリゾートホテル</title>
-  <?php addStyles(); ?>
-</head>
-<body>
+<?php include("../../server-side/library.php");?>
+    <!doctype html>
+    <html>
 
-  <div class="container">
-  
-    <?php addHeader(); ?>
-    
-    <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="" />
-          </div>
-          
-        </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
-      </div>
-      
-      <div id="points-container">
-          
-          <div class="row">
-        
-          <div class="col-sm-6">
-        
-            <div class="table-responsive">
-              <table class="table table-hover gold">
+    <head>
+        <meta name="description" content="" />
+        <title>サホロリゾートホテル</title>
+        <?php addStyles(); ?>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <?php addHeader(); ?>
+
+                <div id="subbanner">
+
+                    <div class="container-max">
+                        <div id="resorts-options" class="hidden-xs">
+                            <ul>
+                                <li><a href="#" id="photos-link" class="active">写真</a></li>
+                                <!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+                                <li><a href="#" id="points-link">必要ポイント数</a></li>
+
+                                <li><a href="#" id="map-link">地図</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="homeslideshow">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active" id="slide1" style="background-image: url('img/banner01-s.jpg');"></div>
+                                <div class="item" id="slide2" style="background-image: url('img/banner02-s.jpg');"></div>
+                                <div class="item" id="slide3" style="background-image: url('img/banner03-s.jpg');"></div>
+                                <div class="item" id="slide4" style="background-image: url('img/banner04-s.jpg');"></div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+                        </div>
+                    </div>
+                    <!-- destinationslideshow -->
+
+                    <div id="floorplan-container">
+
+                        <div class="row">
+                            <div class="col-sm-3 text-center">
+                                <div class="floorplan">
+                                    <p class="small"><img src="floorplans/suites-t.jpg" alt="" /></p>
+                                    <p class="large"><img src="floorplans/suites.jpg" alt="" /></p>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- floorplan-container -->
+
+                    <div id="points-container">
+                        <div class="row">
+
+                            <div class="col-sm-6">
+
+                                <div class="table-responsive">
+            <table class="table table-hover gold">
                 <thead>
                   <tr>
                     <th colspan="4"><img src="../../img/gold.gif" alt="" class="level" /> ローシーズン 2015年4/25 - 7/17、8/23 - 11/2</th>
@@ -72,7 +109,11 @@
                 </tbody>
               </table>
             </div>
-           </div>
+            
+          </div>
+                            
+                            
+                            
            
            <div class="col-sm-6"> 
             <div class="table-responsive">
@@ -112,7 +153,8 @@
               </table>
             </div>
           </div>
-          
+                            
+                            
         </div>
         <br/>
         <p>※上記のポイント数は全て1人1泊あたり（朝食付き）の予約に必要なポイント数です。<br>
@@ -125,44 +167,33 @@
         <br/>
         
       </div>
-      
-      <div id="map-container">
-        <div id="map"></div>
-      </div>
-      
-      <div class="banner-caption resort-title">
-        <h1>サホロリゾートホテル</h1>
-      </div>
-      
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="points-link">必要ポイント数</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    
-    <div id="subtitle">
-      <h2>北海道上川郡</h2>
-    </div>
-    
-    <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
-        </div>
-      </div>
-    
-      <div class="row">
-      
-        <div class="col-sm-8 main-column">
 
-          <h3>概要</h3>
+                    <div id="map-container">
+                        <div id="map"></div>
+                    </div>
+
+
+                    <div class="banner-caption resort-title">
+                        <h1>サホロリゾートホテル</h1>
+                    </div>
+
+                </div>
+                <!-- subbanner -->
+
+
+                <div id="subtitle">
+                    <h2>北海道上川郡</h2>
+                </div>
+
+
+
+                <div id="subcontent" class="content">
+
+                    <div class="row">
+
+                        <div class="col-sm-8 main-column">
+
+           <h3>概要</h3>
           <address>北海道上川郡新得町狩勝高原</address>
           <p>北海道のちょうど中心にある十勝サホロリゾートは、広大な平野や美しい山脈など、北海道の原風景を体験できる場所です。北海道の豊かな自然環境で育まれた新鮮食材、森のクマに会える「ベアマウンテン」、スキー、カヌー、ゴルフ、マイナスイオンスパなど、食べて・遊んで・癒されるリゾートステイをお楽しみください。</p>
           
@@ -187,36 +218,39 @@
           <li>ご利用日前日の18：00までにご予約をお願いします。（Tel.0156-64-7111）</li>
           <p>運行時間外はタクシーをご利用ください</p>
           
-          <br />
-          
-          <h3>追加情報</h3>
+
+
+                            <br />
+
+                        </div>
+                        <div class="col-sm-4 aside">
+                             <h3>追加情報</h3>
           <p>チェックイン: 2 p.m.<br />チェックアウト: 11 a.m.<br />電話番号: 0156-64-7111</p>
-          
-          <br />
-            
-        </div>
-        <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
- 
-        </div>
-        
-      </div>
-    </div>
-    
-    <?php addFooter(); ?>
-    
-  </div>
+                            <p><a href="../../contact/" class="btn btn-secondary">リクエストフォーム</a></p>
 
-  <?php addScripts(); ?>
-  <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
-  <script type="text/javascript" src="../../js/swipe.js"></script>
-  <script type="text/javascript" src="../../js/resorts.js"></script>
-  <script type="text/javascript">
-	$(document).ready(function(e){ 
+
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <?php addFooter(); ?>
+
+        </div>
+
+        <?php addScripts(); ?>
+            <script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+            <script type="text/javascript" src="../../js/swipe.js"></script>
+            <script type="text/javascript" src="../../js/resorts.js"></script>
+            <script type="text/javascript">
+          $(document).ready(function(e){ 
 	  getMap(43.168153, 142.813541, 14);
-    });
-  </script>
+                });
+            </script>
 
-</body>
-</html>
+    </body>
+
+    </html>

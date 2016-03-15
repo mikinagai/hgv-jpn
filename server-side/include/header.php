@@ -62,6 +62,7 @@
           <div class="col-sm-6" style="padding: 0;">
               <p><a href="<?php echo getHost(); ?>scotland/">スコットランド</a></p>
               <p><a href="<?php echo getHost(); ?>thailand/">タイ</a></p>
+              <p><a href="<?php echo getHost(); ?>japan/">日本</a></p>
           </div>
         </div>
 

@@ -1,10 +1,10 @@
-<?php include("../../server-side/library.php"); ?>
+<?php include("../../server-side/library.php");?>
 <!doctype html>
 <html>
 <head>
   <meta name="description" content="" />
-  <title>ホテルハーヴェスト鬼怒川</title>
-  <?php addStyles(); ?>
+     <title>ホテルハーヴェスト鬼怒川</title>
+    <?php addStyles(); ?>
 </head>
 <body>
 
@@ -13,26 +13,58 @@
     <?php addHeader(); ?>
     
     <div id="subbanner">
-    
-      <div id="photosSlider" class="swipe">
-        <div class="swipe-wrap">
-          
-          <div class="slide">
-            <img src="img/01.jpg" alt="" />
-          </div>
-          
-          <div class="slide">
-            <img src="img/02.jpg" alt="" />
-          </div>
-          
+
+      <div class="container-max">
+        <div id="resorts-options" class="hidden-xs">
+          <ul>
+            <li><a href="#" id="photos-link" class="active">写真</a></li>
+<!--            <li><a href="#" id="floorplans-link">間取り</a></li>-->
+            <li><a href="#" id="points-link">必要ポイント数</a></li>
+            
+            <li><a href="#" id="map-link">地図</a></li>
+          </ul>
         </div>
-        <span id="left-arrow" class="arrow"></span>
-        <span id="right-arrow" class="arrow"></span>
       </div>
+    
+       <div id="homeslideshow"> 
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+              <div class="item active" id="slide1" style="background-image: url('img/banner01-s.jpg');"></div>
+              <div class="item" id="slide2" style="background-image: url('img/banner02-s.jpg');"></div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+        </div>
+      </div><!-- destinationslideshow -->
+      
+      <div id="floorplan-container">
+      
+        <div class="row">
+          <div class="col-sm-3 text-center">
+            <div class="floorplan">
+              <p class="small"><img src="floorplans/suites-t.jpg" alt="" /></p>
+              <p class="large"><img src="floorplans/suites.jpg" alt="" /></p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+    </div>
+        
+        
+       <!-- floorplan-container -->
       
       <div id="points-container">
-          
-          <div class="row">
+        <div class="row">
         
           <div class="col-sm-6">
         
@@ -68,40 +100,29 @@
             </div>
             
           </div>
-        </div>
+            
+        </div> <!-- row -->
       </div>
       
       <div id="map-container">
         <div id="map"></div>
       </div>
+    
       
       <div class="banner-caption resort-title">
         <h1>ホテルハーヴェスト鬼怒川</h1>
       </div>
       
-      <div id="resorts-options" class="hidden-xs">
-        <ul>
-          <li><a href="#" id="photos-link" class="active">写真</a></li>
-          <li><a href="#" id="points-link">必要ポイント数</a></li>
-          <li><a href="#" id="map-link">地図</a></li>
-        </ul>
-      </div>
-      
-    </div>
+    </div> <!-- subbanner -->
     
+
     <div id="subtitle">
       <h2>栃木県日光市</h2>
     </div>
     
+
+
     <div id="subcontent" class="content">
-    
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <div id="placeholder-container">
-            <div id="placeholder"></div>
-          </div>
-        </div>
-      </div>
     
       <div class="row">
       
@@ -133,17 +154,22 @@
           </ul>
           
           <br />
+        
           
-          <h3>追加情報</h3>
-          <p>チェックイン: 3 p.m.<br />チェックアウト: 11 a.m.<br />電話番号: 0288-76-0100</p>
+          
           
           <br />
             
         </div>
         <div class="col-sm-4 aside">
-        
-          <h3><a href="http://www.hgvc.co.jp/inquiry/">詳細情報のリクエスト</a></h3>
- 
+          <h3>追加情報</h3>
+          <p>チェックイン: 3 p.m.<br />チェックアウト: 11 a.m.<br />電話番号: 0288-76-0100</p>
+          <p><a href="../../contact/" class="btn btn-secondary">リクエストフォーム</a></p>
+
+          
+   
+          
+          
         </div>
         
       </div>
