@@ -688,6 +688,45 @@ nav ul li.active a, nav ul li a:hover {
 	font-weight: 300;	
 }
 
+.slider-container{
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    max-width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* slider media queries */
+
+@media screen and (max-width: 767px){
+	.slider-container{
+		top: 20%;
+	}
+}
+
+.slider-text{
+	text-align: center;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.slider-text p{
+	color: #fff;
+	font-size: 20px;
+}
+
+.slider-button{
+	margin: auto;
+	border-radius: 0;
+}
+
+.slider-button button{
+	padding: 10px;
+	margin-top: 20px;
+}
+
 #homeslideshow #myCarousel .item{
     height: 500px;
     width: 100%;
