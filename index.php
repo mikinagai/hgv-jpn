@@ -19,7 +19,16 @@
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-            <div class="item active" id="slide1"></div>
+            <div class="item active" id="slide1">
+              <div class="slider-container">
+                <div class="slider-text">
+                  <p>Some text for a slide</p>
+                </div>
+                <div class="slider-button">
+                  <button>A button here</button>
+                </div>
+              </div>
+            </div>
             <div class="item" id="slide2"></div>
             <div class="item" id="slide3"></div>
             <div class="item" id="slide4"></div>
